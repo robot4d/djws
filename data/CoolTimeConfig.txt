@@ -1,0 +1,202 @@
+import flash.utils.Dictionary;
+var CoolTimeConfig:Dictionary = new Dictionary();
+CoolTimeConfig[1] = {
+id:1,
+coolTimeExpr:'800'
+};
+CoolTimeConfig[2] = {
+id:2,
+coolTimeExpr:'1000'
+};
+CoolTimeConfig[3] = {
+id:3,
+coolTimeExpr:'850'
+};
+CoolTimeConfig[4] = {
+id:4,
+coolTimeExpr:'900'
+};
+CoolTimeConfig[5] = {
+id:5,
+coolTimeExpr:'1000'
+};
+CoolTimeConfig[6] = {
+id:6,
+coolTimeExpr:'1100'
+};
+CoolTimeConfig[7] = {
+id:7,
+coolTimeExpr:'5000'
+};
+CoolTimeConfig[8] = {
+id:8,
+coolTimeExpr:'6000'
+};
+CoolTimeConfig[9] = {
+id:9,
+coolTimeExpr:'9000'
+};
+CoolTimeConfig[10] = {
+id:10,
+coolTimeExpr:'9000'
+};
+CoolTimeConfig[11] = {
+id:11,
+coolTimeExpr:'11000'
+};
+CoolTimeConfig[12] = {
+id:12,
+coolTimeExpr:'15000'
+};
+CoolTimeConfig[13] = {
+id:13,
+coolTimeExpr:'180000'
+};
+CoolTimeConfig[14] = {
+id:14,
+coolTimeExpr:'25000'
+};
+CoolTimeConfig[15] = {
+id:15,
+coolTimeExpr:'70000'
+};
+CoolTimeConfig[16] = {
+id:16,
+coolTimeExpr:'7000'
+};
+CoolTimeConfig[17] = {
+id:17,
+coolTimeExpr:'8000'
+};
+CoolTimeConfig[101] = {
+id:101,
+coolTimeExpr:'1200'
+};
+CoolTimeConfig[102] = {
+id:102,
+coolTimeExpr:'1200'
+};
+CoolTimeConfig[103] = {
+id:103,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[104] = {
+id:104,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[105] = {
+id:105,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[106] = {
+id:106,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[107] = {
+id:107,
+coolTimeExpr:'3000'
+};
+CoolTimeConfig[108] = {
+id:108,
+coolTimeExpr:'3000'
+};
+CoolTimeConfig[109] = {
+id:109,
+coolTimeExpr:'3000'
+};
+CoolTimeConfig[110] = {
+id:110,
+coolTimeExpr:'3000'
+};
+CoolTimeConfig[111] = {
+id:111,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[112] = {
+id:112,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[113] = {
+id:113,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[114] = {
+id:114,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[32] = {
+id:32,
+coolTimeExpr:'1008'
+};
+CoolTimeConfig[33] = {
+id:33,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[34] = {
+id:34,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[35] = {
+id:35,
+coolTimeExpr:'300000'
+};
+CoolTimeConfig[36] = {
+id:36,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[37] = {
+id:37,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[38] = {
+id:38,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[39] = {
+id:39,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[40] = {
+id:40,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[41] = {
+id:41,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[42] = {
+id:42,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[43] = {
+id:43,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[44] = {
+id:44,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[45] = {
+id:45,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[46] = {
+id:46,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[47] = {
+id:47,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[48] = {
+id:48,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[49] = {
+id:49,
+coolTimeExpr:'2000'
+};
+CoolTimeConfig[50] = {
+id:50,
+coolTimeExpr:'2000'
+};

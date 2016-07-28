@@ -1,0 +1,34 @@
+import flash.utils.Dictionary;
+var PetLevelAttributeConfig:Dictionary = new Dictionary();
+PetLevelAttributeConfig[1] = {
+id:1,
+strength:28,
+dexerity:16,
+constitution:20,
+spirituality:3,
+intellect:4
+};
+PetLevelAttributeConfig[2] = {
+id:2,
+strength:24,
+dexerity:24,
+constitution:16,
+spirituality:3,
+intellect:4
+};
+PetLevelAttributeConfig[3] = {
+id:3,
+strength:3,
+dexerity:4,
+constitution:16,
+spirituality:28,
+intellect:20
+};
+PetLevelAttributeConfig[4] = {
+id:4,
+strength:3,
+dexerity:4,
+constitution:16,
+spirituality:24,
+intellect:24
+};

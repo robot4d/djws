@@ -1,0 +1,142 @@
+import flash.utils.Dictionary;
+var TreasureMonsterConfig:Dictionary = new Dictionary();
+TreasureMonsterConfig[1] = {
+id:1,
+monsterId:3024,
+rate:40,
+fullRate:100,
+eventId:2
+};
+TreasureMonsterConfig[2] = {
+id:2,
+monsterId:4001,
+rate:30,
+fullRate:100,
+eventId:2
+};
+TreasureMonsterConfig[3] = {
+id:3,
+monsterId:4007,
+rate:20,
+fullRate:100,
+eventId:2
+};
+TreasureMonsterConfig[4] = {
+id:4,
+monsterId:4009,
+rate:10,
+fullRate:100,
+eventId:2
+};
+TreasureMonsterConfig[5] = {
+id:5,
+monsterId:3024,
+rate:40,
+fullRate:100,
+eventId:4
+};
+TreasureMonsterConfig[6] = {
+id:6,
+monsterId:4001,
+rate:30,
+fullRate:100,
+eventId:4
+};
+TreasureMonsterConfig[7] = {
+id:7,
+monsterId:4007,
+rate:20,
+fullRate:100,
+eventId:4
+};
+TreasureMonsterConfig[8] = {
+id:8,
+monsterId:4009,
+rate:10,
+fullRate:100,
+eventId:4
+};
+TreasureMonsterConfig[9] = {
+id:9,
+monsterId:3024,
+rate:40,
+fullRate:100,
+eventId:6
+};
+TreasureMonsterConfig[10] = {
+id:10,
+monsterId:4001,
+rate:30,
+fullRate:100,
+eventId:6
+};
+TreasureMonsterConfig[11] = {
+id:11,
+monsterId:4007,
+rate:20,
+fullRate:100,
+eventId:6
+};
+TreasureMonsterConfig[12] = {
+id:12,
+monsterId:4009,
+rate:10,
+fullRate:100,
+eventId:6
+};
+TreasureMonsterConfig[13] = {
+id:13,
+monsterId:3024,
+rate:40,
+fullRate:100,
+eventId:8
+};
+TreasureMonsterConfig[14] = {
+id:14,
+monsterId:4001,
+rate:30,
+fullRate:100,
+eventId:8
+};
+TreasureMonsterConfig[15] = {
+id:15,
+monsterId:4007,
+rate:20,
+fullRate:100,
+eventId:8
+};
+TreasureMonsterConfig[16] = {
+id:16,
+monsterId:4009,
+rate:10,
+fullRate:100,
+eventId:8
+};
+TreasureMonsterConfig[17] = {
+id:17,
+monsterId:3024,
+rate:40,
+fullRate:100,
+eventId:10
+};
+TreasureMonsterConfig[18] = {
+id:18,
+monsterId:4001,
+rate:30,
+fullRate:100,
+eventId:10
+};
+TreasureMonsterConfig[19] = {
+id:19,
+monsterId:4007,
+rate:20,
+fullRate:100,
+eventId:10
+};
+TreasureMonsterConfig[20] = {
+id:20,
+monsterId:4009,
+rate:10,
+fullRate:100,
+eventId:10
+};

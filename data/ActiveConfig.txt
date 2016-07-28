@@ -1,0 +1,86 @@
+import flash.utils.Dictionary;
+var ActiveConfig:Dictionary = new Dictionary();
+ActiveConfig[1] = {
+id:1,
+activeName:'日环任务',
+activeTime:'0',
+rewardDescription:'海量真气',
+level:30,
+launcher:118,
+restrictCount:10,
+description:'30级可在司空静处接取，通过刷任务品质颜色来提高任务奖励，完成任务后可获得更丰富真气奖励。'
+};
+ActiveConfig[2] = {
+id:2,
+activeName:'阵营任务',
+activeTime:'0',
+rewardDescription:'海量经验',
+level:30,
+launcher:120,
+restrictCount:10,
+description:'30级可通过传送员龙战，进入刀剑谷，并在各自阵营处接取任务，完成任务后可获得海量的经验奖励。'
+};
+ActiveConfig[3] = {
+id:3,
+activeName:'押镖',
+activeTime:'0',
+rewardDescription:'海量经验',
+level:35,
+launcher:133,
+restrictCount:5,
+description:'35级可在镖头航处接取，通过刷镖车星级来提高任务奖励，完成任务后可获得海量经验奖励。'
+};
+ActiveConfig[4] = {
+id:4,
+activeName:'试炼任务',
+activeTime:'0',
+rewardDescription:'丰富铜币',
+level:35,
+launcher:245,
+restrictCount:10,
+description:'35级可在陈大胆处接取，通过刷任务品质来提高任务奖励，完成任务后可获得更丰富铜币奖励。'
+};
+ActiveConfig[5] = {
+id:5,
+activeName:'藏宝图',
+activeTime:'0',
+rewardDescription:'丰富道具',
+level:30,
+description:'获得藏宝图后，即可使用铲子到藏宝地点进行挖掘，紫色品质的藏宝图有几率挖出名将-天山童姥哦'
+};
+ActiveConfig[6] = {
+id:6,
+activeName:'帮派任务',
+activeTime:'0',
+rewardDescription:'帮派贡献',
+level:20,
+launcher:132,
+restrictCount:20,
+description:'加入帮派后，可在京城乔帮主处接取，完成任务后可获得丰富的经验和帮派贡献、帮派资金'
+};
+ActiveConfig[7] = {
+id:7,
+activeName:'剧情副本',
+activeTime:'0',
+rewardDescription:'属性奖励',
+level:35,
+launcher:279,
+description:'30级可在京城花满愁处挑战剧情副本，每个剧情副本只能完成一次，完成剧情副本可获得丰富的奖励和额外的属性加成'
+};
+ActiveConfig[8] = {
+id:8,
+activeName:'猎盗',
+activeTime:'15:00-16:00',
+rewardDescription:'海量铜币',
+level:30,
+description:'每天15:00-16:00，天山雪原或燕子坞处都会有几率出现一些惊世宝藏神盗，他们身上都藏着大量铜币，想要的就去找出他们行踪，并将之斩杀吧！'
+};
+ActiveConfig[9] = {
+id:9,
+activeName:'蒙古兵入侵',
+activeTime:'19:00-20:00',
+rewardDescription:'经验奖励',
+level:30,
+launcher:177,
+description:'蒙古军一直对京城虎视眈眈。听说每晚19:00-20:00之时是其最为活跃的时候，如今天山雪原已被攻下，请火速支援。'
+};

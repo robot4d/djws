@@ -1,0 +1,35 @@
+import flash.utils.Dictionary;
+var ActiveOperatorExChangeConfig:Dictionary = new Dictionary();
+ActiveOperatorExChangeConfig[1] = {
+id:1,
+activeBaseId:5,
+description:'刀+剑',
+needItems:'140025_9|140026_9',
+limitTimes:10,
+items:'1500045_1_1',
+coupon:0,
+exp:0,
+silver:0
+};
+ActiveOperatorExChangeConfig[2] = {
+id:2,
+activeBaseId:5,
+description:'无+双',
+needItems:'140027_9|140028_9',
+limitTimes:10,
+items:'1500045_1_1',
+coupon:0,
+exp:0,
+silver:0
+};
+ActiveOperatorExChangeConfig[3] = {
+id:3,
+activeBaseId:5,
+description:'刀+剑+无+双',
+needItems:'140025_9|140026_9|140027_9|140028_9',
+limitTimes:3,
+items:'1500046_1_1',
+coupon:0,
+exp:0,
+silver:0
+};

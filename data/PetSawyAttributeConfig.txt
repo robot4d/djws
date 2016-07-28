@@ -1,0 +1,54 @@
+﻿var PetSawyAttributeConfig : Dictionary = new Dictionary();//悟性提升职业区分
+
+PetSawyAttributeConfig[1] = {
+id:1,
+physical_attack:20,
+theurgy_attack:10,
+physical_defense:10,
+theurgy_defense:10,
+physical_critical:10,
+theurgy_critical:10,
+hit:10,
+dodge:10,
+hp:10,
+mp:10
+};
+PetSawyAttributeConfig[2] = {
+id:2,
+physical_attack:10,
+theurgy_attack:30,
+physical_defense:10,
+theurgy_defense:10,
+physical_critical:10,
+theurgy_critical:10,
+hit:10,
+dodge:10,
+hp:10,
+mp:10
+};
+PetSawyAttributeConfig[3] = {
+id:3,
+physical_attack:10,
+theurgy_attack:10,
+physical_defense:40,
+theurgy_defense:10,
+physical_critical:10,
+theurgy_critical:10,
+hit:10,
+dodge:10,
+hp:10,
+mp:10
+};
+PetSawyAttributeConfig[4] = {
+id:4,
+physical_attack:10,
+theurgy_attack:10,
+physical_defense:10,
+theurgy_defense:50,
+physical_critical:10,
+theurgy_critical:10,
+hit:10,
+dodge:10,
+hp:10,
+mp:10
+};

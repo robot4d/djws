@@ -1,0 +1,37 @@
+import flash.utils.Dictionary;
+var ActiveOperatorConfig:Dictionary = new Dictionary();
+ActiveOperatorConfig[1] = {
+id:1,
+name:'角色等级排名',
+type:1
+};
+ActiveOperatorConfig[2] = {
+id:2,
+name:'帮派等级（一）',
+type:2
+};
+ActiveOperatorConfig[3] = {
+id:3,
+name:'帮派等级（二）',
+type:2
+};
+ActiveOperatorConfig[4] = {
+id:4,
+name:'坐骑冲级',
+type:2
+};
+ActiveOperatorConfig[5] = {
+id:5,
+name:'收集',
+type:3
+};
+ActiveOperatorConfig[6] = {
+id:6,
+name:'角色战斗力排行',
+type:1
+};
+ActiveOperatorConfig[7] = {
+id:7,
+name:'家将战斗力排行',
+type:1
+};

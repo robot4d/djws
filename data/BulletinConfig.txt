@@ -1,0 +1,443 @@
+﻿import flash.utils.Dictionary;
+var BulletinConfig:Dictionary = new Dictionary();
+BulletinConfig[1] = {
+id:'1',
+noticeType:1,
+priority:1,
+contents:'{playerName}将{equipId}强化到{level}星，此器在手，谁与争锋'
+};
+BulletinConfig[2] = {
+id:'2',
+noticeType:1,
+priority:1,
+contents:'{playerName}成功合成{props}，实力大为增加',
+condition:'20103_20203_20403_20403_20503_20603_20703_20803_20903_21003_20104_20204_20304_20404_20504_20604_20704_20804_20904_21004_20105_20205_20305_20405_20505_20605_20705_20805_20905_21005'
+};
+BulletinConfig[3] = {
+id:'3',
+noticeType:1,
+channel:1,
+priority:1,
+contents:'恭喜{playerName}成功招募到赫赫有名的{name}，简直如虎添翼'
+};
+BulletinConfig[4] = {
+id:'4',
+noticeType:1,
+priority:1,
+contents:'恭喜{playerName}成功将{equipId}洗炼到{number}条属性'
+};
+BulletinConfig[5] = {
+id:'5',
+noticeType:1,
+priority:1,
+contents:'{playerName}将坐骑培养成{horse}，移动速度从此疾如风，快如电。真是羡煞旁人',
+condition:'21_31_41_51_61_71_81_91'
+};
+BulletinConfig[6] = {
+id:'6',
+noticeType:1,
+priority:1,
+contents:'{playerName}潜心修炼，成功将经脉突破到{meridians}'
+}
+
+
+BulletinConfig[8] = {
+id:'8',
+noticeType:1,
+priority:1,
+contents:'{playerName}福缘大爆发，在武境之地得到{equipId}'
+};
+BulletinConfig[10] = {
+id:'10',
+noticeType:1,
+priority:1,
+contents:'祝贺！{playerName}的{pet}家将成长值提升到了{number}层，成为"{title}"家将'
+};
+BulletinConfig[11] = {
+id:'11',
+noticeType:1,
+channel:1,
+priority:1,
+contents:'穷凶极恶的{monsterBaseId}带着大量宝物将在30秒后，出没于{map}[{x} {y}],请各位大侠速去夺宝'
+};
+BulletinConfig[13] = {
+id:'13',
+noticeType:1,
+priority:1,
+contents:'{playerName}运转五脏六腑融汇贯通，将肉身全部修炼至{mortalLevel}层'
+};
+BulletinConfig[16] = {
+id:'16',
+noticeType:1,
+channel:1,
+priority:1,
+contents:'{playerName}在阵营战场大杀四方，被尊为豪杰盟主。一统江湖，指日可待！'
+};
+BulletinConfig[17] = {
+id:'17',
+noticeType:1,
+channel:1,
+priority:1,
+contents:'{playerName}在阵营战场所向披靡，众望所归成为侠客盟主。一统江湖，指日可待！'
+};
+BulletinConfig[18] = {
+id:'18',
+noticeType:1,
+priority:1,
+contents:'{playerName}气聚丹田，一声大吼，成功突破{meridianType}'
+};
+BulletinConfig[20] = {
+id:'20',
+noticeType:2,
+channel:1,
+priority:1,
+contents:'强悍！{campName}的{playerName}在{map}对{campName2}的{targetName}造成成吨伤害，并将其击杀！'
+};
+BulletinConfig[27] = {
+id:'27',
+noticeType:1,
+priority:2,
+contents:'{playerName}与{pet}家将的契合度达到{number}层，简直是生死之交！'
+};
+BulletinConfig[31] = {
+id:'31',
+noticeType:1,
+priority:2,
+contents:'{playerName}势如破竹，在{map}一举击杀"{BOSS}",获得“{equip}”！'
+};
+BulletinConfig[33] = {
+id:'33',
+noticeType:1,
+channel:1,
+priority:1,
+contents:'{playerName}建立帮派“{name}”，千秋霸业从此开始，各位大侠火速前往加入吧！'
+};
+BulletinConfig[35] = {
+id:'35',
+noticeType:1,
+priority:1,
+contents:'恭喜{playerName}人品大爆发，刷出橙色五星的日环任务，奖励大幅提升'
+};
+BulletinConfig[37] = {
+id:'37',
+noticeType:1,
+channel:2,
+priority:1,
+contents:'{campName}的{playerName}人品大爆发，刷出橙色五星的镖车，正准备护送往驿站老板处'
+};
+BulletinConfig[38] = {
+id:'38',
+noticeType:1,
+priority:1,
+contents:'恭喜{playerName}刷到了紫色品质藏宝图，神秘宝藏正等着他'
+};
+BulletinConfig[39] = {
+id:'39',
+noticeType:1,
+priority:1,
+contents:'{playerName}在{map}使用藏宝图，赢得老天眷顾，挖到了“{props}”，实在令人羡慕不已！',
+condition:'110001_70001_80007_80011_80012_80013_80014_80015_80016_80017_80018_110002'
+};
+BulletinConfig[40] = {
+id:'40',
+noticeType:1,
+channel:1,
+priority:1,
+contents:'{playerName}在挖宝时，找到退隐已久的{monsterBaseId}，击杀可获得丰富的经验奖励。'
+};
+BulletinConfig[42] = {
+id:'42',
+noticeType:1,
+channel:2,
+priority:1,
+contents:'劫镖！{campName}的{playerName}成功劫获了{campName2}的{targetName}的镖车，劫取大量经验'
+};
+BulletinConfig[43] = {
+id:'43',
+noticeType:1,
+priority:1,
+contents:'大侠{playerName}击杀了魔头{monsterBaseId}，为武林除害，并收缴了大量宝物'
+};
+BulletinConfig[44] = {
+id:'44',
+noticeType:1,
+priority:1,
+contents:'{playerName}成为尊贵的{viplevel}，至尊地位，无上荣光，享受超多福利特权！'
+};
+BulletinConfig[46] = {
+id:'46',
+noticeType:1,
+channel:3,
+priority:1,
+contents:'{campName}的{playerName}护送的橙色五星镖车，刚从清风镖局出发'
+};
+BulletinConfig[47] = {
+id:'47',
+noticeType:2,
+priority:1,
+contents:'{campName}的{playerName}击杀了同阵营的{targetName}，这是为什么呢？'
+};
+BulletinConfig[48] = {
+id:'48',
+noticeType:1,
+priority:1,
+contents:'{campName}的{monsterBaseId}被敌方攻击，{campName}的大侠赶快回防抗敌！'
+};
+BulletinConfig[49] = {
+id:'49',
+noticeType:1,
+priority:1,
+contents:'{campName}的{monsterBaseId}血量已低于{number}%，{campName}的大侠赶快回防抗敌！',
+condition:'5_10_20_30_40_50_60_70_80'
+};
+BulletinConfig[50] = {
+id:'50',
+noticeType:1,
+priority:1,
+contents:'{monsterBaseId}被{campName}的{playerName}攻击了，这把战旗看来是他的囊中之物！'
+};
+BulletinConfig[51] = {
+id:'51',
+noticeType:1,
+priority:1,
+contents:'{monsterBaseId}被{campName}的{playerName}占领了，{campName}的大侠向敌营迈进了一大步。'
+};
+BulletinConfig[52] = {
+id:'52',
+noticeType:1,
+priority:1,
+contents:'阵营战只剩余{number}分钟了，双方阵营的大侠们要抓住战场的每一秒机会！',
+condition:'45_30_15'
+};
+BulletinConfig[53] = {
+id:'53',
+noticeType:1,
+priority:1,
+contents:'{monsterBaseId}的耐久度只剩下{number}%，快被{campName}的{playerName}占领了。',
+condition:'30'
+};
+BulletinConfig[54] = {
+id:'54',
+noticeType:2,
+priority:1,
+contents:'强悍！{campName}的{playerName}将{campName2}的{targetName}击杀，获得全场第一血！'
+};
+BulletinConfig[55] = {
+id:'55',
+noticeType:2,
+priority:1,
+contents:'{campName}的{playerName}已击杀{number}个{campName2}的敌营大侠，真是势如破竹！',
+condition:'10_20_30'
+};
+BulletinConfig[56] = {
+id:'56',
+noticeType:2,
+priority:1,
+contents:'快接近神一般的{campName}的{playerName}击杀{number}个{campName2}的敌营大侠！！',
+condition:'50_60_70_80_90_100'
+};
+BulletinConfig[57] = {
+id:'57',
+noticeType:1,
+priority:1,
+contents:'{campName}的{playerName}将敌营的唯一的一只战旗给占领了，{campName}占领了全部战旗，{playerName}将进攻推向了一个新的高潮！'
+};
+BulletinConfig[58] = {
+id:'58',
+noticeType:2,
+priority:1,
+contents:'神一般的{campName}的{playerName}击杀{number}个{campName2}的敌营大侠，真是一夫当关万夫莫开！',
+condition:'50'
+};
+BulletinConfig[59] = {
+id:'59',
+noticeType:1,
+priority:1,
+contents:'猎盗行动打响！宝藏神盗团伙携带无数珍宝，鬼鬼祟祟的出现在燕子坞和天山雪原，各路大侠速速前往缉拿并收缴宝物！'
+};
+BulletinConfig[60] = {
+id:'60',
+noticeType:1,
+priority:1,
+contents:'第{number}波蒙古军已经对天山雪原发起进攻，击杀小兵可获不菲经验值，精英兵经验更是翻10倍。奖励非常丰富，大侠们请全力抵挡！'
+};
+BulletinConfig[61] = {
+id:'61',
+noticeType:1,
+priority:1,
+contents:'恭喜{playerName}大侠成功突破{number}阶神武，战斗力大大提升！'
+};
+BulletinConfig[1001] = {
+id:'1001',
+noticeType:1,
+channel:1,
+priority:1,
+contents:'“{name}”帮派众人齐心协力将帮派升级到{number}级，帮主和帮众领奖时喜笑颜开！让我们祝贺他们！',
+condition:'3_5_7_9'
+};
+BulletinConfig[1002] = {
+id:'1002',
+noticeType:1,
+channel:1,
+priority:1,
+contents:'恭喜{playerName}大侠在新服冲级活动中傲视群雄，夺得第{number}名奖励，奖励丰厚得连做梦都在偷笑！'
+};
+BulletinConfig[1003] = {
+id:'1003',
+noticeType:1,
+channel:1,
+priority:1,
+contents:'恭喜{playerName}大侠的坐骑{horse}为主人赢取坐骑冲级活动的丰厚奖励！'
+};
+BulletinConfig[1004] = {
+id:'1004',
+noticeType:1,
+channel:1,
+priority:1,
+contents:'{playerName}大侠骁勇异常，勇夺新服战斗力排行第{number}名奖励，奖励一扫入怀，不禁哈哈大笑三声！羡煞旁人。'
+};
+BulletinConfig[1005] = {
+id:'1005',
+noticeType:1,
+channel:1,
+priority:1,
+contents:'{playerName}大侠的家将在新服家将战斗力排行活动中夺得第{number}名，声震无双世界，为主人赢取丰厚元宝。'
+};
+BulletinConfig[2001] = {
+id:'2001',
+noticeType:3,
+priority:1,
+contents:'打怪经验双倍活动即将开启，请各就各位咯！'
+};
+BulletinConfig[2002] = {
+id:'2002',
+noticeType:3,
+priority:1,
+contents:'打怪经验双倍活动已经开启，将持续1小时，杀野怪加经验，升级好时机切勿错过！'
+};
+BulletinConfig[2003] = {
+id:'2003',
+noticeType:3,
+priority:1,
+contents:'打怪经验双倍活动已经结束，请下次继续参与！'
+};
+BulletinConfig[2004] = {
+id:'2004',
+noticeType:3,
+priority:1,
+contents:'打坐收益双倍活动即将开启，在京城打坐/双修效果更佳！'
+};
+BulletinConfig[2005] = {
+id:'2005',
+noticeType:3,
+priority:1,
+contents:'打坐收益双倍活动已经开启，在京城打坐/双修可得额外收益加成，快邀请朋友一起双修吧！'
+};
+BulletinConfig[2006] = {
+id:'2006',
+noticeType:3,
+priority:1,
+contents:'打坐收益双倍已经结束，请下次继续参与！'
+};
+BulletinConfig[2007] = {
+id:'2007',
+noticeType:3,
+channel:2,
+priority:1,
+contents:'福运（豪杰）活动即将开启，请豪杰们聚集清风镖局，准备押镖咯！'
+};
+BulletinConfig[2008] = {
+id:'2008',
+noticeType:3,
+channel:2,
+priority:1,
+contents:'福运（豪杰）活动已经开启，将持续1小时，豪杰们此时押镖即可获得奖励加成的回报哦！'
+};
+BulletinConfig[2009] = {
+id:'2009',
+noticeType:3,
+channel:2,
+priority:1,
+contents:'福运（豪杰）活动已经结束，感谢每位豪杰的鼎力支持与参与！'
+};
+BulletinConfig[2010] = {
+id:'2010',
+noticeType:3,
+channel:2,
+priority:1,
+contents:'福运（侠客）活动即将开启，请侠客们聚集清风镖局，准备押镖咯！'
+};
+BulletinConfig[2011] = {
+id:'2011',
+noticeType:3,
+channel:2,
+priority:1,
+contents:'福运（侠客）活动已经开启，将持续1小时，侠客们此时押镖即可获得奖励加成的回报哦！'
+};
+BulletinConfig[2012] = {
+id:'2012',
+noticeType:3,
+channel:2,
+priority:1,
+contents:'福运（侠客）活动已经结束，感谢每位侠客的鼎力支持与参与！'
+};
+BulletinConfig[2013] = {
+id:'2013',
+noticeType:3,
+priority:1,
+contents:'蒙古兵入侵活动即将开启，请各路大侠备战天山雪原。'
+};
+BulletinConfig[2014] = {
+id:'2014',
+noticeType:3,
+priority:1,
+contents:'蒙古兵入侵活动开启，天山雪原告急！各路大侠请速速前往支援，收缴巨额经验奖励！'
+};
+BulletinConfig[2016] = {
+id:'2016',
+noticeType:3,
+priority:1,
+contents:'蒙古兵入侵活动已经结束，感谢各路大侠痛击入侵者，还天山雪原一片平静和美丽。'
+};
+BulletinConfig[2017] = {
+id:'2017',
+noticeType:3,
+priority:1,
+contents:'猎盗活动即将开始，神盗团伙携巨款齐聚天山雪原和燕子坞，各路大侠请前往准备截宝！'
+};
+BulletinConfig[2018] = {
+id:'2018',
+noticeType:3,
+priority:1,
+contents:'金光一闪，神盗团伙现身天山雪原和燕子坞，请火速截击！'
+};
+BulletinConfig[2020] = {
+id:'2020',
+noticeType:3,
+priority:1,
+contents:'猎盗活动即将结束，神盗们一直在逃，请抓紧时间给予最后一击，获取海量金钱。'
+};
+BulletinConfig[2021] = {
+id:'2021',
+noticeType:3,
+priority:1,
+contents:'猎盗活动已经结束，神盗团伙沮丧地逃跑了，看来又要好一阵子才会出现了。'
+};
+BulletinConfig[2022] = {
+id:'2022',
+noticeType:3,
+priority:1,
+contents:'多人副本擂鼓山、一品堂、飘渺山即将开启，请集结好队伍，准备挑战吧！'
+};
+BulletinConfig[2023] = {
+id:'2023',
+noticeType:3,
+priority:1,
+contents:'多人副本擂鼓山、一品堂、飘渺山已经开启，召集三人以上队伍到各副本传送员处即可挑战！'
+};
+BulletinConfig[2024] = {
+id:'2024',
+noticeType:3,
+priority:1,
+contents:'多人副本擂鼓山、一品堂、飘渺山入口即将关闭，请大侠们抓紧时机进入！'
+};

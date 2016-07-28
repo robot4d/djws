@@ -1,0 +1,308 @@
+import flash.utils.Dictionary;
+var VirtualDialogue:Dictionary = new Dictionary();
+VirtualDialogue[3] = {
+id:3,
+type:1,
+channel:1,
+content:'+人！！'
+};
+VirtualDialogue[4] = {
+id:4,
+type:1,
+channel:1,
+content:'求+ T-T..'
+};
+VirtualDialogue[5] = {
+id:5,
+type:1,
+channel:1,
+content:'求+ T-T....'
+};
+VirtualDialogue[6] = {
+id:6,
+type:1,
+channel:1,
+content:'求好友！！！'
+};
+VirtualDialogue[7] = {
+id:7,
+type:1,
+channel:1,
+content:'+好友????'
+};
+VirtualDialogue[8] = {
+id:8,
+type:1,
+channel:1,
+content:'+好友???'
+};
+VirtualDialogue[9] = {
+id:9,
+type:1,
+channel:1,
+content:'+好友??'
+};
+VirtualDialogue[10] = {
+id:10,
+type:1,
+channel:1,
+content:'+++好友！'
+};
+VirtualDialogue[11] = {
+id:11,
+type:1,
+channel:1,
+content:'+++好友。。。'
+};
+VirtualDialogue[12] = {
+id:12,
+type:1,
+channel:1,
+content:'木有好友，求++'
+};
+VirtualDialogue[13] = {
+id:13,
+type:1,
+channel:1,
+content:'木有好友，求+'
+};
+VirtualDialogue[14] = {
+id:14,
+type:1,
+channel:1,
+content:'木有好友，求'
+};
+VirtualDialogue[15] = {
+id:15,
+type:2,
+channel:1,
+content:'各种出手，要的看摊。'
+};
+VirtualDialogue[16] = {
+id:16,
+type:2,
+channel:1,
+content:'看摊！'
+};
+VirtualDialogue[17] = {
+id:17,
+type:2,
+channel:1,
+content:'看摊！！'
+};
+VirtualDialogue[18] = {
+id:18,
+type:2,
+channel:1,
+content:'看摊，新货！'
+};
+VirtualDialogue[19] = {
+id:19,
+type:2,
+channel:1,
+content:'新货上架！看摊看摊。。。'
+};
+VirtualDialogue[20] = {
+id:20,
+type:2,
+channel:1,
+content:'新货！！'
+};
+VirtualDialogue[21] = {
+id:21,
+type:2,
+channel:1,
+content:'新货上架。'
+};
+VirtualDialogue[22] = {
+id:22,
+type:2,
+channel:1,
+content:'上架~上架~'
+};
+VirtualDialogue[23] = {
+id:23,
+type:2,
+channel:1,
+content:'新货上架~看摊看摊。。'
+};
+VirtualDialogue[24] = {
+id:24,
+type:2,
+channel:1,
+content:'各种好货~~~自己看摊！！'
+};
+VirtualDialogue[25] = {
+id:25,
+type:2,
+channel:1,
+content:'便宜了，看摊~~~~~~~~~'
+};
+VirtualDialogue[26] = {
+id:26,
+type:1,
+channel:1,
+content:'加长期在线的朋友，一起副本~~~~'
+};
+VirtualDialogue[32] = {
+id:32,
+type:1,
+channel:1,
+content:'长期在线的兄弟姐妹+下我。。'
+};
+VirtualDialogue[33] = {
+id:33,
+type:1,
+channel:1,
+content:'长期在线的兄弟姐妹+下我。。。'
+};
+VirtualDialogue[34] = {
+id:34,
+type:1,
+channel:1,
+content:'长期在线的兄弟姐妹+下我！'
+};
+VirtualDialogue[35] = {
+id:35,
+type:1,
+channel:1,
+content:'长期在线的兄弟姐妹+下我！！'
+};
+VirtualDialogue[36] = {
+id:36,
+type:1,
+channel:1,
+content:'++++，同阵营的兄弟赶紧加我。'
+};
+VirtualDialogue[38] = {
+id:38,
+type:1,
+channel:1,
+content:'加好友，速度~~~'
+};
+VirtualDialogue[39] = {
+id:39,
+type:1,
+channel:1,
+content:'加好友，速度~~'
+};
+VirtualDialogue[40] = {
+id:40,
+type:1,
+channel:1,
+content:'加好友，速度~'
+};
+VirtualDialogue[41] = {
+id:41,
+type:1,
+channel:1,
+content:'速度，加好友~~~~~~'
+};
+VirtualDialogue[42] = {
+id:42,
+type:1,
+channel:1,
+content:'速度，加好友~~~'
+};
+VirtualDialogue[43] = {
+id:43,
+type:1,
+channel:1,
+content:'速度，加好友~'
+};
+VirtualDialogue[45] = {
+id:45,
+type:1,
+channel:1,
+content:'无限加好友~~~'
+};
+VirtualDialogue[46] = {
+id:46,
+type:1,
+channel:1,
+content:'无限加好友~'
+};
+VirtualDialogue[49] = {
+id:49,
+type:4,
+channel:4,
+content:'新人报道，我会积极捐款，大家多关照哈'
+};
+VirtualDialogue[50] = {
+id:50,
+type:4,
+channel:4,
+content:'新人报到，请多多关照~'
+};
+VirtualDialogue[52] = {
+id:52,
+type:4,
+channel:4,
+content:'大家好，希望大家多关照哈'
+};
+VirtualDialogue[53] = {
+id:53,
+type:4,
+channel:4,
+content:'新人报道！'
+};
+VirtualDialogue[54] = {
+id:54,
+type:5,
+channel:4,
+content:'欢迎新人~~'
+};
+VirtualDialogue[55] = {
+id:55,
+type:5,
+channel:4,
+content:'欢迎新人加入~~欢迎~~进入帮派的朋友们请记得捐钱、捐令牌。'
+};
+VirtualDialogue[56] = {
+id:56,
+type:5,
+channel:4,
+content:'欢迎新人，记得捐款，自动自觉哈'
+};
+VirtualDialogue[57] = {
+id:57,
+type:5,
+channel:4,
+content:'帮派升级要靠大家，自觉捐款，人人有责'
+};
+VirtualDialogue[58] = {
+id:58,
+type:5,
+channel:4,
+content:'欢迎新人~~江湖规矩，上报三围'
+};
+VirtualDialogue[63] = {
+id:63,
+type:5,
+channel:4,
+content:'欢迎来我们帮，有空一起打BOSS~'
+};
+VirtualDialogue[65] = {
+id:65,
+type:5,
+channel:4,
+content:'欢迎新人！'
+};
+VirtualDialogue[66] = {
+id:66,
+type:5,
+channel:4,
+content:'欢迎欢迎，平时有问题多问大家~'
+};
+VirtualDialogue[67] = {
+id:67,
+type:5,
+channel:4,
+content:'欢迎！欢迎，平时大家多组织杀BOSS'
+};
+VirtualDialogue[68] = {
+id:68,
+type:5,
+channel:4,
+content:'欢迎！'
+};

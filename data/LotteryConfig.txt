@@ -1,0 +1,74 @@
+import flash.utils.Dictionary;
+var LotteryConfig:Dictionary = new Dictionary();
+LotteryConfig[1] = {
+id:1,
+type:1,
+level:40,
+times:1,
+propsId:120007,
+num:1
+};
+LotteryConfig[2] = {
+id:2,
+type:1,
+level:40,
+times:10,
+propsId:120007,
+num:10
+};
+LotteryConfig[3] = {
+id:3,
+type:1,
+level:40,
+times:50,
+propsId:120007,
+num:45
+};
+LotteryConfig[4] = {
+id:4,
+type:2,
+level:50,
+times:1,
+propsId:120008,
+num:1
+};
+LotteryConfig[5] = {
+id:5,
+type:2,
+level:50,
+times:10,
+propsId:120008,
+num:10
+};
+LotteryConfig[6] = {
+id:6,
+type:2,
+level:50,
+times:50,
+propsId:120008,
+num:45
+};
+LotteryConfig[7] = {
+id:7,
+type:3,
+level:60,
+times:1,
+propsId:120009,
+num:1
+};
+LotteryConfig[8] = {
+id:8,
+type:3,
+level:60,
+times:10,
+propsId:120009,
+num:10
+};
+LotteryConfig[9] = {
+id:9,
+type:3,
+level:60,
+times:50,
+propsId:120009,
+num:45
+};

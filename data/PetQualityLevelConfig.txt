@@ -1,0 +1,32 @@
+import flash.utils.Dictionary;
+var PetQualityLevelConfig:Dictionary = new Dictionary();
+PetQualityLevelConfig[0] = {
+qualityLevel:0,
+qualityLow:100,
+qualityHigh:200
+};
+PetQualityLevelConfig[1] = {
+qualityLevel:1,
+qualityLow:200,
+qualityHigh:300
+};
+PetQualityLevelConfig[2] = {
+qualityLevel:2,
+qualityLow:300,
+qualityHigh:400
+};
+PetQualityLevelConfig[3] = {
+qualityLevel:3,
+qualityLow:400,
+qualityHigh:500
+};
+PetQualityLevelConfig[4] = {
+qualityLevel:4,
+qualityLow:600,
+qualityHigh:751
+};
+PetQualityLevelConfig[5] = {
+qualityLevel:5,
+qualityLow:800,
+qualityHigh:999
+};

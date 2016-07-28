@@ -1,0 +1,27 @@
+﻿/////////////////////
+//	技能面板技能格子配置，(数组里为技能编号）
+
+var skillPageData  : Dictionary = new Dictionary();
+var pageData       : Vector.<Array>;
+
+/// 明教
+pageData = skillPageData[1] = new Vector.<Array>(2);
+pageData[0] = [1000,1001,1002,1003];
+pageData[1] = [1,2,7,3,5,8,4,6,9];
+
+/// 唐门
+pageData = skillPageData[2] = new Vector.<Array>(2);
+pageData[0] = [1005,1001,1002,1003];
+pageData[1] = [11,10,16,12,14,17,13,15,18];
+
+
+/// 翠烟
+pageData = skillPageData[3] = new Vector.<Array>(2);
+pageData[0] = [1006,1001,1002,1003];
+pageData[1] = [19,20,25,21,22,26,23,24,27];
+
+
+/// 丐帮
+pageData = skillPageData[4] = new Vector.<Array>(2);
+pageData[0] = [1004,1001,1002,1003];
+pageData[1] = [28,29,34,30,32,35,31,33,36];

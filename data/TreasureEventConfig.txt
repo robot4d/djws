@@ -1,0 +1,86 @@
+import flash.utils.Dictionary;
+var TreasureEventConfig:Dictionary = new Dictionary();
+TreasureEventConfig[1] = {
+id:1,
+type:1,
+rate:90,
+fullRate:100,
+rewardId:1
+};
+TreasureEventConfig[2] = {
+id:2,
+type:2,
+rate:10,
+fullRate:100,
+rewardId:1
+};
+TreasureEventConfig[3] = {
+id:3,
+type:1,
+rate:90,
+fullRate:100,
+rewardId:2
+};
+TreasureEventConfig[4] = {
+id:4,
+type:2,
+rate:10,
+fullRate:100,
+rewardId:2
+};
+TreasureEventConfig[5] = {
+id:5,
+type:1,
+rate:90,
+fullRate:100,
+rewardId:3
+};
+TreasureEventConfig[6] = {
+id:6,
+type:2,
+rate:10,
+fullRate:100,
+rewardId:3
+};
+TreasureEventConfig[7] = {
+id:7,
+type:1,
+rate:90,
+fullRate:100,
+rewardId:4
+};
+TreasureEventConfig[8] = {
+id:8,
+type:2,
+rate:10,
+fullRate:100,
+rewardId:4
+};
+TreasureEventConfig[9] = {
+id:9,
+type:1,
+rate:90,
+fullRate:100,
+rewardId:5
+};
+TreasureEventConfig[10] = {
+id:10,
+type:2,
+rate:10,
+fullRate:100,
+rewardId:5
+};
+TreasureEventConfig[11] = {
+id:11,
+type:1,
+rate:90,
+fullRate:100,
+rewardId:6
+};
+TreasureEventConfig[12] = {
+id:12,
+type:2,
+rate:10,
+fullRate:100,
+rewardId:6
+};

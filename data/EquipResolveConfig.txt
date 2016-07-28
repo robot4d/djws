@@ -1,0 +1,74 @@
+
+data[1] = {
+id:1,
+starLevel:0,
+quality:0
+};
+data[2] = {
+id:2,
+starLevel:1,
+quality:1,
+starResolveItems:'30001_1',
+qualityResolveItems:'30012_1'
+};
+data[3] = {
+id:3,
+starLevel:2,
+quality:2,
+starResolveItems:'30002_1',
+qualityResolveItems:'30012_1'
+};
+data[4] = {
+id:4,
+starLevel:3,
+quality:3,
+starResolveItems:'30003_1',
+qualityResolveItems:'30012_1'
+};
+data[5] = {
+id:5,
+starLevel:4,
+quality:4,
+starResolveItems:'30003_1',
+qualityResolveItems:'30012_1'
+};
+data[6] = {
+id:6,
+starLevel:5,
+quality:5,
+starResolveItems:'30003_1',
+qualityResolveItems:'30012_1'
+};
+data[7] = {
+id:7,
+starLevel:6,
+quality:6,
+starResolveItems:'30003_1',
+qualityResolveItems:'30012_1'
+};
+data[8] = {
+id:8,
+starLevel:7,
+quality:7,
+starResolveItems:'30003_1',
+qualityResolveItems:'30012_1'
+};
+data[9] = {
+id:9,
+starLevel:8,
+quality:8,
+starResolveItems:'30003_1',
+qualityResolveItems:'30012_1'
+};
+data[10] = {
+id:10,
+starLevel:9,
+quality:0,
+starResolveItems:'30003_1'
+};
+data[11] = {
+id:11,
+starLevel:10,
+quality:0,
+starResolveItems:'30003_1'
+};

@@ -1,0 +1,2 @@
+import flash.utils.Dictionary;
+var DropConfig:Dictionary = new Dictionary();

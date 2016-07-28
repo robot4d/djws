@@ -1,0 +1,65 @@
+import flash.utils.Dictionary;
+var MallActiveConfig:Dictionary = new Dictionary();
+MallActiveConfig[1] = {
+id:1,
+activeName:'抢购1',
+activeRound:1,
+serial:101,
+sequence:1,
+isOnly:0,
+isOpen:1
+};
+MallActiveConfig[2] = {
+id:2,
+activeName:'抢购1',
+activeRound:1,
+serial:101,
+sequence:2,
+isOnly:0,
+isOpen:1
+};
+MallActiveConfig[3] = {
+id:3,
+activeName:'抢购1',
+activeRound:1,
+serial:101,
+sequence:3,
+isOnly:0,
+isOpen:1
+};
+MallActiveConfig[4] = {
+id:4,
+activeName:'抢购1',
+activeRound:1,
+serial:101,
+sequence:4,
+isOnly:0,
+isOpen:1
+};
+MallActiveConfig[5] = {
+id:5,
+activeName:'抢购1',
+activeRound:1,
+serial:101,
+sequence:5,
+isOnly:0,
+isOpen:1
+};
+MallActiveConfig[6] = {
+id:6,
+activeName:'抢购1',
+activeRound:1,
+serial:101,
+sequence:6,
+isOnly:0,
+isOpen:1
+};
+MallActiveConfig[7] = {
+id:7,
+activeName:'抢购1',
+activeRound:1,
+serial:101,
+sequence:7,
+isOnly:0,
+isOpen:1
+};

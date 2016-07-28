@@ -1,0 +1,938 @@
+﻿
+import flash.utils.Dictionary;
+
+var refinementPages:Array = new Array(3);
+
+refinementPages[0] = ["宝石","装备","药品","家将"];
+//                        0_0           1_0       2_0        2_1         3_0
+refinementPages[1] = [["属性宝石"],["强化材料"],["治疗药品","属性药品"],["培养道具"]];
+/*
+refinementConfig[30001] = {
+id:30001,道具ID
+showType:'0_0',显示分类
+silver:100,炼化的价格
+materials:'140005_5'需要的道具材料信息
+};
+*/
+
+var refinementConfig:Dictionary = new Dictionary();
+refinementPages[2] = refinementConfig;
+
+
+refinementConfig[30002] = {
+id:30002,
+showType:'1_0',
+silver:100,
+materials:'30001_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[30003] = {
+id:30003,
+showType:'1_0',
+silver:100,
+materials:'30002_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[30004] = {
+id:30004,
+showType:'1_0',
+silver:100,
+materials:'30003_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[30005] = {
+id:30005,
+showType:'1_0',
+silver:100,
+materials:'30004_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[30006] = {
+id:30006,
+showType:'1_0',
+silver:100,
+materials:'30005_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[30007] = {
+id:30007,
+showType:'1_0',
+silver:100,
+materials:'30006_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[30008] = {
+id:30008,
+showType:'1_0',
+silver:100,
+materials:'30007_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[30009] = {
+id:30009,
+showType:'1_0',
+silver:100,
+materials:'30008_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[30010] = {
+id:30010,
+showType:'1_0',
+silver:100,
+materials:'30009_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[30011] = {
+id:30011,
+showType:'1_0',
+silver:100,
+materials:'30010_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[100001] = {
+id:100001,
+showType:'3_0',
+silver:100,
+materials:'100008_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[100002] = {
+id:100002,
+showType:'3_0',
+silver:100,
+materials:'100009_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[10002] = {
+id:10002,
+showType:'2_0',
+silver:100,
+materials:'10001_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[10003] = {
+id:10003,
+showType:'2_0',
+silver:100,
+materials:'10002_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[10004] = {
+id:10004,
+showType:'2_0',
+silver:100,
+materials:'10003_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[10006] = {
+id:10006,
+showType:'2_0',
+silver:100,
+materials:'10005_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[10007] = {
+id:10007,
+showType:'2_0',
+silver:100,
+materials:'10006_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[10008] = {
+id:10008,
+showType:'2_0',
+silver:100,
+materials:'10007_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[50002] = {
+id:50002,
+showType:'2_1',
+silver:100,
+materials:'50001_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[50003] = {
+id:50003,
+showType:'2_1',
+silver:100,
+materials:'50002_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[50005] = {
+id:50005,
+showType:'2_1',
+silver:100,
+materials:'50004_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[50006] = {
+id:50006,
+showType:'2_1',
+silver:100,
+materials:'50005_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[50008] = {
+id:50008,
+showType:'2_1',
+silver:100,
+materials:'50007_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[50009] = {
+id:50009,
+showType:'2_1',
+silver:100,
+materials:'50008_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[50011] = {
+id:50011,
+showType:'2_1',
+silver:100,
+materials:'50010_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[50012] = {
+id:50012,
+showType:'2_1',
+silver:100,
+materials:'50011_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[50014] = {
+id:50014,
+showType:'2_1',
+silver:100,
+materials:'50013_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[50015] = {
+id:50015,
+showType:'2_1',
+silver:100,
+materials:'50014_2',
+description:'我全家都是合出来的'
+};
+refinementConfig[20102] = {
+id:20102,
+showType:'0_0',
+silver:10,
+rate:1000,
+materials:'20101_3',
+description:'20101'
+};
+refinementConfig[20103] = {
+id:20103,
+showType:'0_0',
+silver:10,
+rate:900,
+materials:'20102_3',
+description:'20102'
+};
+refinementConfig[20104] = {
+id:20104,
+showType:'0_0',
+silver:10,
+rate:800,
+materials:'20103_3',
+description:'20103'
+};
+refinementConfig[20105] = {
+id:20105,
+showType:'0_0',
+silver:10,
+rate:700,
+materials:'20104_3',
+description:'20104'
+};
+refinementConfig[20106] = {
+id:20106,
+showType:'0_0',
+silver:10,
+rate:600,
+materials:'20105_3',
+description:'20105'
+};
+refinementConfig[20107] = {
+id:20107,
+showType:'0_0',
+silver:10,
+rate:500,
+materials:'20106_3',
+description:'20106'
+};
+refinementConfig[20108] = {
+id:20108,
+showType:'0_0',
+silver:10,
+rate:400,
+materials:'20107_3',
+description:'20107'
+};
+refinementConfig[20109] = {
+id:20109,
+showType:'0_0',
+silver:10,
+rate:300,
+materials:'20108_3',
+description:'20108'
+};
+refinementConfig[20110] = {
+id:20110,
+showType:'0_0',
+silver:10,
+rate:200,
+materials:'20109_3',
+description:'20109'
+};
+refinementConfig[20202] = {
+id:20202,
+showType:'0_0',
+silver:10,
+rate:1000,
+materials:'20201_3',
+description:'20201'
+};
+refinementConfig[20203] = {
+id:20203,
+showType:'0_0',
+silver:10,
+rate:900,
+materials:'20202_3',
+description:'20202'
+};
+refinementConfig[20204] = {
+id:20204,
+showType:'0_0',
+silver:10,
+rate:800,
+materials:'20203_3',
+description:'20203'
+};
+refinementConfig[20205] = {
+id:20205,
+showType:'0_0',
+silver:10,
+rate:700,
+materials:'20204_3',
+description:'20204'
+};
+refinementConfig[20206] = {
+id:20206,
+showType:'0_0',
+silver:10,
+rate:600,
+materials:'20205_3',
+description:'20205'
+};
+refinementConfig[20207] = {
+id:20207,
+showType:'0_0',
+silver:10,
+rate:500,
+materials:'20206_3',
+description:'20206'
+};
+refinementConfig[20208] = {
+id:20208,
+showType:'0_0',
+silver:10,
+rate:400,
+materials:'20207_3',
+description:'20207'
+};
+refinementConfig[20209] = {
+id:20209,
+showType:'0_0',
+silver:10,
+rate:300,
+materials:'20208_3',
+description:'20208'
+};
+refinementConfig[20210] = {
+id:20210,
+showType:'0_0',
+silver:10,
+rate:200,
+materials:'20209_3',
+description:'20209'
+};
+refinementConfig[20302] = {
+id:20302,
+showType:'0_0',
+silver:10,
+rate:1000,
+materials:'20301_3',
+description:'20301'
+};
+refinementConfig[20303] = {
+id:20303,
+showType:'0_0',
+silver:10,
+rate:900,
+materials:'20302_3',
+description:'20302'
+};
+refinementConfig[20304] = {
+id:20304,
+showType:'0_0',
+silver:10,
+rate:800,
+materials:'20303_3',
+description:'20303'
+};
+refinementConfig[20305] = {
+id:20305,
+showType:'0_0',
+silver:10,
+rate:700,
+materials:'20304_3',
+description:'20304'
+};
+refinementConfig[20306] = {
+id:20306,
+showType:'0_0',
+silver:10,
+rate:600,
+materials:'20305_3',
+description:'20305'
+};
+refinementConfig[20307] = {
+id:20307,
+showType:'0_0',
+silver:10,
+rate:500,
+materials:'20306_3',
+description:'20306'
+};
+refinementConfig[20308] = {
+id:20308,
+showType:'0_0',
+silver:10,
+rate:400,
+materials:'20307_3',
+description:'20307'
+};
+refinementConfig[20309] = {
+id:20309,
+showType:'0_0',
+silver:10,
+rate:300,
+materials:'20308_3',
+description:'20308'
+};
+refinementConfig[20310] = {
+id:20310,
+showType:'0_0',
+silver:10,
+rate:200,
+materials:'20309_3',
+description:'20309'
+};
+refinementConfig[20402] = {
+id:20402,
+showType:'0_0',
+silver:10,
+rate:1000,
+materials:'20401_3',
+description:'20401'
+};
+refinementConfig[20403] = {
+id:20403,
+showType:'0_0',
+silver:10,
+rate:900,
+materials:'20402_3',
+description:'20402'
+};
+refinementConfig[20404] = {
+id:20404,
+showType:'0_0',
+silver:10,
+rate:800,
+materials:'20403_3',
+description:'20403'
+};
+refinementConfig[20405] = {
+id:20405,
+showType:'0_0',
+silver:10,
+rate:700,
+materials:'20404_3',
+description:'20404'
+};
+refinementConfig[20406] = {
+id:20406,
+showType:'0_0',
+silver:10,
+rate:600,
+materials:'20405_3',
+description:'20405'
+};
+refinementConfig[20407] = {
+id:20407,
+showType:'0_0',
+silver:10,
+rate:500,
+materials:'20406_3',
+description:'20406'
+};
+refinementConfig[20408] = {
+id:20408,
+showType:'0_0',
+silver:10,
+rate:400,
+materials:'20407_3',
+description:'20407'
+};
+refinementConfig[20409] = {
+id:20409,
+showType:'0_0',
+silver:10,
+rate:300,
+materials:'20408_3',
+description:'20408'
+};
+refinementConfig[20410] = {
+id:20410,
+showType:'0_0',
+silver:10,
+rate:200,
+materials:'20409_3',
+description:'20409'
+};
+refinementConfig[20502] = {
+id:20502,
+showType:'0_0',
+silver:10,
+rate:1000,
+materials:'20501_3',
+description:'20501'
+};
+refinementConfig[20503] = {
+id:20503,
+showType:'0_0',
+silver:10,
+rate:900,
+materials:'20502_3',
+description:'20502'
+};
+refinementConfig[20504] = {
+id:20504,
+showType:'0_0',
+silver:10,
+rate:800,
+materials:'20503_3',
+description:'20503'
+};
+refinementConfig[20505] = {
+id:20505,
+showType:'0_0',
+silver:10,
+rate:700,
+materials:'20504_3',
+description:'20504'
+};
+refinementConfig[20506] = {
+id:20506,
+showType:'0_0',
+silver:10,
+rate:600,
+materials:'20505_3',
+description:'20505'
+};
+refinementConfig[20507] = {
+id:20507,
+showType:'0_0',
+silver:10,
+rate:500,
+materials:'20506_3',
+description:'20506'
+};
+refinementConfig[20508] = {
+id:20508,
+showType:'0_0',
+silver:10,
+rate:400,
+materials:'20507_3',
+description:'20507'
+};
+refinementConfig[20509] = {
+id:20509,
+showType:'0_0',
+silver:10,
+rate:300,
+materials:'20508_3',
+description:'20508'
+};
+refinementConfig[20510] = {
+id:20510,
+showType:'0_0',
+silver:10,
+rate:200,
+
+materials:'20509_3',
+description:'20509'
+};
+refinementConfig[20602] = {
+id:20602,
+showType:'0_0',
+silver:10,
+rate:1000,
+materials:'20601_3',
+description:'20601'
+};
+refinementConfig[20603] = {
+id:20603,
+showType:'0_0',
+silver:10,
+rate:900,
+materials:'20602_3',
+description:'20602'
+};
+refinementConfig[20604] = {
+id:20604,
+showType:'0_0',
+silver:10,
+rate:800,
+materials:'20603_3',
+description:'20603'
+};
+refinementConfig[20605] = {
+id:20605,
+showType:'0_0',
+silver:10,
+rate:700,
+materials:'20604_3',
+description:'20604'
+};
+refinementConfig[20606] = {
+id:20606,
+showType:'0_0',
+silver:10,
+rate:600,
+materials:'20605_3',
+description:'20605'
+};
+refinementConfig[20607] = {
+id:20607,
+showType:'0_0',
+silver:10,
+rate:500,
+materials:'20606_3',
+description:'20606'
+};
+refinementConfig[20608] = {
+id:20608,
+showType:'0_0',
+silver:10,
+rate:400,
+materials:'20607_3',
+description:'20607'
+};
+refinementConfig[20609] = {
+id:20609,
+showType:'0_0',
+silver:10,
+rate:300,
+materials:'20608_3',
+description:'20608'
+};
+refinementConfig[20610] = {
+id:20610,
+showType:'0_0',
+silver:10,
+rate:200,
+materials:'20609_3',
+description:'20609'
+};
+refinementConfig[20702] = {
+id:20702,
+showType:'0_0',
+silver:10,
+rate:1000,
+materials:'20701_3',
+description:'20701'
+};
+refinementConfig[20703] = {
+id:20703,
+showType:'0_0',
+silver:10,
+rate:900,
+materials:'20702_3',
+description:'20702'
+};
+refinementConfig[20704] = {
+id:20704,
+showType:'0_0',
+silver:10,
+rate:800,
+materials:'20703_3',
+description:'20703'
+};
+refinementConfig[20705] = {
+id:20705,
+showType:'0_0',
+silver:10,
+rate:700,
+materials:'20704_3',
+description:'20704'
+};
+refinementConfig[20706] = {
+id:20706,
+showType:'0_0',
+silver:10,
+rate:600,
+materials:'20705_3',
+description:'20705'
+};
+refinementConfig[20707] = {
+id:20707,
+showType:'0_0',
+silver:10,
+rate:500,
+materials:'20706_3',
+description:'20706'
+};
+refinementConfig[20708] = {
+id:20708,
+showType:'0_0',
+silver:10,
+rate:400,
+materials:'20707_3',
+description:'20707'
+};
+refinementConfig[20709] = {
+id:20709,
+showType:'0_0',
+silver:10,
+rate:300,
+materials:'20708_3',
+description:'20708'
+};
+refinementConfig[20710] = {
+id:20710,
+showType:'0_0',
+silver:10,
+rate:200,
+materials:'20709_3',
+description:'20709'
+};
+refinementConfig[20802] = {
+id:20802,
+showType:'0_0',
+silver:10,
+rate:1000,
+materials:'20801_3',
+description:'20801'
+};
+refinementConfig[20803] = {
+id:20803,
+showType:'0_0',
+silver:10,
+rate:900,
+materials:'20802_3',
+description:'20802'
+};
+refinementConfig[20804] = {
+id:20804,
+showType:'0_0',
+silver:10,
+rate:800,
+materials:'20803_3',
+description:'20803'
+};
+refinementConfig[20805] = {
+id:20805,
+showType:'0_0',
+silver:10,
+rate:700,
+materials:'20804_3',
+description:'20804'
+};
+refinementConfig[20806] = {
+id:20806,
+showType:'0_0',
+silver:10,
+rate:600,
+materials:'20805_3',
+description:'20805'
+};
+refinementConfig[20807] = {
+id:20807,
+showType:'0_0',
+silver:10,
+rate:500,
+materials:'20806_3',
+description:'20806'
+};
+refinementConfig[20808] = {
+id:20808,
+showType:'0_0',
+silver:10,
+rate:400,
+materials:'20807_3',
+description:'20807'
+};
+refinementConfig[20809] = {
+id:20809,
+showType:'0_0',
+silver:10,
+rate:300,
+materials:'20808_3',
+description:'20808'
+};
+refinementConfig[20810] = {
+id:20810,
+showType:'0_0',
+silver:10,
+rate:200,
+materials:'20809_3',
+description:'20809'
+};
+refinementConfig[20902] = {
+id:20902,
+showType:'0_0',
+silver:10,
+rate:1000,
+materials:'20901_3',
+description:'20901'
+};
+refinementConfig[20903] = {
+id:20903,
+showType:'0_0',
+silver:10,
+rate:900,
+materials:'20902_3',
+description:'20902'
+};
+refinementConfig[20904] = {
+id:20904,
+showType:'0_0',
+silver:10,
+rate:800,
+materials:'20903_3',
+description:'20903'
+};
+refinementConfig[20905] = {
+id:20905,
+showType:'0_0',
+silver:10,
+rate:700,
+materials:'20904_3',
+description:'20904'
+};
+refinementConfig[20906] = {
+id:20906,
+showType:'0_0',
+silver:10,
+rate:600,
+materials:'20905_3',
+description:'20905'
+};
+refinementConfig[20907] = {
+id:20907,
+showType:'0_0',
+silver:10,
+rate:500,
+materials:'20906_3',
+description:'20906'
+};
+refinementConfig[20908] = {
+id:20908,
+showType:'0_0',
+silver:10,
+rate:400,
+materials:'20907_3',
+description:'20907'
+};
+refinementConfig[20909] = {
+id:20909,
+showType:'0_0',
+silver:10,
+rate:300,
+materials:'20908_3',
+description:'20908'
+};
+refinementConfig[20910] = {
+id:20910,
+showType:'0_0',
+silver:10,
+rate:200,
+materials:'20909_3',
+description:'20909'
+};
+refinementConfig[21002] = {
+id:21002,
+showType:'0_0',
+silver:10,
+rate:1000,
+materials:'21001_3',
+description:'21001'
+};
+refinementConfig[21003] = {
+id:21003,
+showType:'0_0',
+silver:10,
+rate:900,
+materials:'21002_3',
+description:'21002'
+};
+refinementConfig[21004] = {
+id:21004,
+showType:'0_0',
+silver:10,
+rate:800,
+materials:'21003_3',
+description:'21003'
+};
+refinementConfig[21005] = {
+id:21005,
+showType:'0_0',
+silver:10,
+rate:700,
+materials:'21004_3',
+description:'21004'
+};
+refinementConfig[21006] = {
+id:21006,
+showType:'0_0',
+silver:10,
+rate:600,
+materials:'21005_3',
+description:'21005'
+};
+refinementConfig[21007] = {
+id:21007,
+showType:'0_0',
+silver:10,
+rate:500,
+materials:'21006_3',
+description:'21006'
+};
+refinementConfig[21008] = {
+id:21008,
+showType:'0_0',
+silver:10,
+rate:400,
+materials:'21007_3',
+description:'21007'
+};
+refinementConfig[21009] = {
+id:21009,
+showType:'0_0',
+silver:10,
+rate:300,
+materials:'21008_3',
+description:'21008'
+};
+refinementConfig[21010] = {
+id:21010,
+showType:'0_0',
+silver:10,
+rate:200,
+materials:'21009_3',
+description:'21009'
+};

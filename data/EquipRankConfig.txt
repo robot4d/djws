@@ -1,0 +1,2306 @@
+import flash.utils.Dictionary;
+var EquipRankConfig:Dictionary = new Dictionary();
+EquipRankConfig[101304] = {
+equipId:101304,
+nextEquipId:101305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[102304] = {
+equipId:102304,
+nextEquipId:102305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[103304] = {
+equipId:103304,
+nextEquipId:103305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[104304] = {
+equipId:104304,
+nextEquipId:104305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[105304] = {
+equipId:105304,
+nextEquipId:105305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[106304] = {
+equipId:106304,
+nextEquipId:106305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[107304] = {
+equipId:107304,
+nextEquipId:107305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[108304] = {
+equipId:108304,
+nextEquipId:108305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[109304] = {
+equipId:109304,
+nextEquipId:109305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[110304] = {
+equipId:110304,
+nextEquipId:110305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[111304] = {
+equipId:111304,
+nextEquipId:111305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[112304] = {
+equipId:112304,
+nextEquipId:112305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[101305] = {
+equipId:101305,
+nextEquipId:101306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[102305] = {
+equipId:102305,
+nextEquipId:102306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[103305] = {
+equipId:103305,
+nextEquipId:103306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[104305] = {
+equipId:104305,
+nextEquipId:104306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[105305] = {
+equipId:105305,
+nextEquipId:105306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[106305] = {
+equipId:106305,
+nextEquipId:106306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[107305] = {
+equipId:107305,
+nextEquipId:107306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[108305] = {
+equipId:108305,
+nextEquipId:108306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[109305] = {
+equipId:109305,
+nextEquipId:109306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[110305] = {
+equipId:110305,
+nextEquipId:110306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[111305] = {
+equipId:111305,
+nextEquipId:111306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[112305] = {
+equipId:112305,
+nextEquipId:112306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[101306] = {
+equipId:101306,
+nextEquipId:101307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[102306] = {
+equipId:102306,
+nextEquipId:102307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[103306] = {
+equipId:103306,
+nextEquipId:103307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[104306] = {
+equipId:104306,
+nextEquipId:104307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[105306] = {
+equipId:105306,
+nextEquipId:105307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[106306] = {
+equipId:106306,
+nextEquipId:106307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[107306] = {
+equipId:107306,
+nextEquipId:107307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[108306] = {
+equipId:108306,
+nextEquipId:108307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[109306] = {
+equipId:109306,
+nextEquipId:109307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[110306] = {
+equipId:110306,
+nextEquipId:110307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[111306] = {
+equipId:111306,
+nextEquipId:111307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[112306] = {
+equipId:112306,
+nextEquipId:112307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[201304] = {
+equipId:201304,
+nextEquipId:201305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[202304] = {
+equipId:202304,
+nextEquipId:202305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[203304] = {
+equipId:203304,
+nextEquipId:203305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[204304] = {
+equipId:204304,
+nextEquipId:204305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[205304] = {
+equipId:205304,
+nextEquipId:205305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[206304] = {
+equipId:206304,
+nextEquipId:206305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[207304] = {
+equipId:207304,
+nextEquipId:207305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[208304] = {
+equipId:208304,
+nextEquipId:208305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[209304] = {
+equipId:209304,
+nextEquipId:209305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[210304] = {
+equipId:210304,
+nextEquipId:210305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[211304] = {
+equipId:211304,
+nextEquipId:211305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[212304] = {
+equipId:212304,
+nextEquipId:212305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[201305] = {
+equipId:201305,
+nextEquipId:201306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[202305] = {
+equipId:202305,
+nextEquipId:202306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[203305] = {
+equipId:203305,
+nextEquipId:203306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[204305] = {
+equipId:204305,
+nextEquipId:204306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[205305] = {
+equipId:205305,
+nextEquipId:205306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[206305] = {
+equipId:206305,
+nextEquipId:206306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[207305] = {
+equipId:207305,
+nextEquipId:207306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[208305] = {
+equipId:208305,
+nextEquipId:208306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[209305] = {
+equipId:209305,
+nextEquipId:209306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[210305] = {
+equipId:210305,
+nextEquipId:210306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[211305] = {
+equipId:211305,
+nextEquipId:211306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[212305] = {
+equipId:212305,
+nextEquipId:212306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[201306] = {
+equipId:201306,
+nextEquipId:201307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[202306] = {
+equipId:202306,
+nextEquipId:202307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[203306] = {
+equipId:203306,
+nextEquipId:203307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[204306] = {
+equipId:204306,
+nextEquipId:204307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[205306] = {
+equipId:205306,
+nextEquipId:205307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[206306] = {
+equipId:206306,
+nextEquipId:206307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[207306] = {
+equipId:207306,
+nextEquipId:207307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[208306] = {
+equipId:208306,
+nextEquipId:208307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[209306] = {
+equipId:209306,
+nextEquipId:209307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[210306] = {
+equipId:210306,
+nextEquipId:210307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[211306] = {
+equipId:211306,
+nextEquipId:211307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[212306] = {
+equipId:212306,
+nextEquipId:212307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[301304] = {
+equipId:301304,
+nextEquipId:301305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[302304] = {
+equipId:302304,
+nextEquipId:302305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[303304] = {
+equipId:303304,
+nextEquipId:303305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[304304] = {
+equipId:304304,
+nextEquipId:304305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[305304] = {
+equipId:305304,
+nextEquipId:305305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[306304] = {
+equipId:306304,
+nextEquipId:306305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[307304] = {
+equipId:307304,
+nextEquipId:307305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[308304] = {
+equipId:308304,
+nextEquipId:308305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[309304] = {
+equipId:309304,
+nextEquipId:309305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[310304] = {
+equipId:310304,
+nextEquipId:310305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[311304] = {
+equipId:311304,
+nextEquipId:311305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[312304] = {
+equipId:312304,
+nextEquipId:312305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[301305] = {
+equipId:301305,
+nextEquipId:301306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[302305] = {
+equipId:302305,
+nextEquipId:302306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[303305] = {
+equipId:303305,
+nextEquipId:303306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[304305] = {
+equipId:304305,
+nextEquipId:304306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[305305] = {
+equipId:305305,
+nextEquipId:305306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[306305] = {
+equipId:306305,
+nextEquipId:306306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[307305] = {
+equipId:307305,
+nextEquipId:307306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[308305] = {
+equipId:308305,
+nextEquipId:308306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[309305] = {
+equipId:309305,
+nextEquipId:309306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[310305] = {
+equipId:310305,
+nextEquipId:310306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[311305] = {
+equipId:311305,
+nextEquipId:311306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[312305] = {
+equipId:312305,
+nextEquipId:312306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[301306] = {
+equipId:301306,
+nextEquipId:301307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[302306] = {
+equipId:302306,
+nextEquipId:302307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[303306] = {
+equipId:303306,
+nextEquipId:303307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[304306] = {
+equipId:304306,
+nextEquipId:304307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[305306] = {
+equipId:305306,
+nextEquipId:305307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[306306] = {
+equipId:306306,
+nextEquipId:306307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[307306] = {
+equipId:307306,
+nextEquipId:307307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[308306] = {
+equipId:308306,
+nextEquipId:308307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[309306] = {
+equipId:309306,
+nextEquipId:309307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[310306] = {
+equipId:310306,
+nextEquipId:310307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[311306] = {
+equipId:311306,
+nextEquipId:311307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[312306] = {
+equipId:312306,
+nextEquipId:312307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[401304] = {
+equipId:401304,
+nextEquipId:401305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[402304] = {
+equipId:402304,
+nextEquipId:402305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[403304] = {
+equipId:403304,
+nextEquipId:403305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[404304] = {
+equipId:404304,
+nextEquipId:404305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[405304] = {
+equipId:405304,
+nextEquipId:405305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[406304] = {
+equipId:406304,
+nextEquipId:406305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[407304] = {
+equipId:407304,
+nextEquipId:407305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[408304] = {
+equipId:408304,
+nextEquipId:408305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[409304] = {
+equipId:409304,
+nextEquipId:409305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[410304] = {
+equipId:410304,
+nextEquipId:410305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[411304] = {
+equipId:411304,
+nextEquipId:411305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[412304] = {
+equipId:412304,
+nextEquipId:412305,
+silver:22.48,
+itemId:30014,
+itemCount:1,
+rate:72
+};
+EquipRankConfig[401305] = {
+equipId:401305,
+nextEquipId:401306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[402305] = {
+equipId:402305,
+nextEquipId:402306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[403305] = {
+equipId:403305,
+nextEquipId:403306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[404305] = {
+equipId:404305,
+nextEquipId:404306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[405305] = {
+equipId:405305,
+nextEquipId:405306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[406305] = {
+equipId:406305,
+nextEquipId:406306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[407305] = {
+equipId:407305,
+nextEquipId:407306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[408305] = {
+equipId:408305,
+nextEquipId:408306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[409305] = {
+equipId:409305,
+nextEquipId:409306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[410305] = {
+equipId:410305,
+nextEquipId:410306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[411305] = {
+equipId:411305,
+nextEquipId:411306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[412305] = {
+equipId:412305,
+nextEquipId:412306,
+silver:22.48,
+itemId:30026,
+itemCount:1,
+rate:14
+};
+EquipRankConfig[401306] = {
+equipId:401306,
+nextEquipId:401307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[402306] = {
+equipId:402306,
+nextEquipId:402307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[403306] = {
+equipId:403306,
+nextEquipId:403307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[404306] = {
+equipId:404306,
+nextEquipId:404307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[405306] = {
+equipId:405306,
+nextEquipId:405307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[406306] = {
+equipId:406306,
+nextEquipId:406307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[407306] = {
+equipId:407306,
+nextEquipId:407307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[408306] = {
+equipId:408306,
+nextEquipId:408307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[409306] = {
+equipId:409306,
+nextEquipId:409307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[410306] = {
+equipId:410306,
+nextEquipId:410307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[411306] = {
+equipId:411306,
+nextEquipId:411307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[412306] = {
+equipId:412306,
+nextEquipId:412307,
+silver:22.48,
+itemId:30027,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[101404] = {
+equipId:101404,
+nextEquipId:101405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[102404] = {
+equipId:102404,
+nextEquipId:102405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[103404] = {
+equipId:103404,
+nextEquipId:103405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[104404] = {
+equipId:104404,
+nextEquipId:104405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[105404] = {
+equipId:105404,
+nextEquipId:105405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[106404] = {
+equipId:106404,
+nextEquipId:106405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[107404] = {
+equipId:107404,
+nextEquipId:107405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[108404] = {
+equipId:108404,
+nextEquipId:108405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[109404] = {
+equipId:109404,
+nextEquipId:109405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[110404] = {
+equipId:110404,
+nextEquipId:110405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[111404] = {
+equipId:111404,
+nextEquipId:111405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[112404] = {
+equipId:112404,
+nextEquipId:112405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[101405] = {
+equipId:101405,
+nextEquipId:101406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[102405] = {
+equipId:102405,
+nextEquipId:102406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[103405] = {
+equipId:103405,
+nextEquipId:103406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[104405] = {
+equipId:104405,
+nextEquipId:104406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[105405] = {
+equipId:105405,
+nextEquipId:105406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[106405] = {
+equipId:106405,
+nextEquipId:106406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[107405] = {
+equipId:107405,
+nextEquipId:107406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[108405] = {
+equipId:108405,
+nextEquipId:108406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[109405] = {
+equipId:109405,
+nextEquipId:109406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[110405] = {
+equipId:110405,
+nextEquipId:110406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[111405] = {
+equipId:111405,
+nextEquipId:111406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[112405] = {
+equipId:112405,
+nextEquipId:112406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[101406] = {
+equipId:101406,
+nextEquipId:101407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[102406] = {
+equipId:102406,
+nextEquipId:102407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[103406] = {
+equipId:103406,
+nextEquipId:103407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[104406] = {
+equipId:104406,
+nextEquipId:104407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[105406] = {
+equipId:105406,
+nextEquipId:105407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[106406] = {
+equipId:106406,
+nextEquipId:106407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[107406] = {
+equipId:107406,
+nextEquipId:107407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[108406] = {
+equipId:108406,
+nextEquipId:108407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[109406] = {
+equipId:109406,
+nextEquipId:109407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[110406] = {
+equipId:110406,
+nextEquipId:110407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[111406] = {
+equipId:111406,
+nextEquipId:111407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[112406] = {
+equipId:112406,
+nextEquipId:112407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[201404] = {
+equipId:201404,
+nextEquipId:201405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[202404] = {
+equipId:202404,
+nextEquipId:202405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[203404] = {
+equipId:203404,
+nextEquipId:203405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[204404] = {
+equipId:204404,
+nextEquipId:204405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[205404] = {
+equipId:205404,
+nextEquipId:205405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[206404] = {
+equipId:206404,
+nextEquipId:206405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[207404] = {
+equipId:207404,
+nextEquipId:207405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[208404] = {
+equipId:208404,
+nextEquipId:208405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[209404] = {
+equipId:209404,
+nextEquipId:209405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[210404] = {
+equipId:210404,
+nextEquipId:210405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[211404] = {
+equipId:211404,
+nextEquipId:211405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[212404] = {
+equipId:212404,
+nextEquipId:212405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[201405] = {
+equipId:201405,
+nextEquipId:201406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[202405] = {
+equipId:202405,
+nextEquipId:202406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[203405] = {
+equipId:203405,
+nextEquipId:203406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[204405] = {
+equipId:204405,
+nextEquipId:204406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[205405] = {
+equipId:205405,
+nextEquipId:205406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[206405] = {
+equipId:206405,
+nextEquipId:206406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[207405] = {
+equipId:207405,
+nextEquipId:207406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[208405] = {
+equipId:208405,
+nextEquipId:208406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[209405] = {
+equipId:209405,
+nextEquipId:209406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[210405] = {
+equipId:210405,
+nextEquipId:210406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[211405] = {
+equipId:211405,
+nextEquipId:211406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[212405] = {
+equipId:212405,
+nextEquipId:212406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[201406] = {
+equipId:201406,
+nextEquipId:201407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[202406] = {
+equipId:202406,
+nextEquipId:202407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[203406] = {
+equipId:203406,
+nextEquipId:203407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[204406] = {
+equipId:204406,
+nextEquipId:204407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[205406] = {
+equipId:205406,
+nextEquipId:205407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[206406] = {
+equipId:206406,
+nextEquipId:206407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[207406] = {
+equipId:207406,
+nextEquipId:207407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[208406] = {
+equipId:208406,
+nextEquipId:208407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[209406] = {
+equipId:209406,
+nextEquipId:209407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[210406] = {
+equipId:210406,
+nextEquipId:210407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[211406] = {
+equipId:211406,
+nextEquipId:211407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[212406] = {
+equipId:212406,
+nextEquipId:212407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[301404] = {
+equipId:301404,
+nextEquipId:301405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[302404] = {
+equipId:302404,
+nextEquipId:302405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[303404] = {
+equipId:303404,
+nextEquipId:303405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[304404] = {
+equipId:304404,
+nextEquipId:304405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[305404] = {
+equipId:305404,
+nextEquipId:305405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[306404] = {
+equipId:306404,
+nextEquipId:306405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[307404] = {
+equipId:307404,
+nextEquipId:307405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[308404] = {
+equipId:308404,
+nextEquipId:308405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[309404] = {
+equipId:309404,
+nextEquipId:309405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[310404] = {
+equipId:310404,
+nextEquipId:310405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[311404] = {
+equipId:311404,
+nextEquipId:311405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[312404] = {
+equipId:312404,
+nextEquipId:312405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[301405] = {
+equipId:301405,
+nextEquipId:301406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[302405] = {
+equipId:302405,
+nextEquipId:302406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[303405] = {
+equipId:303405,
+nextEquipId:303406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[304405] = {
+equipId:304405,
+nextEquipId:304406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[305405] = {
+equipId:305405,
+nextEquipId:305406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[306405] = {
+equipId:306405,
+nextEquipId:306406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[307405] = {
+equipId:307405,
+nextEquipId:307406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[308405] = {
+equipId:308405,
+nextEquipId:308406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[309405] = {
+equipId:309405,
+nextEquipId:309406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[310405] = {
+equipId:310405,
+nextEquipId:310406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[311405] = {
+equipId:311405,
+nextEquipId:311406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[312405] = {
+equipId:312405,
+nextEquipId:312406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[301406] = {
+equipId:301406,
+nextEquipId:301407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[302406] = {
+equipId:302406,
+nextEquipId:302407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[303406] = {
+equipId:303406,
+nextEquipId:303407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[304406] = {
+equipId:304406,
+nextEquipId:304407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[305406] = {
+equipId:305406,
+nextEquipId:305407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[306406] = {
+equipId:306406,
+nextEquipId:306407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[307406] = {
+equipId:307406,
+nextEquipId:307407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[308406] = {
+equipId:308406,
+nextEquipId:308407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[309406] = {
+equipId:309406,
+nextEquipId:309407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[310406] = {
+equipId:310406,
+nextEquipId:310407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[311406] = {
+equipId:311406,
+nextEquipId:311407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[312406] = {
+equipId:312406,
+nextEquipId:312407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[401404] = {
+equipId:401404,
+nextEquipId:401405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[402404] = {
+equipId:402404,
+nextEquipId:402405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[403404] = {
+equipId:403404,
+nextEquipId:403405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[404404] = {
+equipId:404404,
+nextEquipId:404405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[405404] = {
+equipId:405404,
+nextEquipId:405405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[406404] = {
+equipId:406404,
+nextEquipId:406405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[407404] = {
+equipId:407404,
+nextEquipId:407405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[408404] = {
+equipId:408404,
+nextEquipId:408405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[409404] = {
+equipId:409404,
+nextEquipId:409405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[410404] = {
+equipId:410404,
+nextEquipId:410405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[411404] = {
+equipId:411404,
+nextEquipId:411405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[412404] = {
+equipId:412404,
+nextEquipId:412405,
+silver:22.48,
+itemId:30024,
+itemCount:1,
+rate:64
+};
+EquipRankConfig[401405] = {
+equipId:401405,
+nextEquipId:401406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[402405] = {
+equipId:402405,
+nextEquipId:402406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[403405] = {
+equipId:403405,
+nextEquipId:403406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[404405] = {
+equipId:404405,
+nextEquipId:404406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[405405] = {
+equipId:405405,
+nextEquipId:405406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[406405] = {
+equipId:406405,
+nextEquipId:406406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[407405] = {
+equipId:407405,
+nextEquipId:407406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[408405] = {
+equipId:408405,
+nextEquipId:408406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[409405] = {
+equipId:409405,
+nextEquipId:409406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[410405] = {
+equipId:410405,
+nextEquipId:410406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[411405] = {
+equipId:411405,
+nextEquipId:411406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[412405] = {
+equipId:412405,
+nextEquipId:412406,
+silver:22.48,
+itemId:30030,
+itemCount:1,
+rate:12
+};
+EquipRankConfig[401406] = {
+equipId:401406,
+nextEquipId:401407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[402406] = {
+equipId:402406,
+nextEquipId:402407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[403406] = {
+equipId:403406,
+nextEquipId:403407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[404406] = {
+equipId:404406,
+nextEquipId:404407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[405406] = {
+equipId:405406,
+nextEquipId:405407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[406406] = {
+equipId:406406,
+nextEquipId:406407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[407406] = {
+equipId:407406,
+nextEquipId:407407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[408406] = {
+equipId:408406,
+nextEquipId:408407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[409406] = {
+equipId:409406,
+nextEquipId:409407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[410406] = {
+equipId:410406,
+nextEquipId:410407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[411406] = {
+equipId:411406,
+nextEquipId:411407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};
+EquipRankConfig[412406] = {
+equipId:412406,
+nextEquipId:412407,
+silver:22.48,
+itemId:30031,
+itemCount:1,
+rate:1
+};

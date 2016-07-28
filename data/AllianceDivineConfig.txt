@@ -1,0 +1,34 @@
+import flash.utils.Dictionary;
+var AllianceDivineConfig:Dictionary = new Dictionary();
+AllianceDivineConfig[1] = {
+id:1,
+propsId:120004
+};
+AllianceDivineConfig[2] = {
+id:2,
+propsId:30022
+};
+AllianceDivineConfig[3] = {
+id:3,
+propsId:120039
+};
+AllianceDivineConfig[4] = {
+id:4,
+propsId:120041
+};
+AllianceDivineConfig[5] = {
+id:5,
+propsId:30001
+};
+AllianceDivineConfig[6] = {
+id:6,
+propsId:50014
+};
+AllianceDivineConfig[7] = {
+id:7,
+propsId:30002
+};
+AllianceDivineConfig[8] = {
+id:8,
+propsId:70001
+};

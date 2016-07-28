@@ -1,0 +1,679 @@
+﻿import flash.utils.Dictionary;
+var DialogueConfig:Dictionary = new Dictionary();
+DialogueConfig[1] = {
+id:'1',
+dialogue:{up:"你看见我的慕容表哥了吗？",down:""},
+talk:'强韧的内力，能使武功更加强大。'
+};
+DialogueConfig[2] = {
+id:'2',
+dialogue:{up:"山不在高，有仙则名。水不在深，有龙则灵。",down:""},
+talk:'"Z"键会让你打怪升级更轻松！'
+};
+DialogueConfig[3] = {
+id:'3',
+dialogue:{up:"遥想当年灵鹫宫时，我们梅兰竹菊四姐妹所一起共度的时光……",down:""},
+talk:'点击"空格键"可以捡拾物品。'
+};
+DialogueConfig[4] = {
+id:'4',
+dialogue:{up:"在淅淅沥沥的雨声中，我仿佛做了一个梦。梦中有姥姥的身影，还有她那亲切的模样。",down:""},
+talk:'等级越高的坐骑，移动速度越快。'
+};
+DialogueConfig[5] = {
+id:'5',
+dialogue:{up:"待到秋来九月八，我花开后百花杀。冲天香阵透长安，满城尽带黄金甲。",down:""},
+talk:'VIP可以开启远程商店功能'
+};
+DialogueConfig[6] = {
+id:'6',
+dialogue:{up:"人这一生，就尤如一叶飘泊不定的孤舟，在波涛中摇荡，在迷茫中寻找终点。",down:""},
+talk:'点击数字键1~8可以使用武功。'
+};
+DialogueConfig[7] = {
+id:'7',
+dialogue:{up:"如果时光可以倒流，我多么希望能永远定格在与他相见的那一刻。",down:""},
+talk:'VIP可以开启远程仓库功能'
+};
+DialogueConfig[8] = {
+id:'8',
+dialogue:{up:"爱美之心人皆有之，但千万不要沉沦，不然会迷失在滚滚红尘之中。",down:""},
+talk:'骑上坐骑可以让你打怪,事半功倍。'
+};
+DialogueConfig[9] = {
+id:'9',
+dialogue:{up:"若说锻造其它武器，我承认不是牛大力的对手，但论及铸剑，我却是无人可及。",down:""},
+talk:'VIP可提升野外打怪的经验'
+};
+DialogueConfig[10] = {
+id:'10',
+dialogue:{up:"人生若如初见时…相逢未必有缘…",down:""},
+talk:'打坐可以增加真气'
+};
+DialogueConfig[11] = {
+id:'11',
+dialogue:{up:"无量玉壁上的武学真是博大精深，我闭关此地多年，还没悟透此壁上武学的真谛，唉……",down:""},
+talk:'打坐可以获得经验'
+};
+DialogueConfig[12] = {
+id:'12',
+dialogue:{up:"纵横天下又如何？到头来还不是孤独百年。",down:""},
+talk:'VIP可以开启远程商店功能'
+};
+DialogueConfig[13] = {
+id:'13',
+dialogue:{up:"修身，齐家，治国平天下！这是我一生的追求！",down:""},
+talk:'点击"P"键可以打开队伍面板。'
+};
+DialogueConfig[14] = {
+id:'14',
+dialogue:{up:"毒不死你也能阴死你，售卖各种武林秘籍。",down:""},
+talk:'点击"M"键可以打开当前地图。'
+};
+DialogueConfig[15] = {
+id:'15',
+dialogue:{up:"天下没有我保护不了的东西。",down:""},
+talk:'点击"F"键可以打开熔炼面板。'
+};
+DialogueConfig[16] = {
+id:'16',
+dialogue:{up:"听闻京城有一名会炼制起死回生药的奇士。",down:""},
+talk:'点击"G"键可以打开帮派面板。'
+};
+DialogueConfig[17] = {
+id:'17',
+dialogue:{up:"繁华落尽，到头来还剩下了什么？",down:""},
+talk:'点击"F"键可以打开熔炼面板。'
+};
+DialogueConfig[18] = {
+id:'18',
+dialogue:{up:"若论风流人物，段某自认第二，估计就没人敢认第一了。",down:""},
+talk:'点击"Ctrl+z"可以进入挂机设置。'
+};
+DialogueConfig[19] = {
+id:'19',
+dialogue:{up:"出门在外，装备的提升至关重要，唯有面面俱到才能打造出绝世战甲！",down:""},
+talk:'点击"J"键可以查看好友。'
+};
+DialogueConfig[20] = {
+id:'20',
+dialogue:{up:"若是没有钟灵这孩子，也许就没这我这身老骨头。",down:""},
+talk:'点击"P"键可以打开队伍面板。'
+};
+DialogueConfig[21] = {
+id:'21',
+dialogue:{up:"以彼之道，还施彼身。",down:""},
+talk:'点击"A"键可以打开家将面板。'
+};
+DialogueConfig[22] = {
+id:'22',
+dialogue:{up:"怨怨相报，何时方了？不如天下的罪业都归我罢！",down:""},
+talk:'点击"L"键可以打开任务面板。'
+};
+DialogueConfig[23] = {
+id:'23',
+dialogue:{up:"为何我的耳边徘徊着淳哥你的声音呢？是我在做梦吗？ ",down:""},
+talk:'点击"V"键可以打开武功面板。'
+};
+DialogueConfig[24] = {
+id:'24',
+dialogue:{up:"宝宝，你为何还惦记着那个人！",down:""},
+talk:'点击"H"键可以打开商城。'
+};
+DialogueConfig[25] = {
+id:'25',
+dialogue:{up:"在下褚万里平生别无他念，只愿永远追随王爷！",down:""},
+talk:'点击"N"键可以打开坐骑面板。'
+};
+DialogueConfig[26] = {
+id:'26',
+dialogue:{up:"适才我坐在岩石之后，诵读王昌龄诗集，他那首五绝‘仗剑行千里，微躯敢一言。曾为大梁客，不负信陵恩。’寥寥二十字中，倜傥慷慨，真乃令人倾倒。",down:""},
+talk:'点击"F"键可以打开熔炼面板。'
+};
+DialogueConfig[27] = {
+id:'27',
+dialogue:{up:"武林中的点穴功夫以大理段氏的一阳指为首。",down:""},
+talk:'药品能在危险时救你一命。'
+};
+DialogueConfig[28] = {
+id:'28',
+dialogue:{up:"大力金刚指，为少林七十二绝技之一，此功造诣精深时，出指可以碎金断石。",down:""},
+talk:'点击"A"键可以打开家将面板。'
+};
+DialogueConfig[29] = {
+id:'29',
+dialogue:{up:"那一声叹息如此好听，世上怎能有这样的声音",down:""},
+talk:'内力用完时，背包的药品会自动补充内力。'
+};
+DialogueConfig[30] = {
+id:'30',
+dialogue:{up:"哥哥，其实这是上天安排，你也不是真坏，你心里还是待我挺好的。",down:""},
+talk:'点击"N"键可以打开坐骑面板。'
+};
+DialogueConfig[31] = {
+id:'31',
+dialogue:{up:"你便有一千个、一万个女人，我还是依然如此爱你。",down:""},
+talk:'御剑山庄会爆出刷镖令牌。'
+};
+DialogueConfig[32] = {
+id:'32',
+dialogue:{up:"我不是大丈夫！我不要视死如归！我偏要示弱！",down:""},
+talk:'点击"V"键可以打开武功面板。'
+};
+DialogueConfig[33] = {
+id:'33',
+dialogue:{up:"菡萏香连十顷陂，小姑贪戏采莲迟。晚来弄水船头滩，笑脱红裙裹鸭儿。",down:""},
+talk:'修炼武功需要真气提升！'
+};
+DialogueConfig[34] = {
+id:'34',
+dialogue:{up:"众里寻他千百度，蓦然回首，那人却在灯火阑珊处。",down:""},
+talk:'点击"X"键可以快捷坐骑。'
+};
+DialogueConfig[35] = {
+id:'35',
+dialogue:{up:"昔日佳人，如今风光不在，而我家石相公，依旧对我不离不弃。",down:""},
+talk:'坐骑经验丹能让坐骑升级'
+};
+DialogueConfig[36] = {
+id:'36',
+dialogue:{up:"虽说我能随口道出各门武林绝学，但背诵这些绝学，还不就是为了他！",down:""},
+talk:'坐骑升满星级就能进化，属性也随之加成'
+};
+DialogueConfig[37] = {
+id:'37',
+dialogue:{up:"契丹人和汉人也没有什么贵贱之分，我喜欢做契丹人，是真心诚意的。",down:""},
+talk:'黄金VIP可以无限使用神行符。'
+};
+DialogueConfig[38] = {
+id:'38',
+dialogue:{up:"我最钦佩的人是我师父。",down:""},
+talk:'点击"D"键可以打开合成面板。'
+};
+DialogueConfig[39] = {
+id:'39',
+dialogue:{up:"韶华白首，不过转瞬罢了……",down:""},
+talk:'厉害的武功要有雄厚的内力支撑。'
+};
+DialogueConfig[40] = {
+id:'40',
+dialogue:{up:"小僧乃是吐蕃国国师。",down:""},
+talk:'点击"P"键可以打开组队面板。'
+};
+DialogueConfig[41] = {
+id:'41',
+dialogue:{up:"一介书生，身处乱世，如何才能保全性命？",down:""},
+talk:'武功升级需要大量真气。'
+};
+DialogueConfig[42] = {
+id:'42',
+dialogue:{up:"一剑出，剑芒冲天！",down:""},
+talk:'点击"B"键可以打开背包面板。'
+};
+DialogueConfig[43] = {
+id:'43',
+dialogue:{up:"俺就是一介武夫，日子能过一日就算一日，但坚决不做饿死鬼！",down:""},
+talk:'冲击经脉需要真气冲关！'
+};
+DialogueConfig[44] = {
+id:'44',
+dialogue:{up:"天若不公，我必破天！",down:""},
+talk:'点击"C"键可以打开角色面板。'
+};
+DialogueConfig[45] = {
+id:'45',
+dialogue:{up:"有勇气承担命运这才是英雄好汉！",down:""},
+talk:'真气丹能立刻恢复真气'
+};
+DialogueConfig[46] = {
+id:'46',
+dialogue:{up:"我乃是丐帮四大长老之一，你可以称我为老宋。",down:""},
+talk:'打坐能修炼真气'
+};
+DialogueConfig[47] = {
+id:'47',
+dialogue:{up:"我乃是丐帮四大长老之一，你可以称我为老陈。",down:""},
+talk:'闯关御剑山庄能得到真气丹。'
+};
+DialogueConfig[48] = {
+id:'48',
+dialogue:{up:"我乃是丐帮四大长老之一，你可以称我为老悉。",down:""},
+talk:'野外BOSS身上随机携带着真气丹！'
+};
+DialogueConfig[49] = {
+id:'49',
+dialogue:{up:"我乃是丐帮四大长老之一，你可以称我为老吴。",down:""},
+talk:'御剑山庄会爆出真气丹！'
+};
+DialogueConfig[50] = {
+id:'50',
+dialogue:{up:"芙蓉如面柳如眉，对此如何不泪垂？",down:""},
+talk:'闯关御剑山庄能得到真气丹。'
+};
+DialogueConfig[51] = {
+id:'51',
+dialogue:{up:"我一生心愿就是为师父灭了叛逆弟子丁春秋。",down:""},
+talk:'闯关御剑山庄能得到真气丹。'
+};
+DialogueConfig[52] = {
+id:'52',
+dialogue:{up:"我最钦佩的人是我师父。",down:""},
+talk:'记得善用身上的真气，来提升武功！'
+};
+DialogueConfig[53] = {
+id:'53',
+dialogue:{up:"师兄，我和沧海一样美丽，还比她更温柔，我不好么……",down:""},
+talk:'点击"B"键可以打开背包面板。'
+};
+DialogueConfig[54] = {
+id:'54',
+dialogue:{up:"虚竹我别无所求，只求能够与梦姑相见。",down:""},
+talk:'契合值能提升家将真传效果。'
+};
+DialogueConfig[55] = {
+id:'55',
+dialogue:{up:"红颜弹指老，刹那芳华。",down:""},
+talk:'洗练装备可以增强战斗力'
+};
+DialogueConfig[56] = {
+id:'56',
+dialogue:{up:"梦郎，我最想念的就是你……",down:""},
+talk:'提高修炼效率，记得使用打坐真气丹！'
+};
+DialogueConfig[57] = {
+id:'57',
+dialogue:{up:"相见时难别亦难，东风无力百花残。",down:""},
+talk:'记得善用身上的真气，来提升武功！'
+};
+DialogueConfig[58] = {
+id:'58',
+dialogue:{up:"身无彩凤双飞翼，心有灵犀一点通。",down:""},
+talk:'经脉所需真气较多，请善用真气。'
+};
+DialogueConfig[59] = {
+id:'59',
+dialogue:{up:"人面不知何处去，桃花依旧笑春风",down:""},
+talk:'强化装备，能提升角色攻击力。'
+};
+DialogueConfig[60] = {
+id:'60',
+dialogue:{up:"东边日出西边雨，道是无晴却有晴",down:""},
+talk:'复活丹是居家旅行的必备良药。'
+};
+DialogueConfig[61] = {
+id:'61',
+dialogue:{up:"千里良驹大多数耐力惊人，速度飞快，奔跑如行云流水，譬如白矾顺流。",down:""},
+talk:'洗练装备可以增强战斗力'
+};
+DialogueConfig[62] = {
+id:'62',
+dialogue:{up:"逍遥子前辈已臻化境，一生淡泊名利，不与世俗同流合污。论心境，当世无人可与之相比。",down:""},
+talk:'长生包能使你打怪无忧。'
+};
+DialogueConfig[63] = {
+id:'63',
+dialogue:{up:"哼！就你这怂样！真不知道逍遥子怎么会看中你？",down:""},
+talk:'复活丹是居家旅行的必备良药。'
+};
+DialogueConfig[64] = {
+id:'64',
+dialogue:{up:"唉，我虽为逍遥子的弟子，可谈及实力却是给他老人家丢脸了……你可千万不要步我后尘，还是潜心修习武艺才是上上之策。",down:""},
+talk:'起死回生不是只有十字架，还有复活丹。'
+};
+DialogueConfig[65] = {
+id:'65',
+dialogue:{up:"我师尊逍遥子就在后面，看你年纪轻轻，筋骨奇佳，难不成你就是我师尊要找的人？",down:""},
+talk:'试练任务多磨难，记得组队哦！'
+};
+DialogueConfig[66] = {
+id:'66',
+dialogue:{up:"常言道，一日不作，百日不食。今天你完成日常任务了吗？",down:""},
+talk:'请记住哦！组队闯关会得到更多经验！'
+};
+DialogueConfig[67] = {
+id:'67',
+dialogue:{up:"以后所有关于阵营的事情，你都可以随时找我，我会发放一切阵营任务给你。",down:""},
+talk:'角色系统的快捷键是C。'
+};
+DialogueConfig[68] = {
+id:'68',
+dialogue:{up:"不知何时起，酒店生意就成了我毕生的追求！",down:""},
+talk:'闭关能获得海量经验，请记得领取！'
+};
+DialogueConfig[69] = {
+id:'69',
+dialogue:{up:"出门在外，危险重重，一件好的装备能够守护着你的安全！",down:""},
+talk:'骑乘系统的快捷键是X。'
+};
+DialogueConfig[70] = {
+id:'70',
+dialogue:{up:"少侠，你买饰品吗？",down:""},
+talk:'特别的名将拥有与别不同的名将技。'
+};
+DialogueConfig[71] = {
+id:'71',
+dialogue:{up:"朽木可雕，何况玉石？",down:""},
+talk:'任务系统的快捷键是L。'
+};
+DialogueConfig[72] = {
+id:'72',
+dialogue:{up:"拥有一把称手的武器至关重要，当别人还未触及到你的时候，你已经一击必杀，这是何等厉害？",down:""},
+talk:'经脉铜人能提升冲穴时的成功率。'
+};
+DialogueConfig[73] = {
+id:'73',
+dialogue:{up:"最近武林又要动乱了……",down:""},
+talk:'合成系统的快捷键是D。'
+};
+DialogueConfig[74] = {
+id:'74',
+dialogue:{up:"卖杂货的，看看是否有你需要的？",down:""},
+talk:'想肉身强劲就要多收集肉身丹。'
+};
+DialogueConfig[75] = {
+id:'75',
+dialogue:{up:"少侠，看你这阵势，莫非是想建立帮派？",down:""},
+talk:'包囊系统的快捷键是B。'
+};
+DialogueConfig[76] = {
+id:'76',
+dialogue:{up:"押镖任务乃是升级不可或缺的一环，加入我们吧！",down:""},
+talk:'背包容量不足，请记得使用扩展符。'
+};
+DialogueConfig[77] = {
+id:'77',
+dialogue:{up:"想进副本历练吗？",down:""},
+talk:'好友系统的快捷键是J。'
+};
+DialogueConfig[78] = {
+id:'78',
+dialogue:{up:"暂未开放，敬请期待！",down:""},
+talk:'向世界证明你的存在，请使用小喇叭。'
+};
+DialogueConfig[79] = {
+id:'79',
+dialogue:{up:"当你完成了整个副本，就找我提交任务吧！",down:""},
+talk:'挂机系统的快捷键是Z。'
+};
+DialogueConfig[80] = {
+id:'80',
+dialogue:{up:"武林大会正在进行中，天下高手都出现了，不知何人能夺得天下第一？",down:""},
+talk:'想肉身强劲就要多收集肉身丹。'
+};
+DialogueConfig[81] = {
+id:'81',
+dialogue:{up:"人生在世，韶华白首，何苦天天板着脸？笑一笑，十年少！",down:""},
+talk:'坐骑系统的快捷键是N。'
+};
+DialogueConfig[82] = {
+id:'82',
+dialogue:{up:"远方的故人啊，你何时才会出现？山无棱，天地合，乃敢与君绝！",down:""},
+talk:'武器的星级在于你使用了多少强化符。'
+};
+DialogueConfig[83] = {
+id:'83',
+dialogue:{up:"父亲一死，辽国再无人扛起重任，我该何去何从？",down:""},
+talk:'技能系统的快捷键是V。'
+};
+DialogueConfig[84] = {
+id:'84',
+dialogue:{up:"泥菩萨过河，自身都难保。",down:""},
+talk:'每天最多有20个日环任务任你完成。'
+};
+DialogueConfig[85] = {
+id:'85',
+dialogue:{up:"哎呦，好痛！这些叛军真是粗鲁的家伙，一点儿也不懂得怜香惜玉……",down:""},
+talk:'家将系统的快捷键是A。'
+};
+DialogueConfig[86] = {
+id:'86',
+dialogue:{up:"和平不分国界，君主死去后，但愿有人能站出来，力扛九鼎，不负重任！",down:""},
+talk:'扩展符能扩大背包容量。'
+};
+DialogueConfig[87] = {
+id:'87',
+dialogue:{up:"侠义之心，肝胆相照！",down:""},
+talk:'熔炼系统的快捷键是F。'
+};
+DialogueConfig[88] = {
+id:'88',
+dialogue:{up:"白雪凝琼貌，明珠点绛唇",down:""},
+talk:'名将技不是每位家将都拥有。'
+};
+DialogueConfig[89] = {
+id:'89',
+dialogue:{up:"护住族人的周全，便是我要做的事情。",down:""},
+talk:'帮派系统的快捷键是G。'
+};
+DialogueConfig[90] = {
+id:'90',
+dialogue:{up:"兴，百姓苦！亡，百姓苦！",down:""},
+talk:'长生包能让你事半功倍地打副本。'
+};
+DialogueConfig[91] = {
+id:'91',
+dialogue:{up:"啊！都死了……许多人都死了……",down:""},
+talk:'完成越多的试练任务，得到的经验越多。'
+};
+DialogueConfig[92] = {
+id:'92',
+dialogue:{up:"真不知道这些人为了什么而挣扎着，一盘散沙，真的敌得过邪教吗？",down:""},
+talk:'每天最多有20个日环任务任你完成。'
+};
+DialogueConfig[93] = {
+id:'93',
+dialogue:{up:"好大，好大的黑影，充斥着令人窒息的杀气。",down:""},
+talk:'商城系统的快捷键是H。'
+};
+DialogueConfig[94] = {
+id:'94',
+dialogue:{up:"如今天下大乱，邪教出世，我也要像师父一样，尽自己的一份力量。",down:""},
+talk:'押镖的过程中，请小心敌方玩家。'
+};
+DialogueConfig[95] = {
+id:'95',
+dialogue:{up:"人生无常，有舍有得，磨练自己，先苦后甜。",down:""},
+talk:'丰富的真气丹在日环任务里等着你来。'
+};
+DialogueConfig[96] = {
+id:'96',
+dialogue:{up:"一剑破万法，天下我有！",down:""},
+talk:'日环任务的经验，特别好丰富。'
+};
+DialogueConfig[97] = {
+id:'97',
+dialogue:{up:"纵然手无缚鸡之力，但能做多少便做多少，尽自己的一份力量。",down:""},
+talk:'地图系统的快捷键是N。'
+};
+DialogueConfig[98] = {
+id:'98',
+dialogue:{up:"家破国亡，一日不灭邪教，儿女之情亦难长。",down:""},
+talk:'30级到了吗？还不快点去接日环任务。'
+};
+DialogueConfig[99] = {
+id:'99',
+dialogue:{up:"血，流淌出界限；泪，灼烧了双眼。",down:""},
+talk:'完成押镖任务，可获得千万经验。'
+};
+DialogueConfig[100] = {
+id:'100',
+dialogue:{up:"嘿嘿嘿，虽然我人蠢了点儿，但有一点是永不改变的。一个是保护好小姐的周全，另一个则是保护我妹妹。",down:""},
+talk:'打坐系统的快捷键是O。'
+};
+DialogueConfig[101] = {
+id:'101',
+dialogue:{up:"譬若王侨之乘云兮，载亦霄而凌太清。",down:""},
+talk:'35级可领取押镖任务。'
+};
+DialogueConfig[102] = {
+id:'102',
+dialogue:{up:"在我的清眸中，只有家人才是最重要，最令人温馨的记忆。",down:""},
+talk:'星宿密穴会爆出稀有的紫色装备。'
+};
+DialogueConfig[103] = {
+id:'103',
+dialogue:{up:"我是灰鹰，你好喔。",down:""},
+talk:'强化装备的道具可在通天塔里获取。'
+};
+DialogueConfig[104] = {
+id:'104',
+dialogue:{up:"侠义之心，肝胆相照！",down:""},
+talk:'队伍系统的快捷键是P。'
+};
+DialogueConfig[105] = {
+id:'105',
+dialogue:{up:"雁过无痕，叶落无声。",down:""},
+talk:'完成固定次数的日环，会得到不少额外经验。'
+};
+DialogueConfig[106] = {
+id:'106',
+dialogue:{up:"电火石光，一步十杀。",down:""},
+talk:'历练值能提升家将等级。'
+};
+DialogueConfig[107] = {
+id:'107',
+dialogue:{up:"商货都被洗劫一空，从此以后将要一无所有了。",down:""},
+talk:'历练家将，让他成为你的后盾。'
+};
+DialogueConfig[108] = {
+id:'108',
+dialogue:{up:"我虽为一介女流，却也梦想着有朝一日能像男儿一般，征战沙场，斩杀四方。",down:""},
+talk:'金钱帮,是你发家致富的第一步。'
+};
+DialogueConfig[109] = {
+id:'109',
+dialogue:{up:"最近西域不太平了，我的铁龙爪也是时候该沾染鲜血了。",down:""},
+talk:'聚贤庄有大量经验提供给玩家。'
+};
+DialogueConfig[110] = {
+id:'110',
+dialogue:{up:"江湖恩怨，离不开一个情字，想要解决恩怨，唯有一字可行。战！",down:""},
+talk:'刀剑谷传送员会把你送入刀剑谷。'
+};
+DialogueConfig[111] = {
+id:'111',
+dialogue:{up:"如果时间可以倒流，我希望从小练武，成为盖世英雄！",down:""},
+talk:'完成试练任务，可得到藏宝图。'
+};
+DialogueConfig[112] = {
+id:'112',
+dialogue:{up:"明明很想把最后一句话说出去，奈何……",down:""},
+talk:'家将20级可以进行真传。'
+};
+DialogueConfig[113] = {
+id:'113',
+dialogue:{up:"千夫长，不仅仅是一个名称，这个字的背后担负着数千弟兄的性命！",down:""},
+talk:'遣散家将可以获得丰富的历练值。'
+};
+DialogueConfig[114] = {
+id:'114',
+dialogue:{up:"我虽也为千夫长，可论起实力，却是远逊于陈震。他是我一生的对手。",down:""},
+talk:'家将传功可以继承资质。'
+};
+DialogueConfig[115] = {
+id:'115',
+dialogue:{up:"将邪教击退，赶出西域，这是我们每一个人的使命。",down:""},
+talk:'家将修炼可以获得家将经验值。'
+};
+DialogueConfig[116] = {
+id:'116',
+dialogue:{up:"不知下一个花开，又在何时？",down:""},
+talk:'提升家将契合度可以提升家将的真传效果。'
+};
+DialogueConfig[117] = {
+id:'117',
+dialogue:{up:"任你功夫再高，最终也逃不过一抷黄土的命运。",down:""}
+};
+DialogueConfig[118] = {
+id:'118',
+dialogue:{up:"一具脆弱不堪的枯骨，轻轻一碰都有可能不复存在。",down:""}
+};
+DialogueConfig[119] = {
+id:'119',
+dialogue:{up:"侍卫的职责便是保护酋长，我会至死不渝做好的！",down:""}
+};
+DialogueConfig[120] = {
+id:'120',
+dialogue:{up:"酋长日夜操劳，由我负责她的起居。",down:""}
+};
+DialogueConfig[121] = {
+id:'121',
+dialogue:{up:"外面天下大乱，这日子真是越来越不好过了……",down:""}
+};
+DialogueConfig[122] = {
+id:'122',
+dialogue:{up:"你问我从哪里来，我从辽国而来。",down:""}
+};
+DialogueConfig[123] = {
+id:'123',
+dialogue:{up:"千万不能忽视了家将的作用，也许当你背水一战的时候，只有家将会救你性命。",down:""}
+};
+DialogueConfig[124] = {
+id:'124',
+dialogue:{up:"凝眸相望生情愫，千娇百媚玉玲珑。",down:""}
+};
+DialogueConfig[125] = {
+id:'125',
+dialogue:{up:"救济百姓是每一个侠义之士的己任！",down:""}
+};
+DialogueConfig[126] = {
+id:'126',
+dialogue:{up:"哈哈哈哈，一帮小贼，拿着赝品也想来糊弄我，给爷回去深造个一百年才来吧！",down:""}
+};
+DialogueConfig[127] = {
+id:'127',
+dialogue:{up:"你的实力这般弱，也想骑我？做梦去吧！本大爷只当大侠的坐骑！",down:""}
+};
+DialogueConfig[128] = {
+id:'128',
+dialogue:{up:"嘶---",down:""}
+};
+DialogueConfig[129] = {
+id:'129',
+dialogue:{up:"少侠， 福运 活动期间进行押镖可提升押镖后获得的经验。豪杰阵营的大侠，每周二、四、六晚上20：30~21：30进行福运活动。侠客阵营的大侠，每周一、三、五晚上20：30~21：30进行福运活动。",down:""},
+talk:'镖头航'
+};
+DialogueConfig[130] = {
+id:'130',
+dialogue:{up:"大侠，根据情报每晚19:00~20:00都会有10波蒙古大军通过天山雪原的不同地点企图入侵，请大侠今晚务必及时来此抗击蒙古大军，粉碎他们的阴谋！击杀蒙古军将可获得丰厚的经验奖励。",down:""},
+talk:'乔峰'
+};
+DialogueConfig[131] = {
+id:'131',
+dialogue:{up:"大侠，您达到30级时，每天无限时可以组队进入1次净影寺，队伍最少达到3人时才可以进入。传说净影寺中以前是一个矿洞，藏有丰富的宝石。",down:""},
+talk:'净影寺组队副本'
+};
+DialogueConfig[132] = {
+id:'132',
+dialogue:{up:"少侠，您达到40级时，每天15：00~18：00，21：00~24：00可以组队进入擂鼓山，队伍最少达到3人时才可以进入。每天有1次进入机会。擂鼓山中有藏有稀世珍宝，机不可失。",down:""},
+talk:'擂鼓山组队副本'
+};
+DialogueConfig[133] = {
+id:'133',
+dialogue:{up:"少侠，您达到50级时，每天15：00~18：00，21：00~24：00可以组队进入一品堂，队伍最少达到3人时才可以进入。每天有1次进入机会。擂鼓山中有藏有稀世珍宝，机不可失。",down:""},
+talk:'一品堂组队副本'
+};
+DialogueConfig[134] = {
+id:'134',
+dialogue:{up:"少侠，您达到60级时，每天15：00~18：00，21：00~24：00可以组队进入飘渺山，队伍最少达到3人时才可以进入。每天有1次进入机会。擂鼓山中有藏有稀世珍宝，机不可失。",down:""},
+talk:'飘渺山组队副本'
+};
+DialogueConfig[135] = {
+id:'135',
+dialogue:{up:"少侠，豪杰阵营的大侠，每周二、四、六晚上20：30~21：30进行福运活动。福运活动期间进行押镖可提升押镖后获得的经验。",down:""},
+talk:'豪杰驿站对白'
+};
+DialogueConfig[136] = {
+id:'136',
+dialogue:{up:"少侠，侠客阵营的大侠，每周一、三、五晚上20：30~21：30进行福运活动。福运活动期间进行押镖可提升押镖后获得的经验。",down:""},
+talk:'侠客驿站对白'
+};
+DialogueConfig[136] = {
+id:'136',
+dialogue:{up:"少侠，侠客阵营的大侠，每周一、三、五晚上20：30~21：30进行福运活动。福运活动期间进行押镖可提升押镖后获得的经验。",down:""},
+talk:'GM对白'
+};
+DialogueConfig[137] = {
+id:'137',
+dialogue:{up:"亲爱的玩家，欢迎来到这里。希望您能玩的开心！发现BUG联系QQ:734893992.",down:""}
+};

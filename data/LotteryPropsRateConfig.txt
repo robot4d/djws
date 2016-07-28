@@ -1,0 +1,1721 @@
+import flash.utils.Dictionary;
+var LotteryPropsRateConfig:Dictionary = new Dictionary();
+LotteryPropsRateConfig[1] = {
+id:1,
+props:'0_110007',
+count:1,
+bangding:false,
+propsRollId:1001,
+rate:334,
+fullRate:1000
+};
+LotteryPropsRateConfig[2] = {
+id:2,
+props:'0_110003',
+count:1,
+bangding:false,
+propsRollId:1001,
+rate:333,
+fullRate:1000
+};
+LotteryPropsRateConfig[3] = {
+id:3,
+props:'0_110004',
+count:1,
+bangding:false,
+propsRollId:1001,
+rate:333,
+fullRate:1000
+};
+LotteryPropsRateConfig[4] = {
+id:4,
+props:'0_20101',
+count:1,
+bangding:false,
+propsRollId:1002,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[5] = {
+id:5,
+props:'0_20301',
+count:1,
+bangding:false,
+propsRollId:1002,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[6] = {
+id:6,
+props:'0_20501',
+count:1,
+bangding:false,
+propsRollId:1002,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[7] = {
+id:7,
+props:'0_20701',
+count:1,
+bangding:false,
+propsRollId:1002,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[8] = {
+id:8,
+props:'0_20901',
+count:1,
+bangding:false,
+propsRollId:1002,
+rate:140,
+fullRate:1000
+};
+LotteryPropsRateConfig[9] = {
+id:9,
+props:'0_21001',
+count:1,
+bangding:false,
+propsRollId:1002,
+rate:140,
+fullRate:1000
+};
+LotteryPropsRateConfig[10] = {
+id:10,
+props:'0_30001',
+count:1,
+bangding:false,
+propsRollId:1003,
+rate:400,
+fullRate:1000
+};
+LotteryPropsRateConfig[11] = {
+id:11,
+props:'0_30002',
+count:1,
+bangding:false,
+propsRollId:1003,
+rate:600,
+fullRate:1000
+};
+LotteryPropsRateConfig[12] = {
+id:12,
+props:'0_120042',
+count:1,
+bangding:false,
+propsRollId:1004,
+rate:1000,
+fullRate:1000
+};
+LotteryPropsRateConfig[13] = {
+id:13,
+props:'0_80008',
+count:1,
+bangding:false,
+propsRollId:1005,
+rate:1000,
+fullRate:1000
+};
+LotteryPropsRateConfig[14] = {
+id:14,
+props:'0_110001',
+count:1,
+bangding:false,
+propsRollId:1006,
+rate:1000,
+fullRate:1000
+};
+LotteryPropsRateConfig[15] = {
+id:15,
+props:'0_20201',
+count:1,
+bangding:false,
+propsRollId:1007,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[16] = {
+id:16,
+props:'0_20401',
+count:1,
+bangding:false,
+propsRollId:1007,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[17] = {
+id:17,
+props:'0_20501',
+count:1,
+bangding:false,
+propsRollId:1007,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[18] = {
+id:18,
+props:'0_20801',
+count:1,
+bangding:false,
+propsRollId:1007,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[19] = {
+id:19,
+props:'0_20901',
+count:1,
+bangding:false,
+propsRollId:1007,
+rate:140,
+fullRate:1000
+};
+LotteryPropsRateConfig[20] = {
+id:20,
+props:'0_21001',
+count:1,
+bangding:false,
+propsRollId:1007,
+rate:140,
+fullRate:1000
+};
+LotteryPropsRateConfig[21] = {
+id:21,
+props:'0_30002',
+count:1,
+bangding:false,
+propsRollId:1008,
+rate:300,
+fullRate:1000
+};
+LotteryPropsRateConfig[22] = {
+id:22,
+props:'0_30003',
+count:1,
+bangding:false,
+propsRollId:1008,
+rate:400,
+fullRate:1000
+};
+LotteryPropsRateConfig[23] = {
+id:23,
+props:'0_30004',
+count:1,
+bangding:false,
+propsRollId:1008,
+rate:300,
+fullRate:1000
+};
+LotteryPropsRateConfig[24] = {
+id:24,
+props:'0_80011',
+count:1,
+bangding:false,
+propsRollId:1009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[25] = {
+id:25,
+props:'0_80012',
+count:1,
+bangding:false,
+propsRollId:1009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[26] = {
+id:26,
+props:'0_80013',
+count:1,
+bangding:false,
+propsRollId:1009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[27] = {
+id:27,
+props:'0_80014',
+count:1,
+bangding:false,
+propsRollId:1009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[28] = {
+id:28,
+props:'0_80015',
+count:1,
+bangding:false,
+propsRollId:1009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[29] = {
+id:29,
+props:'0_80016',
+count:1,
+bangding:false,
+propsRollId:1009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[30] = {
+id:30,
+props:'0_80017',
+count:1,
+bangding:false,
+propsRollId:1009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[31] = {
+id:31,
+props:'0_80018',
+count:1,
+bangding:false,
+propsRollId:1009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[32] = {
+id:32,
+props:'0_30016',
+count:1,
+bangding:false,
+propsRollId:1010,
+rate:1000,
+fullRate:1000
+};
+LotteryPropsRateConfig[33] = {
+id:33,
+props:'0_120000',
+count:1,
+bangding:false,
+propsRollId:1011,
+rate:1000,
+fullRate:1000
+};
+LotteryPropsRateConfig[34] = {
+id:34,
+props:'1_101405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:20,
+fullRate:1000
+};
+LotteryPropsRateConfig[35] = {
+id:35,
+props:'1_102405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[36] = {
+id:36,
+props:'1_103405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[37] = {
+id:37,
+props:'1_104405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[38] = {
+id:38,
+props:'1_105405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[39] = {
+id:39,
+props:'1_106405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[40] = {
+id:40,
+props:'1_107405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[41] = {
+id:41,
+props:'1_108405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[42] = {
+id:42,
+props:'1_109405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[43] = {
+id:43,
+props:'1_110405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[44] = {
+id:44,
+props:'1_111405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[45] = {
+id:45,
+props:'1_112405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:20,
+fullRate:1000
+};
+LotteryPropsRateConfig[46] = {
+id:46,
+props:'1_201405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:20,
+fullRate:1000
+};
+LotteryPropsRateConfig[47] = {
+id:47,
+props:'1_202405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[48] = {
+id:48,
+props:'1_203405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[49] = {
+id:49,
+props:'1_204405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[50] = {
+id:50,
+props:'1_205405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[51] = {
+id:51,
+props:'1_206405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[52] = {
+id:52,
+props:'1_207405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[53] = {
+id:53,
+props:'1_208405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[54] = {
+id:54,
+props:'1_209405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[55] = {
+id:55,
+props:'1_210405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[56] = {
+id:56,
+props:'1_211405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[57] = {
+id:57,
+props:'1_212405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:20,
+fullRate:1000
+};
+LotteryPropsRateConfig[58] = {
+id:58,
+props:'1_301405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:20,
+fullRate:1000
+};
+LotteryPropsRateConfig[59] = {
+id:59,
+props:'1_302405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[60] = {
+id:60,
+props:'1_303405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[61] = {
+id:61,
+props:'1_304405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[62] = {
+id:62,
+props:'1_305405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[63] = {
+id:63,
+props:'1_306405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[64] = {
+id:64,
+props:'1_307405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[65] = {
+id:65,
+props:'1_308405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[66] = {
+id:66,
+props:'1_309405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[67] = {
+id:67,
+props:'1_310405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[68] = {
+id:68,
+props:'1_311405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[69] = {
+id:69,
+props:'1_312405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:20,
+fullRate:1000
+};
+LotteryPropsRateConfig[70] = {
+id:70,
+props:'1_401405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:20,
+fullRate:1000
+};
+LotteryPropsRateConfig[71] = {
+id:71,
+props:'1_402405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[72] = {
+id:72,
+props:'1_403405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[73] = {
+id:73,
+props:'1_404405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[74] = {
+id:74,
+props:'1_405405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[75] = {
+id:75,
+props:'1_406405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[76] = {
+id:76,
+props:'1_407405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[77] = {
+id:77,
+props:'1_408405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[78] = {
+id:78,
+props:'1_409405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[79] = {
+id:79,
+props:'1_410405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[80] = {
+id:80,
+props:'1_411405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[81] = {
+id:81,
+props:'1_412405',
+count:1,
+bangding:false,
+propsRollId:2001,
+rate:20,
+fullRate:1000
+};
+LotteryPropsRateConfig[82] = {
+id:82,
+props:'0_30013',
+count:1,
+bangding:false,
+propsRollId:2002,
+rate:1000,
+fullRate:1000
+};
+LotteryPropsRateConfig[83] = {
+id:83,
+props:'0_20102',
+count:1,
+bangding:false,
+propsRollId:2003,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[84] = {
+id:84,
+props:'0_20302',
+count:1,
+bangding:false,
+propsRollId:2003,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[85] = {
+id:85,
+props:'0_20502',
+count:1,
+bangding:false,
+propsRollId:2003,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[86] = {
+id:86,
+props:'0_20702',
+count:1,
+bangding:false,
+propsRollId:2003,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[87] = {
+id:87,
+props:'0_20902',
+count:1,
+bangding:false,
+propsRollId:2003,
+rate:140,
+fullRate:1000
+};
+LotteryPropsRateConfig[88] = {
+id:88,
+props:'0_21002',
+count:1,
+bangding:false,
+propsRollId:2003,
+rate:140,
+fullRate:1000
+};
+LotteryPropsRateConfig[89] = {
+id:89,
+props:'0_30002',
+count:1,
+bangding:false,
+propsRollId:2004,
+rate:200,
+fullRate:1000
+};
+LotteryPropsRateConfig[90] = {
+id:90,
+props:'0_30003',
+count:1,
+bangding:false,
+propsRollId:2004,
+rate:300,
+fullRate:1000
+};
+LotteryPropsRateConfig[91] = {
+id:91,
+props:'0_30004',
+count:1,
+bangding:false,
+propsRollId:2004,
+rate:400,
+fullRate:1000
+};
+LotteryPropsRateConfig[92] = {
+id:92,
+props:'0_30005',
+count:1,
+bangding:false,
+propsRollId:2004,
+rate:100,
+fullRate:1000
+};
+LotteryPropsRateConfig[93] = {
+id:93,
+props:'0_120042',
+count:3,
+bangding:false,
+propsRollId:2005,
+rate:1000,
+fullRate:1000
+};
+LotteryPropsRateConfig[94] = {
+id:94,
+props:'0_80010',
+count:1,
+bangding:false,
+propsRollId:2006,
+rate:1000,
+fullRate:1000
+};
+LotteryPropsRateConfig[95] = {
+id:95,
+props:'0_140002',
+count:1,
+bangding:false,
+propsRollId:2007,
+rate:1000,
+fullRate:1000
+};
+LotteryPropsRateConfig[96] = {
+id:96,
+props:'0_20202',
+count:1,
+bangding:false,
+propsRollId:2008,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[97] = {
+id:97,
+props:'0_20402',
+count:1,
+bangding:false,
+propsRollId:2008,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[98] = {
+id:98,
+props:'0_20502',
+count:1,
+bangding:false,
+propsRollId:2008,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[99] = {
+id:99,
+props:'0_20802',
+count:1,
+bangding:false,
+propsRollId:2008,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[100] = {
+id:100,
+props:'0_20902',
+count:1,
+bangding:false,
+propsRollId:2008,
+rate:140,
+fullRate:1000
+};
+LotteryPropsRateConfig[101] = {
+id:101,
+props:'0_21002',
+count:1,
+bangding:false,
+propsRollId:2008,
+rate:140,
+fullRate:1000
+};
+LotteryPropsRateConfig[102] = {
+id:102,
+props:'0_80011',
+count:3,
+bangding:false,
+propsRollId:2009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[103] = {
+id:103,
+props:'0_80012',
+count:3,
+bangding:false,
+propsRollId:2009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[104] = {
+id:104,
+props:'0_80013',
+count:3,
+bangding:false,
+propsRollId:2009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[105] = {
+id:105,
+props:'0_80014',
+count:3,
+bangding:false,
+propsRollId:2009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[106] = {
+id:106,
+props:'0_80015',
+count:3,
+bangding:false,
+propsRollId:2009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[107] = {
+id:107,
+props:'0_80016',
+count:3,
+bangding:false,
+propsRollId:2009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[108] = {
+id:108,
+props:'0_80017',
+count:3,
+bangding:false,
+propsRollId:2009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[109] = {
+id:109,
+props:'0_80018',
+count:3,
+bangding:false,
+propsRollId:2009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[110] = {
+id:110,
+props:'0_30015',
+count:1,
+bangding:false,
+propsRollId:2010,
+rate:1000,
+fullRate:1000
+};
+LotteryPropsRateConfig[111] = {
+id:111,
+props:'0_120002',
+count:1,
+bangding:false,
+propsRollId:2011,
+rate:1000,
+fullRate:1000
+};
+LotteryPropsRateConfig[113] = {
+id:113,
+props:'1_101406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:20,
+fullRate:1000
+};
+LotteryPropsRateConfig[114] = {
+id:114,
+props:'1_102406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[115] = {
+id:115,
+props:'1_103406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[116] = {
+id:116,
+props:'1_104406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[117] = {
+id:117,
+props:'1_105406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[118] = {
+id:118,
+props:'1_106406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[119] = {
+id:119,
+props:'1_107406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[120] = {
+id:120,
+props:'1_108406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[121] = {
+id:121,
+props:'1_109406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[122] = {
+id:122,
+props:'1_110406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[123] = {
+id:123,
+props:'1_111406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[124] = {
+id:124,
+props:'1_112406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:20,
+fullRate:1000
+};
+LotteryPropsRateConfig[125] = {
+id:125,
+props:'1_201406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:20,
+fullRate:1000
+};
+LotteryPropsRateConfig[126] = {
+id:126,
+props:'1_202406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[127] = {
+id:127,
+props:'1_203406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[128] = {
+id:128,
+props:'1_204406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[129] = {
+id:129,
+props:'1_205406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[130] = {
+id:130,
+props:'1_206406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[131] = {
+id:131,
+props:'1_207406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[132] = {
+id:132,
+props:'1_208406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[133] = {
+id:133,
+props:'1_209406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[134] = {
+id:134,
+props:'1_210406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[135] = {
+id:135,
+props:'1_211406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[136] = {
+id:136,
+props:'1_212406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:20,
+fullRate:1000
+};
+LotteryPropsRateConfig[137] = {
+id:137,
+props:'1_301406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:20,
+fullRate:1000
+};
+LotteryPropsRateConfig[138] = {
+id:138,
+props:'1_302406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[139] = {
+id:139,
+props:'1_303406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[140] = {
+id:140,
+props:'1_304406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[141] = {
+id:141,
+props:'1_305406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[142] = {
+id:142,
+props:'1_306406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[143] = {
+id:143,
+props:'1_307406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[144] = {
+id:144,
+props:'1_308406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[145] = {
+id:145,
+props:'1_309406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[146] = {
+id:146,
+props:'1_310406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[147] = {
+id:147,
+props:'1_311406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[148] = {
+id:148,
+props:'1_312406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:20,
+fullRate:1000
+};
+LotteryPropsRateConfig[149] = {
+id:149,
+props:'1_401406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:20,
+fullRate:1000
+};
+LotteryPropsRateConfig[150] = {
+id:150,
+props:'1_402406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[151] = {
+id:151,
+props:'1_403406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[152] = {
+id:152,
+props:'1_404406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[153] = {
+id:153,
+props:'1_405406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[154] = {
+id:154,
+props:'1_406406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[155] = {
+id:155,
+props:'1_407406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[156] = {
+id:156,
+props:'1_408406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[157] = {
+id:157,
+props:'1_409406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[158] = {
+id:158,
+props:'1_410406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[159] = {
+id:159,
+props:'1_411406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:21,
+fullRate:1000
+};
+LotteryPropsRateConfig[160] = {
+id:160,
+props:'1_412406',
+count:1,
+bangding:false,
+propsRollId:3001,
+rate:20,
+fullRate:1000
+};
+LotteryPropsRateConfig[112] = {
+id:112,
+props:'0_30013',
+count:1,
+bangding:false,
+propsRollId:3002,
+rate:1000,
+fullRate:1000
+};
+LotteryPropsRateConfig[161] = {
+id:161,
+props:'0_20103',
+count:1,
+bangding:false,
+propsRollId:3003,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[162] = {
+id:162,
+props:'0_20303',
+count:1,
+bangding:false,
+propsRollId:3003,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[163] = {
+id:163,
+props:'0_20503',
+count:1,
+bangding:false,
+propsRollId:3003,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[164] = {
+id:164,
+props:'0_20703',
+count:1,
+bangding:false,
+propsRollId:3003,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[165] = {
+id:165,
+props:'0_20903',
+count:1,
+bangding:false,
+propsRollId:3003,
+rate:140,
+fullRate:1000
+};
+LotteryPropsRateConfig[166] = {
+id:166,
+props:'0_21003',
+count:1,
+bangding:false,
+propsRollId:3003,
+rate:140,
+fullRate:1000
+};
+LotteryPropsRateConfig[173] = {
+id:173,
+props:'0_30003',
+count:1,
+bangding:false,
+propsRollId:3004,
+rate:300,
+fullRate:1000
+};
+LotteryPropsRateConfig[174] = {
+id:174,
+props:'0_30004',
+count:1,
+bangding:false,
+propsRollId:3004,
+rate:300,
+fullRate:1000
+};
+LotteryPropsRateConfig[175] = {
+id:175,
+props:'0_30005',
+count:1,
+bangding:false,
+propsRollId:3004,
+rate:400,
+fullRate:1000
+};
+LotteryPropsRateConfig[176] = {
+id:176,
+props:'0_120042',
+count:5,
+bangding:false,
+propsRollId:3005,
+rate:1000,
+fullRate:1000
+};
+LotteryPropsRateConfig[188] = {
+id:188,
+props:'0_80010',
+count:1,
+bangding:false,
+propsRollId:3006,
+rate:1000,
+fullRate:1000
+};
+LotteryPropsRateConfig[167] = {
+id:167,
+props:'0_20203',
+count:1,
+bangding:false,
+propsRollId:3007,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[168] = {
+id:168,
+props:'0_20403',
+count:1,
+bangding:false,
+propsRollId:3007,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[169] = {
+id:169,
+props:'0_20503',
+count:1,
+bangding:false,
+propsRollId:3007,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[170] = {
+id:170,
+props:'0_20803',
+count:1,
+bangding:false,
+propsRollId:3007,
+rate:180,
+fullRate:1000
+};
+LotteryPropsRateConfig[171] = {
+id:171,
+props:'0_20903',
+count:1,
+bangding:false,
+propsRollId:3007,
+rate:140,
+fullRate:1000
+};
+LotteryPropsRateConfig[172] = {
+id:172,
+props:'0_21003',
+count:1,
+bangding:false,
+propsRollId:3007,
+rate:140,
+fullRate:1000
+};
+LotteryPropsRateConfig[189] = {
+id:189,
+props:'0_30005',
+count:1,
+bangding:false,
+propsRollId:3008,
+rate:200,
+fullRate:1000
+};
+LotteryPropsRateConfig[190] = {
+id:190,
+props:'0_30006',
+count:1,
+bangding:false,
+propsRollId:3008,
+rate:300,
+fullRate:1000
+};
+LotteryPropsRateConfig[191] = {
+id:191,
+props:'0_30007',
+count:1,
+bangding:false,
+propsRollId:3008,
+rate:400,
+fullRate:1000
+};
+LotteryPropsRateConfig[192] = {
+id:192,
+props:'0_30008',
+count:1,
+bangding:false,
+propsRollId:3008,
+rate:100,
+fullRate:1000
+};
+LotteryPropsRateConfig[177] = {
+id:177,
+props:'0_80011',
+count:5,
+bangding:false,
+propsRollId:3009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[178] = {
+id:178,
+props:'0_80012',
+count:5,
+bangding:false,
+propsRollId:3009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[179] = {
+id:179,
+props:'0_80013',
+count:5,
+bangding:false,
+propsRollId:3009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[180] = {
+id:180,
+props:'0_80014',
+count:5,
+bangding:false,
+propsRollId:3009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[181] = {
+id:181,
+props:'0_80015',
+count:5,
+bangding:false,
+propsRollId:3009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[182] = {
+id:182,
+props:'0_80016',
+count:5,
+bangding:false,
+propsRollId:3009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[183] = {
+id:183,
+props:'0_80017',
+count:5,
+bangding:false,
+propsRollId:3009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[184] = {
+id:184,
+props:'0_80018',
+count:5,
+bangding:false,
+propsRollId:3009,
+rate:125,
+fullRate:1000
+};
+LotteryPropsRateConfig[194] = {
+id:194,
+props:'0_30015',
+count:1,
+bangding:false,
+propsRollId:3010,
+rate:1000,
+fullRate:1000
+};
+LotteryPropsRateConfig[193] = {
+id:193,
+props:'0_140003',
+count:1,
+bangding:false,
+propsRollId:3011,
+rate:1000,
+fullRate:1000
+};

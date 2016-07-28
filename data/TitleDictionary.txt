@@ -1,0 +1,230 @@
+import flash.utils.Dictionary;
+var TitleDictionary:Dictionary = new Dictionary();
+TitleDictionary[1] = {
+id:1,
+name:'初涉江湖',
+describe:'暂无',
+conditionExplain:'角色等级达到10级'
+};
+TitleDictionary[2] = {
+id:2,
+name:'小试身手',
+describe:'暂无',
+conditionExplain:'角色等级达到20级'
+};
+TitleDictionary[3] = {
+id:3,
+name:'初现锋芒',
+describe:'暂无',
+conditionExplain:'角色等级达到30级'
+};
+TitleDictionary[4] = {
+id:4,
+name:'崭露头角',
+describe:'暂无',
+conditionExplain:'角色等级达到40级'
+};
+TitleDictionary[5] = {
+id:5,
+name:'小有名气',
+describe:'暂无',
+conditionExplain:'角色等级达到50级'
+};
+TitleDictionary[6] = {
+id:6,
+name:'仗剑江湖',
+describe:'暂无',
+conditionExplain:'角色等级达到60级'
+};
+TitleDictionary[7] = {
+id:7,
+name:'名声鹤起',
+describe:'暂无',
+conditionExplain:'角色等级达到70级'
+};
+TitleDictionary[8] = {
+id:8,
+name:'扬名立万',
+describe:'暂无',
+conditionExplain:'角色等级达到80级'
+};
+TitleDictionary[9] = {
+id:9,
+name:'威名显赫',
+describe:'暂无',
+conditionExplain:'角色等级达到90级'
+};
+TitleDictionary[10] = {
+id:10,
+name:'名传天下',
+describe:'暂无',
+conditionExplain:'角色等级达到100级'
+};
+TitleDictionary[11] = {
+id:11,
+name:'BOSS挑战者',
+describe:'暂无',
+conditionExplain:'累计击杀BOSS10只'
+};
+TitleDictionary[12] = {
+id:12,
+name:'BOSS猎杀者',
+describe:'暂无',
+conditionExplain:'累计击杀BOSS50只'
+};
+TitleDictionary[13] = {
+id:13,
+name:'BOSS灭绝者',
+describe:'暂无',
+conditionExplain:'累计击杀BOSS100只'
+};
+TitleDictionary[14] = {
+id:14,
+name:'BOSS终结者',
+describe:'暂无',
+conditionExplain:'累计击杀BOSS500只'
+};
+TitleDictionary[15] = {
+id:15,
+name:'伯乐在世',
+describe:'暂无',
+conditionExplain:'坐骑等级排行榜第1'
+};
+TitleDictionary[16] = {
+id:16,
+name:'骑牛玩耍的',
+describe:'暂无',
+conditionExplain:'坐骑外形达到犀牛'
+};
+TitleDictionary[17] = {
+id:17,
+name:'RP大爆发',
+describe:'暂无',
+conditionExplain:'强化装备等级达到6级'
+};
+TitleDictionary[18] = {
+id:18,
+name:'神都哭了',
+describe:'暂无',
+conditionExplain:'强化装备等级达到10级'
+};
+TitleDictionary[19] = {
+id:19,
+name:'霉星高照',
+describe:'暂无',
+conditionExplain:'强化装备连续失败3次'
+};
+TitleDictionary[20] = {
+id:20,
+name:'我不是废物',
+describe:'暂无',
+conditionExplain:'击杀第1之怪物'
+};
+TitleDictionary[21] = {
+id:21,
+name:'小心追尾',
+describe:'暂无',
+conditionExplain:'第一次骑乘'
+};
+TitleDictionary[22] = {
+id:22,
+name:'高山流水',
+describe:'暂无',
+conditionExplain:'第一次交友'
+};
+TitleDictionary[23] = {
+id:23,
+name:'团队之心',
+describe:'暂无',
+conditionExplain:'第一次组队'
+};
+TitleDictionary[24] = {
+id:24,
+name:'坚强的后盾',
+describe:'暂无',
+conditionExplain:'第一次加入或创建帮派'
+};
+TitleDictionary[25] = {
+id:25,
+name:'小康生活',
+describe:'暂无',
+conditionExplain:'角色背包铜币数量达到1000000'
+};
+TitleDictionary[26] = {
+id:26,
+name:'传说中的富二代',
+describe:'暂无',
+conditionExplain:'角色背包铜币数量达到100000000'
+};
+TitleDictionary[27] = {
+id:27,
+name:'杀到你哭',
+describe:'暂无',
+conditionExplain:'连续击杀同1个玩家3次'
+};
+TitleDictionary[28] = {
+id:28,
+name:'大侠饶命',
+describe:'暂无',
+conditionExplain:'连续被同1个玩家击杀3次'
+};
+TitleDictionary[29] = {
+id:29,
+name:'初窥门径',
+describe:'暂无',
+conditionExplain:'成功贯通一条经脉中的所有穴位'
+};
+TitleDictionary[30] = {
+id:30,
+name:'略知一二',
+describe:'暂无',
+conditionExplain:'成功贯通两条经脉中的所有穴位'
+};
+TitleDictionary[31] = {
+id:31,
+name:'初出茅庐',
+describe:'暂无',
+conditionExplain:'成功贯通三条经脉中的所有穴位'
+};
+TitleDictionary[32] = {
+id:32,
+name:'有所小成',
+describe:'暂无',
+conditionExplain:'成功贯通四条经脉中的所有穴位'
+};
+TitleDictionary[33] = {
+id:33,
+name:'轻车驾熟',
+describe:'暂无',
+conditionExplain:'成功贯通五条经脉中的所有穴位'
+};
+TitleDictionary[34] = {
+id:34,
+name:'登堂入室',
+describe:'暂无',
+conditionExplain:'成功贯通六条经脉中的所有穴位'
+};
+TitleDictionary[35] = {
+id:35,
+name:'出类拔萃',
+describe:'暂无',
+conditionExplain:'成功贯通七条经脉中的所有穴位'
+};
+TitleDictionary[36] = {
+id:36,
+name:'有所大成',
+describe:'暂无',
+conditionExplain:'成功贯通八条经脉中的所有穴位'
+};
+TitleDictionary[37] = {
+id:37,
+name:'风驰电掣',
+describe:'暂无',
+conditionExplain:'5分钟内通关龙门飞甲副本'
+};
+TitleDictionary[38] = {
+id:38,
+name:'强势崛起',
+describe:'暂无',
+conditionExplain:'击杀玩家数量达到500'
+};

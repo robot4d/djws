@@ -1,0 +1,762 @@
+﻿import flash.utils.Dictionary;
+var MapConfig:Dictionary = new Dictionary();
+MapConfig[101] = {
+mapId:'101',
+name:'无量山',
+scale:0.12,
+OffsetX:0,
+OffsetY:140,
+level:0,
+MapFightMode:0,
+monsterLevelLimit:'4_9',
+description:'桃花醉，女子香，魂断愁肠泪沾裳。——无量山'
+};
+MapConfig[102] = {
+mapId:'102',
+name:'京城',
+scale:0.15,
+OffsetX:0,
+OffsetY:180,
+level:10,
+MapFightMode:1,
+description:'宝马雕车香满路，凤箫鱼龙舞汴州。——京城'
+};
+MapConfig[103] = {
+mapId:'103',
+name:'燕子坞',
+scale:0.1,
+OffsetX:0,
+OffsetY:300,
+level:24,
+MapFightMode:4,
+monsterLevelLimit:'26_34',
+description:'丝竹音鸣箫声远，形同陌路，遥望孤月轮。——燕子坞'
+};
+MapConfig[104] = {
+mapId:'104',
+name:'万劫谷',
+scale:0.1,
+OffsetX:0,
+OffsetY:270,
+level:12,
+MapFightMode:4,
+monsterLevelLimit:'12_25',
+description:'韶华不为少年留，恨悠悠，几时休？——万劫谷'
+};
+MapConfig[105] = {
+mapId:'105',
+name:'天山雪原',
+scale:0.08,
+OffsetX:0,
+OffsetY:250,
+level:30,
+MapFightMode:4,
+monsterLevelLimit:'36_60',
+description:'千里冰封望苍狼，持枪一怒舞长天！——天山雪原'
+};
+MapConfig[106] = {
+mapId:'106',
+name:'辽西平原',
+scale:0.1,
+OffsetX:0,
+OffsetY:280,
+level:55,
+MapFightMode:4,
+monsterLevelLimit:'62_70',
+description:'美人怀酒长夜叹，君王已故何人还？——辽西平原'
+};
+MapConfig[107] = {
+mapId:'107',
+name:'西域石林',
+scale:0.1,
+OffsetX:0,
+OffsetY:300,
+level:75,
+MapFightMode:4,
+monsterLevelLimit:'72_100',
+description:'八部天龙震天下，群雄并起惨败归，试问谁人能在这乱世中力挽狂澜？——西域石林'
+};
+MapConfig[108] = {
+mapId:'108',
+name:'刀剑谷',
+scale:0.1,
+OffsetX:0,
+OffsetY:240,
+level:30,
+MapFightMode:6,
+monsterLevelLimit:'30_68',
+itemLimit:'1',
+title1:'成功进入刀剑谷，已切换为阵营模式',
+title2:'刀剑谷中无法使用飞鞋和长生包、归内包',
+title3:'大侠，完成阵营任务可获取大量经验奖励'
+};
+MapConfig[1001] = {
+mapId:'1001',
+name:'南蛮领域',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:30,
+MapFightMode:2
+};
+MapConfig[1002] = {
+mapId:'1002',
+name:'姚家寨',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:40,
+MapFightMode:2
+};
+MapConfig[1003] = {
+mapId:'1003',
+name:'青城派',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:40,
+MapFightMode:2
+};
+MapConfig[1004] = {
+mapId:'1004',
+name:'冰宫',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:40,
+MapFightMode:2
+};
+MapConfig[1005] = {
+mapId:'1005',
+name:'遗忘圣宫',
+scale:0.25,
+OffsetX:0,
+OffsetY:70,
+level:55,
+MapFightMode:2
+};
+MapConfig[1006] = {
+mapId:'1006',
+name:'书院',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:30,
+MapFightMode:2
+};
+MapConfig[1007] = {
+mapId:'1007',
+name:'金殿',
+scale:0.25,
+OffsetX:0,
+OffsetY:80,
+level:30,
+MapFightMode:2
+};
+MapConfig[1008] = {
+mapId:'1008',
+name:'深渊地洞',
+scale:0.2,
+OffsetX:0,
+OffsetY:80,
+level:30,
+MapFightMode:2
+};
+MapConfig[8001] = {
+mapId:'8001',
+name:'阵营战场',
+scale:0.1,
+OffsetX:0,
+OffsetY:430,
+level:40,
+MapFightMode:6,
+itemLimit:'1',
+title1:'本场景地图内无法使用神行符和药包'
+};
+MapConfig[8002] = {
+mapId:'8002',
+name:'乱武战场',
+scale:0.15,
+OffsetX:0,
+OffsetY:110,
+level:35,
+MapFightMode:6,
+itemLimit:'1',
+title1:'本场景地图内无法使用神行符和药包'
+};
+MapConfig[8004] = {
+mapId:'8004',
+name:'边疆',
+scale:0.15,
+OffsetX:0,
+OffsetY:270,
+level:40,
+MapFightMode:3
+};
+MapConfig[9002] = {
+mapId:'9002',
+name:'聚贤庄',
+scale:0.25,
+OffsetX:0,
+OffsetY:64,
+level:0,
+MapFightMode:3
+};
+MapConfig[9004] = {
+mapId:'9004',
+name:'卧虎藏龙',
+scale:0.3,
+OffsetX:0,
+OffsetY:50,
+level:0,
+MapFightMode:3
+};
+MapConfig[9008] = {
+mapId:'9008',
+name:'金钱帮',
+scale:0.35,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9023] = {
+mapId:'9023',
+name:'御剑山庄',
+scale:0.3,
+OffsetX:0,
+OffsetY:90,
+level:0,
+MapFightMode:3
+};
+MapConfig[9024] = {
+mapId:'9024',
+name:'御剑山庄',
+scale:0.2,
+OffsetX:0,
+OffsetY:83,
+level:0,
+MapFightMode:3
+};
+MapConfig[9701] = {
+mapId:'9701',
+name:'贺兰古楼一楼',
+scale:0.4,
+OffsetX:0,
+OffsetY:30,
+level:0,
+MapFightMode:3
+};
+MapConfig[9702] = {
+mapId:'9702',
+name:'贺兰古楼二楼',
+scale:0.4,
+OffsetX:0,
+OffsetY:50,
+level:0,
+MapFightMode:3
+};
+MapConfig[9703] = {
+mapId:'9703',
+name:'贺兰古楼三楼',
+scale:0.4,
+OffsetX:0,
+OffsetY:30,
+level:0,
+MapFightMode:3
+};
+MapConfig[9704] = {
+mapId:'9704',
+name:'贺兰古楼四楼',
+scale:0.4,
+OffsetX:0,
+OffsetY:50,
+level:0,
+MapFightMode:3
+};
+MapConfig[9705] = {
+mapId:'9705',
+name:'贺兰古楼五楼',
+scale:0.4,
+OffsetX:0,
+OffsetY:30,
+level:0,
+MapFightMode:3
+};
+MapConfig[9706] = {
+mapId:'9706',
+name:'贺兰古楼六楼',
+scale:0.4,
+OffsetX:0,
+OffsetY:90,
+level:0,
+MapFightMode:3
+};
+MapConfig[9707] = {
+mapId:'9707',
+name:'贺兰古楼七楼',
+scale:0.4,
+OffsetX:0,
+OffsetY:30,
+level:0,
+MapFightMode:3
+};
+MapConfig[9708] = {
+mapId:'9708',
+name:'贺兰古楼八楼',
+scale:0.4,
+OffsetX:0,
+OffsetY:90,
+level:0,
+MapFightMode:3
+};
+MapConfig[9709] = {
+mapId:'9709',
+name:'贺兰古楼九楼',
+scale:0.4,
+OffsetX:0,
+OffsetY:50,
+level:0,
+MapFightMode:3
+};
+MapConfig[9710] = {
+mapId:'9710',
+name:'贺兰古楼十楼',
+scale:0.4,
+OffsetX:0,
+OffsetY:30,
+level:0,
+MapFightMode:3
+};
+MapConfig[9711] = {
+mapId:'9711',
+name:'贺兰古楼十一楼',
+scale:0.4,
+OffsetX:0,
+OffsetY:50,
+level:0,
+MapFightMode:3
+};
+MapConfig[9712] = {
+mapId:'9712',
+name:'贺兰古楼十二楼',
+scale:0.4,
+OffsetX:0,
+OffsetY:50,
+level:0,
+MapFightMode:3
+};
+MapConfig[9301] = {
+mapId:'9301',
+name:'通天塔第一层',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9302] = {
+mapId:'9302',
+name:'通天塔第二层',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9303] = {
+mapId:'9303',
+name:'通天塔第三层',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9304] = {
+mapId:'9304',
+name:'通天塔第四层',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9305] = {
+mapId:'9305',
+name:'通天塔第五层',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9306] = {
+mapId:'9306',
+name:'通天塔第六层',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9307] = {
+mapId:'9307',
+name:'通天塔第七层',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9308] = {
+mapId:'9308',
+name:'通天塔第八层',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9309] = {
+mapId:'9309',
+name:'通天塔第九层',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9310] = {
+mapId:'9310',
+name:'通天塔第十层',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9311] = {
+mapId:'9311',
+name:'通天塔第十一层',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9312] = {
+mapId:'9312',
+name:'通天塔第十二层',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9316] = {
+mapId:'9316',
+name:'通天塔第十二层',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9601] = {
+mapId:'9601',
+name:'密室藏宝洞',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9602] = {
+mapId:'9602',
+name:'皇室藏宝洞',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9603] = {
+mapId:'9603',
+name:'皇陵墓地',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9101] = {
+mapId:'9101',
+name:'无量山',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9102] = {
+mapId:'9102',
+name:'无量宫',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9103] = {
+mapId:'9103',
+name:'无量山洞',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9104] = {
+mapId:'9104',
+name:'小草屋内',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9105] = {
+mapId:'9105',
+name:'山崖边',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9106] = {
+mapId:'9106',
+name:'万劫谷',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9107] = {
+mapId:'9107',
+name:'悬崖边',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9108] = {
+mapId:'9108',
+name:'山崖边',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9109] = {
+mapId:'9109',
+name:'山崖边',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9110] = {
+mapId:'9110',
+name:'山崖边',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9111] = {
+mapId:'9111',
+name:'古墓边',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9112] = {
+mapId:'9112',
+name:'万劫谷-破庙',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9113] = {
+mapId:'9113',
+name:'万劫谷-山庄内',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9114] = {
+mapId:'9114',
+name:'地窖入口',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9115] = {
+mapId:'9115',
+name:'少林练武台',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9116] = {
+mapId:'9116',
+name:'天龙寺',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9117] = {
+mapId:'9117',
+name:'曼陀山庄前院',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9118] = {
+mapId:'9118',
+name:'曼陀山庄内部',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9119] = {
+mapId:'9119',
+name:'山庄废墟',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9120] = {
+mapId:'9120',
+name:'废墟内部',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9121] = {
+mapId:'9121',
+name:'山神庙',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9122] = {
+mapId:'9122',
+name:'竹林-湖边',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9123] = {
+mapId:'9123',
+name:'西夏大殿',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9124] = {
+mapId:'9124',
+name:'聚贤庄门口',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9125] = {
+mapId:'9125',
+name:'战场',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9126] = {
+mapId:'9126',
+name:'天山河边',
+scale:0.4,
+OffsetX:0,
+OffsetY:40,
+level:0,
+MapFightMode:3
+};
+MapConfig[9501] = {
+mapId:'9501',
+name:'擂鼓山',
+scale:0.1,
+OffsetX:0,
+OffsetY:180,
+level:40,
+MapFightMode:3
+};
+MapConfig[9502] = {
+mapId:'9502',
+name:'一品堂',
+scale:0.1,
+OffsetX:0,
+OffsetY:160,
+level:50,
+MapFightMode:3
+};
+MapConfig[9503] = {
+mapId:'9503',
+name:'缥缈峰',
+scale:0.1,
+OffsetX:0,
+OffsetY:170,
+level:60,
+MapFightMode:3
+};
+MapConfig[9504] = {
+mapId:'9504',
+name:'净影寺',
+scale:0.1,
+OffsetX:0,
+OffsetY:160,
+level:30,
+MapFightMode:3
+};

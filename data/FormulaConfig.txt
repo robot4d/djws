@@ -1,0 +1,386 @@
+import flash.utils.Dictionary;
+var FormulaConfig:Dictionary = new Dictionary();
+FormulaConfig[101] = {
+id:101,
+expression:'Math.floor(n1*0+n2*4.2)'
+};
+FormulaConfig[102] = {
+id:102,
+expression:'Math.floor(10+n1*0+n2*0.3)'
+};
+FormulaConfig[103] = {
+id:103,
+expression:'Math.floor(5+n1*0+n2*0.4)'
+};
+FormulaConfig[104] = {
+id:104,
+expression:'Math.floor(n1*0+n2*20)'
+};
+FormulaConfig[105] = {
+id:105,
+expression:'Math.floor(n1*0+n2*4.2)'
+};
+FormulaConfig[106] = {
+id:106,
+expression:'Math.floor(10+n1*0+n2*0.3)'
+};
+FormulaConfig[107] = {
+id:107,
+expression:'Math.floor(n1*0+n2*5)'
+};
+FormulaConfig[108] = {
+id:108,
+expression:'Math.floor(n1*6*2.9)'
+};
+FormulaConfig[109] = {
+id:109,
+expression:'Math.floor(n1*6*2.9)'
+};
+FormulaConfig[110] = {
+id:110,
+expression:'Math.floor(n1*5*2.9)'
+};
+FormulaConfig[111] = {
+id:111,
+expression:'Math.floor(n1*5*2.9)'
+};
+FormulaConfig[112] = {
+id:112,
+expression:'Math.floor(n1*5*2.9)'
+};
+FormulaConfig[113] = {
+id:113,
+expression:'Math.floor(n1*5*2.9)'
+};
+FormulaConfig[114] = {
+id:114,
+expression:'Math.floor(n1*6*2.9)'
+};
+FormulaConfig[115] = {
+id:115,
+expression:'Math.floor(n1*6*2.9)'
+};
+FormulaConfig[201] = {
+id:201,
+expression:'Math.floor(n2/(n2+n1*40+500)*1000)'
+};
+FormulaConfig[202] = {
+id:202,
+expression:'Math.floor(n2/(n2+n1*40+500)*1000)'
+};
+FormulaConfig[203] = {
+id:203,
+expression:'Math.floor(n2/(n2+n1*40+500)*1000)'
+};
+FormulaConfig[204] = {
+id:204,
+expression:'Math.floor(n2/(n2+n1*40+500)*1000)'
+};
+FormulaConfig[205] = {
+id:205,
+expression:'Math.floor((1000+n1-n2+(n3-n4)*0))'
+};
+FormulaConfig[206] = {
+id:206,
+expression:'Math.floor(n1+(n2-n3)*0)'
+};
+FormulaConfig[207] = {
+id:207,
+expression:'Math.floor(n1+(n2-n3)*0)'
+};
+FormulaConfig[208] = {
+id:208,
+expression:'Math.floor(Math.max(n1-n2,n1*0.1)*Math.max(1+(n3-n4)*0,0))'
+};
+FormulaConfig[209] = {
+id:209,
+expression:'Math.floor(Math.max(n1-n2,n1*0.1)*Math.max(1+(n3-n4)*0,0))'
+};
+FormulaConfig[210] = {
+id:210,
+expression:'Math.floor(Math.max(n1-n2,n1*0.1)*Math.max(1+(n3-n4)*0,0))*2'
+};
+FormulaConfig[211] = {
+id:211,
+expression:'Math.floor(Math.max(n1-n2,n1*0.1)*Math.max(1+(n3-n4)*0,0))*2'
+};
+FormulaConfig[212] = {
+id:212,
+expression:'Math.floor(4000+n1)'
+};
+FormulaConfig[213] = {
+id:213,
+expression:'Math.floor(n1-n2)'
+};
+FormulaConfig[301] = {
+id:301,
+expression:'Math.floor(0.2*Math.pow(n1,3.6)+n1*60+40)'
+};
+FormulaConfig[318] = {
+id:318,
+expression:'Math.floor(1*Math.pow(n1,3.6)+n1*50+48)'
+};
+FormulaConfig[302] = {
+id:302,
+expression:'Math.floor(n1*(n2*0.01))'
+};
+FormulaConfig[303] = {
+id:303,
+expression:'Math.floor((n2-1)*(n1/10*(n3*0.01)))'
+};
+FormulaConfig[313] = {
+id:313,
+expression:'Math.floor((2*Math.pow(n1,3.6)+n1*50+48)+n2*60)'
+};
+FormulaConfig[314] = {
+id:314,
+expression:'Math.floor(0*(n1-n2)/4+n2)'
+};
+FormulaConfig[315] = {
+id:315,
+expression:'Math.max(n1,n2)'
+};
+FormulaConfig[316] = {
+id:316,
+expression:'Math.floor((n1-n2)/3+n2)'
+};
+FormulaConfig[317] = {
+id:317,
+expression:'Math.floor(20*(0.5*Math.pow(n1,3.6)+n1*60+48)/(5*24*60)*n2)'
+};
+FormulaConfig[319] = {
+id:319,
+expression:'Math.floor(20*(0.5*Math.pow(n1,3.6)+n1*60+48)/(5*24*60)*n2)'
+};
+FormulaConfig[306] = {
+id:306,
+expression:'Math.floor((10*n1/3)*n2/15)'
+};
+FormulaConfig[307] = {
+id:307,
+expression:'Math.floor(n1/5*1)'
+};
+FormulaConfig[308] = {
+id:308,
+expression:'Math.floor(n1/n2*1.2*(1+(n2-1)*0.1))'
+};
+FormulaConfig[309] = {
+id:309,
+expression:'Math.floor(n1/n2*((0.82-(n2-2)*0.06)*n2)*(1+(n2-1)*0.1))'
+};
+FormulaConfig[323] = {
+id:323,
+expression:'85'
+};
+FormulaConfig[320] = {
+id:320,
+expression:'n1 <= n2 ? Math.max((1+(n1-n2)/20),0.5) : 1'
+};
+FormulaConfig[312] = {
+id:312,
+expression:'Math.floor((Math.pow(n1,2)*2+n1*50)*1)'
+};
+FormulaConfig[321] = {
+id:321,
+expression:'Math.floor(Math.pow(n1,2.5)+10*n1+100)'
+};
+FormulaConfig[501] = {
+id:501,
+expression:'Math.floor(n1*n2)'
+};
+FormulaConfig[502] = {
+id:502,
+expression:'Math.floor(n1*n2)'
+};
+FormulaConfig[503] = {
+id:503,
+expression:'Math.floor(n1*1.32)'
+};
+FormulaConfig[504] = {
+id:504,
+expression:'Math.floor(n1*2.2)'
+};
+FormulaConfig[505] = {
+id:505,
+expression:'Math.floor(n1*n2)'
+};
+FormulaConfig[506] = {
+id:506,
+expression:'Math.floor(n1/100000)'
+};
+FormulaConfig[507] = {
+id:507,
+expression:'Math.floor(n1*n2)'
+};
+FormulaConfig[508] = {
+id:508,
+expression:'Math.floor(1000/n1*n2*n3)'
+};
+FormulaConfig[601] = {
+id:601,
+expression:'Math.floor(Math.pow(2,n1))'
+};
+FormulaConfig[602] = {
+id:602,
+expression:'Math.floor(Math.pow(n1,2))'
+};
+FormulaConfig[603] = {
+id:603,
+expression:'Math.floor(Math.pow(n1,2))'
+};
+FormulaConfig[604] = {
+id:604,
+expression:'Math.floor(3*(1-n1/n2)*n3)'
+};
+FormulaConfig[605] = {
+id:605,
+expression:'Math.floor(n1/3)'
+};
+FormulaConfig[701] = {
+id:701,
+expression:'Math.floor(n1/4.2+n2/4.2+n3/3+n4/8+n5/8+n6/20+n7/4.2+n8/25)'
+};
+FormulaConfig[702] = {
+id:702,
+expression:'Math.floor(n1/4.2+n2/4.2+n3/3+n4/8+n5/8+n6/20+n7/4.2+n8/25)'
+};
+FormulaConfig[703] = {
+id:703,
+expression:'Math.floor(n1/4.2+n2/4.2+n3/3+n4/8+n5/8+n6/20+n7/4.2+n8/25)'
+};
+FormulaConfig[704] = {
+id:704,
+expression:'Math.floor(n1/4.2+n2/4.2+n3/3+n4/8+n5/8+n6/20+n7/4.2+n8/25)'
+};
+FormulaConfig[720] = {
+id:720,
+expression:'Math.floor(5*(n1/4.2+n2/4.2+n3/3+n4/8+n5/8+n6/20+n7/4.2+n8/25))'
+};
+FormulaConfig[721] = {
+id:721,
+expression:'Math.floor(5*(n1/4.2+n2/4.2+n3/3+n4/8+n5/8+n6/20+n7/4.2+n8/25))'
+};
+FormulaConfig[722] = {
+id:722,
+expression:'Math.floor(5*(n1/4.2+n2/4.2+n3/3+n4/8+n5/8+n6/20+n7/4.2+n8/25))'
+};
+FormulaConfig[723] = {
+id:723,
+expression:'Math.floor(5*(n1/4.2+n2/4.2+n3/3+n4/8+n5/8+n6/20+n7/4.2+n8/25))'
+};
+FormulaConfig[711] = {
+id:711,
+expression:'Math.floor(5*(n1+n2))'
+};
+FormulaConfig[712] = {
+id:712,
+expression:'Math.floor(5*(n1+n2+n3))'
+};
+FormulaConfig[705] = {
+id:705,
+expression:'Math.floor(5*(n1+n2+n3+n4+n5))'
+};
+FormulaConfig[706] = {
+id:706,
+expression:'Math.floor(5*(n1+n2+n3+n4+n5))'
+};
+FormulaConfig[707] = {
+id:707,
+expression:'Math.floor(5*(n1+n2+n3+n4+n5))'
+};
+FormulaConfig[708] = {
+id:708,
+expression:'Math.floor(5*(n1+n2+n3+n4+n5))'
+};
+FormulaConfig[740] = {
+id:740,
+expression:'Math.floor(5*(n1/4.2+n2/4.2+n3/0.3+n4/1.4+n5/1.4+n6/20+n7/4.2+n8/5))'
+};
+FormulaConfig[741] = {
+id:741,
+expression:'Math.floor(5*(n1/4.2+n2/4.2+n3/0.3+n4/1.4+n5/1.4+n6/20+n7/4.2+n8/5))'
+};
+FormulaConfig[742] = {
+id:742,
+expression:'Math.floor(5*(n1/4.2+n2/4.2+n3/0.3+n4/1.4+n5/1.4+n6/20+n7/4.2+n8/5))'
+};
+FormulaConfig[743] = {
+id:743,
+expression:'Math.floor(5*(n1/4.2+n2/4.2+n3/0.3+n4/1.4+n5/1.4+n6/20+n7/4.2+n8/5))'
+};
+FormulaConfig[715] = {
+id:715,
+expression:'Math.floor(5*(n1/4.2+n2/4.2+n3/3+n4/8+n5/8+n6/20+n7/4.2+n8/25))'
+};
+FormulaConfig[716] = {
+id:716,
+expression:'Math.floor(5*(n1/4.2+n2/4.2+n3/3+n4/8+n5/8+n6/20+n7/4.2+n8/25))'
+};
+FormulaConfig[717] = {
+id:717,
+expression:'Math.floor(5*(n1/4.2+n2/4.2+n3/3+n4/8+n5/8+n6/20+n7/4.2+n8/25))'
+};
+FormulaConfig[718] = {
+id:718,
+expression:'Math.floor(5*(n1/4.2+n2/4.2+n3/3+n4/8+n5/8+n6/20+n7/4.2+n8/25))'
+};
+FormulaConfig[730] = {
+id:730,
+expression:'Math.floor(n1/4.2+n2/4.2+n3/0.3+n4/1.4+n5/1.4+n6/20+n7/4.2+n8/5)'
+};
+FormulaConfig[731] = {
+id:731,
+expression:'Math.floor(n1/4.2+n2/4.2+n3/0.3+n4/1.4+n5/1.4+n6/20+n7/4.2+n8/5)'
+};
+FormulaConfig[801] = {
+id:801,
+expression:'Math.floor(n1/2)'
+};
+FormulaConfig[802] = {
+id:802,
+expression:'Math.floor(n2/n3*0+n1)'
+};
+FormulaConfig[803] = {
+id:803,
+expression:'Math.max(Math.pow(n1,2.15)-1500,500)'
+};
+FormulaConfig[804] = {
+id:804,
+expression:'Math.floor((10*n1/3)*n2/15*20)'
+};
+FormulaConfig[805] = {
+id:805,
+expression:'Math.floor(n1/15*2*20)'
+};
+FormulaConfig[809] = {
+id:809,
+expression:'Math.floor(2*(n1-1))'
+};
+FormulaConfig[810] = {
+id:810,
+expression:'Math.floor(n1*0.2)'
+};
+FormulaConfig[811] = {
+id:811,
+expression:'Math.floor(n1*1.2)'
+};
+FormulaConfig[812] = {
+id:812,
+expression:'Math.floor(n1*0.8)'
+};
+FormulaConfig[813] = {
+id:813,
+expression:'Math.floor(n1*1.0)'
+};
+FormulaConfig[850] = {
+id:850,
+expression:'Math.floor(1*n1)'
+};
+FormulaConfig[851] = {
+id:851,
+expression:'Math.min(Math.round(n1/10000),100)'
+};
+FormulaConfig[852] = {
+id:852,
+expression:'Math.round(n1/10000)'
+};

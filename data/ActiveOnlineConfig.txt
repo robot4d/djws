@@ -1,0 +1,167 @@
+﻿import flash.utils.Dictionary;
+var ActiveOnlineConfig:Dictionary = new Dictionary();
+ActiveOnlineConfig[1] = {
+id:1,
+type:1,
+camp:0,
+activeName:'双倍（打怪）',
+iconType:7,
+rewardDescription:'经验奖励',
+description:'每天<font color="ffa800">10:00-11:00，17:00-18:00</font>，将会获得来自笑笑的祝愿，届时<font color="ffa800">击杀大地图的怪物</font>会获得额外的100%经验加成。推荐大侠们此时组队合力完成<font color="ffa800">试炼任务</font>，升级效果显著！',
+profit:1,
+openRegionDay:'1|2|3|4|5|6|7',
+openRegionTime:'00:00-12:00|12:00-23:00',
+level:30
+};
+ActiveOnlineConfig[2] = {
+id:2,
+type:2,
+camp:0,
+activeName:'双倍（打坐）',
+iconType:6,
+rewardDescription:'经验奖励,真气奖励',
+description:'每天<font color="ffa800">13:30-14:30</font>，将会获得来自笑笑的祝福，届时在<font color="ffa800">京城</font>进行<font color="ffa800">打坐/双修</font>的豪侠，会获得额外的100%收益加成。当然再次服用丹药也能叠加收益，推荐邀约友人进行双修，获取额外叠加收益！',
+profit:1,
+openRegionDay:'1|2|3|4|5|6|7',
+openRegionTime:'13:30-14:30',
+level:35
+};
+ActiveOnlineConfig[3] = {
+id:3,
+type:4,
+camp:0,
+activeName:'猎盗',
+iconType:10,
+rewardDescription:'海量铜币',
+description:'每天<font color="ffa800">15:00-16:00</font>，天山雪原或燕子坞处都会有几率出现一些惊世宝藏神盗，他们身上都藏着大量铜币，想要的就去找出他们行踪，并将之斩杀吧！',
+profit:0,
+openRegionDay:'1|2|3|4|5|6|7',
+openRegionTime:'15:00-16:00',
+level:30
+};
+ActiveOnlineConfig[4] = {
+id:4,
+type:6,
+camp:0,
+activeName:'净影寺',
+iconType:14,
+launcher:284,
+rewardDescription:'极品道具，丰富经验',
+description:'30级以上，召集三至六人的队伍，可以在<font color="ffa800">燕子坞净影寺传送员</font>处挑战净影寺多人组队副本，奖赏丰富，请火速前往。',
+profit:0,
+openRegionDay:'1|2|3|4|5|6|7',
+openRegionTime:'0',
+level:30
+};
+ActiveOnlineConfig[5] = {
+id:5,
+type:6,
+camp:0,
+activeName:'擂鼓山',
+iconType:14,
+launcher:282,
+rewardDescription:'极品道具，丰富经验',
+description:'40级以上，每天<font color="ffa800">15：00-18：00、21:00-24:00</font>，召集三至六人的队伍，可以在<font color="ffa800">京城擂鼓山传送员</font>处挑战擂鼓山多人组队副本，奖赏丰富，请火速前往。',
+profit:0,
+openRegionDay:'1|2|3|4|5|6|7',
+openRegionTime:'15:00-18:00|21:00-24:00',
+level:40
+};
+ActiveOnlineConfig[6] = {
+id:6,
+type:6,
+camp:0,
+activeName:'一品堂',
+iconType:14,
+launcher:281,
+rewardDescription:'极品道具，丰富经验',
+description:'50级以上，每天<font color="ffa800">15：00-18：00、21:00-24:00</font>，召集三至六人的队伍，可以在<font color="ffa800">天山雪原一品堂传送员</font>处挑战一品堂多人组队副本，奖赏丰富，请火速前往。',
+profit:0,
+openRegionDay:'1|2|3|4|5|6|7',
+openRegionTime:'15:00-18:00|21:00-24:00',
+level:50
+};
+ActiveOnlineConfig[7] = {
+id:7,
+type:6,
+camp:0,
+activeName:'飘渺山',
+iconType:14,
+launcher:283,
+rewardDescription:'极品道具，丰富经验',
+description:'60级以上，每天<font color="ffa800">15：00-18：00、21:00-24:00</font>，召集三至六人的队伍，可以在<font color="ffa800">辽西平原飘渺山传送员</font>处挑战飘渺山多人组队副本，奖赏丰富，请火速前往。',
+profit:0,
+openRegionDay:'1|2|3|4|5|6|7',
+openRegionTime:'15:00-18:00|21:00-24:00',
+level:60
+};
+ActiveOnlineConfig[8] = {
+id:8,
+type:5,
+camp:0,
+activeName:'蒙古兵入侵',
+iconType:8,
+launcher:177,
+rewardDescription:'经验奖励',
+description:'蒙古军一直对京城虎视眈眈。听说<font color="ffa800">每晚19:00-20:00</font>之时是其最为活跃的时候，如今<font color="ffa800">天山雪原</font>已被攻下，请火速支援。',
+profit:0,
+openRegionDay:'1|2|3|4|5|6|7',
+openRegionTime:'19:00-20:00',
+level:30
+};
+ActiveOnlineConfig[9] = {
+id:9,
+type:3,
+camp:1,
+activeName:'福运（侠）',
+iconType:12,
+launcher:133,
+rewardDescription:'经验奖励',
+description:'侠客星期<font color="ffa800">一、三、五</font>！每晚<font color="ffa800">20:30-21:30</font>，齐聚<font color="ffa800">清风镖局</font>前准备押镖吧！届时参加押镖任务能获得30%的经验加成！<font color="ffa800">小提示：必须在活动时间内提交押镖任务才能获得活动额外经验。</font>',
+profit:5,
+openRegionDay:'1|3|5',
+openRegionTime:'20:30-21:30',
+level:30
+};
+ActiveOnlineConfig[10] = {
+id:10,
+type:3,
+camp:2,
+activeName:'福运（豪）',
+iconType:13,
+launcher:133,
+rewardDescription:'经验奖励',
+description:'豪杰星期<font color="ffa800">二、四、六</font>！每晚<font color="ffa800">20:30-21:30</font>，齐聚<font color="ffa800">清风镖局</font>前准备押镖吧！届时参加押镖任务能获得30%的经验加成！<font color="ffa800">提示：必须在活动时间内提交押镖任务才能获得活动额外经验。</font>',
+profit:5,
+openRegionDay:'2|4|6',
+openRegionTime:'20:30-21:30',
+level:30
+};
+ActiveOnlineConfig[11] = {
+id:11,
+type:6,
+camp:0,
+activeName:'乱武战场（下午）',
+iconType:9,
+launcher:285,
+rewardDescription:'经验奖励',
+description:'每天13:00-13:30在京城楚狂歌处参与乱武战场PVP',
+profit:15,
+openRegionDay:'1|2|3|4|5|6|7',
+openRegionTime:'13:00-13:30',
+level:35
+};
+ActiveOnlineConfig[12] = {
+id:12,
+type:6,
+camp:0,
+activeName:'乱武战场（晚上）',
+iconType:9,
+launcher:285,
+rewardDescription:'经验奖励',
+description:'每天20:00-20:30在京城楚狂歌处参与乱武战场PVP',
+profit:15,
+openRegionDay:'1|2|3|4|5|6|7',
+openRegionTime:'20:00-20:30',
+level:35
+};

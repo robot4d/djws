@@ -1,0 +1,56 @@
+import flash.utils.Dictionary;
+var FriendAddedConfig:Dictionary = new Dictionary();
+FriendAddedConfig[1] = {
+id:1,
+minFriendlyValue:0,
+maxFriendlyValue:999,
+buffName:'萍水相逢',
+description:'江湖初识，组队时战斗力得到提升',
+icon:'hybf01',
+attributes:'1106_35|1103_35|1107_10|1104_10'
+};
+FriendAddedConfig[2] = {
+id:2,
+minFriendlyValue:1000,
+maxFriendlyValue:2999,
+buffName:'点头之交',
+description:'江湖共进，组队时战斗力得到提升',
+icon:'hybf02',
+attributes:'1106_100|1103_100|1107_17|1104_17'
+};
+FriendAddedConfig[3] = {
+id:3,
+minFriendlyValue:3000,
+maxFriendlyValue:7999,
+buffName:'志同道合',
+description:'志同道合，组队时战斗力得到提升',
+icon:'hybf03',
+attributes:'1106_150|1103_150|1107_25|1104_25'
+};
+FriendAddedConfig[4] = {
+id:4,
+minFriendlyValue:8000,
+maxFriendlyValue:14999,
+buffName:'亲密无间',
+description:'亲密无间，组队时战斗力得到提升',
+icon:'hybf04',
+attributes:'1106_200|1103_200|1107_30|1104_30'
+};
+FriendAddedConfig[5] = {
+id:5,
+minFriendlyValue:15000,
+maxFriendlyValue:29999,
+buffName:'心有灵犀',
+description:'心有灵犀，组队时战斗力得到提升',
+icon:'hybf05',
+attributes:'1106_250|1103_250|1107_36|1104_36'
+};
+FriendAddedConfig[6] = {
+id:6,
+minFriendlyValue:30000,
+maxFriendlyValue:99999,
+buffName:'生死之交',
+description:'生死之交，组队时战斗力得到提升',
+icon:'hybf06',
+attributes:'1106_300|1103_300|1107_45|1104_45'
+};

@@ -1,0 +1,32 @@
+import flash.utils.Dictionary;
+var EscortGharryConfig:Dictionary = new Dictionary();
+EscortGharryConfig[0] = {
+quality:0,
+name:'白色镖车',
+model:100,
+speed:-600
+};
+EscortGharryConfig[1] = {
+quality:1,
+name:'绿色镖车',
+model:101,
+speed:-600
+};
+EscortGharryConfig[2] = {
+quality:2,
+name:'蓝色镖车',
+model:102,
+speed:-600
+};
+EscortGharryConfig[3] = {
+quality:3,
+name:'紫色镖车',
+model:103,
+speed:-600
+};
+EscortGharryConfig[4] = {
+quality:4,
+name:'橙色镖车',
+model:104,
+speed:-600
+};

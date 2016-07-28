@@ -1,0 +1,2 @@
+import flash.utils.Dictionary;
+var PetQualityAttributeConfig:Dictionary = new Dictionary();

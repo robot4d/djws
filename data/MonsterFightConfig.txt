@@ -1,0 +1,4789 @@
+﻿import flash.utils.Dictionary;
+var MonsterFightConfig:Dictionary = new Dictionary();
+MonsterFightConfig[1001] = {
+id:'1001',
+baseId:1001,
+name:'野狐',
+talk:'1',
+model:30,
+monsterType:1,
+level:4,
+exp:10
+};
+MonsterFightConfig[1002] = {
+id:'1002',
+baseId:1001,
+name:'野狐',
+talk:'2',
+model:30,
+monsterType:1,
+level:4,
+exp:10
+};
+MonsterFightConfig[1003] = {
+id:'1003',
+baseId:1002,
+name:'棍僧',
+talk:'3',
+model:90,
+monsterType:1,
+level:6,
+taskDrops:'901001_1000',
+exp:16
+};
+MonsterFightConfig[1004] = {
+id:'1004',
+baseId:1002,
+name:'棍僧',
+talk:'4',
+model:90,
+monsterType:1,
+level:6,
+taskDrops:'901001_1000',
+exp:16
+};
+MonsterFightConfig[1005] = {
+id:'1005',
+baseId:1003,
+name:' 金门轮徒',
+talk:'5',
+model:91,
+monsterType:1,
+level:9,
+exp:25
+};
+MonsterFightConfig[1006] = {
+id:'1006',
+baseId:1003,
+name:' 金门轮徒',
+talk:'6',
+model:91,
+monsterType:1,
+level:9,
+exp:25
+};
+MonsterFightConfig[2002] = {
+id:'2002',
+baseId:3902,
+name:'叶二娘',
+talk:'7',
+model:8,
+monsterType:3,
+level:20,
+exp:210
+};
+MonsterFightConfig[2004] = {
+id:'2004',
+baseId:3904,
+name:'段延庆',
+talk:'8',
+model:42,
+monsterType:3,
+level:20,
+exp:210
+};
+MonsterFightConfig[2020] = {
+id:'2020',
+baseId:3905,
+name:'灵鹫圣使',
+talk:'9',
+model:7,
+monsterType:3,
+level:20,
+exp:210
+};
+MonsterFightConfig[2021] = {
+id:'2021',
+baseId:3906,
+name:'云中鹤',
+talk:'10',
+model:34,
+monsterType:3,
+level:20,
+exp:210
+};
+MonsterFightConfig[2005] = {
+id:'2005',
+baseId:3012,
+name:'绿林恶汉',
+talk:'11',
+model:80,
+monsterType:1,
+level:12,
+exp:36
+};
+MonsterFightConfig[2006] = {
+id:'2006',
+baseId:3012,
+name:'绿林恶汉',
+talk:'12',
+model:80,
+monsterType:1,
+level:12,
+exp:36
+};
+MonsterFightConfig[2007] = {
+id:'2007',
+baseId:3014,
+name:'野狼',
+talk:'13',
+model:23,
+monsterType:1,
+level:14,
+exp:44
+};
+MonsterFightConfig[2008] = {
+id:'2008',
+baseId:3014,
+name:'野狼',
+talk:'14',
+model:23,
+monsterType:1,
+level:14,
+exp:44
+};
+MonsterFightConfig[2009] = {
+id:'2009',
+baseId:3016,
+name:'土匪',
+talk:'15',
+model:96,
+monsterType:1,
+level:16,
+taskDrops:'901004_1000',
+exp:52
+};
+MonsterFightConfig[2010] = {
+id:'2010',
+baseId:3016,
+name:'土匪',
+talk:'16',
+model:96,
+monsterType:1,
+level:16,
+taskDrops:'901004_1000',
+exp:52
+};
+MonsterFightConfig[2011] = {
+id:'2011',
+baseId:3018,
+name:'土匪',
+talk:'17',
+model:96,
+monsterType:1,
+level:18,
+taskDrops:'901004_1000',
+exp:61
+};
+MonsterFightConfig[2012] = {
+id:'2012',
+baseId:3018,
+name:'土匪',
+talk:'18',
+model:96,
+monsterType:1,
+level:18,
+taskDrops:'901004_1000',
+exp:61
+};
+MonsterFightConfig[2013] = {
+id:'2013',
+baseId:3020,
+name:'侩子手',
+talk:'19',
+model:18,
+monsterType:1,
+level:18,
+exp:61
+};
+MonsterFightConfig[2014] = {
+id:'2014',
+baseId:3020,
+name:'侩子手',
+talk:'20',
+model:18,
+monsterType:1,
+level:18,
+exp:61
+};
+MonsterFightConfig[2015] = {
+id:'2015',
+baseId:3022,
+name:'神农帮弟子',
+talk:'21',
+model:91,
+monsterType:1,
+level:22,
+exp:79
+};
+MonsterFightConfig[2016] = {
+id:'2016',
+baseId:3022,
+name:'神农帮弟子',
+talk:'22',
+model:91,
+monsterType:1,
+level:22,
+exp:79
+};
+MonsterFightConfig[2017] = {
+id:'2017',
+baseId:3024,
+name:'草寇',
+talk:'23',
+model:12,
+monsterType:1,
+level:24,
+exp:89
+};
+MonsterFightConfig[2018] = {
+id:'2018',
+baseId:3024,
+name:'草寇',
+talk:'24',
+model:12,
+monsterType:1,
+level:24,
+exp:89
+};
+MonsterFightConfig[2022] = {
+id:'2022',
+baseId:3026,
+name:'黑鹰',
+talk:'25',
+model:27,
+monsterType:1,
+level:25,
+exp:94
+};
+MonsterFightConfig[2023] = {
+id:'2023',
+baseId:3026,
+name:'黑鹰',
+talk:'26',
+model:27,
+monsterType:1,
+level:25,
+exp:94
+};
+MonsterFightConfig[2024] = {
+id:'2024',
+baseId:3017,
+name:'流氓',
+talk:'27',
+model:89,
+monsterType:1,
+level:17,
+exp:56
+};
+MonsterFightConfig[2025] = {
+id:'2025',
+baseId:3017,
+name:'流氓',
+talk:'28',
+model:89,
+monsterType:1,
+level:17,
+exp:56
+};
+MonsterFightConfig[2026] = {
+id:'2026',
+baseId:3030,
+name:'南蛮护法',
+talk:'28',
+model:73,
+monsterType:1,
+level:28,
+exp:33110
+};
+MonsterFightConfig[2027] = {
+id:'2027',
+baseId:3025,
+name:'南蛮 • 外功',
+talk:'29',
+model:992,
+monsterType:2,
+level:31,
+exp:332400
+};
+MonsterFightConfig[2019] = {
+id:'2019',
+baseId:3025,
+name:'南蛮 • 内功',
+talk:'29',
+model:992,
+monsterType:2,
+level:31,
+exp:332400
+};
+MonsterFightConfig[3001] = {
+id:'3001',
+baseId:4026,
+name:'秦家寨弟子',
+talk:'30',
+model:46,
+monsterType:1,
+level:26,
+taskDrops:'901051_1000',
+exp:99
+};
+MonsterFightConfig[3002] = {
+id:'3002',
+baseId:4026,
+name:'秦家寨弟子',
+talk:'31',
+model:46,
+monsterType:1,
+level:26,
+taskDrops:'901051_1000',
+exp:99
+};
+MonsterFightConfig[3003] = {
+id:'3003',
+baseId:4028,
+name:'青城派弟子',
+talk:'32',
+model:16,
+monsterType:1,
+level:28,
+exp:110
+};
+MonsterFightConfig[3004] = {
+id:'3004',
+baseId:4028,
+name:'青城派弟子',
+talk:'33',
+model:16,
+monsterType:1,
+level:28,
+exp:110
+};
+MonsterFightConfig[3021] = {
+id:'3021',
+baseId:4051,
+name:'妙相庵弟子',
+talk:'34',
+model:19,
+monsterType:1,
+level:29,
+exp:115
+};
+MonsterFightConfig[3022] = {
+id:'3022',
+baseId:4051,
+name:'妙相庵弟子',
+talk:'35',
+model:19,
+monsterType:1,
+level:29,
+exp:115
+};
+MonsterFightConfig[3005] = {
+id:'3005',
+baseId:4030,
+name:'三代弟子',
+talk:'36',
+model:40,
+monsterType:1,
+level:30,
+taskDrops:'901055_1000',
+exp:120
+};
+MonsterFightConfig[3006] = {
+id:'3006',
+baseId:4030,
+name:'三代弟子',
+talk:'37',
+model:40,
+monsterType:1,
+level:30,
+taskDrops:'901055_1000',
+exp:120
+};
+MonsterFightConfig[3007] = {
+id:'3007',
+baseId:4032,
+name:'二代弟子',
+talk:'38',
+model:43,
+monsterType:1,
+level:32,
+exp:132
+};
+MonsterFightConfig[3008] = {
+id:'3008',
+baseId:4032,
+name:'二代弟子',
+talk:'39',
+model:43,
+monsterType:1,
+level:32,
+exp:132
+};
+MonsterFightConfig[3009] = {
+id:'3009',
+baseId:4034,
+name:'一品堂高手',
+talk:'40',
+model:35,
+monsterType:1,
+level:34,
+exp:143
+};
+MonsterFightConfig[3010] = {
+id:'3010',
+baseId:4034,
+name:'一品堂高手',
+talk:'41',
+model:35,
+monsterType:1,
+level:34,
+exp:143
+};
+MonsterFightConfig[3011] = {
+id:'3011',
+baseId:4035,
+name:'秦家寨寨主',
+talk:'42',
+model:49,
+monsterType:3,
+level:34,
+exp:429
+};
+MonsterFightConfig[3012] = {
+id:'3012',
+baseId:4036,
+name:'司马林',
+talk:'43',
+model:49,
+monsterType:3,
+level:34,
+exp:429
+};
+MonsterFightConfig[3013] = {
+id:'3013',
+baseId:4037,
+name:'哈大霸',
+talk:'44',
+model:50,
+monsterType:3,
+level:34,
+exp:429
+};
+MonsterFightConfig[3014] = {
+id:'3014',
+baseId:4038,
+name:'李延宗',
+talk:'45',
+model:2,
+monsterType:3,
+level:34,
+exp:429
+};
+MonsterFightConfig[3017] = {
+id:'3017',
+baseId:4031,
+name:'拦路劫匪',
+talk:'46',
+model:39,
+monsterType:1,
+level:30,
+exp:120
+};
+MonsterFightConfig[3018] = {
+id:'3018',
+baseId:4031,
+name:'拦路劫匪',
+talk:'47',
+model:39,
+monsterType:1,
+level:30,
+exp:120
+};
+MonsterFightConfig[3019] = {
+id:'3019',
+baseId:4050,
+name:'赤炼王蛇',
+talk:'48',
+model:21,
+monsterType:1,
+level:31,
+exp:126
+};
+MonsterFightConfig[3020] = {
+id:'3020',
+baseId:4050,
+name:'赤炼王蛇',
+talk:'49',
+model:21,
+monsterType:1,
+level:31,
+exp:126
+};
+MonsterFightConfig[3023] = {
+id:'3023',
+baseId:4052,
+name:'入室弟子',
+talk:'50',
+model:35,
+monsterType:1,
+level:33,
+exp:137
+};
+MonsterFightConfig[3024] = {
+id:'3024',
+baseId:4052,
+name:'入室弟子',
+talk:'51',
+model:35,
+monsterType:1,
+level:33,
+exp:137
+};
+MonsterFightConfig[3025] = {
+id:'3025',
+baseId:4054,
+name:'金牌杀手',
+talk:'52',
+model:20,
+monsterType:1,
+level:33,
+exp:137
+};
+MonsterFightConfig[3026] = {
+id:'3026',
+baseId:4054,
+name:'金牌杀手',
+talk:'53',
+model:20,
+monsterType:1,
+level:33,
+exp:137
+};
+MonsterFightConfig[3030] = {
+id:'3030',
+baseId:4060,
+name:'春三十娘护法',
+talk:'54',
+model:74,
+monsterType:1,
+level:78,
+exp:33110
+};
+MonsterFightConfig[3015] = {
+id:'3015',
+baseId:4039,
+name:'春三十娘 • 外功',
+talk:'54',
+model:993,
+monsterType:2,
+level:80,
+exp:332400
+};
+MonsterFightConfig[3027] = {
+id:'3027',
+baseId:4055,
+name:'姚家寨守卫',
+talk:'33_34_35_36_37',
+model:75,
+monsterType:1,
+level:38,
+exp:44166
+};
+MonsterFightConfig[3032] = {
+id:'3032',
+baseId:4056,
+name:'姚家寨寨主 • 外功',
+talk:'55',
+model:994,
+monsterType:2,
+level:40,
+exp:443560
+};
+MonsterFightConfig[3028] = {
+id:'3028',
+baseId:4056,
+name:'姚家寨寨主 • 内功',
+talk:'55',
+model:994,
+monsterType:2,
+level:40,
+exp:443560
+};
+MonsterFightConfig[3031] = {
+id:'3031',
+baseId:4061,
+name:'青城派弟子',
+model:72,
+monsterType:1,
+level:48,
+exp:55229
+};
+MonsterFightConfig[3033] = {
+id:'3033',
+baseId:4057,
+name:'清无为 • 外功',
+talk:'56',
+model:990,
+monsterType:2,
+level:50,
+exp:554860
+};
+MonsterFightConfig[3029] = {
+id:'3029',
+baseId:4057,
+name:'净无为 • 内功',
+talk:'56',
+model:990,
+monsterType:2,
+level:50,
+exp:554860
+};
+MonsterFightConfig[4001] = {
+id:'4001',
+baseId:5036,
+name:'斑斓豹',
+talk:'57',
+model:24,
+monsterType:1,
+level:36,
+taskDrops:'901061_1000',
+exp:154
+};
+MonsterFightConfig[4002] = {
+id:'4002',
+baseId:5036,
+name:'斑斓豹',
+talk:'58',
+model:24,
+monsterType:1,
+level:36,
+taskDrops:'901061_1000',
+exp:154
+};
+MonsterFightConfig[4003] = {
+id:'4003',
+baseId:5038,
+name:'蜇蜂',
+talk:'59',
+model:29,
+monsterType:1,
+level:38,
+taskDrops:'901066_1000',
+exp:166
+};
+MonsterFightConfig[4004] = {
+id:'4004',
+baseId:5038,
+name:'蜇蜂',
+talk:'60',
+model:29,
+monsterType:1,
+level:38,
+taskDrops:'901066_1000',
+exp:166
+};
+MonsterFightConfig[4005] = {
+id:'4005',
+baseId:5040,
+name:'星宿派弟子',
+talk:'61',
+model:36,
+monsterType:1,
+level:40,
+taskDrops:'901013_1000',
+exp:178
+};
+MonsterFightConfig[4006] = {
+id:'4006',
+baseId:5040,
+name:'星宿派弟子',
+talk:'62',
+model:36,
+monsterType:1,
+level:40,
+taskDrops:'901013_1000',
+exp:178
+};
+MonsterFightConfig[4007] = {
+id:'4007',
+baseId:5042,
+name:'刺客',
+talk:'63',
+model:4,
+monsterType:1,
+level:42,
+taskDrops:'901018_1000',
+exp:191
+};
+MonsterFightConfig[4008] = {
+id:'4008',
+baseId:5042,
+name:'刺客',
+talk:'64',
+model:4,
+monsterType:1,
+level:42,
+taskDrops:'901018_1000',
+exp:191
+};
+MonsterFightConfig[4009] = {
+id:'4009',
+baseId:5044,
+name:'野狼',
+talk:'65',
+model:23,
+monsterType:1,
+level:44,
+taskDrops:'901023_1000',
+exp:203
+};
+MonsterFightConfig[4010] = {
+id:'4010',
+baseId:5044,
+name:'野狼',
+talk:'66',
+model:23,
+monsterType:1,
+level:44,
+taskDrops:'901023_1000',
+exp:203
+};
+MonsterFightConfig[4011] = {
+id:'4011',
+baseId:5046,
+name:'棕熊',
+talk:'67',
+model:45,
+monsterType:1,
+level:46,
+taskDrops:'901024_1000|901026_1000',
+exp:216
+};
+MonsterFightConfig[4012] = {
+id:'4012',
+baseId:5046,
+name:'棕熊',
+talk:'68',
+model:45,
+monsterType:1,
+level:46,
+taskDrops:'901024_1000|901026_1000',
+exp:216
+};
+MonsterFightConfig[4013] = {
+id:'4013',
+baseId:5048,
+name:'斗笠怪人',
+talk:'69',
+model:14,
+monsterType:1,
+level:48,
+taskDrops:'901027_1000',
+exp:229
+};
+MonsterFightConfig[4014] = {
+id:'4014',
+baseId:5048,
+name:'斗笠怪人',
+talk:'70',
+model:14,
+monsterType:1,
+level:48,
+taskDrops:'901027_1000',
+exp:229
+};
+MonsterFightConfig[4015] = {
+id:'4015',
+baseId:5050,
+name:'三十六洞弟子',
+talk:'71',
+model:41,
+monsterType:1,
+level:50,
+taskDrops:'901076_1000',
+exp:243
+};
+MonsterFightConfig[4016] = {
+id:'4016',
+baseId:5050,
+name:'三十六洞弟子',
+talk:'72',
+model:41,
+monsterType:1,
+level:50,
+taskDrops:'901076_1000',
+exp:243
+};
+MonsterFightConfig[4017] = {
+id:'4017',
+baseId:5052,
+name:'七十二岛弟子',
+talk:'73',
+model:5,
+monsterType:1,
+level:52,
+taskDrops:'901033_1000',
+exp:256
+};
+MonsterFightConfig[4018] = {
+id:'4018',
+baseId:5052,
+name:'七十二岛弟子',
+talk:'74',
+model:5,
+monsterType:1,
+level:52,
+taskDrops:'901033_1000',
+exp:256
+};
+MonsterFightConfig[4019] = {
+id:'4019',
+baseId:5054,
+name:'刀客圣使',
+talk:'75',
+model:15,
+monsterType:1,
+level:54,
+taskDrops:'901034_1000|901030_1000',
+exp:270
+};
+MonsterFightConfig[4020] = {
+id:'4020',
+baseId:5054,
+name:'刀客圣使',
+talk:'76',
+model:15,
+monsterType:1,
+level:54,
+taskDrops:'901034_1000|901030_1000',
+exp:270
+};
+MonsterFightConfig[4021] = {
+id:'4021',
+baseId:5056,
+name:'雪山甲虫',
+talk:'77',
+model:52,
+monsterType:1,
+level:56,
+taskDrops:'901079_1000',
+exp:284
+};
+MonsterFightConfig[4022] = {
+id:'4022',
+baseId:5056,
+name:'雪山甲虫',
+talk:'78',
+model:52,
+monsterType:1,
+level:56,
+taskDrops:'901079_1001',
+exp:284
+};
+MonsterFightConfig[4023] = {
+id:'4023',
+baseId:5058,
+name:'玄龟',
+talk:'79',
+model:54,
+monsterType:1,
+level:58,
+taskDrops:'901047_1000',
+exp:298
+};
+MonsterFightConfig[4024] = {
+id:'4024',
+baseId:5058,
+name:'玄龟',
+talk:'80',
+model:54,
+monsterType:1,
+level:58,
+taskDrops:'901047_1000',
+exp:298
+};
+MonsterFightConfig[4025] = {
+id:'4025',
+baseId:5060,
+name:'天山雪女',
+talk:'81',
+model:7,
+monsterType:1,
+level:60,
+exp:312
+};
+MonsterFightConfig[4026] = {
+id:'4026',
+baseId:5060,
+name:'天山雪女',
+talk:'82',
+model:7,
+monsterType:1,
+level:60,
+exp:312
+};
+MonsterFightConfig[4027] = {
+id:'4027',
+baseId:5061,
+name:'丁春秋',
+talk:'83',
+model:33,
+monsterType:3,
+level:40,
+exp:534
+};
+MonsterFightConfig[4028] = {
+id:'4028',
+baseId:5062,
+name:'霍洞主',
+talk:'84',
+model:3,
+monsterType:3,
+level:50,
+exp:729
+};
+MonsterFightConfig[4029] = {
+id:'4029',
+baseId:5063,
+name:'云岛主',
+talk:'85',
+model:10,
+monsterType:3,
+level:52,
+exp:768
+};
+MonsterFightConfig[4030] = {
+id:'4030',
+baseId:5064,
+name:'天雪女王',
+talk:'86',
+model:7,
+monsterType:3,
+level:60,
+exp:936
+};
+MonsterFightConfig[2105] = {
+id:'2105',
+baseId:2105,
+name:'蛤蟆护法',
+talk:'87',
+model:79,
+monsterType:1,
+level:88,
+exp:33110
+};
+MonsterFightConfig[2100] = {
+id:'2100',
+baseId:2100,
+name:'金蛤蟆 • 外功',
+talk:'87',
+model:998,
+monsterType:2,
+level:90,
+exp:332400
+};
+MonsterFightConfig[2106] = {
+id:'2106',
+baseId:2106,
+name:'白鸾护法',
+talk:'88',
+model:73,
+monsterType:1,
+level:98,
+exp:33110
+};
+MonsterFightConfig[2101] = {
+id:'2101',
+baseId:2101,
+name:'白鸾 • 外功',
+talk:'88',
+model:995,
+monsterType:2,
+level:100,
+exp:332400
+};
+MonsterFightConfig[2107] = {
+id:'2107',
+baseId:2107,
+name:'花无泪护法',
+talk:'89',
+model:77,
+monsterType:1,
+level:58,
+exp:66298
+};
+MonsterFightConfig[3102] = {
+id:'3102',
+baseId:3100,
+name:'花无泪 • 外功',
+talk:'89',
+model:996,
+monsterType:2,
+level:60,
+exp:666240
+};
+MonsterFightConfig[3100] = {
+id:'3100',
+baseId:3100,
+name:'花无泣 • 内功',
+talk:'89',
+model:996,
+monsterType:2,
+level:60,
+exp:666240
+};
+MonsterFightConfig[2108] = {
+id:'2108',
+baseId:2108,
+name:'金锤皇护法',
+talk:'90',
+model:78,
+monsterType:1,
+level:70,
+exp:77386
+};
+MonsterFightConfig[3103] = {
+id:'3103',
+baseId:3101,
+name:'金锤皇 • 外功',
+talk:'90',
+model:997,
+monsterType:2,
+level:71,
+exp:777720
+};
+MonsterFightConfig[3101] = {
+id:'3101',
+baseId:3101,
+name:'金钟皇 • 内功',
+talk:'90',
+model:997,
+monsterType:2,
+level:71,
+exp:777720
+};
+MonsterFightConfig[5001] = {
+id:'5001',
+baseId:6062,
+name:'江湖刀客',
+talk:'91',
+model:11,
+monsterType:1,
+level:62,
+taskDrops:'901082_1000|901123_1000',
+exp:327
+};
+MonsterFightConfig[5002] = {
+id:'5002',
+baseId:6062,
+name:'江湖刀客',
+talk:'92',
+model:11,
+monsterType:1,
+level:62,
+taskDrops:'901082_1000|901123_1000',
+exp:327
+};
+MonsterFightConfig[5003] = {
+id:'5003',
+baseId:6064,
+name:'辽国杀手',
+talk:'93',
+model:31,
+monsterType:1,
+level:64,
+taskDrops:'901125_1000',
+exp:341
+};
+MonsterFightConfig[5004] = {
+id:'5004',
+baseId:6064,
+name:'辽国杀手',
+talk:'94',
+model:31,
+monsterType:1,
+level:64,
+taskDrops:'901125_1000',
+exp:341
+};
+MonsterFightConfig[5005] = {
+id:'5005',
+baseId:6066,
+name:'辽国叛军',
+talk:'95',
+model:17,
+monsterType:1,
+level:66,
+taskDrops:'901086_1000',
+exp:356
+};
+MonsterFightConfig[5006] = {
+id:'5006',
+baseId:6066,
+name:'辽国叛军',
+talk:'96',
+model:17,
+monsterType:1,
+level:66,
+taskDrops:'901086_1000',
+exp:356
+};
+MonsterFightConfig[5007] = {
+id:'5007',
+baseId:6068,
+name:'活死人',
+talk:'97',
+model:37,
+monsterType:1,
+level:68,
+exp:371
+};
+MonsterFightConfig[5008] = {
+id:'5008',
+baseId:6068,
+name:'活死人',
+talk:'98',
+model:37,
+monsterType:1,
+level:68,
+exp:371
+};
+MonsterFightConfig[5009] = {
+id:'5009',
+baseId:6070,
+name:'食人蝙蝠',
+talk:'99',
+model:25,
+monsterType:1,
+level:70,
+taskDrops:'901089_1000',
+exp:386
+};
+MonsterFightConfig[5010] = {
+id:'5010',
+baseId:6070,
+name:'食人蝙蝠',
+talk:'100',
+model:25,
+monsterType:1,
+level:70,
+taskDrops:'901089_1000',
+exp:386
+};
+MonsterFightConfig[5011] = {
+id:'5011',
+baseId:6071,
+name:'耶律雄',
+talk:'101',
+model:92,
+monsterType:3,
+level:62,
+taskDrops:'901124_1000',
+exp:981
+};
+MonsterFightConfig[5012] = {
+id:'5012',
+baseId:6072,
+name:'玄悲大师',
+talk:'102',
+model:44,
+monsterType:3,
+level:64,
+exp:1023
+};
+MonsterFightConfig[5013] = {
+id:'5013',
+baseId:6073,
+name:'大蟒神',
+talk:'103',
+model:21,
+monsterType:3,
+level:66,
+taskDrops:'901127_1000',
+exp:1068
+};
+MonsterFightConfig[5014] = {
+id:'5014',
+baseId:6074,
+name:'食人蝙蝠王',
+talk:'104',
+model:25,
+monsterType:3,
+level:70,
+exp:1158
+};
+MonsterFightConfig[6040] = {
+id:'6040',
+baseId:6102,
+name:'猎鹰飞鹰护法',
+talk:'105',
+model:922,
+monsterType:1,
+level:58,
+exp:298
+};
+MonsterFightConfig[6010] = {
+id:'6010',
+baseId:5065,
+name:'猎影飞鹰 • 外功',
+talk:'105',
+model:922,
+monsterType:2,
+level:60,
+exp:6240
+};
+MonsterFightConfig[6100] = {
+id:'6100',
+baseId:6100,
+name:'野外BOSS八号',
+talk:'106',
+model:901,
+monsterType:2,
+level:70,
+exp:7720
+};
+MonsterFightConfig[6101] = {
+id:'6101',
+baseId:6101,
+name:'野外BOSS九号',
+talk:'107',
+model:902,
+monsterType:2,
+level:70,
+exp:7720
+};
+MonsterFightConfig[6001] = {
+id:'6001',
+baseId:7072,
+name:'石林猿猴',
+talk:'108',
+model:51,
+monsterType:1,
+level:100,
+exp:634
+};
+MonsterFightConfig[6002] = {
+id:'6002',
+baseId:7072,
+name:'石林猿猴',
+talk:'109',
+model:51,
+monsterType:1,
+level:100,
+exp:634
+};
+MonsterFightConfig[6003] = {
+id:'6003',
+baseId:7074,
+name:'马贼',
+talk:'110',
+model:16,
+monsterType:1,
+level:100,
+taskDrops:'901093_1000|901137_1000',
+exp:634
+};
+MonsterFightConfig[6004] = {
+id:'6004',
+baseId:7074,
+name:'马贼',
+talk:'111',
+model:16,
+monsterType:1,
+level:100,
+taskDrops:'901093_1000|901137_1000',
+exp:634
+};
+MonsterFightConfig[6005] = {
+id:'6005',
+baseId:7076,
+name:'铁面怪人',
+talk:'1',
+model:37,
+monsterType:1,
+level:100,
+exp:634
+};
+MonsterFightConfig[6006] = {
+id:'6006',
+baseId:7076,
+name:'铁面怪人',
+talk:'2',
+model:37,
+monsterType:1,
+level:100,
+exp:634
+};
+MonsterFightConfig[6007] = {
+id:'6007',
+baseId:7078,
+name:'妖僧',
+talk:'3',
+model:19,
+monsterType:1,
+level:100,
+taskDrops:'901121_1000',
+exp:634
+};
+MonsterFightConfig[6008] = {
+id:'6008',
+baseId:7078,
+name:'妖僧',
+talk:'4',
+model:19,
+monsterType:1,
+level:100,
+taskDrops:'901121_1000',
+exp:634
+};
+MonsterFightConfig[6009] = {
+id:'6009',
+baseId:7080,
+name:'蒙面刺客',
+talk:'5',
+model:20,
+monsterType:1,
+level:100,
+taskDrops:'901099_1000',
+exp:634
+};
+MonsterFightConfig[6011] = {
+id:'6011',
+baseId:7080,
+name:'蒙面刺客',
+talk:'6',
+model:20,
+monsterType:1,
+level:100,
+taskDrops:'901099_1000',
+exp:634
+};
+MonsterFightConfig[6012] = {
+id:'6012',
+baseId:7082,
+name:'石阵怪人',
+talk:'7',
+model:46,
+monsterType:1,
+level:100,
+taskDrops:'901141_1000',
+exp:634
+};
+MonsterFightConfig[6013] = {
+id:'6013',
+baseId:7082,
+name:'石阵怪人',
+talk:'8',
+model:46,
+monsterType:1,
+level:100,
+taskDrops:'901141_1000',
+exp:634
+};
+MonsterFightConfig[6014] = {
+id:'6014',
+baseId:7084,
+name:'邪教兵卫',
+talk:'9',
+model:38,
+monsterType:1,
+level:100,
+taskDrops:'901102_1000',
+exp:634
+};
+MonsterFightConfig[6015] = {
+id:'6015',
+baseId:7084,
+name:'邪教兵卫',
+talk:'10',
+model:38,
+monsterType:1,
+level:100,
+taskDrops:'901102_1000',
+exp:634
+};
+MonsterFightConfig[6016] = {
+id:'6016',
+baseId:7086,
+name:'西域武士',
+talk:'11',
+model:9,
+monsterType:1,
+level:100,
+exp:634
+};
+MonsterFightConfig[6017] = {
+id:'6017',
+baseId:7086,
+name:'西域武士',
+talk:'12',
+model:9,
+monsterType:1,
+level:100,
+exp:634
+};
+MonsterFightConfig[6018] = {
+id:'6018',
+baseId:7088,
+name:'邪教野卫',
+talk:'13',
+model:15,
+monsterType:1,
+level:100,
+taskDrops:'901107_1000',
+exp:634
+};
+MonsterFightConfig[6019] = {
+id:'6019',
+baseId:7088,
+name:'邪教野卫',
+talk:'14',
+model:15,
+monsterType:1,
+level:100,
+taskDrops:'901107_1000',
+exp:634
+};
+MonsterFightConfig[6020] = {
+id:'6020',
+baseId:7090,
+name:'邪教大刀',
+talk:'15',
+model:50,
+monsterType:1,
+level:100,
+taskDrops:'901109_1000|901146_1000',
+exp:634
+};
+MonsterFightConfig[6021] = {
+id:'6021',
+baseId:7090,
+name:'邪教大刀',
+talk:'16',
+model:50,
+monsterType:1,
+level:100,
+taskDrops:'901109_1000|901146_1000',
+exp:634
+};
+MonsterFightConfig[6022] = {
+id:'6022',
+baseId:7092,
+name:'邪教弟子',
+talk:'17',
+model:49,
+monsterType:1,
+level:100,
+taskDrops:'901113_1000|901148_1000',
+exp:634
+};
+MonsterFightConfig[6023] = {
+id:'6023',
+baseId:7092,
+name:'邪教弟子',
+talk:'18',
+model:49,
+monsterType:1,
+level:100,
+taskDrops:'901113_1000|901148_1000',
+exp:634
+};
+MonsterFightConfig[6024] = {
+id:'6024',
+baseId:7094,
+name:'飞轮刀客',
+talk:'19',
+model:36,
+monsterType:1,
+level:100,
+taskDrops:'901115_1000|901153_1000',
+exp:634
+};
+MonsterFightConfig[6025] = {
+id:'6025',
+baseId:7094,
+name:'飞轮刀客',
+talk:'20',
+model:36,
+monsterType:1,
+level:100,
+taskDrops:'901115_1000|901153_1000',
+exp:634
+};
+MonsterFightConfig[6026] = {
+id:'6026',
+baseId:7096,
+name:'虎皮人',
+talk:'21',
+model:39,
+monsterType:1,
+level:100,
+exp:634
+};
+MonsterFightConfig[6027] = {
+id:'6027',
+baseId:7096,
+name:'虎皮人',
+talk:'22',
+model:39,
+monsterType:1,
+level:100,
+exp:634
+};
+MonsterFightConfig[6028] = {
+id:'6028',
+baseId:7098,
+name:'金刚异人',
+talk:'23',
+model:13,
+monsterType:1,
+level:100,
+taskDrops:'901155_1000',
+exp:634
+};
+MonsterFightConfig[6029] = {
+id:'6029',
+baseId:7098,
+name:'金刚异人',
+talk:'24',
+model:13,
+monsterType:1,
+level:100,
+taskDrops:'901155_1000',
+exp:634
+};
+MonsterFightConfig[6030] = {
+id:'6030',
+baseId:7100,
+name:'蒙面双刀',
+talk:'25',
+model:20,
+monsterType:1,
+level:100,
+exp:634
+};
+MonsterFightConfig[6031] = {
+id:'6031',
+baseId:7100,
+name:'蒙面双刀',
+talk:'26',
+model:20,
+monsterType:1,
+level:100,
+exp:634
+};
+MonsterFightConfig[6032] = {
+id:'6032',
+baseId:7101,
+name:'紧那罗',
+talk:'27',
+model:44,
+monsterType:3,
+level:100,
+exp:1902
+};
+MonsterFightConfig[6033] = {
+id:'6033',
+baseId:7102,
+name:'阿修罗',
+talk:'28',
+model:32,
+monsterType:3,
+level:100,
+taskDrops:'901122_1000',
+exp:1902
+};
+MonsterFightConfig[6034] = {
+id:'6034',
+baseId:7103,
+name:'乾闼婆',
+talk:'29',
+model:12,
+monsterType:3,
+level:100,
+taskDrops:'901122_1000',
+exp:1902
+};
+MonsterFightConfig[6035] = {
+id:'6035',
+baseId:7104,
+name:'迦楼罗',
+talk:'30',
+model:2,
+monsterType:3,
+level:100,
+exp:1902
+};
+MonsterFightConfig[6036] = {
+id:'6036',
+baseId:7105,
+name:'摩侯罗伽',
+talk:'31',
+model:18,
+monsterType:3,
+level:100,
+exp:1902
+};
+MonsterFightConfig[6037] = {
+id:'6037',
+baseId:7106,
+name:'邪教教主',
+talk:'32',
+model:49,
+monsterType:3,
+level:100,
+exp:1902
+};
+MonsterFightConfig[6038] = {
+id:'6038',
+baseId:7107,
+name:'真·邪教教主',
+talk:'33',
+model:33,
+monsterType:3,
+level:100,
+exp:1902
+};
+MonsterFightConfig[12018] = {
+id:'12018',
+baseId:12018,
+name:'经验小盗',
+talk:'100',
+model:61,
+monsterType:4,
+level:20,
+exp:20000
+};
+MonsterFightConfig[12019] = {
+id:'12019',
+baseId:12019,
+name:'经验小盗',
+talk:'100',
+model:61,
+monsterType:4,
+level:20,
+exp:50000
+};
+MonsterFightConfig[12020] = {
+id:'12020',
+baseId:12020,
+name:'经验小盗',
+talk:'100',
+model:61,
+monsterType:4,
+level:20,
+exp:100000
+};
+MonsterFightConfig[12021] = {
+id:'12021',
+baseId:12021,
+name:'经验小盗',
+talk:'100',
+model:61,
+monsterType:4,
+level:20,
+exp:150000
+};
+MonsterFightConfig[12022] = {
+id:'12022',
+baseId:12022,
+name:'经验小盗',
+talk:'100',
+model:61,
+monsterType:4,
+level:20,
+exp:200000
+};
+MonsterFightConfig[11001] = {
+id:'11001',
+baseId:0,
+name:'藏龙',
+talk:'34',
+model:16,
+monsterType:1,
+level:21,
+exp:1000
+};
+MonsterFightConfig[11002] = {
+id:'11002',
+baseId:0,
+name:'藏龙',
+talk:'35',
+model:16,
+monsterType:1,
+level:21,
+exp:1000
+};
+MonsterFightConfig[11003] = {
+id:'11003',
+baseId:0,
+name:'卧虎',
+talk:'36',
+model:39,
+monsterType:1,
+level:22,
+exp:1000
+};
+MonsterFightConfig[11004] = {
+id:'11004',
+baseId:0,
+name:'卧虎',
+talk:'37',
+model:39,
+monsterType:1,
+level:22,
+exp:1000
+};
+MonsterFightConfig[11005] = {
+id:'11005',
+baseId:11005,
+name:'碧眼狐狸',
+talk:'38',
+model:932,
+monsterType:2,
+level:25,
+exp:30000
+};
+MonsterFightConfig[12201] = {
+id:'12201',
+baseId:0,
+name:'阔刀',
+talk:'53',
+model:17,
+monsterType:1,
+level:31,
+exp:1200
+};
+MonsterFightConfig[12202] = {
+id:'12202',
+baseId:0,
+name:'阔刀',
+talk:'54',
+model:17,
+monsterType:1,
+level:31,
+exp:1200
+};
+MonsterFightConfig[12203] = {
+id:'12203',
+baseId:0,
+name:'伏地',
+talk:'55',
+model:35,
+monsterType:1,
+level:33,
+exp:1200
+};
+MonsterFightConfig[12204] = {
+id:'12204',
+baseId:0,
+name:'伏地',
+talk:'56',
+model:35,
+monsterType:1,
+level:33,
+exp:1200
+};
+MonsterFightConfig[12205] = {
+id:'12205',
+baseId:12205,
+name:'烽火连城',
+talk:'59',
+model:906,
+monsterType:2,
+level:35,
+exp:20000
+};
+MonsterFightConfig[13001] = {
+id:'13001',
+baseId:0,
+name:'禁卫军',
+talk:'60',
+model:40,
+monsterType:1,
+level:31,
+exp:126
+};
+MonsterFightConfig[13002] = {
+id:'13002',
+baseId:0,
+name:'禁卫军',
+talk:'61',
+model:40,
+monsterType:1,
+level:31,
+exp:126
+};
+MonsterFightConfig[13003] = {
+id:'13003',
+baseId:13003,
+name:'禁卫千夫长',
+talk:'62',
+model:934,
+monsterType:2,
+level:35,
+exp:1490
+};
+MonsterFightConfig[13011] = {
+id:'13011',
+baseId:0,
+name:'守塔僧人',
+talk:'63',
+model:90,
+monsterType:1,
+level:33,
+exp:137
+};
+MonsterFightConfig[13012] = {
+id:'13012',
+baseId:0,
+name:'守塔僧人',
+talk:'64',
+model:90,
+monsterType:1,
+level:33,
+exp:137
+};
+MonsterFightConfig[13013] = {
+id:'13013',
+baseId:13013,
+name:'玄空长老',
+talk:'65',
+model:920,
+monsterType:2,
+level:37,
+exp:1600
+};
+MonsterFightConfig[13021] = {
+id:'13021',
+baseId:0,
+name:'西夏武士',
+talk:'66',
+model:80,
+monsterType:1,
+level:35,
+exp:149
+};
+MonsterFightConfig[13022] = {
+id:'13022',
+baseId:0,
+name:'西夏武士',
+talk:'67',
+model:80,
+monsterType:1,
+level:35,
+exp:149
+};
+MonsterFightConfig[13023] = {
+id:'13023',
+baseId:13023,
+name:'西夏统领',
+talk:'68',
+model:994,
+monsterType:2,
+level:39,
+exp:1720
+};
+MonsterFightConfig[13031] = {
+id:'13031',
+baseId:0,
+name:'碧水蛇',
+talk:'69',
+model:22,
+monsterType:1,
+level:41,
+exp:185
+};
+MonsterFightConfig[13032] = {
+id:'13032',
+baseId:0,
+name:'碧水蛇',
+talk:'70',
+model:22,
+monsterType:1,
+level:41,
+exp:185
+};
+MonsterFightConfig[13033] = {
+id:'13033',
+baseId:13033,
+name:'蛇王',
+talk:'71',
+model:904,
+monsterType:2,
+level:45,
+exp:2100
+};
+MonsterFightConfig[13041] = {
+id:'13041',
+baseId:0,
+name:'通天侍女',
+talk:'72',
+model:82,
+monsterType:1,
+level:43,
+exp:197
+};
+MonsterFightConfig[13042] = {
+id:'13042',
+baseId:0,
+name:'通天侍女',
+talk:'73',
+model:82,
+monsterType:1,
+level:43,
+exp:197
+};
+MonsterFightConfig[13043] = {
+id:'13043',
+baseId:13043,
+name:'塔女',
+talk:'74',
+model:930,
+monsterType:2,
+level:47,
+exp:2230
+};
+MonsterFightConfig[13051] = {
+id:'13051',
+baseId:0,
+name:'青邪卫',
+talk:'75',
+model:7,
+monsterType:1,
+level:45,
+exp:210
+};
+MonsterFightConfig[13052] = {
+id:'13052',
+baseId:0,
+name:'青邪卫',
+talk:'76',
+model:7,
+monsterType:1,
+level:45,
+exp:210
+};
+MonsterFightConfig[13053] = {
+id:'13053',
+baseId:13053,
+name:'叛逃刀客',
+talk:'77',
+model:925,
+monsterType:2,
+level:49,
+exp:2360
+};
+MonsterFightConfig[13061] = {
+id:'13061',
+baseId:0,
+name:'青鳞武士',
+talk:'78',
+model:6,
+monsterType:1,
+level:51,
+exp:249
+};
+MonsterFightConfig[13062] = {
+id:'13062',
+baseId:0,
+name:'青鳞武士',
+talk:'79',
+model:6,
+monsterType:1,
+level:51,
+exp:249
+};
+MonsterFightConfig[13063] = {
+id:'13063',
+baseId:13063,
+name:'风云使者',
+talk:'80',
+model:950,
+monsterType:2,
+level:55,
+exp:2770
+};
+MonsterFightConfig[13071] = {
+id:'13071',
+baseId:0,
+name:'影刺',
+talk:'81',
+model:20,
+monsterType:1,
+level:53,
+exp:263
+};
+MonsterFightConfig[13072] = {
+id:'13072',
+baseId:0,
+name:'影刺',
+talk:'82',
+model:20,
+monsterType:1,
+level:53,
+exp:263
+};
+MonsterFightConfig[13073] = {
+id:'13073',
+baseId:13073,
+name:'霸青天',
+talk:'83',
+model:936,
+monsterType:2,
+level:57,
+exp:2910
+};
+MonsterFightConfig[13081] = {
+id:'13081',
+baseId:0,
+name:'巨力金使',
+talk:'84',
+model:37,
+monsterType:1,
+level:55,
+exp:277
+};
+MonsterFightConfig[13082] = {
+id:'13082',
+baseId:0,
+name:'巨力金使',
+talk:'85',
+model:37,
+monsterType:1,
+level:55,
+exp:277
+};
+MonsterFightConfig[13083] = {
+id:'13083',
+baseId:13083,
+name:'飞蛮头',
+talk:'86',
+model:997,
+monsterType:2,
+level:59,
+exp:3050
+};
+MonsterFightConfig[13091] = {
+id:'13091',
+baseId:0,
+name:'轮影',
+talk:'87',
+model:36,
+monsterType:1,
+level:61,
+exp:319
+};
+MonsterFightConfig[13092] = {
+id:'13092',
+baseId:0,
+name:'轮影',
+talk:'88',
+model:36,
+monsterType:1,
+level:61,
+exp:319
+};
+MonsterFightConfig[13093] = {
+id:'13093',
+baseId:13093,
+name:'通天大弟子',
+talk:'89',
+model:920,
+monsterType:2,
+level:65,
+exp:3490
+};
+MonsterFightConfig[13101] = {
+id:'13101',
+baseId:0,
+name:'恶鬼蝙蝠',
+talk:'90',
+model:25,
+monsterType:1,
+level:63,
+exp:334
+};
+MonsterFightConfig[13102] = {
+id:'13102',
+baseId:0,
+name:'恶鬼蝙蝠',
+talk:'91',
+model:25,
+monsterType:1,
+level:63,
+exp:334
+};
+MonsterFightConfig[13103] = {
+id:'13103',
+baseId:13103,
+name:'古冥使',
+talk:'92',
+model:937,
+monsterType:2,
+level:67,
+exp:3640
+};
+MonsterFightConfig[13111] = {
+id:'13111',
+baseId:0,
+name:'火冥教徒',
+talk:'93',
+model:9,
+monsterType:1,
+level:65,
+exp:349
+};
+MonsterFightConfig[13112] = {
+id:'13112',
+baseId:0,
+name:'火冥教徒',
+talk:'94',
+model:9,
+monsterType:1,
+level:65,
+exp:349
+};
+MonsterFightConfig[13113] = {
+id:'13113',
+baseId:13113,
+name:'通天教主',
+talk:'95',
+model:996,
+monsterType:2,
+level:69,
+exp:3790
+};
+MonsterFightConfig[14001] = {
+id:'14001',
+baseId:0,
+name:'青龙堂弟子',
+talk:'96',
+model:89,
+monsterType:1,
+level:30,
+exp:120
+};
+MonsterFightConfig[14002] = {
+id:'14002',
+baseId:0,
+name:'青龙堂弟子',
+talk:'97',
+model:89,
+monsterType:1,
+level:30,
+exp:120
+};
+MonsterFightConfig[14011] = {
+id:'14011',
+baseId:14011,
+name:'童影',
+talk:'98',
+model:913,
+monsterType:2,
+level:35,
+exp:1490
+};
+MonsterFightConfig[14012] = {
+id:'14012',
+baseId:14012,
+name:'龙青',
+talk:'99',
+model:925,
+monsterType:2,
+level:35,
+exp:1490
+};
+MonsterFightConfig[14013] = {
+id:'14013',
+baseId:14013,
+name:'飞鹰',
+talk:'100',
+model:926,
+monsterType:2,
+level:35,
+exp:1490
+};
+MonsterFightConfig[14021] = {
+id:'14021',
+baseId:0,
+name:'金钱怪',
+talk:'101',
+model:59,
+monsterType:1,
+level:40,
+exp:178
+};
+MonsterFightConfig[14031] = {
+id:'14031',
+baseId:0,
+name:'白虎堂弟子',
+talk:'102',
+model:78,
+monsterType:1,
+level:40,
+exp:178
+};
+MonsterFightConfig[14032] = {
+id:'14032',
+baseId:0,
+name:'白虎堂弟子',
+talk:'103',
+model:78,
+monsterType:1,
+level:40,
+exp:178
+};
+MonsterFightConfig[14041] = {
+id:'14041',
+baseId:0,
+name:'朱雀门弟子',
+talk:'104',
+model:85,
+monsterType:1,
+level:45,
+exp:210
+};
+MonsterFightConfig[14042] = {
+id:'14042',
+baseId:0,
+name:'朱雀门弟子',
+talk:'105',
+model:85,
+monsterType:1,
+level:45,
+exp:210
+};
+MonsterFightConfig[14043] = {
+id:'14043',
+baseId:14043,
+name:'金寒',
+talk:'106',
+model:939,
+monsterType:2,
+level:45,
+exp:2100
+};
+MonsterFightConfig[14051] = {
+id:'14051',
+baseId:0,
+name:'金钱怪（中）',
+talk:'107',
+model:60,
+monsterType:1,
+level:50,
+exp:243
+};
+MonsterFightConfig[14061] = {
+id:'14061',
+baseId:0,
+name:'玄武门弟子',
+talk:'108',
+model:90,
+monsterType:1,
+level:50,
+exp:243
+};
+MonsterFightConfig[14062] = {
+id:'14062',
+baseId:0,
+name:'玄武门弟子',
+talk:'109',
+model:90,
+monsterType:1,
+level:50,
+exp:243
+};
+MonsterFightConfig[14063] = {
+id:'14063',
+baseId:14063,
+name:'上官飞',
+talk:'110',
+model:943,
+monsterType:2,
+level:50,
+exp:2430
+};
+MonsterFightConfig[14064] = {
+id:'14064',
+baseId:14064,
+name:'荆无命',
+talk:'111',
+model:951,
+monsterType:2,
+level:50,
+exp:2430
+};
+MonsterFightConfig[14071] = {
+id:'14071',
+baseId:14071,
+name:'朱雀门弟子',
+talk:'1',
+model:85,
+monsterType:3,
+level:55,
+exp:831
+};
+MonsterFightConfig[14072] = {
+id:'14072',
+baseId:14072,
+name:'玄武门弟子',
+talk:'2',
+model:90,
+monsterType:3,
+level:55,
+exp:831
+};
+MonsterFightConfig[14073] = {
+id:'14073',
+baseId:14073,
+name:'青龙堂弟子',
+talk:'3',
+model:89,
+monsterType:3,
+level:55,
+exp:831
+};
+MonsterFightConfig[14074] = {
+id:'14074',
+baseId:14074,
+name:'白虎堂弟子',
+talk:'4',
+model:78,
+monsterType:3,
+level:55,
+exp:831
+};
+MonsterFightConfig[14075] = {
+id:'14075',
+baseId:14075,
+name:'上官金虹',
+talk:'5',
+model:907,
+monsterType:2,
+level:55,
+exp:2770
+};
+MonsterFightConfig[14081] = {
+id:'14081',
+baseId:0,
+name:'金钱怪（大）',
+talk:'6',
+model:60,
+monsterType:1,
+level:60,
+exp:312
+};
+MonsterFightConfig[15001] = {
+id:'15001',
+baseId:0,
+name:'小偷',
+talk:'7',
+model:49,
+monsterType:1,
+level:38,
+exp:166
+};
+MonsterFightConfig[15002] = {
+id:'15002',
+baseId:0,
+name:'小偷',
+talk:'8',
+model:49,
+monsterType:1,
+level:38,
+exp:166
+};
+MonsterFightConfig[15003] = {
+id:'15003',
+baseId:15003,
+name:'鼠辈',
+talk:'9',
+model:910,
+monsterType:2,
+level:43,
+exp:1970
+};
+MonsterFightConfig[15011] = {
+id:'15011',
+baseId:0,
+name:'恶霸',
+talk:'10',
+model:50,
+monsterType:1,
+level:41,
+exp:185
+};
+MonsterFightConfig[15012] = {
+id:'15012',
+baseId:0,
+name:'恶霸',
+talk:'11',
+model:50,
+monsterType:1,
+level:41,
+exp:185
+};
+MonsterFightConfig[15013] = {
+id:'15013',
+baseId:15013,
+name:'牛霸',
+talk:'12',
+model:903,
+monsterType:2,
+level:46,
+exp:2160
+};
+MonsterFightConfig[15021] = {
+id:'15021',
+baseId:0,
+name:'护卫',
+talk:'13',
+model:88,
+monsterType:1,
+level:44,
+exp:203
+};
+MonsterFightConfig[15022] = {
+id:'15022',
+baseId:0,
+name:'护卫',
+talk:'14',
+model:88,
+monsterType:1,
+level:44,
+exp:203
+};
+MonsterFightConfig[15023] = {
+id:'15023',
+baseId:15023,
+name:'虎爷',
+talk:'15',
+model:933,
+monsterType:2,
+level:49,
+exp:2360
+};
+MonsterFightConfig[15031] = {
+id:'15031',
+baseId:0,
+name:'游女',
+talk:'16',
+model:32,
+monsterType:1,
+level:48,
+exp:229
+};
+MonsterFightConfig[15032] = {
+id:'15032',
+baseId:0,
+name:'游女',
+talk:'17',
+model:32,
+monsterType:1,
+level:48,
+exp:229
+};
+MonsterFightConfig[15033] = {
+id:'15033',
+baseId:15033,
+name:'兔儿',
+talk:'18',
+model:993,
+monsterType:2,
+level:53,
+exp:2630
+};
+MonsterFightConfig[15041] = {
+id:'15041',
+baseId:0,
+name:'龙的传人',
+talk:'19',
+model:40,
+monsterType:1,
+level:51,
+exp:249
+};
+MonsterFightConfig[15042] = {
+id:'15042',
+baseId:0,
+name:'龙的传人',
+talk:'20',
+model:40,
+monsterType:1,
+level:51,
+exp:249
+};
+MonsterFightConfig[15043] = {
+id:'15043',
+baseId:15043,
+name:'龙五',
+talk:'21',
+model:928,
+monsterType:2,
+level:56,
+exp:2840
+};
+MonsterFightConfig[15051] = {
+id:'15051',
+baseId:0,
+name:'奸细',
+talk:'22',
+model:14,
+monsterType:1,
+level:54,
+exp:270
+};
+MonsterFightConfig[15052] = {
+id:'15052',
+baseId:0,
+name:'奸细',
+talk:'23',
+model:14,
+monsterType:1,
+level:54,
+exp:270
+};
+MonsterFightConfig[15053] = {
+id:'15053',
+baseId:15053,
+name:'蛇彪',
+talk:'24',
+model:919,
+monsterType:2,
+level:59,
+exp:3050
+};
+MonsterFightConfig[15061] = {
+id:'15061',
+baseId:0,
+name:'骑兵',
+talk:'25',
+model:87,
+monsterType:1,
+level:58,
+exp:298
+};
+MonsterFightConfig[15062] = {
+id:'15062',
+baseId:0,
+name:'骑兵',
+talk:'26',
+model:87,
+monsterType:1,
+level:58,
+exp:298
+};
+MonsterFightConfig[15063] = {
+id:'15063',
+baseId:15063,
+name:'马忠',
+talk:'27',
+model:938,
+monsterType:2,
+level:63,
+exp:3340
+};
+MonsterFightConfig[15071] = {
+id:'15071',
+baseId:0,
+name:'禁卫军',
+talk:'28',
+model:78,
+monsterType:1,
+level:61,
+exp:319
+};
+MonsterFightConfig[15072] = {
+id:'15072',
+baseId:0,
+name:'禁卫军',
+talk:'29',
+model:78,
+monsterType:1,
+level:61,
+exp:319
+};
+MonsterFightConfig[15073] = {
+id:'15073',
+baseId:15073,
+name:'杨涛',
+talk:'30',
+model:913,
+monsterType:2,
+level:66,
+exp:3560
+};
+MonsterFightConfig[15081] = {
+id:'15081',
+baseId:0,
+name:'精锐射手',
+talk:'31',
+model:92,
+monsterType:1,
+level:64,
+exp:341
+};
+MonsterFightConfig[15082] = {
+id:'15082',
+baseId:0,
+name:'精锐射手',
+talk:'32',
+model:92,
+monsterType:1,
+level:64,
+exp:341
+};
+MonsterFightConfig[15083] = {
+id:'15083',
+baseId:15083,
+name:'侯投骨',
+talk:'33',
+model:928,
+monsterType:2,
+level:69,
+exp:3790
+};
+MonsterFightConfig[15091] = {
+id:'15091',
+baseId:0,
+name:'迷惑师',
+talk:'34',
+model:98,
+monsterType:1,
+level:68,
+exp:371
+};
+MonsterFightConfig[15092] = {
+id:'15092',
+baseId:0,
+name:'迷惑师',
+talk:'35',
+model:98,
+monsterType:1,
+level:68,
+exp:371
+};
+MonsterFightConfig[15093] = {
+id:'15093',
+baseId:15093,
+name:'姬雪',
+talk:'36',
+model:947,
+monsterType:2,
+level:73,
+exp:4100
+};
+MonsterFightConfig[15101] = {
+id:'15101',
+baseId:0,
+name:'狂犬人',
+talk:'37',
+model:47,
+monsterType:1,
+level:71,
+exp:394
+};
+MonsterFightConfig[15102] = {
+id:'15102',
+baseId:0,
+name:'狂犬人',
+talk:'38',
+model:47,
+monsterType:1,
+level:71,
+exp:394
+};
+MonsterFightConfig[15103] = {
+id:'15103',
+baseId:15103,
+name:'苟成',
+talk:'39',
+model:991,
+monsterType:2,
+level:76,
+exp:4330
+};
+MonsterFightConfig[15111] = {
+id:'15111',
+baseId:0,
+name:'野猪蛮族',
+talk:'40',
+model:71,
+monsterType:1,
+level:74,
+exp:417
+};
+MonsterFightConfig[15112] = {
+id:'15112',
+baseId:0,
+name:'野猪蛮族',
+talk:'41',
+model:71,
+monsterType:1,
+level:74,
+exp:417
+};
+MonsterFightConfig[15113] = {
+id:'15113',
+baseId:15113,
+name:'朱三成',
+talk:'42',
+model:906,
+monsterType:2,
+level:79,
+exp:4570
+};
+MonsterFightConfig[16001] = {
+id:'16001',
+baseId:0,
+name:'一筒',
+talk:'43',
+model:801,
+monsterType:1,
+level:45,
+exp:1388
+};
+MonsterFightConfig[16002] = {
+id:'16002',
+baseId:0,
+name:'一筒',
+talk:'44',
+model:801,
+monsterType:1,
+level:45,
+exp:1388
+};
+MonsterFightConfig[16011] = {
+id:'16011',
+baseId:0,
+name:'二筒',
+talk:'45',
+model:802,
+monsterType:1,
+level:47,
+exp:1388
+};
+MonsterFightConfig[16012] = {
+id:'16012',
+baseId:0,
+name:'二筒',
+talk:'46',
+model:802,
+monsterType:1,
+level:47,
+exp:1388
+};
+MonsterFightConfig[16021] = {
+id:'16021',
+baseId:0,
+name:'三筒',
+talk:'47',
+model:803,
+monsterType:1,
+level:49,
+exp:1388
+};
+MonsterFightConfig[16022] = {
+id:'16022',
+baseId:0,
+name:'三筒',
+talk:'48',
+model:803,
+monsterType:1,
+level:49,
+exp:1388
+};
+MonsterFightConfig[16023] = {
+id:'16023',
+baseId:16023,
+name:'鲍千灵',
+talk:'49',
+model:945,
+monsterType:2,
+level:50,
+exp:50000
+};
+MonsterFightConfig[16031] = {
+id:'16031',
+baseId:0,
+name:'四筒',
+talk:'50',
+model:804,
+monsterType:1,
+level:53,
+exp:2222
+};
+MonsterFightConfig[16032] = {
+id:'16032',
+baseId:0,
+name:'四筒',
+talk:'51',
+model:804,
+monsterType:1,
+level:53,
+exp:2222
+};
+MonsterFightConfig[16041] = {
+id:'16041',
+baseId:0,
+name:'五筒',
+talk:'52',
+model:805,
+monsterType:1,
+level:55,
+exp:2222
+};
+MonsterFightConfig[16042] = {
+id:'16042',
+baseId:0,
+name:'五筒',
+talk:'53',
+model:805,
+monsterType:1,
+level:55,
+exp:2222
+};
+MonsterFightConfig[16051] = {
+id:'16051',
+baseId:0,
+name:'六筒',
+talk:'54',
+model:806,
+monsterType:1,
+level:58,
+exp:2222
+};
+MonsterFightConfig[16052] = {
+id:'16052',
+baseId:0,
+name:'六筒',
+talk:'55',
+model:806,
+monsterType:1,
+level:58,
+exp:2222
+};
+MonsterFightConfig[16053] = {
+id:'16053',
+baseId:16053,
+name:'游骥',
+talk:'56',
+model:943,
+monsterType:2,
+level:60,
+exp:70000
+};
+MonsterFightConfig[16061] = {
+id:'16061',
+baseId:0,
+name:'七筒',
+talk:'57',
+model:807,
+monsterType:1,
+level:61,
+exp:3611
+};
+MonsterFightConfig[16062] = {
+id:'16062',
+baseId:0,
+name:'七筒',
+talk:'58',
+model:807,
+monsterType:1,
+level:61,
+exp:3611
+};
+MonsterFightConfig[16071] = {
+id:'16071',
+baseId:0,
+name:'八筒',
+talk:'59',
+model:808,
+monsterType:1,
+level:63,
+exp:3611
+};
+MonsterFightConfig[16072] = {
+id:'16072',
+baseId:0,
+name:'八筒',
+talk:'60',
+model:808,
+monsterType:1,
+level:63,
+exp:3611
+};
+MonsterFightConfig[16081] = {
+id:'16081',
+baseId:0,
+name:'九筒',
+talk:'61',
+model:809,
+monsterType:1,
+level:64,
+exp:3611
+};
+MonsterFightConfig[16082] = {
+id:'16082',
+baseId:0,
+name:'九筒',
+talk:'62',
+model:809,
+monsterType:1,
+level:64,
+exp:3611
+};
+MonsterFightConfig[16083] = {
+id:'16083',
+baseId:16083,
+name:'玄难',
+talk:'63',
+model:997,
+monsterType:2,
+level:65,
+exp:120000
+};
+MonsterFightConfig[31001] = {
+id:'31001',
+baseId:0,
+name:'巡逻兵卫• 外功',
+talk:'78',
+model:88,
+monsterType:1,
+level:40,
+exp:5487
+};
+MonsterFightConfig[31002] = {
+id:'31002',
+baseId:0,
+name:'暴君• 内功',
+talk:'79',
+model:75,
+monsterType:1,
+level:45,
+exp:5487
+};
+MonsterFightConfig[31003] = {
+id:'31003',
+baseId:31003,
+name:'暴君头目• 外功',
+talk:'80',
+model:75,
+monsterType:3,
+level:45,
+exp:50000
+};
+MonsterFightConfig[31004] = {
+id:'31004',
+baseId:31004,
+name:'花剑鞔娄• 内功',
+talk:'81',
+model:996,
+monsterType:2,
+level:50,
+exp:120000
+};
+MonsterFightConfig[31005] = {
+id:'31005',
+baseId:0,
+name:'射手• 外功',
+talk:'82',
+model:92,
+monsterType:1,
+level:48,
+exp:5487
+};
+MonsterFightConfig[31006] = {
+id:'31006',
+baseId:31006,
+name:'擂鼓女将• 外功',
+talk:'83',
+model:993,
+monsterType:2,
+level:50,
+exp:130000
+};
+MonsterFightConfig[31007] = {
+id:'31007',
+baseId:0,
+name:'圣殿禁卫军• 内功',
+talk:'84',
+model:72,
+monsterType:1,
+level:50,
+exp:5487
+};
+MonsterFightConfig[31008] = {
+id:'31008',
+baseId:0,
+name:'阴谋使者• 外功',
+talk:'85',
+model:93,
+monsterType:1,
+level:55,
+exp:5487
+};
+MonsterFightConfig[31009] = {
+id:'31009',
+baseId:31009,
+name:'擂鼓亡徒• 内功',
+talk:'86',
+model:953,
+monsterType:2,
+level:55,
+exp:150000
+};
+MonsterFightConfig[32001] = {
+id:'32001',
+baseId:0,
+name:'步兵• 外功',
+talk:'87',
+model:96,
+monsterType:1,
+level:48,
+exp:3428
+};
+MonsterFightConfig[32002] = {
+id:'32002',
+baseId:0,
+name:'一品堂神射手• 外功',
+talk:'89',
+model:92,
+monsterType:1,
+level:50,
+exp:2571
+};
+MonsterFightConfig[32003] = {
+id:'32003',
+baseId:0,
+name:'一品堂护卫• 内功',
+talk:'90',
+model:93,
+monsterType:1,
+level:52,
+exp:2571
+};
+MonsterFightConfig[32004] = {
+id:'32004',
+baseId:0,
+name:'一品堂骑兵• 外功',
+talk:'88',
+model:87,
+monsterType:1,
+level:54,
+exp:3265
+};
+MonsterFightConfig[32005] = {
+id:'32005',
+baseId:0,
+name:'长老弟子• 内功',
+talk:'94',
+model:98,
+monsterType:1,
+level:57,
+exp:8000
+};
+MonsterFightConfig[32006] = {
+id:'32006',
+baseId:0,
+name:'堂主护法• 内功',
+talk:'69',
+model:83,
+monsterType:1,
+level:60,
+exp:12000
+};
+MonsterFightConfig[32011] = {
+id:'32011',
+baseId:32011,
+name:'神射手教头 • 内功',
+talk:'75',
+model:952,
+monsterType:2,
+level:55,
+exp:34285
+};
+MonsterFightConfig[32012] = {
+id:'32012',
+baseId:32012,
+name:'一品堂总教头• 内功',
+talk:'77',
+model:949,
+monsterType:2,
+level:57,
+exp:68571
+};
+MonsterFightConfig[32013] = {
+id:'32013',
+baseId:32013,
+name:'骑兵统帅• 外功',
+talk:'80',
+model:933,
+monsterType:2,
+level:59,
+exp:120000
+};
+MonsterFightConfig[32015] = {
+id:'32015',
+baseId:32015,
+name:'一品堂长老• 内功',
+talk:'79',
+model:948,
+monsterType:2,
+level:62,
+exp:102857
+};
+MonsterFightConfig[32014] = {
+id:'32014',
+baseId:32014,
+name:'一品堂堂主• 外功',
+talk:'70',
+model:991,
+monsterType:2,
+level:65,
+exp:137142
+};
+MonsterFightConfig[33001] = {
+id:'33001',
+baseId:0,
+name:'野猪• 外功',
+talk:'91',
+model:57,
+monsterType:1,
+level:55,
+exp:5555
+};
+MonsterFightConfig[33002] = {
+id:'33002',
+baseId:0,
+name:'三十六岛弟子• 内功',
+talk:'92',
+model:41,
+monsterType:1,
+level:58,
+exp:7142
+};
+MonsterFightConfig[33003] = {
+id:'33003',
+baseId:0,
+name:'三十六岛精英• 外功',
+talk:'93',
+model:16,
+monsterType:1,
+level:60,
+exp:11111
+};
+MonsterFightConfig[33004] = {
+id:'33004',
+baseId:0,
+name:'七十六洞弟子• 内功',
+talk:'94',
+model:39,
+monsterType:1,
+level:62,
+exp:13888
+};
+MonsterFightConfig[33005] = {
+id:'33005',
+baseId:0,
+name:'七十六洞精英• 外功',
+talk:'95',
+model:43,
+monsterType:1,
+level:65,
+exp:16666
+};
+MonsterFightConfig[33006] = {
+id:'33006',
+baseId:0,
+name:'慕容家侍卫• 内功',
+talk:'75',
+model:38,
+monsterType:1,
+level:65,
+exp:17948
+};
+MonsterFightConfig[33007] = {
+id:'33007',
+baseId:33007,
+name:'野猪护卫• 外功',
+talk:'76',
+model:945,
+monsterType:2,
+level:60,
+exp:66666
+};
+MonsterFightConfig[33008] = {
+id:'33008',
+baseId:33008,
+name:'三十六洞洞主• 内功',
+talk:'77',
+model:925,
+monsterType:2,
+level:60,
+exp:100000
+};
+MonsterFightConfig[33009] = {
+id:'33009',
+baseId:33009,
+name:'黎夫人• 外功',
+talk:'78',
+model:929,
+monsterType:2,
+level:60,
+exp:133333
+};
+MonsterFightConfig[33010] = {
+id:'33010',
+baseId:33010,
+name:'端木洞主• 内功',
+talk:'79',
+model:951,
+monsterType:2,
+level:60,
+exp:166666
+};
+MonsterFightConfig[33011] = {
+id:'33011',
+baseId:33011,
+name:'慕容复• 外功',
+talk:'80',
+model:996,
+monsterType:2,
+level:65,
+exp:200000
+};
+MonsterFightConfig[33012] = {
+id:'33012',
+baseId:33012,
+name:'李秋水• 内功',
+talk:'69',
+model:993,
+monsterType:2,
+level:70,
+exp:233333
+};
+MonsterFightConfig[34001] = {
+id:'34001',
+baseId:0,
+name:'吐蕃卫兵• 外功',
+talk:'87',
+model:17,
+monsterType:1,
+level:30,
+exp:3200
+};
+MonsterFightConfig[34002] = {
+id:'34002',
+baseId:0,
+name:'吐蕃猛士• 外功',
+talk:'88',
+model:18,
+monsterType:1,
+level:31,
+exp:3200
+};
+MonsterFightConfig[34003] = {
+id:'34003',
+baseId:0,
+name:'破戒僧人• 内功',
+talk:'89',
+model:13,
+monsterType:1,
+level:32,
+exp:3200
+};
+MonsterFightConfig[34004] = {
+id:'34004',
+baseId:0,
+name:'吐蕃说客• 内功',
+talk:'90',
+model:6,
+monsterType:1,
+level:34,
+exp:3200
+};
+MonsterFightConfig[34005] = {
+id:'34005',
+baseId:0,
+name:'吐蕃喇嘛• 外功',
+talk:'88',
+model:95,
+monsterType:1,
+level:35,
+exp:3200
+};
+MonsterFightConfig[34006] = {
+id:'34006',
+baseId:34006,
+name:'吐蕃廷尉• 外功',
+talk:'89',
+model:994,
+monsterType:2,
+level:33,
+exp:80000
+};
+MonsterFightConfig[34007] = {
+id:'34007',
+baseId:34007,
+name:'破戒方丈• 内功',
+talk:'90',
+model:921,
+monsterType:2,
+level:35,
+exp:100000
+};
+MonsterFightConfig[34008] = {
+id:'34008',
+baseId:34008,
+name:'吐蕃国师• 内功',
+talk:'91',
+model:948,
+monsterType:2,
+level:38,
+exp:120000
+};
+MonsterFightConfig[50001] = {
+id:'50001',
+baseId:0,
+name:'神农叛徒',
+talk:'68',
+model:2,
+monsterType:1,
+level:35,
+exp:149
+};
+MonsterFightConfig[50002] = {
+id:'50002',
+baseId:0,
+name:'神农帮众',
+talk:'69',
+model:3,
+monsterType:1,
+level:35,
+exp:149
+};
+MonsterFightConfig[50003] = {
+id:'50003',
+baseId:50003,
+name:'神农王',
+talk:'70',
+model:924,
+monsterType:2,
+level:35,
+exp:745
+};
+MonsterFightConfig[50004] = {
+id:'50004',
+baseId:0,
+name:'无量剑派弟子',
+talk:'71',
+model:4,
+monsterType:1,
+level:35,
+exp:149
+};
+MonsterFightConfig[50005] = {
+id:'50005',
+baseId:0,
+name:'无量剑派弟子',
+talk:'72',
+model:4,
+monsterType:1,
+level:35,
+exp:149
+};
+MonsterFightConfig[50006] = {
+id:'50006',
+baseId:50006,
+name:'左子穆',
+talk:'73',
+model:926,
+monsterType:2,
+level:35,
+exp:745
+};
+MonsterFightConfig[50007] = {
+id:'50007',
+baseId:0,
+name:'蛤蟆怪',
+talk:'74',
+model:79,
+monsterType:1,
+level:35,
+exp:149
+};
+MonsterFightConfig[50008] = {
+id:'50008',
+baseId:0,
+name:'蛤蟆王',
+talk:'75',
+model:79,
+monsterType:1,
+level:35,
+exp:149
+};
+MonsterFightConfig[50009] = {
+id:'50009',
+baseId:50009,
+name:'莽牯朱蛤',
+talk:'76',
+model:998,
+monsterType:2,
+level:35,
+exp:745
+};
+MonsterFightConfig[50010] = {
+id:'50010',
+baseId:50010,
+name:'钟万仇',
+talk:'77',
+model:906,
+monsterType:2,
+level:35,
+exp:745
+};
+MonsterFightConfig[50011] = {
+id:'50011',
+baseId:0,
+name:'神农帮弟子',
+talk:'78',
+model:91,
+monsterType:1,
+level:40,
+exp:178
+};
+MonsterFightConfig[50012] = {
+id:'50012',
+baseId:0,
+name:'神农帮弟子',
+talk:'79',
+model:91,
+monsterType:1,
+level:40,
+exp:178
+};
+MonsterFightConfig[50013] = {
+id:'50013',
+baseId:50013,
+name:'神农帮帮主',
+talk:'80',
+model:944,
+monsterType:2,
+level:40,
+exp:890
+};
+MonsterFightConfig[50014] = {
+id:'50014',
+baseId:50014,
+name:'灵鹫圣使',
+talk:'81',
+model:912,
+monsterType:2,
+level:40,
+exp:890
+};
+MonsterFightConfig[50015] = {
+id:'50015',
+baseId:0,
+name:'南海恶人',
+talk:'82',
+model:36,
+monsterType:1,
+level:40,
+exp:178
+};
+MonsterFightConfig[50016] = {
+id:'50016',
+baseId:0,
+name:'南海恶人',
+talk:'83',
+model:36,
+monsterType:1,
+level:40,
+exp:178
+};
+MonsterFightConfig[50017] = {
+id:'50017',
+baseId:50017,
+name:'南海鳄神',
+talk:'84',
+model:926,
+monsterType:2,
+level:40,
+exp:890
+};
+MonsterFightConfig[50018] = {
+id:'50018',
+baseId:0,
+name:'淫贼',
+talk:'86',
+model:43,
+monsterType:1,
+level:45,
+exp:210
+};
+MonsterFightConfig[50019] = {
+id:'50019',
+baseId:0,
+name:'淫贼',
+talk:'87',
+model:43,
+monsterType:1,
+level:45,
+exp:210
+};
+MonsterFightConfig[50020] = {
+id:'50020',
+baseId:50020,
+name:'云中鹤',
+talk:'85',
+model:912,
+monsterType:2,
+level:45,
+exp:1050
+};
+MonsterFightConfig[50021] = {
+id:'50021',
+baseId:0,
+name:'恶人',
+talk:'89',
+model:48,
+monsterType:1,
+level:45,
+exp:210
+};
+MonsterFightConfig[50022] = {
+id:'50022',
+baseId:0,
+name:'恶人',
+talk:'90',
+model:48,
+monsterType:1,
+level:45,
+exp:210
+};
+MonsterFightConfig[50023] = {
+id:'50023',
+baseId:50023,
+name:'南海鳄神',
+talk:'88',
+model:926,
+monsterType:2,
+level:45,
+exp:1050
+};
+MonsterFightConfig[50024] = {
+id:'50024',
+baseId:0,
+name:'怨妇',
+talk:'92',
+model:32,
+monsterType:1,
+level:45,
+exp:210
+};
+MonsterFightConfig[50025] = {
+id:'50025',
+baseId:0,
+name:'怨妇',
+talk:'93',
+model:32,
+monsterType:1,
+level:45,
+exp:210
+};
+MonsterFightConfig[50026] = {
+id:'50026',
+baseId:50026,
+name:'叶二娘',
+talk:'91',
+model:940,
+monsterType:2,
+level:45,
+exp:1050
+};
+MonsterFightConfig[50027] = {
+id:'50027',
+baseId:0,
+name:'淫贼',
+talk:'95',
+model:43,
+monsterType:1,
+level:50,
+exp:243
+};
+MonsterFightConfig[50028] = {
+id:'50028',
+baseId:0,
+name:'淫贼',
+talk:'96',
+model:43,
+monsterType:1,
+level:50,
+exp:243
+};
+MonsterFightConfig[50029] = {
+id:'50029',
+baseId:50029,
+name:'云中鹤',
+talk:'94',
+model:906,
+monsterType:2,
+level:50,
+exp:1215
+};
+MonsterFightConfig[50030] = {
+id:'50030',
+baseId:50030,
+name:'木婉清',
+talk:'97',
+model:930,
+monsterType:2,
+level:50,
+exp:1215
+};
+MonsterFightConfig[8001] = {
+id:'8001',
+baseId:10001,
+name:'密宗弟子',
+talk:'101',
+model:13,
+monsterType:1,
+level:35,
+exp:83
+};
+MonsterFightConfig[8021] = {
+id:'8021',
+baseId:10001,
+name:'密宗弟子',
+talk:'102',
+model:13,
+monsterType:1,
+level:35,
+exp:83
+};
+MonsterFightConfig[8002] = {
+id:'8002',
+baseId:10002,
+name:'密宗喇嘛',
+talk:'103',
+model:9,
+monsterType:1,
+level:40,
+exp:89
+};
+MonsterFightConfig[8022] = {
+id:'8022',
+baseId:10002,
+name:'密宗喇嘛',
+talk:'104',
+model:9,
+monsterType:1,
+level:40,
+exp:89
+};
+MonsterFightConfig[8009] = {
+id:'8009',
+baseId:10017,
+name:'密宗狂徒',
+talk:'105',
+model:35,
+monsterType:1,
+level:43,
+exp:98
+};
+MonsterFightConfig[8029] = {
+id:'8029',
+baseId:10017,
+name:'密宗狂徒',
+talk:'106',
+model:35,
+monsterType:1,
+level:43,
+exp:98
+};
+MonsterFightConfig[8010] = {
+id:'8010',
+baseId:10018,
+name:'密宗刀僧',
+talk:'107',
+model:3,
+monsterType:1,
+level:45,
+exp:105
+};
+MonsterFightConfig[8020] = {
+id:'8020',
+baseId:10018,
+name:'密宗刀僧',
+talk:'108',
+model:3,
+monsterType:1,
+level:45,
+exp:105
+};
+MonsterFightConfig[8003] = {
+id:'8003',
+baseId:10003,
+name:'密宗法王',
+talk:'109',
+model:44,
+monsterType:1,
+level:48,
+exp:114
+};
+MonsterFightConfig[8023] = {
+id:'8023',
+baseId:10003,
+name:'密宗法王',
+talk:'110',
+model:44,
+monsterType:1,
+level:48,
+exp:114
+};
+MonsterFightConfig[8004] = {
+id:'8004',
+baseId:10004,
+name:'契丹哨兵',
+talk:'111',
+model:2,
+monsterType:1,
+level:50,
+exp:121
+};
+MonsterFightConfig[8024] = {
+id:'8024',
+baseId:10004,
+name:'契丹哨兵',
+talk:'1',
+model:2,
+monsterType:1,
+level:50,
+exp:121
+};
+MonsterFightConfig[8005] = {
+id:'8005',
+baseId:10005,
+name:'契丹先锋',
+talk:'2',
+model:50,
+monsterType:1,
+level:55,
+exp:138
+};
+MonsterFightConfig[8025] = {
+id:'8025',
+baseId:10005,
+name:'契丹先锋',
+talk:'3',
+model:50,
+monsterType:1,
+level:55,
+exp:138
+};
+MonsterFightConfig[8006] = {
+id:'8006',
+baseId:10006,
+name:'契丹武士',
+talk:'4',
+model:43,
+monsterType:1,
+level:60,
+exp:156
+};
+MonsterFightConfig[8026] = {
+id:'8026',
+baseId:10006,
+name:'契丹武士',
+talk:'5',
+model:43,
+monsterType:1,
+level:60,
+exp:156
+};
+MonsterFightConfig[8007] = {
+id:'8007',
+baseId:10007,
+name:'契丹巡将',
+talk:'6',
+model:48,
+monsterType:1,
+level:65,
+exp:174
+};
+MonsterFightConfig[8027] = {
+id:'8027',
+baseId:10007,
+name:'契丹巡将',
+talk:'7',
+model:48,
+monsterType:1,
+level:65,
+exp:174
+};
+MonsterFightConfig[8008] = {
+id:'8008',
+baseId:10008,
+name:'契丹禁卫',
+talk:'8',
+model:18,
+monsterType:1,
+level:68,
+exp:185
+};
+MonsterFightConfig[8028] = {
+id:'8028',
+baseId:10008,
+name:'契丹禁卫',
+talk:'9',
+model:18,
+monsterType:1,
+level:68,
+exp:185
+};
+MonsterFightConfig[8037] = {
+id:'8037',
+baseId:10009,
+name:'吐蕃和尚',
+talk:'10',
+model:19,
+monsterType:1,
+level:30,
+exp:68
+};
+MonsterFightConfig[8030] = {
+id:'8030',
+baseId:10009,
+name:'吐蕃和尚',
+talk:'11',
+model:19,
+monsterType:1,
+level:30,
+exp:68
+};
+MonsterFightConfig[8031] = {
+id:'8031',
+baseId:10010,
+name:'吐蕃力士',
+talk:'12',
+model:15,
+monsterType:1,
+level:33,
+exp:74
+};
+MonsterFightConfig[8032] = {
+id:'8032',
+baseId:10010,
+name:'吐蕃力士',
+talk:'13',
+model:15,
+monsterType:1,
+level:33,
+exp:74
+};
+MonsterFightConfig[8033] = {
+id:'8033',
+baseId:10011,
+name:'吐蕃战奴',
+talk:'14',
+model:16,
+monsterType:1,
+level:36,
+exp:89
+};
+MonsterFightConfig[8034] = {
+id:'8034',
+baseId:10011,
+name:'吐蕃战奴',
+talk:'15',
+model:16,
+monsterType:1,
+level:36,
+exp:89
+};
+MonsterFightConfig[8035] = {
+id:'8035',
+baseId:10012,
+name:'西夏探子',
+talk:'16',
+model:36,
+monsterType:1,
+level:30,
+exp:68
+};
+MonsterFightConfig[8036] = {
+id:'8036',
+baseId:10012,
+name:'西夏探子',
+talk:'17',
+model:36,
+monsterType:1,
+level:30,
+exp:68
+};
+MonsterFightConfig[8101] = {
+id:'8101',
+baseId:10013,
+name:'西夏密探',
+talk:'10',
+model:31,
+monsterType:1,
+level:33,
+exp:74
+};
+MonsterFightConfig[8102] = {
+id:'8102',
+baseId:10013,
+name:'西夏密探',
+talk:'11',
+model:31,
+monsterType:1,
+level:33,
+exp:74
+};
+MonsterFightConfig[8105] = {
+id:'8105',
+baseId:10016,
+name:'西夏刺客',
+talk:'12',
+model:20,
+monsterType:1,
+level:36,
+exp:89
+};
+MonsterFightConfig[8103] = {
+id:'8103',
+baseId:10016,
+name:'西夏刺客',
+talk:'12',
+model:20,
+monsterType:1,
+level:36,
+exp:89
+};
+MonsterFightConfig[8104] = {
+id:'8104',
+baseId:10014,
+name:'圣殊法王',
+talk:'13',
+model:90,
+monsterType:3,
+level:40,
+exp:267
+};
+MonsterFightConfig[8201] = {
+id:'8201',
+baseId:10015,
+name:'达摩密宗',
+talk:'14',
+model:95,
+monsterType:3,
+level:50,
+exp:364
+};
+MonsterFightConfig[8210] = {
+id:'8210',
+baseId:10024,
+name:'契丹将军',
+talk:'15',
+model:93,
+monsterType:3,
+level:55,
+exp:415
+};
+MonsterFightConfig[8211] = {
+id:'8211',
+baseId:10100,
+name:'[豪]守卫',
+model:17,
+monsterType:3,
+level:70,
+exp:768
+};
+MonsterFightConfig[8212] = {
+id:'8212',
+baseId:10101,
+name:'[侠]守卫',
+model:88,
+monsterType:3,
+level:70,
+exp:768
+};
+MonsterFightConfig[8301] = {
+id:'8301',
+baseId:20001,
+name:'据点一',
+model:112,
+monsterType:1,
+level:60,
+exp:0
+};
+MonsterFightConfig[8304] = {
+id:'8304',
+baseId:20004,
+name:'据点二',
+model:112,
+monsterType:1,
+level:60,
+exp:0
+};
+MonsterFightConfig[8305] = {
+id:'8305',
+baseId:20005,
+name:'据点三',
+model:112,
+monsterType:1,
+level:60,
+exp:0
+};
+MonsterFightConfig[8306] = {
+id:'8306',
+baseId:20006,
+name:'据点四',
+model:112,
+monsterType:1,
+level:60,
+exp:0
+};
+MonsterFightConfig[8307] = {
+id:'8307',
+baseId:20007,
+name:'据点五',
+model:112,
+monsterType:1,
+level:60,
+exp:0
+};
+MonsterFightConfig[8308] = {
+id:'8308',
+baseId:20008,
+name:'据点六',
+model:112,
+monsterType:1,
+level:60,
+exp:0
+};
+MonsterFightConfig[8309] = {
+id:'8309',
+baseId:20009,
+name:'据点七',
+model:112,
+monsterType:1,
+level:60,
+exp:0
+};
+MonsterFightConfig[8302] = {
+id:'8302',
+baseId:20002,
+name:'豪杰BOSS',
+model:957,
+monsterType:2,
+level:60,
+exp:1000
+};
+MonsterFightConfig[8303] = {
+id:'8303',
+baseId:20003,
+name:'侠客BOSS',
+model:958,
+monsterType:2,
+level:60,
+exp:1000
+};
+MonsterFightConfig[100] = {
+id:'100',
+baseId:100,
+name:'神盗零零一',
+model:133,
+monsterType:1,
+level:30,
+exp:100
+};
+MonsterFightConfig[101] = {
+id:'101',
+baseId:100,
+name:'神盗零零二',
+model:133,
+monsterType:1,
+level:30,
+exp:100
+};
+MonsterFightConfig[125] = {
+id:'125',
+baseId:100,
+name:'神盗零零三',
+model:133,
+monsterType:1,
+level:30,
+exp:100
+};
+MonsterFightConfig[126] = {
+id:'126',
+baseId:100,
+name:'神盗零零四',
+model:133,
+monsterType:1,
+level:30,
+exp:100
+};
+MonsterFightConfig[127] = {
+id:'127',
+baseId:100,
+name:'神盗零零五',
+model:133,
+monsterType:1,
+level:30,
+exp:100
+};
+MonsterFightConfig[128] = {
+id:'128',
+baseId:100,
+name:'神盗零零六',
+model:133,
+monsterType:1,
+level:30,
+exp:100
+};
+MonsterFightConfig[129] = {
+id:'129',
+baseId:100,
+name:'神盗零零七',
+model:133,
+monsterType:1,
+level:30,
+exp:100
+};
+MonsterFightConfig[130] = {
+id:'130',
+baseId:100,
+name:'神盗零零八',
+model:133,
+monsterType:1,
+level:30,
+exp:100
+};
+MonsterFightConfig[102] = {
+id:'102',
+baseId:101,
+name:'蒙古军1',
+model:201,
+monsterType:1,
+level:40,
+exp:178
+};
+MonsterFightConfig[103] = {
+id:'103',
+baseId:101,
+name:'蒙古军1',
+model:201,
+monsterType:1,
+level:40,
+exp:178
+};
+MonsterFightConfig[104] = {
+id:'104',
+baseId:102,
+name:'蒙古军2',
+model:202,
+monsterType:1,
+level:41,
+exp:185
+};
+MonsterFightConfig[105] = {
+id:'105',
+baseId:102,
+name:'蒙古军2',
+model:202,
+monsterType:1,
+level:41,
+exp:185
+};
+MonsterFightConfig[106] = {
+id:'106',
+baseId:103,
+name:'蒙古军3',
+model:203,
+monsterType:1,
+level:42,
+exp:191
+};
+MonsterFightConfig[107] = {
+id:'107',
+baseId:103,
+name:'蒙古军3',
+model:203,
+monsterType:1,
+level:42,
+exp:191
+};
+MonsterFightConfig[108] = {
+id:'108',
+baseId:104,
+name:'蒙古军4',
+model:204,
+monsterType:1,
+level:42,
+exp:191
+};
+MonsterFightConfig[109] = {
+id:'109',
+baseId:104,
+name:'蒙古军4',
+model:204,
+monsterType:1,
+level:42,
+exp:191
+};
+MonsterFightConfig[110] = {
+id:'110',
+baseId:105,
+name:'蒙古军千夫长',
+model:959,
+monsterType:2,
+level:43,
+exp:1970
+};
+MonsterFightConfig[111] = {
+id:'111',
+baseId:106,
+name:'蒙古军5',
+model:205,
+monsterType:1,
+level:43,
+exp:197
+};
+MonsterFightConfig[112] = {
+id:'112',
+baseId:106,
+name:'蒙古军5',
+model:205,
+monsterType:1,
+level:43,
+exp:197
+};
+MonsterFightConfig[113] = {
+id:'113',
+baseId:107,
+name:'蒙古军6',
+model:206,
+monsterType:1,
+level:43,
+exp:197
+};
+MonsterFightConfig[114] = {
+id:'114',
+baseId:107,
+name:'蒙古军6',
+model:206,
+monsterType:1,
+level:43,
+exp:197
+};
+MonsterFightConfig[115] = {
+id:'115',
+baseId:108,
+name:'蒙古军7',
+model:207,
+monsterType:1,
+level:44,
+exp:203
+};
+MonsterFightConfig[116] = {
+id:'116',
+baseId:108,
+name:'蒙古军7',
+model:207,
+monsterType:1,
+level:44,
+exp:203
+};
+MonsterFightConfig[117] = {
+id:'117',
+baseId:109,
+name:'蒙古军校尉',
+model:960,
+monsterType:2,
+level:45,
+exp:2100
+};
+MonsterFightConfig[118] = {
+id:'118',
+baseId:110,
+name:'蒙古军8',
+model:208,
+monsterType:1,
+level:44,
+exp:203
+};
+MonsterFightConfig[119] = {
+id:'119',
+baseId:110,
+name:'蒙古军8',
+model:208,
+monsterType:1,
+level:44,
+exp:203
+};
+MonsterFightConfig[120] = {
+id:'120',
+baseId:111,
+name:'蒙古军9',
+model:209,
+monsterType:1,
+level:44,
+exp:203
+};
+MonsterFightConfig[121] = {
+id:'121',
+baseId:111,
+name:'蒙古军9',
+model:209,
+monsterType:1,
+level:44,
+exp:203
+};
+MonsterFightConfig[122] = {
+id:'122',
+baseId:112,
+name:'蒙古军10',
+model:210,
+monsterType:1,
+level:45,
+exp:210
+};
+MonsterFightConfig[123] = {
+id:'123',
+baseId:112,
+name:'蒙古军10',
+model:210,
+monsterType:1,
+level:45,
+exp:210
+};
+MonsterFightConfig[124] = {
+id:'124',
+baseId:113,
+name:'蒙古军统领',
+model:961,
+monsterType:2,
+level:48,
+exp:2290
+};
+MonsterFightConfig[131] = {
+id:'131',
+baseId:114,
+name:'蒙古军1',
+model:201,
+monsterType:1,
+level:46,
+exp:216
+};
+MonsterFightConfig[132] = {
+id:'132',
+baseId:114,
+name:'蒙古军1',
+model:201,
+monsterType:1,
+level:46,
+exp:216
+};
+MonsterFightConfig[133] = {
+id:'133',
+baseId:115,
+name:'蒙古军2',
+model:202,
+monsterType:1,
+level:47,
+exp:223
+};
+MonsterFightConfig[134] = {
+id:'134',
+baseId:115,
+name:'蒙古军2',
+model:202,
+monsterType:1,
+level:47,
+exp:223
+};
+MonsterFightConfig[135] = {
+id:'135',
+baseId:116,
+name:'蒙古军3',
+model:203,
+monsterType:1,
+level:48,
+exp:229
+};
+MonsterFightConfig[136] = {
+id:'136',
+baseId:116,
+name:'蒙古军3',
+model:203,
+monsterType:1,
+level:48,
+exp:229
+};
+MonsterFightConfig[137] = {
+id:'137',
+baseId:117,
+name:'蒙古军4',
+model:204,
+monsterType:1,
+level:48,
+exp:229
+};
+MonsterFightConfig[138] = {
+id:'138',
+baseId:117,
+name:'蒙古军4',
+model:204,
+monsterType:1,
+level:48,
+exp:229
+};
+MonsterFightConfig[139] = {
+id:'139',
+baseId:118,
+name:'蒙古军千夫长',
+model:959,
+monsterType:2,
+level:49,
+exp:2360
+};
+MonsterFightConfig[140] = {
+id:'140',
+baseId:119,
+name:'蒙古军5',
+model:205,
+monsterType:1,
+level:49,
+exp:236
+};
+MonsterFightConfig[141] = {
+id:'141',
+baseId:119,
+name:'蒙古军5',
+model:205,
+monsterType:1,
+level:49,
+exp:236
+};
+MonsterFightConfig[142] = {
+id:'142',
+baseId:120,
+name:'蒙古军6',
+model:206,
+monsterType:1,
+level:49,
+exp:236
+};
+MonsterFightConfig[143] = {
+id:'143',
+baseId:120,
+name:'蒙古军6',
+model:206,
+monsterType:1,
+level:49,
+exp:236
+};
+MonsterFightConfig[144] = {
+id:'144',
+baseId:121,
+name:'蒙古军7',
+model:207,
+monsterType:1,
+level:50,
+exp:243
+};
+MonsterFightConfig[145] = {
+id:'145',
+baseId:121,
+name:'蒙古军7',
+model:207,
+monsterType:1,
+level:50,
+exp:243
+};
+MonsterFightConfig[146] = {
+id:'146',
+baseId:122,
+name:'蒙古军校尉',
+model:960,
+monsterType:2,
+level:51,
+exp:2490
+};
+MonsterFightConfig[147] = {
+id:'147',
+baseId:123,
+name:'蒙古军8',
+model:208,
+monsterType:1,
+level:50,
+exp:243
+};
+MonsterFightConfig[148] = {
+id:'148',
+baseId:123,
+name:'蒙古军8',
+model:208,
+monsterType:1,
+level:50,
+exp:243
+};
+MonsterFightConfig[149] = {
+id:'149',
+baseId:124,
+name:'蒙古军9',
+model:209,
+monsterType:1,
+level:50,
+exp:243
+};
+MonsterFightConfig[150] = {
+id:'150',
+baseId:124,
+name:'蒙古军9',
+model:209,
+monsterType:1,
+level:50,
+exp:243
+};
+MonsterFightConfig[151] = {
+id:'151',
+baseId:125,
+name:'蒙古军10',
+model:210,
+monsterType:1,
+level:51,
+exp:249
+};
+MonsterFightConfig[152] = {
+id:'152',
+baseId:125,
+name:'蒙古军10',
+model:210,
+monsterType:1,
+level:51,
+exp:249
+};
+MonsterFightConfig[153] = {
+id:'153',
+baseId:126,
+name:'蒙古军统领',
+model:961,
+monsterType:2,
+level:54,
+exp:2700
+};
+MonsterFightConfig[154] = {
+id:'154',
+baseId:127,
+name:'蒙古军1',
+model:201,
+monsterType:1,
+level:52,
+exp:256
+};
+MonsterFightConfig[155] = {
+id:'155',
+baseId:127,
+name:'蒙古军1',
+model:201,
+monsterType:1,
+level:52,
+exp:256
+};
+MonsterFightConfig[156] = {
+id:'156',
+baseId:128,
+name:'蒙古军2',
+model:202,
+monsterType:1,
+level:53,
+exp:263
+};
+MonsterFightConfig[157] = {
+id:'157',
+baseId:128,
+name:'蒙古军2',
+model:202,
+monsterType:1,
+level:53,
+exp:263
+};
+MonsterFightConfig[158] = {
+id:'158',
+baseId:129,
+name:'蒙古军3',
+model:203,
+monsterType:1,
+level:54,
+exp:270
+};
+MonsterFightConfig[159] = {
+id:'159',
+baseId:129,
+name:'蒙古军3',
+model:203,
+monsterType:1,
+level:54,
+exp:270
+};
+MonsterFightConfig[160] = {
+id:'160',
+baseId:130,
+name:'蒙古军4',
+model:204,
+monsterType:1,
+level:54,
+exp:270
+};
+MonsterFightConfig[161] = {
+id:'161',
+baseId:130,
+name:'蒙古军4',
+model:204,
+monsterType:1,
+level:54,
+exp:270
+};
+MonsterFightConfig[162] = {
+id:'162',
+baseId:131,
+name:'蒙古军千夫长',
+model:959,
+monsterType:2,
+level:55,
+exp:2770
+};
+MonsterFightConfig[163] = {
+id:'163',
+baseId:132,
+name:'蒙古军5',
+model:205,
+monsterType:1,
+level:55,
+exp:277
+};
+MonsterFightConfig[164] = {
+id:'164',
+baseId:132,
+name:'蒙古军5',
+model:205,
+monsterType:1,
+level:55,
+exp:277
+};
+MonsterFightConfig[165] = {
+id:'165',
+baseId:133,
+name:'蒙古军6',
+model:206,
+monsterType:1,
+level:55,
+exp:277
+};
+MonsterFightConfig[166] = {
+id:'166',
+baseId:133,
+name:'蒙古军6',
+model:206,
+monsterType:1,
+level:55,
+exp:277
+};
+MonsterFightConfig[167] = {
+id:'167',
+baseId:134,
+name:'蒙古军7',
+model:207,
+monsterType:1,
+level:56,
+exp:284
+};
+MonsterFightConfig[168] = {
+id:'168',
+baseId:134,
+name:'蒙古军7',
+model:207,
+monsterType:1,
+level:56,
+exp:284
+};
+MonsterFightConfig[169] = {
+id:'169',
+baseId:135,
+name:'蒙古军校尉',
+model:960,
+monsterType:2,
+level:57,
+exp:2910
+};
+MonsterFightConfig[170] = {
+id:'170',
+baseId:136,
+name:'蒙古军8',
+model:208,
+monsterType:1,
+level:56,
+exp:284
+};
+MonsterFightConfig[171] = {
+id:'171',
+baseId:136,
+name:'蒙古军8',
+model:208,
+monsterType:1,
+level:56,
+exp:284
+};
+MonsterFightConfig[172] = {
+id:'172',
+baseId:137,
+name:'蒙古军9',
+model:209,
+monsterType:1,
+level:56,
+exp:284
+};
+MonsterFightConfig[173] = {
+id:'173',
+baseId:137,
+name:'蒙古军9',
+model:209,
+monsterType:1,
+level:56,
+exp:284
+};
+MonsterFightConfig[174] = {
+id:'174',
+baseId:138,
+name:'蒙古军10',
+model:210,
+monsterType:1,
+level:57,
+exp:291
+};
+MonsterFightConfig[175] = {
+id:'175',
+baseId:138,
+name:'蒙古军10',
+model:210,
+monsterType:1,
+level:57,
+exp:291
+};
+MonsterFightConfig[176] = {
+id:'176',
+baseId:139,
+name:'蒙古军统领',
+model:961,
+monsterType:2,
+level:60,
+exp:3120
+};

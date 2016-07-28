@@ -1,0 +1,30 @@
+import flash.utils.Dictionary;
+var PetTitleConfig:Dictionary = new Dictionary();
+PetTitleConfig[1] = {
+titleType:1,
+titleClass:1,
+title:'勇猛的',
+levelRequire:10,
+attPercentAdd:0.02
+};
+PetTitleConfig[2] = {
+titleType:2,
+titleClass:1,
+title:'出众的',
+levelRequire:20,
+attPercentAdd:0.04
+};
+PetTitleConfig[3] = {
+titleType:3,
+titleClass:1,
+title:'盖世的',
+levelRequire:30,
+attPercentAdd:0.06
+};
+PetTitleConfig[4] = {
+titleType:4,
+titleClass:1,
+title:'传说中的',
+levelRequire:50,
+attPercentAdd:0.1
+};

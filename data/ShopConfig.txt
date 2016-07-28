@@ -1,0 +1,2834 @@
+import flash.utils.Dictionary;
+var ShopConfig:Dictionary = new Dictionary();
+ShopConfig[1] = {
+id:1,
+propsId:101001,
+goodsType:1,
+roleJob:1,
+npcIds:'128',
+binding:false
+};
+ShopConfig[2] = {
+id:2,
+propsId:101008,
+goodsType:1,
+roleJob:1,
+npcIds:'128',
+binding:false
+};
+ShopConfig[3] = {
+id:3,
+propsId:101002,
+goodsType:1,
+roleJob:1,
+npcIds:'128',
+binding:false
+};
+ShopConfig[4] = {
+id:4,
+propsId:101003,
+goodsType:1,
+roleJob:1,
+npcIds:'128',
+binding:false
+};
+ShopConfig[5] = {
+id:5,
+propsId:101004,
+goodsType:1,
+roleJob:1,
+npcIds:'128',
+binding:false
+};
+ShopConfig[6] = {
+id:6,
+propsId:101005,
+goodsType:1,
+roleJob:1,
+npcIds:'128',
+binding:false
+};
+ShopConfig[7] = {
+id:7,
+propsId:101006,
+goodsType:1,
+roleJob:1,
+npcIds:'128',
+binding:false
+};
+ShopConfig[8] = {
+id:8,
+propsId:101007,
+goodsType:1,
+roleJob:1,
+npcIds:'128',
+binding:false
+};
+ShopConfig[9] = {
+id:9,
+propsId:201001,
+goodsType:1,
+roleJob:2,
+npcIds:'128',
+binding:false
+};
+ShopConfig[10] = {
+id:10,
+propsId:201008,
+goodsType:1,
+roleJob:2,
+npcIds:'128',
+binding:false
+};
+ShopConfig[11] = {
+id:11,
+propsId:201002,
+goodsType:1,
+roleJob:2,
+npcIds:'128',
+binding:false
+};
+ShopConfig[12] = {
+id:12,
+propsId:201003,
+goodsType:1,
+roleJob:2,
+npcIds:'128',
+binding:false
+};
+ShopConfig[13] = {
+id:13,
+propsId:201004,
+goodsType:1,
+roleJob:2,
+npcIds:'128',
+binding:false
+};
+ShopConfig[14] = {
+id:14,
+propsId:201005,
+goodsType:1,
+roleJob:2,
+npcIds:'128',
+binding:false
+};
+ShopConfig[15] = {
+id:15,
+propsId:201006,
+goodsType:1,
+roleJob:2,
+npcIds:'128',
+binding:false
+};
+ShopConfig[16] = {
+id:16,
+propsId:201007,
+goodsType:1,
+roleJob:2,
+npcIds:'128',
+binding:false
+};
+ShopConfig[17] = {
+id:17,
+propsId:301001,
+goodsType:1,
+roleJob:3,
+npcIds:'128',
+binding:false
+};
+ShopConfig[18] = {
+id:18,
+propsId:301008,
+goodsType:1,
+roleJob:3,
+npcIds:'128',
+binding:false
+};
+ShopConfig[19] = {
+id:19,
+propsId:301002,
+goodsType:1,
+roleJob:3,
+npcIds:'128',
+binding:false
+};
+ShopConfig[20] = {
+id:20,
+propsId:301003,
+goodsType:1,
+roleJob:3,
+npcIds:'128',
+binding:false
+};
+ShopConfig[21] = {
+id:21,
+propsId:301004,
+goodsType:1,
+roleJob:3,
+npcIds:'128',
+binding:false
+};
+ShopConfig[22] = {
+id:22,
+propsId:301005,
+goodsType:1,
+roleJob:3,
+npcIds:'128',
+binding:false
+};
+ShopConfig[23] = {
+id:23,
+propsId:301006,
+goodsType:1,
+roleJob:3,
+npcIds:'128',
+binding:false
+};
+ShopConfig[24] = {
+id:24,
+propsId:301007,
+goodsType:1,
+roleJob:3,
+npcIds:'128',
+binding:false
+};
+ShopConfig[25] = {
+id:25,
+propsId:401001,
+goodsType:1,
+roleJob:4,
+npcIds:'128',
+binding:false
+};
+ShopConfig[26] = {
+id:26,
+propsId:401008,
+goodsType:1,
+roleJob:4,
+npcIds:'128',
+binding:false
+};
+ShopConfig[27] = {
+id:27,
+propsId:401002,
+goodsType:1,
+roleJob:4,
+npcIds:'128',
+binding:false
+};
+ShopConfig[28] = {
+id:28,
+propsId:401003,
+goodsType:1,
+roleJob:4,
+npcIds:'128',
+binding:false
+};
+ShopConfig[29] = {
+id:29,
+propsId:401004,
+goodsType:1,
+roleJob:4,
+npcIds:'128',
+binding:false
+};
+ShopConfig[30] = {
+id:30,
+propsId:401005,
+goodsType:1,
+roleJob:4,
+npcIds:'128',
+binding:false
+};
+ShopConfig[31] = {
+id:31,
+propsId:401006,
+goodsType:1,
+roleJob:4,
+npcIds:'128',
+binding:false
+};
+ShopConfig[32] = {
+id:32,
+propsId:401007,
+goodsType:1,
+roleJob:4,
+npcIds:'128',
+binding:false
+};
+ShopConfig[34] = {
+id:34,
+propsId:11010,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[35] = {
+id:35,
+propsId:12010,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[36] = {
+id:36,
+propsId:11020,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[37] = {
+id:37,
+propsId:12020,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[38] = {
+id:38,
+propsId:11030,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[39] = {
+id:39,
+propsId:12030,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[40] = {
+id:40,
+propsId:11040,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[41] = {
+id:41,
+propsId:12040,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[42] = {
+id:42,
+propsId:11050,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[43] = {
+id:43,
+propsId:12050,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[44] = {
+id:44,
+propsId:11060,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[45] = {
+id:45,
+propsId:12060,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[46] = {
+id:46,
+propsId:11070,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[47] = {
+id:47,
+propsId:12070,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[48] = {
+id:48,
+propsId:11080,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[49] = {
+id:49,
+propsId:12080,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[50] = {
+id:50,
+propsId:11090,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[51] = {
+id:51,
+propsId:12090,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[52] = {
+id:52,
+propsId:11100,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[53] = {
+id:53,
+propsId:12100,
+goodsType:0,
+roleJob:0,
+npcIds:'126',
+binding:false
+};
+ShopConfig[55] = {
+id:55,
+propsId:130001,
+goodsType:0,
+roleJob:5,
+npcIds:'126',
+binding:false
+};
+ShopConfig[56] = {
+id:56,
+propsId:130002,
+goodsType:0,
+roleJob:5,
+npcIds:'126',
+binding:false
+};
+ShopConfig[57] = {
+id:57,
+propsId:130003,
+goodsType:0,
+roleJob:5,
+npcIds:'126',
+binding:false
+};
+ShopConfig[59] = {
+id:59,
+propsId:102001,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[60] = {
+id:60,
+propsId:103001,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[61] = {
+id:61,
+propsId:104001,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[62] = {
+id:62,
+propsId:105001,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[63] = {
+id:63,
+propsId:106001,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[64] = {
+id:64,
+propsId:107001,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[65] = {
+id:65,
+propsId:108001,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[66] = {
+id:66,
+propsId:109001,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[67] = {
+id:67,
+propsId:102008,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[68] = {
+id:68,
+propsId:103008,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[69] = {
+id:69,
+propsId:104008,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[70] = {
+id:70,
+propsId:105008,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[71] = {
+id:71,
+propsId:106008,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[72] = {
+id:72,
+propsId:107008,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[73] = {
+id:73,
+propsId:108008,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[74] = {
+id:74,
+propsId:109008,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[75] = {
+id:75,
+propsId:102002,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[76] = {
+id:76,
+propsId:103002,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[77] = {
+id:77,
+propsId:104002,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[78] = {
+id:78,
+propsId:105002,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[79] = {
+id:79,
+propsId:106002,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[80] = {
+id:80,
+propsId:107002,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[81] = {
+id:81,
+propsId:108002,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[82] = {
+id:82,
+propsId:109002,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[83] = {
+id:83,
+propsId:102003,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[84] = {
+id:84,
+propsId:103003,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[85] = {
+id:85,
+propsId:104003,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[86] = {
+id:86,
+propsId:105003,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[87] = {
+id:87,
+propsId:106003,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[88] = {
+id:88,
+propsId:107003,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[89] = {
+id:89,
+propsId:108003,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[90] = {
+id:90,
+propsId:109003,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[91] = {
+id:91,
+propsId:102004,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[92] = {
+id:92,
+propsId:103004,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[93] = {
+id:93,
+propsId:104004,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[94] = {
+id:94,
+propsId:105004,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[95] = {
+id:95,
+propsId:106004,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[96] = {
+id:96,
+propsId:107004,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[97] = {
+id:97,
+propsId:108004,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[98] = {
+id:98,
+propsId:109004,
+goodsType:1,
+roleJob:1,
+npcIds:'123',
+binding:false
+};
+ShopConfig[99] = {
+id:99,
+propsId:202001,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[100] = {
+id:100,
+propsId:203001,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[101] = {
+id:101,
+propsId:204001,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[102] = {
+id:102,
+propsId:205001,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[103] = {
+id:103,
+propsId:206001,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[104] = {
+id:104,
+propsId:207001,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[105] = {
+id:105,
+propsId:208001,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[106] = {
+id:106,
+propsId:209001,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[107] = {
+id:107,
+propsId:202008,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[108] = {
+id:108,
+propsId:203008,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[109] = {
+id:109,
+propsId:204008,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[110] = {
+id:110,
+propsId:205008,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[111] = {
+id:111,
+propsId:206008,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[112] = {
+id:112,
+propsId:207008,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[113] = {
+id:113,
+propsId:208008,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[114] = {
+id:114,
+propsId:209008,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[115] = {
+id:115,
+propsId:202002,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[116] = {
+id:116,
+propsId:203002,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[117] = {
+id:117,
+propsId:204002,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[118] = {
+id:118,
+propsId:205002,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[119] = {
+id:119,
+propsId:206002,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[120] = {
+id:120,
+propsId:207002,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[121] = {
+id:121,
+propsId:208002,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[122] = {
+id:122,
+propsId:209002,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[123] = {
+id:123,
+propsId:202003,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[124] = {
+id:124,
+propsId:203003,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[125] = {
+id:125,
+propsId:204003,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[126] = {
+id:126,
+propsId:205003,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[127] = {
+id:127,
+propsId:206003,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[128] = {
+id:128,
+propsId:207003,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[129] = {
+id:129,
+propsId:208003,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[130] = {
+id:130,
+propsId:209003,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[131] = {
+id:131,
+propsId:202004,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[132] = {
+id:132,
+propsId:203004,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[133] = {
+id:133,
+propsId:204004,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[134] = {
+id:134,
+propsId:205004,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[135] = {
+id:135,
+propsId:206004,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[136] = {
+id:136,
+propsId:207004,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[137] = {
+id:137,
+propsId:208004,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[138] = {
+id:138,
+propsId:209004,
+goodsType:1,
+roleJob:2,
+npcIds:'123',
+binding:false
+};
+ShopConfig[139] = {
+id:139,
+propsId:302001,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[140] = {
+id:140,
+propsId:303001,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[141] = {
+id:141,
+propsId:304001,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[142] = {
+id:142,
+propsId:305001,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[143] = {
+id:143,
+propsId:306001,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[144] = {
+id:144,
+propsId:307001,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[145] = {
+id:145,
+propsId:308001,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[146] = {
+id:146,
+propsId:309001,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[147] = {
+id:147,
+propsId:302008,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[148] = {
+id:148,
+propsId:303008,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[149] = {
+id:149,
+propsId:304008,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[150] = {
+id:150,
+propsId:305008,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[151] = {
+id:151,
+propsId:306008,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[152] = {
+id:152,
+propsId:307008,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[153] = {
+id:153,
+propsId:308008,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[154] = {
+id:154,
+propsId:309008,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[155] = {
+id:155,
+propsId:302002,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[156] = {
+id:156,
+propsId:303002,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[157] = {
+id:157,
+propsId:304002,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[158] = {
+id:158,
+propsId:305002,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[159] = {
+id:159,
+propsId:306002,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[160] = {
+id:160,
+propsId:307002,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[161] = {
+id:161,
+propsId:308002,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[162] = {
+id:162,
+propsId:309002,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[163] = {
+id:163,
+propsId:302003,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[164] = {
+id:164,
+propsId:303003,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[165] = {
+id:165,
+propsId:304003,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[166] = {
+id:166,
+propsId:305003,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[167] = {
+id:167,
+propsId:306003,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[168] = {
+id:168,
+propsId:307003,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[169] = {
+id:169,
+propsId:308003,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[170] = {
+id:170,
+propsId:309003,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[171] = {
+id:171,
+propsId:302004,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[172] = {
+id:172,
+propsId:303004,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[173] = {
+id:173,
+propsId:304004,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[174] = {
+id:174,
+propsId:305004,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[175] = {
+id:175,
+propsId:306004,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[176] = {
+id:176,
+propsId:307004,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[177] = {
+id:177,
+propsId:308004,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[178] = {
+id:178,
+propsId:309004,
+goodsType:1,
+roleJob:3,
+npcIds:'123',
+binding:false
+};
+ShopConfig[179] = {
+id:179,
+propsId:402001,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[180] = {
+id:180,
+propsId:403001,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[181] = {
+id:181,
+propsId:404001,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[182] = {
+id:182,
+propsId:405001,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[183] = {
+id:183,
+propsId:406001,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[184] = {
+id:184,
+propsId:407001,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[185] = {
+id:185,
+propsId:408001,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[186] = {
+id:186,
+propsId:409001,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[187] = {
+id:187,
+propsId:402008,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[188] = {
+id:188,
+propsId:403008,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[189] = {
+id:189,
+propsId:404008,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[190] = {
+id:190,
+propsId:405008,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[191] = {
+id:191,
+propsId:406008,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[192] = {
+id:192,
+propsId:407008,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[193] = {
+id:193,
+propsId:408008,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[194] = {
+id:194,
+propsId:409008,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[195] = {
+id:195,
+propsId:402002,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[196] = {
+id:196,
+propsId:403002,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[197] = {
+id:197,
+propsId:404002,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[198] = {
+id:198,
+propsId:405002,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[199] = {
+id:199,
+propsId:406002,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[200] = {
+id:200,
+propsId:407002,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[201] = {
+id:201,
+propsId:408002,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[202] = {
+id:202,
+propsId:409002,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[203] = {
+id:203,
+propsId:402003,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[204] = {
+id:204,
+propsId:403003,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[205] = {
+id:205,
+propsId:404003,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[206] = {
+id:206,
+propsId:405003,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[207] = {
+id:207,
+propsId:406003,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[208] = {
+id:208,
+propsId:407003,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[209] = {
+id:209,
+propsId:408003,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[210] = {
+id:210,
+propsId:409003,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[211] = {
+id:211,
+propsId:402004,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[212] = {
+id:212,
+propsId:403004,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[213] = {
+id:213,
+propsId:404004,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[214] = {
+id:214,
+propsId:405004,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[215] = {
+id:215,
+propsId:406004,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[216] = {
+id:216,
+propsId:407004,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[217] = {
+id:217,
+propsId:408004,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[218] = {
+id:218,
+propsId:409004,
+goodsType:1,
+roleJob:4,
+npcIds:'123',
+binding:false
+};
+ShopConfig[219] = {
+id:219,
+propsId:110001,
+goodsType:1,
+roleJob:1,
+npcIds:'124',
+binding:false
+};
+ShopConfig[220] = {
+id:220,
+propsId:111001,
+goodsType:1,
+roleJob:1,
+npcIds:'124',
+binding:false
+};
+ShopConfig[221] = {
+id:221,
+propsId:112001,
+goodsType:1,
+roleJob:1,
+npcIds:'124',
+binding:false
+};
+ShopConfig[222] = {
+id:222,
+propsId:110008,
+goodsType:1,
+roleJob:1,
+npcIds:'124',
+binding:false
+};
+ShopConfig[223] = {
+id:223,
+propsId:111008,
+goodsType:1,
+roleJob:1,
+npcIds:'124',
+binding:false
+};
+ShopConfig[224] = {
+id:224,
+propsId:112008,
+goodsType:1,
+roleJob:1,
+npcIds:'124',
+binding:false
+};
+ShopConfig[225] = {
+id:225,
+propsId:110002,
+goodsType:1,
+roleJob:1,
+npcIds:'124',
+binding:false
+};
+ShopConfig[226] = {
+id:226,
+propsId:111002,
+goodsType:1,
+roleJob:1,
+npcIds:'124',
+binding:false
+};
+ShopConfig[227] = {
+id:227,
+propsId:112002,
+goodsType:1,
+roleJob:1,
+npcIds:'124',
+binding:false
+};
+ShopConfig[228] = {
+id:228,
+propsId:110003,
+goodsType:1,
+roleJob:1,
+npcIds:'124',
+binding:false
+};
+ShopConfig[229] = {
+id:229,
+propsId:111003,
+goodsType:1,
+roleJob:1,
+npcIds:'124',
+binding:false
+};
+ShopConfig[230] = {
+id:230,
+propsId:112003,
+goodsType:1,
+roleJob:1,
+npcIds:'124',
+binding:false
+};
+ShopConfig[231] = {
+id:231,
+propsId:110004,
+goodsType:1,
+roleJob:1,
+npcIds:'124',
+binding:false
+};
+ShopConfig[232] = {
+id:232,
+propsId:111004,
+goodsType:1,
+roleJob:1,
+npcIds:'124',
+binding:false
+};
+ShopConfig[233] = {
+id:233,
+propsId:112004,
+goodsType:1,
+roleJob:1,
+npcIds:'124',
+binding:false
+};
+ShopConfig[234] = {
+id:234,
+propsId:210001,
+goodsType:1,
+roleJob:2,
+npcIds:'124',
+binding:false
+};
+ShopConfig[235] = {
+id:235,
+propsId:211001,
+goodsType:1,
+roleJob:2,
+npcIds:'124',
+binding:false
+};
+ShopConfig[236] = {
+id:236,
+propsId:212001,
+goodsType:1,
+roleJob:2,
+npcIds:'124',
+binding:false
+};
+ShopConfig[237] = {
+id:237,
+propsId:210008,
+goodsType:1,
+roleJob:2,
+npcIds:'124',
+binding:false
+};
+ShopConfig[238] = {
+id:238,
+propsId:211008,
+goodsType:1,
+roleJob:2,
+npcIds:'124',
+binding:false
+};
+ShopConfig[239] = {
+id:239,
+propsId:212008,
+goodsType:1,
+roleJob:2,
+npcIds:'124',
+binding:false
+};
+ShopConfig[240] = {
+id:240,
+propsId:210002,
+goodsType:1,
+roleJob:2,
+npcIds:'124',
+binding:false
+};
+ShopConfig[241] = {
+id:241,
+propsId:211002,
+goodsType:1,
+roleJob:2,
+npcIds:'124',
+binding:false
+};
+ShopConfig[242] = {
+id:242,
+propsId:212002,
+goodsType:1,
+roleJob:2,
+npcIds:'124',
+binding:false
+};
+ShopConfig[243] = {
+id:243,
+propsId:210003,
+goodsType:1,
+roleJob:2,
+npcIds:'124',
+binding:false
+};
+ShopConfig[244] = {
+id:244,
+propsId:211003,
+goodsType:1,
+roleJob:2,
+npcIds:'124',
+binding:false
+};
+ShopConfig[245] = {
+id:245,
+propsId:212003,
+goodsType:1,
+roleJob:2,
+npcIds:'124',
+binding:false
+};
+ShopConfig[246] = {
+id:246,
+propsId:210004,
+goodsType:1,
+roleJob:2,
+npcIds:'124',
+binding:false
+};
+ShopConfig[247] = {
+id:247,
+propsId:211004,
+goodsType:1,
+roleJob:2,
+npcIds:'124',
+binding:false
+};
+ShopConfig[248] = {
+id:248,
+propsId:212004,
+goodsType:1,
+roleJob:2,
+npcIds:'124',
+binding:false
+};
+ShopConfig[249] = {
+id:249,
+propsId:310001,
+goodsType:1,
+roleJob:3,
+npcIds:'124',
+binding:false
+};
+ShopConfig[250] = {
+id:250,
+propsId:311001,
+goodsType:1,
+roleJob:3,
+npcIds:'124',
+binding:false
+};
+ShopConfig[251] = {
+id:251,
+propsId:312001,
+goodsType:1,
+roleJob:3,
+npcIds:'124',
+binding:false
+};
+ShopConfig[252] = {
+id:252,
+propsId:310008,
+goodsType:1,
+roleJob:3,
+npcIds:'124',
+binding:false
+};
+ShopConfig[253] = {
+id:253,
+propsId:311008,
+goodsType:1,
+roleJob:3,
+npcIds:'124',
+binding:false
+};
+ShopConfig[254] = {
+id:254,
+propsId:312008,
+goodsType:1,
+roleJob:3,
+npcIds:'124',
+binding:false
+};
+ShopConfig[255] = {
+id:255,
+propsId:310002,
+goodsType:1,
+roleJob:3,
+npcIds:'124',
+binding:false
+};
+ShopConfig[256] = {
+id:256,
+propsId:311002,
+goodsType:1,
+roleJob:3,
+npcIds:'124',
+binding:false
+};
+ShopConfig[257] = {
+id:257,
+propsId:312002,
+goodsType:1,
+roleJob:3,
+npcIds:'124',
+binding:false
+};
+ShopConfig[258] = {
+id:258,
+propsId:310003,
+goodsType:1,
+roleJob:3,
+npcIds:'124',
+binding:false
+};
+ShopConfig[259] = {
+id:259,
+propsId:311003,
+goodsType:1,
+roleJob:3,
+npcIds:'124',
+binding:false
+};
+ShopConfig[260] = {
+id:260,
+propsId:312003,
+goodsType:1,
+roleJob:3,
+npcIds:'124',
+binding:false
+};
+ShopConfig[261] = {
+id:261,
+propsId:310004,
+goodsType:1,
+roleJob:3,
+npcIds:'124',
+binding:false
+};
+ShopConfig[262] = {
+id:262,
+propsId:311004,
+goodsType:1,
+roleJob:3,
+npcIds:'124',
+binding:false
+};
+ShopConfig[263] = {
+id:263,
+propsId:312004,
+goodsType:1,
+roleJob:3,
+npcIds:'124',
+binding:false
+};
+ShopConfig[264] = {
+id:264,
+propsId:410001,
+goodsType:1,
+roleJob:4,
+npcIds:'124',
+binding:false
+};
+ShopConfig[265] = {
+id:265,
+propsId:411001,
+goodsType:1,
+roleJob:4,
+npcIds:'124',
+binding:false
+};
+ShopConfig[266] = {
+id:266,
+propsId:412001,
+goodsType:1,
+roleJob:4,
+npcIds:'124',
+binding:false
+};
+ShopConfig[267] = {
+id:267,
+propsId:410008,
+goodsType:1,
+roleJob:4,
+npcIds:'124',
+binding:false
+};
+ShopConfig[268] = {
+id:268,
+propsId:411008,
+goodsType:1,
+roleJob:4,
+npcIds:'124',
+binding:false
+};
+ShopConfig[269] = {
+id:269,
+propsId:412008,
+goodsType:1,
+roleJob:4,
+npcIds:'124',
+binding:false
+};
+ShopConfig[270] = {
+id:270,
+propsId:410002,
+goodsType:1,
+roleJob:4,
+npcIds:'124',
+binding:false
+};
+ShopConfig[271] = {
+id:271,
+propsId:411002,
+goodsType:1,
+roleJob:4,
+npcIds:'124',
+binding:false
+};
+ShopConfig[272] = {
+id:272,
+propsId:412002,
+goodsType:1,
+roleJob:4,
+npcIds:'124',
+binding:false
+};
+ShopConfig[273] = {
+id:273,
+propsId:410003,
+goodsType:1,
+roleJob:4,
+npcIds:'124',
+binding:false
+};
+ShopConfig[274] = {
+id:274,
+propsId:411003,
+goodsType:1,
+roleJob:4,
+npcIds:'124',
+binding:false
+};
+ShopConfig[275] = {
+id:275,
+propsId:412003,
+goodsType:1,
+roleJob:4,
+npcIds:'124',
+binding:false
+};
+ShopConfig[276] = {
+id:276,
+propsId:410004,
+goodsType:1,
+roleJob:4,
+npcIds:'124',
+binding:false
+};
+ShopConfig[277] = {
+id:277,
+propsId:411004,
+goodsType:1,
+roleJob:4,
+npcIds:'124',
+binding:false
+};
+ShopConfig[278] = {
+id:278,
+propsId:412004,
+goodsType:1,
+roleJob:4,
+npcIds:'124',
+binding:false
+};
+ShopConfig[279] = {
+id:279,
+propsId:40101,
+goodsType:0,
+roleJob:1,
+npcIds:'131',
+binding:false
+};
+ShopConfig[280] = {
+id:280,
+propsId:40102,
+goodsType:0,
+roleJob:1,
+npcIds:'131',
+binding:false
+};
+ShopConfig[281] = {
+id:281,
+propsId:40103,
+goodsType:0,
+roleJob:1,
+npcIds:'131',
+binding:false
+};
+ShopConfig[285] = {
+id:285,
+propsId:40107,
+goodsType:0,
+roleJob:1,
+npcIds:'131',
+binding:false
+};
+ShopConfig[288] = {
+id:288,
+propsId:40201,
+goodsType:0,
+roleJob:2,
+npcIds:'131',
+binding:false
+};
+ShopConfig[289] = {
+id:289,
+propsId:40202,
+goodsType:0,
+roleJob:2,
+npcIds:'131',
+binding:false
+};
+ShopConfig[290] = {
+id:290,
+propsId:40203,
+goodsType:0,
+roleJob:2,
+npcIds:'131',
+binding:false
+};
+ShopConfig[294] = {
+id:294,
+propsId:40207,
+goodsType:0,
+roleJob:2,
+npcIds:'131',
+binding:false
+};
+ShopConfig[297] = {
+id:297,
+propsId:40301,
+goodsType:0,
+roleJob:3,
+npcIds:'131',
+binding:false
+};
+ShopConfig[298] = {
+id:298,
+propsId:40302,
+goodsType:0,
+roleJob:3,
+npcIds:'131',
+binding:false
+};
+ShopConfig[299] = {
+id:299,
+propsId:40303,
+goodsType:0,
+roleJob:3,
+npcIds:'131',
+binding:false
+};
+ShopConfig[303] = {
+id:303,
+propsId:40307,
+goodsType:0,
+roleJob:3,
+npcIds:'131',
+binding:false
+};
+ShopConfig[306] = {
+id:306,
+propsId:40401,
+goodsType:0,
+roleJob:4,
+npcIds:'131',
+binding:false
+};
+ShopConfig[307] = {
+id:307,
+propsId:40402,
+goodsType:0,
+roleJob:4,
+npcIds:'131',
+binding:false
+};
+ShopConfig[308] = {
+id:308,
+propsId:40403,
+goodsType:0,
+roleJob:4,
+npcIds:'131',
+binding:false
+};
+ShopConfig[312] = {
+id:312,
+propsId:40407,
+goodsType:0,
+roleJob:4,
+npcIds:'131',
+binding:false
+};
+ShopConfig[319] = {
+id:319,
+propsId:120034,
+goodsType:0,
+roleJob:0,
+npcIds:'130',
+binding:false
+};
+ShopConfig[1001] = {
+id:1001,
+propsId:11020,
+goodsType:0,
+roleJob:0,
+npcIds:'298',
+binding:false
+};
+ShopConfig[1002] = {
+id:1002,
+propsId:12020,
+goodsType:0,
+roleJob:0,
+npcIds:'298',
+binding:false
+};
+ShopConfig[1003] = {
+id:1003,
+propsId:11030,
+goodsType:0,
+roleJob:0,
+npcIds:'298',
+binding:false
+};
+ShopConfig[1004] = {
+id:1004,
+propsId:12030,
+goodsType:0,
+roleJob:0,
+npcIds:'298',
+binding:false
+};
+ShopConfig[1005] = {
+id:1005,
+propsId:11040,
+goodsType:0,
+roleJob:0,
+npcIds:'298',
+binding:false
+};
+ShopConfig[1006] = {
+id:1006,
+propsId:12040,
+goodsType:0,
+roleJob:0,
+npcIds:'298',
+binding:false
+};
+ShopConfig[1007] = {
+id:1007,
+propsId:130001,
+goodsType:0,
+roleJob:5,
+npcIds:'298',
+binding:false
+};
+ShopConfig[1008] = {
+id:1008,
+propsId:130002,
+goodsType:0,
+roleJob:5,
+npcIds:'298',
+binding:false
+};
+ShopConfig[1009] = {
+id:1009,
+propsId:130003,
+goodsType:0,
+roleJob:5,
+npcIds:'298',
+binding:false
+};
+ShopConfig[1010] = {
+id:1010,
+propsId:11030,
+goodsType:0,
+roleJob:0,
+npcIds:'295',
+binding:false
+};
+ShopConfig[1011] = {
+id:1011,
+propsId:12030,
+goodsType:0,
+roleJob:0,
+npcIds:'295',
+binding:false
+};
+ShopConfig[1012] = {
+id:1012,
+propsId:11040,
+goodsType:0,
+roleJob:0,
+npcIds:'295',
+binding:false
+};
+ShopConfig[1013] = {
+id:1013,
+propsId:12040,
+goodsType:0,
+roleJob:0,
+npcIds:'295',
+binding:false
+};
+ShopConfig[1014] = {
+id:1014,
+propsId:11050,
+goodsType:0,
+roleJob:0,
+npcIds:'295',
+binding:false
+};
+ShopConfig[1015] = {
+id:1015,
+propsId:12050,
+goodsType:0,
+roleJob:0,
+npcIds:'295',
+binding:false
+};
+ShopConfig[1016] = {
+id:1016,
+propsId:130001,
+goodsType:0,
+roleJob:5,
+npcIds:'295',
+binding:false
+};
+ShopConfig[1017] = {
+id:1017,
+propsId:130002,
+goodsType:0,
+roleJob:5,
+npcIds:'295',
+binding:false
+};
+ShopConfig[1018] = {
+id:1018,
+propsId:130003,
+goodsType:0,
+roleJob:5,
+npcIds:'295',
+binding:false
+};
+ShopConfig[1019] = {
+id:1019,
+propsId:11040,
+goodsType:0,
+roleJob:0,
+npcIds:'296',
+binding:false
+};
+ShopConfig[1020] = {
+id:1020,
+propsId:12040,
+goodsType:0,
+roleJob:0,
+npcIds:'296',
+binding:false
+};
+ShopConfig[1021] = {
+id:1021,
+propsId:11050,
+goodsType:0,
+roleJob:0,
+npcIds:'296',
+binding:false
+};
+ShopConfig[1022] = {
+id:1022,
+propsId:12050,
+goodsType:0,
+roleJob:0,
+npcIds:'296',
+binding:false
+};
+ShopConfig[1023] = {
+id:1023,
+propsId:11060,
+goodsType:0,
+roleJob:0,
+npcIds:'296',
+binding:false
+};
+ShopConfig[1024] = {
+id:1024,
+propsId:12060,
+goodsType:0,
+roleJob:0,
+npcIds:'296',
+binding:false
+};
+ShopConfig[1025] = {
+id:1025,
+propsId:130001,
+goodsType:0,
+roleJob:5,
+npcIds:'296',
+binding:false
+};
+ShopConfig[1026] = {
+id:1026,
+propsId:130002,
+goodsType:0,
+roleJob:5,
+npcIds:'296',
+binding:false
+};
+ShopConfig[1027] = {
+id:1027,
+propsId:130003,
+goodsType:0,
+roleJob:5,
+npcIds:'296',
+binding:false
+};
+ShopConfig[1028] = {
+id:1028,
+propsId:11050,
+goodsType:0,
+roleJob:0,
+npcIds:'297',
+binding:false
+};
+ShopConfig[1029] = {
+id:1029,
+propsId:12050,
+goodsType:0,
+roleJob:0,
+npcIds:'297',
+binding:false
+};
+ShopConfig[1030] = {
+id:1030,
+propsId:11060,
+goodsType:0,
+roleJob:0,
+npcIds:'297',
+binding:false
+};
+ShopConfig[1031] = {
+id:1031,
+propsId:12060,
+goodsType:0,
+roleJob:0,
+npcIds:'297',
+binding:false
+};
+ShopConfig[1032] = {
+id:1032,
+propsId:11070,
+goodsType:0,
+roleJob:0,
+npcIds:'297',
+binding:false
+};
+ShopConfig[1033] = {
+id:1033,
+propsId:12070,
+goodsType:0,
+roleJob:0,
+npcIds:'297',
+binding:false
+};
+ShopConfig[1034] = {
+id:1034,
+propsId:130001,
+goodsType:0,
+roleJob:5,
+npcIds:'297',
+binding:false
+};
+ShopConfig[1035] = {
+id:1035,
+propsId:130002,
+goodsType:0,
+roleJob:5,
+npcIds:'297',
+binding:false
+};
+ShopConfig[1036] = {
+id:1036,
+propsId:130003,
+goodsType:0,
+roleJob:5,
+npcIds:'297',
+binding:false
+};
+ShopConfig[1037] = {
+id:1037,
+propsId:11030,
+goodsType:0,
+roleJob:0,
+npcIds:'293',
+binding:false
+};
+ShopConfig[1038] = {
+id:1038,
+propsId:12030,
+goodsType:0,
+roleJob:0,
+npcIds:'293',
+binding:false
+};
+ShopConfig[1039] = {
+id:1039,
+propsId:11040,
+goodsType:0,
+roleJob:0,
+npcIds:'293',
+binding:false
+};
+ShopConfig[1040] = {
+id:1040,
+propsId:12040,
+goodsType:0,
+roleJob:0,
+npcIds:'293',
+binding:false
+};
+ShopConfig[1041] = {
+id:1041,
+propsId:11050,
+goodsType:0,
+roleJob:0,
+npcIds:'293',
+binding:false
+};
+ShopConfig[1042] = {
+id:1042,
+propsId:12050,
+goodsType:0,
+roleJob:0,
+npcIds:'293',
+binding:false
+};
+ShopConfig[1043] = {
+id:1043,
+propsId:11060,
+goodsType:0,
+roleJob:0,
+npcIds:'293',
+binding:false
+};
+ShopConfig[1044] = {
+id:1044,
+propsId:12060,
+goodsType:0,
+roleJob:0,
+npcIds:'293',
+binding:false
+};
+ShopConfig[1045] = {
+id:1045,
+propsId:11070,
+goodsType:0,
+roleJob:0,
+npcIds:'293',
+binding:false
+};
+ShopConfig[1046] = {
+id:1046,
+propsId:12070,
+goodsType:0,
+roleJob:0,
+npcIds:'293',
+binding:false
+};
+ShopConfig[1047] = {
+id:1047,
+propsId:130001,
+goodsType:0,
+roleJob:5,
+npcIds:'293',
+binding:false
+};
+ShopConfig[1048] = {
+id:1048,
+propsId:130002,
+goodsType:0,
+roleJob:5,
+npcIds:'293',
+binding:false
+};
+ShopConfig[1049] = {
+id:1049,
+propsId:130003,
+goodsType:0,
+roleJob:5,
+npcIds:'293',
+binding:false
+};
+ShopConfig[1050] = {
+id:1050,
+propsId:11030,
+goodsType:0,
+roleJob:0,
+npcIds:'294',
+binding:false
+};
+ShopConfig[1051] = {
+id:1051,
+propsId:12030,
+goodsType:0,
+roleJob:0,
+npcIds:'294',
+binding:false
+};
+ShopConfig[1052] = {
+id:1052,
+propsId:11040,
+goodsType:0,
+roleJob:0,
+npcIds:'294',
+binding:false
+};
+ShopConfig[1053] = {
+id:1053,
+propsId:12040,
+goodsType:0,
+roleJob:0,
+npcIds:'294',
+binding:false
+};
+ShopConfig[1054] = {
+id:1054,
+propsId:11050,
+goodsType:0,
+roleJob:0,
+npcIds:'294',
+binding:false
+};
+ShopConfig[1055] = {
+id:1055,
+propsId:12050,
+goodsType:0,
+roleJob:0,
+npcIds:'294',
+binding:false
+};
+ShopConfig[1056] = {
+id:1056,
+propsId:11060,
+goodsType:0,
+roleJob:0,
+npcIds:'294',
+binding:false
+};
+ShopConfig[1057] = {
+id:1057,
+propsId:12060,
+goodsType:0,
+roleJob:0,
+npcIds:'294',
+binding:false
+};
+ShopConfig[1058] = {
+id:1058,
+propsId:11070,
+goodsType:0,
+roleJob:0,
+npcIds:'294',
+binding:false
+};
+ShopConfig[1059] = {
+id:1059,
+propsId:12070,
+goodsType:0,
+roleJob:0,
+npcIds:'294',
+binding:false
+};
+ShopConfig[1060] = {
+id:1060,
+propsId:130001,
+goodsType:0,
+roleJob:5,
+npcIds:'294',
+binding:false
+};
+ShopConfig[1061] = {
+id:1061,
+propsId:130002,
+goodsType:0,
+roleJob:5,
+npcIds:'294',
+binding:false
+};
+ShopConfig[1062] = {
+id:1062,
+propsId:130003,
+goodsType:0,
+roleJob:5,
+npcIds:'294',
+binding:false
+};

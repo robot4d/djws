@@ -1,0 +1,27 @@
+import flash.utils.Dictionary;
+var LoopQualityConfig:Dictionary = new Dictionary();
+LoopQualityConfig[0] = {
+id:0,
+rate:600,
+maxRate:1000
+};
+LoopQualityConfig[1] = {
+id:1,
+rate:200,
+maxRate:1000
+};
+LoopQualityConfig[2] = {
+id:2,
+rate:100,
+maxRate:1000
+};
+LoopQualityConfig[3] = {
+id:3,
+rate:60,
+maxRate:1000
+};
+LoopQualityConfig[4] = {
+id:4,
+rate:40,
+maxRate:1000
+};

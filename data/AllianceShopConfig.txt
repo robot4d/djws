@@ -1,0 +1,62 @@
+import flash.utils.Dictionary;
+var AllianceShopConfig:Dictionary = new Dictionary();
+AllianceShopConfig[1] = {
+id:1,
+level:1,
+propsId:120004,
+donate:20
+};
+AllianceShopConfig[2] = {
+id:2,
+level:1,
+propsId:30022,
+donate:40
+};
+AllianceShopConfig[3] = {
+id:3,
+level:1,
+propsId:120039,
+donate:40
+};
+AllianceShopConfig[4] = {
+id:4,
+level:1,
+propsId:120041,
+donate:40
+};
+AllianceShopConfig[5] = {
+id:5,
+level:1,
+propsId:30001,
+donate:40
+};
+AllianceShopConfig[6] = {
+id:6,
+level:1,
+propsId:50001,
+donate:40
+};
+AllianceShopConfig[7] = {
+id:7,
+level:1,
+propsId:50020,
+donate:40
+};
+AllianceShopConfig[8] = {
+id:8,
+level:1,
+propsId:50014,
+donate:40
+};
+AllianceShopConfig[9] = {
+id:9,
+level:1,
+propsId:10009,
+donate:50
+};
+AllianceShopConfig[10] = {
+id:10,
+level:1,
+propsId:10011,
+donate:50
+};

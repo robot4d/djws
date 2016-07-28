@@ -1,0 +1,488 @@
+import flash.utils.Dictionary;
+var AchieveConfig:Dictionary = new Dictionary();
+AchieveConfig[1] = {
+id:1,
+achieveType:0,
+achieveName:'初出茅庐',
+icon:'dj001',
+description:'角色等级达到10级',
+conditions:'10',
+couponReward:50
+};
+AchieveConfig[2] = {
+id:2,
+achieveType:0,
+achieveName:'小试身手',
+icon:'dj002',
+description:'角色等级达到20级',
+conditions:'20',
+couponReward:50
+};
+AchieveConfig[3] = {
+id:3,
+achieveType:0,
+achieveName:'锋芒渐露',
+icon:'dj003',
+description:'角色等级达到30级',
+conditions:'30',
+couponReward:100
+};
+AchieveConfig[4] = {
+id:4,
+achieveType:0,
+achieveName:'略有小成',
+icon:'dj004',
+description:'角色等级达到40级',
+conditions:'40',
+couponReward:200
+};
+AchieveConfig[5] = {
+id:5,
+achieveType:0,
+achieveName:'小有名气',
+icon:'dj005',
+description:'角色等级达到45级',
+conditions:'45',
+couponReward:500
+};
+AchieveConfig[6] = {
+id:6,
+achieveType:0,
+achieveName:'家传户晓',
+icon:'dj006',
+description:'角色等级达到50级',
+conditions:'50',
+couponReward:1000
+};
+AchieveConfig[7] = {
+id:7,
+achieveType:0,
+achieveName:'江湖豪侠',
+icon:'dj007',
+description:'角色等级达到55级',
+conditions:'55',
+couponReward:1000
+};
+AchieveConfig[8] = {
+id:8,
+achieveType:0,
+achieveName:'扬名立万',
+icon:'dj008',
+description:'角色等级达到60级',
+conditions:'60',
+couponReward:1500
+};
+AchieveConfig[9] = {
+id:9,
+achieveType:0,
+achieveName:'大名鼎鼎',
+icon:'dj009',
+description:'角色等级达到65级',
+conditions:'65',
+couponReward:2000
+};
+AchieveConfig[10] = {
+id:10,
+achieveType:0,
+achieveName:'名满天下',
+icon:'dj010',
+description:'角色等级达到70级',
+conditions:'70',
+couponReward:3000
+};
+AchieveConfig[11] = {
+id:11,
+achieveType:1,
+achieveName:'抱打不平',
+icon:'dg001',
+description:'累计杀死100只怪物',
+conditions:'100',
+couponReward:50
+};
+AchieveConfig[12] = {
+id:12,
+achieveType:1,
+achieveName:'为民除害',
+icon:'dg002',
+description:'累计杀死1,000只怪物',
+conditions:'1000',
+couponReward:100
+};
+AchieveConfig[13] = {
+id:13,
+achieveType:1,
+achieveName:'刚正不阿',
+icon:'dg003',
+description:'累计杀死10,000只怪物',
+conditions:'10000',
+couponReward:500
+};
+AchieveConfig[14] = {
+id:14,
+achieveType:1,
+achieveName:'正气凛然 ',
+icon:'dg004',
+description:'累计杀死100,000只怪物',
+conditions:'100000',
+couponReward:500
+};
+AchieveConfig[15] = {
+id:15,
+achieveType:1,
+achieveName:'仁义之师',
+icon:'dg005',
+description:'累计杀死1,000,000只怪物',
+conditions:'1000000',
+couponReward:500
+};
+AchieveConfig[16] = {
+id:16,
+achieveType:1,
+achieveName:'英勇无畏',
+icon:'dg006',
+description:'累计杀死10,000,000只怪物',
+conditions:'10000000',
+couponReward:1000
+};
+AchieveConfig[17] = {
+id:17,
+achieveType:1,
+achieveName:'视死如归',
+icon:'dg007',
+description:'累计杀死100,000,000只怪物',
+conditions:'100000000',
+couponReward:2000
+};
+AchieveConfig[18] = {
+id:18,
+achieveType:1,
+achieveName:'一代英豪',
+icon:'dg008',
+description:'累计杀死200,000,000只怪物',
+conditions:'200000000',
+couponReward:3000
+};
+AchieveConfig[19] = {
+id:19,
+achieveType:1,
+achieveName:'侠义化身',
+icon:'dg009',
+description:'累计杀死300,000,000只怪物',
+conditions:'300000000',
+couponReward:4000
+};
+AchieveConfig[20] = {
+id:20,
+achieveType:2,
+achieveName:'第一次杀怪',
+icon:'other001',
+description:'第一次击杀怪物',
+conditions:'1',
+couponReward:50
+};
+AchieveConfig[21] = {
+id:21,
+achieveType:2,
+achieveName:'第一位好友',
+icon:'other002',
+description:'第一次添加好友',
+conditions:'2',
+couponReward:50
+};
+AchieveConfig[22] = {
+id:22,
+achieveType:2,
+achieveName:'第一次组队',
+icon:'other003',
+description:'第一次组队',
+conditions:'3',
+couponReward:50
+};
+AchieveConfig[23] = {
+id:23,
+achieveType:2,
+achieveName:'第一次帮派',
+icon:'other004',
+description:'第一次创建帮派或加入帮派',
+conditions:'4',
+couponReward:50
+};
+AchieveConfig[24] = {
+id:24,
+achieveType:2,
+achieveName:'第一次合成',
+icon:'other005',
+description:'第一次使用合成功能合成物品',
+conditions:'5',
+couponReward:50
+};
+AchieveConfig[25] = {
+id:25,
+achieveType:2,
+achieveName:'第一次强化',
+icon:'other006',
+description:'第一次强化装备',
+conditions:'6',
+couponReward:50
+};
+AchieveConfig[26] = {
+id:26,
+achieveType:2,
+achieveName:'第一次洗练',
+icon:'other007',
+description:'第一次洗练装备',
+conditions:'7',
+couponReward:50
+};
+AchieveConfig[27] = {
+id:27,
+achieveType:2,
+achieveName:'第一次分解',
+icon:'other008',
+description:'第一次分解装备',
+conditions:'8',
+couponReward:50
+};
+AchieveConfig[28] = {
+id:28,
+achieveType:2,
+achieveName:'第一次镶嵌',
+icon:'other009',
+description:'第一次在装备上镶嵌宝石',
+conditions:'9',
+couponReward:50
+};
+AchieveConfig[29] = {
+id:29,
+achieveType:2,
+achieveName:'第一次神武',
+icon:'other010',
+description:'第一次提升武器的神武值',
+conditions:'10',
+couponReward:50
+};
+AchieveConfig[30] = {
+id:30,
+achieveType:2,
+achieveName:'第一次交易',
+icon:'other011',
+description:'第一次与任意玩家进行交易',
+conditions:'11',
+couponReward:50
+};
+AchieveConfig[31] = {
+id:31,
+achieveType:2,
+achieveName:'第一次买卖',
+icon:'other012',
+description:'第一次通过摆摊功能买卖物品',
+conditions:'12',
+couponReward:50
+};
+AchieveConfig[32] = {
+id:32,
+achieveType:2,
+achieveName:'第一次购物',
+icon:'other013',
+description:'第一次从商城中购买到物品',
+conditions:'13',
+couponReward:50
+};
+AchieveConfig[42] = {
+id:42,
+achieveType:3,
+achieveName:'连续两天登录',
+icon:'lx001',
+description:'游戏角色连续登录游戏2天',
+conditions:'2',
+couponReward:1000
+};
+AchieveConfig[43] = {
+id:43,
+achieveType:3,
+achieveName:'连续三天登录',
+icon:'lx002',
+description:'游戏角色连续登录游戏3天',
+conditions:'3',
+couponReward:1000
+};
+AchieveConfig[44] = {
+id:44,
+achieveType:3,
+achieveName:'连续四天登录',
+icon:'lx003',
+description:'游戏角色连续登录游戏4天',
+conditions:'4',
+couponReward:1500
+};
+AchieveConfig[45] = {
+id:45,
+achieveType:3,
+achieveName:'连续五天登录',
+icon:'lx004',
+description:'游戏角色连续登录游戏5天',
+conditions:'5',
+couponReward:2000
+};
+AchieveConfig[46] = {
+id:46,
+achieveType:3,
+achieveName:'连续六天登录',
+icon:'lx005',
+description:'游戏角色连续登录游戏6天',
+conditions:'6',
+couponReward:2000
+};
+AchieveConfig[47] = {
+id:47,
+achieveType:3,
+achieveName:'连续七天登录',
+icon:'lx006',
+description:'游戏角色连续登录游戏7天',
+conditions:'7',
+couponReward:2000
+};
+AchieveConfig[33] = {
+id:33,
+achieveType:4,
+achieveName:'累计8天登录',
+icon:'dr001',
+description:'累积登录8天',
+conditions:'8',
+couponReward:3000
+};
+AchieveConfig[34] = {
+id:34,
+achieveType:4,
+achieveName:'累计15天登录',
+icon:'dr002',
+description:'累积登录15天',
+conditions:'15',
+couponReward:4000
+};
+AchieveConfig[35] = {
+id:35,
+achieveType:4,
+achieveName:'累计22天登录',
+icon:'dr003',
+description:'累积登录22天',
+conditions:'22',
+couponReward:5000
+};
+AchieveConfig[36] = {
+id:36,
+achieveType:4,
+achieveName:'累计29天登录',
+icon:'dr004',
+description:'累积登录29天',
+conditions:'29',
+couponReward:8000
+};
+AchieveConfig[37] = {
+id:37,
+achieveType:4,
+achieveName:'累计60天登录',
+icon:'dr005',
+description:'累积登录60天',
+conditions:'60',
+couponReward:10000
+};
+AchieveConfig[38] = {
+id:38,
+achieveType:4,
+achieveName:'累计90天登录',
+icon:'dr006',
+description:'累积登录90天',
+conditions:'90',
+couponReward:12000
+};
+AchieveConfig[39] = {
+id:39,
+achieveType:4,
+achieveName:'累计120天登录',
+icon:'dr007',
+description:'累积登录120天',
+conditions:'120',
+couponReward:14000
+};
+AchieveConfig[40] = {
+id:40,
+achieveType:4,
+achieveName:'累计150天登录',
+icon:'dr008',
+description:'累积登录150天',
+conditions:'150',
+couponReward:16000
+};
+AchieveConfig[41] = {
+id:41,
+achieveType:4,
+achieveName:'累计180天登录',
+icon:'dr009',
+description:'累积登录180天',
+conditions:'180',
+couponReward:20000
+};
+AchieveConfig[48] = {
+id:48,
+achieveType:5,
+achieveName:'在线时间(一)',
+icon:'zx001',
+description:'在线时间长达15分钟',
+conditions:'15',
+couponReward:50
+};
+AchieveConfig[49] = {
+id:49,
+achieveType:5,
+achieveName:'在线时间(二)',
+icon:'zx002',
+description:'在线时间长达30分钟',
+conditions:'30',
+couponReward:50
+};
+AchieveConfig[50] = {
+id:50,
+achieveType:5,
+achieveName:'在线时间(三)',
+icon:'zx003',
+description:'在线时间长达60分钟',
+conditions:'60',
+couponReward:100
+};
+AchieveConfig[51] = {
+id:51,
+achieveType:5,
+achieveName:'在线时间(四)',
+icon:'zx004',
+description:'在线时间长达2小时',
+conditions:'120',
+couponReward:100
+};
+AchieveConfig[52] = {
+id:52,
+achieveType:5,
+achieveName:'在线时间(五)',
+icon:'zx005',
+description:'在线时间长达4小时',
+conditions:'240',
+couponReward:100
+};
+AchieveConfig[53] = {
+id:53,
+achieveType:5,
+achieveName:'在线时间(六)',
+icon:'zx006',
+description:'在线时间长达6小时',
+conditions:'360',
+couponReward:200
+};
+AchieveConfig[54] = {
+id:54,
+achieveType:5,
+achieveName:'在线时间(七)',
+icon:'zx007',
+description:'在线时间长达8小时',
+conditions:'480',
+couponReward:200
+};

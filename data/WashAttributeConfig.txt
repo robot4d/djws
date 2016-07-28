@@ -1,0 +1,6690 @@
+import flash.utils.Dictionary;
+var WashAttributeConfig:Dictionary = new Dictionary();
+WashAttributeConfig[1] = {
+id:1,
+quality:1,
+level:1,
+attribute:1000,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[2] = {
+id:2,
+quality:1,
+level:10,
+attribute:1000,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[3] = {
+id:3,
+quality:1,
+level:20,
+attribute:1000,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[4] = {
+id:4,
+quality:1,
+level:30,
+attribute:1000,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[5] = {
+id:5,
+quality:1,
+level:40,
+attribute:1000,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[6] = {
+id:6,
+quality:1,
+level:50,
+attribute:1000,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[7] = {
+id:7,
+quality:1,
+level:60,
+attribute:1000,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[8] = {
+id:8,
+quality:1,
+level:70,
+attribute:1000,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[9] = {
+id:9,
+quality:1,
+level:80,
+attribute:1000,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[10] = {
+id:10,
+quality:1,
+level:90,
+attribute:1000,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[11] = {
+id:11,
+quality:1,
+level:100,
+attribute:1000,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[12] = {
+id:12,
+quality:1,
+level:1,
+attribute:1001,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[13] = {
+id:13,
+quality:1,
+level:10,
+attribute:1001,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[14] = {
+id:14,
+quality:1,
+level:20,
+attribute:1001,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[15] = {
+id:15,
+quality:1,
+level:30,
+attribute:1001,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[16] = {
+id:16,
+quality:1,
+level:40,
+attribute:1001,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[17] = {
+id:17,
+quality:1,
+level:50,
+attribute:1001,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[18] = {
+id:18,
+quality:1,
+level:60,
+attribute:1001,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[19] = {
+id:19,
+quality:1,
+level:70,
+attribute:1001,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[20] = {
+id:20,
+quality:1,
+level:80,
+attribute:1001,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[21] = {
+id:21,
+quality:1,
+level:90,
+attribute:1001,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[22] = {
+id:22,
+quality:1,
+level:100,
+attribute:1001,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[23] = {
+id:23,
+quality:1,
+level:1,
+attribute:1002,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[24] = {
+id:24,
+quality:1,
+level:10,
+attribute:1002,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[25] = {
+id:25,
+quality:1,
+level:20,
+attribute:1002,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[26] = {
+id:26,
+quality:1,
+level:30,
+attribute:1002,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[27] = {
+id:27,
+quality:1,
+level:40,
+attribute:1002,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[28] = {
+id:28,
+quality:1,
+level:50,
+attribute:1002,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[29] = {
+id:29,
+quality:1,
+level:60,
+attribute:1002,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[30] = {
+id:30,
+quality:1,
+level:70,
+attribute:1002,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[31] = {
+id:31,
+quality:1,
+level:80,
+attribute:1002,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[32] = {
+id:32,
+quality:1,
+level:90,
+attribute:1002,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[33] = {
+id:33,
+quality:1,
+level:100,
+attribute:1002,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[34] = {
+id:34,
+quality:1,
+level:1,
+attribute:1003,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[35] = {
+id:35,
+quality:1,
+level:10,
+attribute:1003,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[36] = {
+id:36,
+quality:1,
+level:20,
+attribute:1003,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[37] = {
+id:37,
+quality:1,
+level:30,
+attribute:1003,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[38] = {
+id:38,
+quality:1,
+level:40,
+attribute:1003,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[39] = {
+id:39,
+quality:1,
+level:50,
+attribute:1003,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[40] = {
+id:40,
+quality:1,
+level:60,
+attribute:1003,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[41] = {
+id:41,
+quality:1,
+level:70,
+attribute:1003,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[42] = {
+id:42,
+quality:1,
+level:80,
+attribute:1003,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[43] = {
+id:43,
+quality:1,
+level:90,
+attribute:1003,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[44] = {
+id:44,
+quality:1,
+level:100,
+attribute:1003,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[45] = {
+id:45,
+quality:1,
+level:1,
+attribute:1004,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[46] = {
+id:46,
+quality:1,
+level:10,
+attribute:1004,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[47] = {
+id:47,
+quality:1,
+level:20,
+attribute:1004,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[48] = {
+id:48,
+quality:1,
+level:30,
+attribute:1004,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[49] = {
+id:49,
+quality:1,
+level:40,
+attribute:1004,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[50] = {
+id:50,
+quality:1,
+level:50,
+attribute:1004,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[51] = {
+id:51,
+quality:1,
+level:60,
+attribute:1004,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[52] = {
+id:52,
+quality:1,
+level:70,
+attribute:1004,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[53] = {
+id:53,
+quality:1,
+level:80,
+attribute:1004,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[54] = {
+id:54,
+quality:1,
+level:90,
+attribute:1004,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[55] = {
+id:55,
+quality:1,
+level:100,
+attribute:1004,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[56] = {
+id:56,
+quality:1,
+level:1,
+attribute:1303,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[57] = {
+id:57,
+quality:1,
+level:10,
+attribute:1303,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[58] = {
+id:58,
+quality:1,
+level:20,
+attribute:1303,
+minValue:18,
+maxValue:74
+};
+WashAttributeConfig[59] = {
+id:59,
+quality:1,
+level:30,
+attribute:1303,
+minValue:28,
+maxValue:110
+};
+WashAttributeConfig[60] = {
+id:60,
+quality:1,
+level:40,
+attribute:1303,
+minValue:36,
+maxValue:146
+};
+WashAttributeConfig[61] = {
+id:61,
+quality:1,
+level:50,
+attribute:1303,
+minValue:46,
+maxValue:182
+};
+WashAttributeConfig[62] = {
+id:62,
+quality:1,
+level:60,
+attribute:1303,
+minValue:55,
+maxValue:219
+};
+WashAttributeConfig[63] = {
+id:63,
+quality:1,
+level:70,
+attribute:1303,
+minValue:64,
+maxValue:254
+};
+WashAttributeConfig[64] = {
+id:64,
+quality:1,
+level:80,
+attribute:1303,
+minValue:73,
+maxValue:291
+};
+WashAttributeConfig[65] = {
+id:65,
+quality:1,
+level:90,
+attribute:1303,
+minValue:82,
+maxValue:326
+};
+WashAttributeConfig[66] = {
+id:66,
+quality:1,
+level:100,
+attribute:1303,
+minValue:91,
+maxValue:363
+};
+WashAttributeConfig[67] = {
+id:67,
+quality:1,
+level:1,
+attribute:1304,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[68] = {
+id:68,
+quality:1,
+level:10,
+attribute:1304,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[69] = {
+id:69,
+quality:1,
+level:20,
+attribute:1304,
+minValue:6,
+maxValue:26
+};
+WashAttributeConfig[70] = {
+id:70,
+quality:1,
+level:30,
+attribute:1304,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[71] = {
+id:71,
+quality:1,
+level:40,
+attribute:1304,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[72] = {
+id:72,
+quality:1,
+level:50,
+attribute:1304,
+minValue:12,
+maxValue:50
+};
+WashAttributeConfig[73] = {
+id:73,
+quality:1,
+level:60,
+attribute:1304,
+minValue:15,
+maxValue:59
+};
+WashAttributeConfig[74] = {
+id:74,
+quality:1,
+level:70,
+attribute:1304,
+minValue:17,
+maxValue:67
+};
+WashAttributeConfig[75] = {
+id:75,
+quality:1,
+level:80,
+attribute:1304,
+minValue:19,
+maxValue:75
+};
+WashAttributeConfig[76] = {
+id:76,
+quality:1,
+level:90,
+attribute:1304,
+minValue:21,
+maxValue:83
+};
+WashAttributeConfig[77] = {
+id:77,
+quality:1,
+level:100,
+attribute:1304,
+minValue:23,
+maxValue:93
+};
+WashAttributeConfig[78] = {
+id:78,
+quality:1,
+level:1,
+attribute:1106,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[79] = {
+id:79,
+quality:1,
+level:10,
+attribute:1106,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[80] = {
+id:80,
+quality:1,
+level:20,
+attribute:1106,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[81] = {
+id:81,
+quality:1,
+level:30,
+attribute:1106,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[82] = {
+id:82,
+quality:1,
+level:40,
+attribute:1106,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[83] = {
+id:83,
+quality:1,
+level:50,
+attribute:1106,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[84] = {
+id:84,
+quality:1,
+level:60,
+attribute:1106,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[85] = {
+id:85,
+quality:1,
+level:70,
+attribute:1106,
+minValue:13,
+maxValue:53
+};
+WashAttributeConfig[86] = {
+id:86,
+quality:1,
+level:80,
+attribute:1106,
+minValue:15,
+maxValue:59
+};
+WashAttributeConfig[87] = {
+id:87,
+quality:1,
+level:90,
+attribute:1106,
+minValue:17,
+maxValue:67
+};
+WashAttributeConfig[88] = {
+id:88,
+quality:1,
+level:100,
+attribute:1106,
+minValue:18,
+maxValue:74
+};
+WashAttributeConfig[89] = {
+id:89,
+quality:1,
+level:1,
+attribute:1107,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[90] = {
+id:90,
+quality:1,
+level:10,
+attribute:1107,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[91] = {
+id:91,
+quality:1,
+level:20,
+attribute:1107,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[92] = {
+id:92,
+quality:1,
+level:30,
+attribute:1107,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[93] = {
+id:93,
+quality:1,
+level:40,
+attribute:1107,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[94] = {
+id:94,
+quality:1,
+level:50,
+attribute:1107,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[95] = {
+id:95,
+quality:1,
+level:60,
+attribute:1107,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[96] = {
+id:96,
+quality:1,
+level:70,
+attribute:1107,
+minValue:13,
+maxValue:53
+};
+WashAttributeConfig[97] = {
+id:97,
+quality:1,
+level:80,
+attribute:1107,
+minValue:15,
+maxValue:59
+};
+WashAttributeConfig[98] = {
+id:98,
+quality:1,
+level:90,
+attribute:1107,
+minValue:17,
+maxValue:67
+};
+WashAttributeConfig[99] = {
+id:99,
+quality:1,
+level:100,
+attribute:1107,
+minValue:18,
+maxValue:74
+};
+WashAttributeConfig[100] = {
+id:100,
+quality:1,
+level:1,
+attribute:1108,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[101] = {
+id:101,
+quality:1,
+level:10,
+attribute:1108,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[102] = {
+id:102,
+quality:1,
+level:20,
+attribute:1108,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[103] = {
+id:103,
+quality:1,
+level:30,
+attribute:1108,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[104] = {
+id:104,
+quality:1,
+level:40,
+attribute:1108,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[105] = {
+id:105,
+quality:1,
+level:50,
+attribute:1108,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[106] = {
+id:106,
+quality:1,
+level:60,
+attribute:1108,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[107] = {
+id:107,
+quality:1,
+level:70,
+attribute:1108,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[108] = {
+id:108,
+quality:1,
+level:80,
+attribute:1108,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[109] = {
+id:109,
+quality:1,
+level:90,
+attribute:1108,
+minValue:8,
+maxValue:34
+};
+WashAttributeConfig[110] = {
+id:110,
+quality:1,
+level:100,
+attribute:1108,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[111] = {
+id:111,
+quality:1,
+level:1,
+attribute:1103,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[112] = {
+id:112,
+quality:1,
+level:10,
+attribute:1103,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[113] = {
+id:113,
+quality:1,
+level:20,
+attribute:1103,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[114] = {
+id:114,
+quality:1,
+level:30,
+attribute:1103,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[115] = {
+id:115,
+quality:1,
+level:40,
+attribute:1103,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[116] = {
+id:116,
+quality:1,
+level:50,
+attribute:1103,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[117] = {
+id:117,
+quality:1,
+level:60,
+attribute:1103,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[118] = {
+id:118,
+quality:1,
+level:70,
+attribute:1103,
+minValue:13,
+maxValue:53
+};
+WashAttributeConfig[119] = {
+id:119,
+quality:1,
+level:80,
+attribute:1103,
+minValue:15,
+maxValue:59
+};
+WashAttributeConfig[120] = {
+id:120,
+quality:1,
+level:90,
+attribute:1103,
+minValue:17,
+maxValue:67
+};
+WashAttributeConfig[121] = {
+id:121,
+quality:1,
+level:100,
+attribute:1103,
+minValue:18,
+maxValue:74
+};
+WashAttributeConfig[122] = {
+id:122,
+quality:1,
+level:1,
+attribute:1104,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[123] = {
+id:123,
+quality:1,
+level:10,
+attribute:1104,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[124] = {
+id:124,
+quality:1,
+level:20,
+attribute:1104,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[125] = {
+id:125,
+quality:1,
+level:30,
+attribute:1104,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[126] = {
+id:126,
+quality:1,
+level:40,
+attribute:1104,
+minValue:13,
+maxValue:53
+};
+WashAttributeConfig[127] = {
+id:127,
+quality:1,
+level:50,
+attribute:1104,
+minValue:14,
+maxValue:56
+};
+WashAttributeConfig[128] = {
+id:128,
+quality:1,
+level:60,
+attribute:1104,
+minValue:15,
+maxValue:59
+};
+WashAttributeConfig[129] = {
+id:129,
+quality:1,
+level:70,
+attribute:1104,
+minValue:16,
+maxValue:64
+};
+WashAttributeConfig[130] = {
+id:130,
+quality:1,
+level:80,
+attribute:1104,
+minValue:17,
+maxValue:67
+};
+WashAttributeConfig[131] = {
+id:131,
+quality:1,
+level:90,
+attribute:1104,
+minValue:18,
+maxValue:70
+};
+WashAttributeConfig[132] = {
+id:132,
+quality:1,
+level:100,
+attribute:1104,
+minValue:18,
+maxValue:74
+};
+WashAttributeConfig[133] = {
+id:133,
+quality:1,
+level:1,
+attribute:1105,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[134] = {
+id:134,
+quality:1,
+level:10,
+attribute:1105,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[135] = {
+id:135,
+quality:1,
+level:20,
+attribute:1105,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[136] = {
+id:136,
+quality:1,
+level:30,
+attribute:1105,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[137] = {
+id:137,
+quality:1,
+level:40,
+attribute:1105,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[138] = {
+id:138,
+quality:1,
+level:50,
+attribute:1105,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[139] = {
+id:139,
+quality:1,
+level:60,
+attribute:1105,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[140] = {
+id:140,
+quality:1,
+level:70,
+attribute:1105,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[141] = {
+id:141,
+quality:1,
+level:80,
+attribute:1105,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[142] = {
+id:142,
+quality:1,
+level:90,
+attribute:1105,
+minValue:8,
+maxValue:34
+};
+WashAttributeConfig[143] = {
+id:143,
+quality:1,
+level:100,
+attribute:1105,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[144] = {
+id:144,
+quality:1,
+level:1,
+attribute:1100,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[145] = {
+id:145,
+quality:1,
+level:10,
+attribute:1100,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[146] = {
+id:146,
+quality:1,
+level:20,
+attribute:1100,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[147] = {
+id:147,
+quality:1,
+level:30,
+attribute:1100,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[148] = {
+id:148,
+quality:1,
+level:40,
+attribute:1100,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[149] = {
+id:149,
+quality:1,
+level:50,
+attribute:1100,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[150] = {
+id:150,
+quality:1,
+level:60,
+attribute:1100,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[151] = {
+id:151,
+quality:1,
+level:70,
+attribute:1100,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[152] = {
+id:152,
+quality:1,
+level:80,
+attribute:1100,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[153] = {
+id:153,
+quality:1,
+level:90,
+attribute:1100,
+minValue:8,
+maxValue:34
+};
+WashAttributeConfig[154] = {
+id:154,
+quality:1,
+level:100,
+attribute:1100,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[155] = {
+id:155,
+quality:1,
+level:1,
+attribute:1101,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[156] = {
+id:156,
+quality:1,
+level:10,
+attribute:1101,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[157] = {
+id:157,
+quality:1,
+level:20,
+attribute:1101,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[158] = {
+id:158,
+quality:1,
+level:30,
+attribute:1101,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[159] = {
+id:159,
+quality:1,
+level:40,
+attribute:1101,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[160] = {
+id:160,
+quality:1,
+level:50,
+attribute:1101,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[161] = {
+id:161,
+quality:1,
+level:60,
+attribute:1101,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[162] = {
+id:162,
+quality:1,
+level:70,
+attribute:1101,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[163] = {
+id:163,
+quality:1,
+level:80,
+attribute:1101,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[164] = {
+id:164,
+quality:1,
+level:90,
+attribute:1101,
+minValue:8,
+maxValue:34
+};
+WashAttributeConfig[165] = {
+id:165,
+quality:1,
+level:100,
+attribute:1101,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[166] = {
+id:166,
+quality:1,
+level:1,
+attribute:1200,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[167] = {
+id:167,
+quality:1,
+level:10,
+attribute:1200,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[168] = {
+id:168,
+quality:1,
+level:20,
+attribute:1200,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[169] = {
+id:169,
+quality:1,
+level:30,
+attribute:1200,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[170] = {
+id:170,
+quality:1,
+level:40,
+attribute:1200,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[171] = {
+id:171,
+quality:1,
+level:50,
+attribute:1200,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[172] = {
+id:172,
+quality:1,
+level:60,
+attribute:1200,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[173] = {
+id:173,
+quality:1,
+level:70,
+attribute:1200,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[174] = {
+id:174,
+quality:1,
+level:80,
+attribute:1200,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[175] = {
+id:175,
+quality:1,
+level:90,
+attribute:1200,
+minValue:8,
+maxValue:34
+};
+WashAttributeConfig[176] = {
+id:176,
+quality:1,
+level:100,
+attribute:1200,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[177] = {
+id:177,
+quality:1,
+level:1,
+attribute:1201,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[178] = {
+id:178,
+quality:1,
+level:10,
+attribute:1201,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[179] = {
+id:179,
+quality:1,
+level:20,
+attribute:1201,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[180] = {
+id:180,
+quality:1,
+level:30,
+attribute:1201,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[181] = {
+id:181,
+quality:1,
+level:40,
+attribute:1201,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[182] = {
+id:182,
+quality:1,
+level:50,
+attribute:1201,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[183] = {
+id:183,
+quality:1,
+level:60,
+attribute:1201,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[184] = {
+id:184,
+quality:1,
+level:70,
+attribute:1201,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[185] = {
+id:185,
+quality:1,
+level:80,
+attribute:1201,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[186] = {
+id:186,
+quality:1,
+level:90,
+attribute:1201,
+minValue:8,
+maxValue:34
+};
+WashAttributeConfig[187] = {
+id:187,
+quality:1,
+level:100,
+attribute:1201,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[188] = {
+id:188,
+quality:1,
+level:1,
+attribute:1202,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[189] = {
+id:189,
+quality:1,
+level:10,
+attribute:1202,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[190] = {
+id:190,
+quality:1,
+level:20,
+attribute:1202,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[191] = {
+id:191,
+quality:1,
+level:30,
+attribute:1202,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[192] = {
+id:192,
+quality:1,
+level:40,
+attribute:1202,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[193] = {
+id:193,
+quality:1,
+level:50,
+attribute:1202,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[194] = {
+id:194,
+quality:1,
+level:60,
+attribute:1202,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[195] = {
+id:195,
+quality:1,
+level:70,
+attribute:1202,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[196] = {
+id:196,
+quality:1,
+level:80,
+attribute:1202,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[197] = {
+id:197,
+quality:1,
+level:90,
+attribute:1202,
+minValue:8,
+maxValue:34
+};
+WashAttributeConfig[198] = {
+id:198,
+quality:1,
+level:100,
+attribute:1202,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[199] = {
+id:199,
+quality:1,
+level:1,
+attribute:1203,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[200] = {
+id:200,
+quality:1,
+level:10,
+attribute:1203,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[201] = {
+id:201,
+quality:1,
+level:20,
+attribute:1203,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[202] = {
+id:202,
+quality:1,
+level:30,
+attribute:1203,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[203] = {
+id:203,
+quality:1,
+level:40,
+attribute:1203,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[204] = {
+id:204,
+quality:1,
+level:50,
+attribute:1203,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[205] = {
+id:205,
+quality:1,
+level:60,
+attribute:1203,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[206] = {
+id:206,
+quality:1,
+level:70,
+attribute:1203,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[207] = {
+id:207,
+quality:1,
+level:80,
+attribute:1203,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[208] = {
+id:208,
+quality:1,
+level:90,
+attribute:1203,
+minValue:8,
+maxValue:34
+};
+WashAttributeConfig[209] = {
+id:209,
+quality:1,
+level:100,
+attribute:1203,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[210] = {
+id:210,
+quality:2,
+level:1,
+attribute:1000,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[211] = {
+id:211,
+quality:2,
+level:10,
+attribute:1000,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[212] = {
+id:212,
+quality:2,
+level:20,
+attribute:1000,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[213] = {
+id:213,
+quality:2,
+level:30,
+attribute:1000,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[214] = {
+id:214,
+quality:2,
+level:40,
+attribute:1000,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[215] = {
+id:215,
+quality:2,
+level:50,
+attribute:1000,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[216] = {
+id:216,
+quality:2,
+level:60,
+attribute:1000,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[217] = {
+id:217,
+quality:2,
+level:70,
+attribute:1000,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[218] = {
+id:218,
+quality:2,
+level:80,
+attribute:1000,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[219] = {
+id:219,
+quality:2,
+level:90,
+attribute:1000,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[220] = {
+id:220,
+quality:2,
+level:100,
+attribute:1000,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[221] = {
+id:221,
+quality:2,
+level:1,
+attribute:1001,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[222] = {
+id:222,
+quality:2,
+level:10,
+attribute:1001,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[223] = {
+id:223,
+quality:2,
+level:20,
+attribute:1001,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[224] = {
+id:224,
+quality:2,
+level:30,
+attribute:1001,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[225] = {
+id:225,
+quality:2,
+level:40,
+attribute:1001,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[226] = {
+id:226,
+quality:2,
+level:50,
+attribute:1001,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[227] = {
+id:227,
+quality:2,
+level:60,
+attribute:1001,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[228] = {
+id:228,
+quality:2,
+level:70,
+attribute:1001,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[229] = {
+id:229,
+quality:2,
+level:80,
+attribute:1001,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[230] = {
+id:230,
+quality:2,
+level:90,
+attribute:1001,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[231] = {
+id:231,
+quality:2,
+level:100,
+attribute:1001,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[232] = {
+id:232,
+quality:2,
+level:1,
+attribute:1002,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[233] = {
+id:233,
+quality:2,
+level:10,
+attribute:1002,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[234] = {
+id:234,
+quality:2,
+level:20,
+attribute:1002,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[235] = {
+id:235,
+quality:2,
+level:30,
+attribute:1002,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[236] = {
+id:236,
+quality:2,
+level:40,
+attribute:1002,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[237] = {
+id:237,
+quality:2,
+level:50,
+attribute:1002,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[238] = {
+id:238,
+quality:2,
+level:60,
+attribute:1002,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[239] = {
+id:239,
+quality:2,
+level:70,
+attribute:1002,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[240] = {
+id:240,
+quality:2,
+level:80,
+attribute:1002,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[241] = {
+id:241,
+quality:2,
+level:90,
+attribute:1002,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[242] = {
+id:242,
+quality:2,
+level:100,
+attribute:1002,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[243] = {
+id:243,
+quality:2,
+level:1,
+attribute:1003,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[244] = {
+id:244,
+quality:2,
+level:10,
+attribute:1003,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[245] = {
+id:245,
+quality:2,
+level:20,
+attribute:1003,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[246] = {
+id:246,
+quality:2,
+level:30,
+attribute:1003,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[247] = {
+id:247,
+quality:2,
+level:40,
+attribute:1003,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[248] = {
+id:248,
+quality:2,
+level:50,
+attribute:1003,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[249] = {
+id:249,
+quality:2,
+level:60,
+attribute:1003,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[250] = {
+id:250,
+quality:2,
+level:70,
+attribute:1003,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[251] = {
+id:251,
+quality:2,
+level:80,
+attribute:1003,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[252] = {
+id:252,
+quality:2,
+level:90,
+attribute:1003,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[253] = {
+id:253,
+quality:2,
+level:100,
+attribute:1003,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[254] = {
+id:254,
+quality:2,
+level:1,
+attribute:1004,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[255] = {
+id:255,
+quality:2,
+level:10,
+attribute:1004,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[256] = {
+id:256,
+quality:2,
+level:20,
+attribute:1004,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[257] = {
+id:257,
+quality:2,
+level:30,
+attribute:1004,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[258] = {
+id:258,
+quality:2,
+level:40,
+attribute:1004,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[259] = {
+id:259,
+quality:2,
+level:50,
+attribute:1004,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[260] = {
+id:260,
+quality:2,
+level:60,
+attribute:1004,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[261] = {
+id:261,
+quality:2,
+level:70,
+attribute:1004,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[262] = {
+id:262,
+quality:2,
+level:80,
+attribute:1004,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[263] = {
+id:263,
+quality:2,
+level:90,
+attribute:1004,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[264] = {
+id:264,
+quality:2,
+level:100,
+attribute:1004,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[265] = {
+id:265,
+quality:2,
+level:1,
+attribute:1303,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[266] = {
+id:266,
+quality:2,
+level:10,
+attribute:1303,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[267] = {
+id:267,
+quality:2,
+level:20,
+attribute:1303,
+minValue:20,
+maxValue:80
+};
+WashAttributeConfig[268] = {
+id:268,
+quality:2,
+level:30,
+attribute:1303,
+minValue:30,
+maxValue:120
+};
+WashAttributeConfig[269] = {
+id:269,
+quality:2,
+level:40,
+attribute:1303,
+minValue:40,
+maxValue:160
+};
+WashAttributeConfig[270] = {
+id:270,
+quality:2,
+level:50,
+attribute:1303,
+minValue:50,
+maxValue:200
+};
+WashAttributeConfig[271] = {
+id:271,
+quality:2,
+level:60,
+attribute:1303,
+minValue:60,
+maxValue:240
+};
+WashAttributeConfig[272] = {
+id:272,
+quality:2,
+level:70,
+attribute:1303,
+minValue:70,
+maxValue:278
+};
+WashAttributeConfig[273] = {
+id:273,
+quality:2,
+level:80,
+attribute:1303,
+minValue:80,
+maxValue:320
+};
+WashAttributeConfig[274] = {
+id:274,
+quality:2,
+level:90,
+attribute:1303,
+minValue:90,
+maxValue:358
+};
+WashAttributeConfig[275] = {
+id:275,
+quality:2,
+level:100,
+attribute:1303,
+minValue:100,
+maxValue:398
+};
+WashAttributeConfig[276] = {
+id:276,
+quality:2,
+level:1,
+attribute:1304,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[277] = {
+id:277,
+quality:2,
+level:10,
+attribute:1304,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[278] = {
+id:278,
+quality:2,
+level:20,
+attribute:1304,
+minValue:7,
+maxValue:27
+};
+WashAttributeConfig[279] = {
+id:279,
+quality:2,
+level:30,
+attribute:1304,
+minValue:9,
+maxValue:35
+};
+WashAttributeConfig[280] = {
+id:280,
+quality:2,
+level:40,
+attribute:1304,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[281] = {
+id:281,
+quality:2,
+level:50,
+attribute:1304,
+minValue:14,
+maxValue:54
+};
+WashAttributeConfig[282] = {
+id:282,
+quality:2,
+level:60,
+attribute:1304,
+minValue:16,
+maxValue:64
+};
+WashAttributeConfig[283] = {
+id:283,
+quality:2,
+level:70,
+attribute:1304,
+minValue:18,
+maxValue:74
+};
+WashAttributeConfig[284] = {
+id:284,
+quality:2,
+level:80,
+attribute:1304,
+minValue:20,
+maxValue:82
+};
+WashAttributeConfig[285] = {
+id:285,
+quality:2,
+level:90,
+attribute:1304,
+minValue:23,
+maxValue:91
+};
+WashAttributeConfig[286] = {
+id:286,
+quality:2,
+level:100,
+attribute:1304,
+minValue:25,
+maxValue:101
+};
+WashAttributeConfig[287] = {
+id:287,
+quality:2,
+level:1,
+attribute:1106,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[288] = {
+id:288,
+quality:2,
+level:10,
+attribute:1106,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[289] = {
+id:289,
+quality:2,
+level:20,
+attribute:1106,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[290] = {
+id:290,
+quality:2,
+level:30,
+attribute:1106,
+minValue:6,
+maxValue:26
+};
+WashAttributeConfig[291] = {
+id:291,
+quality:2,
+level:40,
+attribute:1106,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[292] = {
+id:292,
+quality:2,
+level:50,
+attribute:1106,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[293] = {
+id:293,
+quality:2,
+level:60,
+attribute:1106,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[294] = {
+id:294,
+quality:2,
+level:70,
+attribute:1106,
+minValue:14,
+maxValue:58
+};
+WashAttributeConfig[295] = {
+id:295,
+quality:2,
+level:80,
+attribute:1106,
+minValue:16,
+maxValue:64
+};
+WashAttributeConfig[296] = {
+id:296,
+quality:2,
+level:90,
+attribute:1106,
+minValue:18,
+maxValue:74
+};
+WashAttributeConfig[297] = {
+id:297,
+quality:2,
+level:100,
+attribute:1106,
+minValue:20,
+maxValue:80
+};
+WashAttributeConfig[298] = {
+id:298,
+quality:2,
+level:1,
+attribute:1107,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[299] = {
+id:299,
+quality:2,
+level:10,
+attribute:1107,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[300] = {
+id:300,
+quality:2,
+level:20,
+attribute:1107,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[301] = {
+id:301,
+quality:2,
+level:30,
+attribute:1107,
+minValue:6,
+maxValue:26
+};
+WashAttributeConfig[302] = {
+id:302,
+quality:2,
+level:40,
+attribute:1107,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[303] = {
+id:303,
+quality:2,
+level:50,
+attribute:1107,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[304] = {
+id:304,
+quality:2,
+level:60,
+attribute:1107,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[305] = {
+id:305,
+quality:2,
+level:70,
+attribute:1107,
+minValue:14,
+maxValue:58
+};
+WashAttributeConfig[306] = {
+id:306,
+quality:2,
+level:80,
+attribute:1107,
+minValue:16,
+maxValue:64
+};
+WashAttributeConfig[307] = {
+id:307,
+quality:2,
+level:90,
+attribute:1107,
+minValue:18,
+maxValue:74
+};
+WashAttributeConfig[308] = {
+id:308,
+quality:2,
+level:100,
+attribute:1107,
+minValue:20,
+maxValue:80
+};
+WashAttributeConfig[309] = {
+id:309,
+quality:2,
+level:1,
+attribute:1108,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[310] = {
+id:310,
+quality:2,
+level:10,
+attribute:1108,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[311] = {
+id:311,
+quality:2,
+level:20,
+attribute:1108,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[312] = {
+id:312,
+quality:2,
+level:30,
+attribute:1108,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[313] = {
+id:313,
+quality:2,
+level:40,
+attribute:1108,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[314] = {
+id:314,
+quality:2,
+level:50,
+attribute:1108,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[315] = {
+id:315,
+quality:2,
+level:60,
+attribute:1108,
+minValue:6,
+maxValue:26
+};
+WashAttributeConfig[316] = {
+id:316,
+quality:2,
+level:70,
+attribute:1108,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[317] = {
+id:317,
+quality:2,
+level:80,
+attribute:1108,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[318] = {
+id:318,
+quality:2,
+level:90,
+attribute:1108,
+minValue:9,
+maxValue:37
+};
+WashAttributeConfig[319] = {
+id:319,
+quality:2,
+level:100,
+attribute:1108,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[320] = {
+id:320,
+quality:2,
+level:1,
+attribute:1103,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[321] = {
+id:321,
+quality:2,
+level:10,
+attribute:1103,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[322] = {
+id:322,
+quality:2,
+level:20,
+attribute:1103,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[323] = {
+id:323,
+quality:2,
+level:30,
+attribute:1103,
+minValue:6,
+maxValue:26
+};
+WashAttributeConfig[324] = {
+id:324,
+quality:2,
+level:40,
+attribute:1103,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[325] = {
+id:325,
+quality:2,
+level:50,
+attribute:1103,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[326] = {
+id:326,
+quality:2,
+level:60,
+attribute:1103,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[327] = {
+id:327,
+quality:2,
+level:70,
+attribute:1103,
+minValue:14,
+maxValue:58
+};
+WashAttributeConfig[328] = {
+id:328,
+quality:2,
+level:80,
+attribute:1103,
+minValue:16,
+maxValue:64
+};
+WashAttributeConfig[329] = {
+id:329,
+quality:2,
+level:90,
+attribute:1103,
+minValue:18,
+maxValue:74
+};
+WashAttributeConfig[330] = {
+id:330,
+quality:2,
+level:100,
+attribute:1103,
+minValue:20,
+maxValue:80
+};
+WashAttributeConfig[331] = {
+id:331,
+quality:2,
+level:1,
+attribute:1104,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[332] = {
+id:332,
+quality:2,
+level:10,
+attribute:1104,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[333] = {
+id:333,
+quality:2,
+level:20,
+attribute:1104,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[334] = {
+id:334,
+quality:2,
+level:30,
+attribute:1104,
+minValue:13,
+maxValue:53
+};
+WashAttributeConfig[335] = {
+id:335,
+quality:2,
+level:40,
+attribute:1104,
+minValue:14,
+maxValue:58
+};
+WashAttributeConfig[336] = {
+id:336,
+quality:2,
+level:50,
+attribute:1104,
+minValue:15,
+maxValue:61
+};
+WashAttributeConfig[337] = {
+id:337,
+quality:2,
+level:60,
+attribute:1104,
+minValue:16,
+maxValue:64
+};
+WashAttributeConfig[338] = {
+id:338,
+quality:2,
+level:70,
+attribute:1104,
+minValue:17,
+maxValue:69
+};
+WashAttributeConfig[339] = {
+id:339,
+quality:2,
+level:80,
+attribute:1104,
+minValue:18,
+maxValue:74
+};
+WashAttributeConfig[340] = {
+id:340,
+quality:2,
+level:90,
+attribute:1104,
+minValue:19,
+maxValue:77
+};
+WashAttributeConfig[341] = {
+id:341,
+quality:2,
+level:100,
+attribute:1104,
+minValue:20,
+maxValue:80
+};
+WashAttributeConfig[342] = {
+id:342,
+quality:2,
+level:1,
+attribute:1105,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[343] = {
+id:343,
+quality:2,
+level:10,
+attribute:1105,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[344] = {
+id:344,
+quality:2,
+level:20,
+attribute:1105,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[345] = {
+id:345,
+quality:2,
+level:30,
+attribute:1105,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[346] = {
+id:346,
+quality:2,
+level:40,
+attribute:1105,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[347] = {
+id:347,
+quality:2,
+level:50,
+attribute:1105,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[348] = {
+id:348,
+quality:2,
+level:60,
+attribute:1105,
+minValue:6,
+maxValue:26
+};
+WashAttributeConfig[349] = {
+id:349,
+quality:2,
+level:70,
+attribute:1105,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[350] = {
+id:350,
+quality:2,
+level:80,
+attribute:1105,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[351] = {
+id:351,
+quality:2,
+level:90,
+attribute:1105,
+minValue:9,
+maxValue:37
+};
+WashAttributeConfig[352] = {
+id:352,
+quality:2,
+level:100,
+attribute:1105,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[353] = {
+id:353,
+quality:2,
+level:1,
+attribute:1100,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[354] = {
+id:354,
+quality:2,
+level:10,
+attribute:1100,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[355] = {
+id:355,
+quality:2,
+level:20,
+attribute:1100,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[356] = {
+id:356,
+quality:2,
+level:30,
+attribute:1100,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[357] = {
+id:357,
+quality:2,
+level:40,
+attribute:1100,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[358] = {
+id:358,
+quality:2,
+level:50,
+attribute:1100,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[359] = {
+id:359,
+quality:2,
+level:60,
+attribute:1100,
+minValue:6,
+maxValue:26
+};
+WashAttributeConfig[360] = {
+id:360,
+quality:2,
+level:70,
+attribute:1100,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[361] = {
+id:361,
+quality:2,
+level:80,
+attribute:1100,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[362] = {
+id:362,
+quality:2,
+level:90,
+attribute:1100,
+minValue:9,
+maxValue:37
+};
+WashAttributeConfig[363] = {
+id:363,
+quality:2,
+level:100,
+attribute:1100,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[364] = {
+id:364,
+quality:2,
+level:1,
+attribute:1101,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[365] = {
+id:365,
+quality:2,
+level:10,
+attribute:1101,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[366] = {
+id:366,
+quality:2,
+level:20,
+attribute:1101,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[367] = {
+id:367,
+quality:2,
+level:30,
+attribute:1101,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[368] = {
+id:368,
+quality:2,
+level:40,
+attribute:1101,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[369] = {
+id:369,
+quality:2,
+level:50,
+attribute:1101,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[370] = {
+id:370,
+quality:2,
+level:60,
+attribute:1101,
+minValue:6,
+maxValue:26
+};
+WashAttributeConfig[371] = {
+id:371,
+quality:2,
+level:70,
+attribute:1101,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[372] = {
+id:372,
+quality:2,
+level:80,
+attribute:1101,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[373] = {
+id:373,
+quality:2,
+level:90,
+attribute:1101,
+minValue:9,
+maxValue:37
+};
+WashAttributeConfig[374] = {
+id:374,
+quality:2,
+level:100,
+attribute:1101,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[375] = {
+id:375,
+quality:2,
+level:1,
+attribute:1200,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[376] = {
+id:376,
+quality:2,
+level:10,
+attribute:1200,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[377] = {
+id:377,
+quality:2,
+level:20,
+attribute:1200,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[378] = {
+id:378,
+quality:2,
+level:30,
+attribute:1200,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[379] = {
+id:379,
+quality:2,
+level:40,
+attribute:1200,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[380] = {
+id:380,
+quality:2,
+level:50,
+attribute:1200,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[381] = {
+id:381,
+quality:2,
+level:60,
+attribute:1200,
+minValue:6,
+maxValue:26
+};
+WashAttributeConfig[382] = {
+id:382,
+quality:2,
+level:70,
+attribute:1200,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[383] = {
+id:383,
+quality:2,
+level:80,
+attribute:1200,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[384] = {
+id:384,
+quality:2,
+level:90,
+attribute:1200,
+minValue:9,
+maxValue:37
+};
+WashAttributeConfig[385] = {
+id:385,
+quality:2,
+level:100,
+attribute:1200,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[386] = {
+id:386,
+quality:2,
+level:1,
+attribute:1201,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[387] = {
+id:387,
+quality:2,
+level:10,
+attribute:1201,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[388] = {
+id:388,
+quality:2,
+level:20,
+attribute:1201,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[389] = {
+id:389,
+quality:2,
+level:30,
+attribute:1201,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[390] = {
+id:390,
+quality:2,
+level:40,
+attribute:1201,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[391] = {
+id:391,
+quality:2,
+level:50,
+attribute:1201,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[392] = {
+id:392,
+quality:2,
+level:60,
+attribute:1201,
+minValue:6,
+maxValue:26
+};
+WashAttributeConfig[393] = {
+id:393,
+quality:2,
+level:70,
+attribute:1201,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[394] = {
+id:394,
+quality:2,
+level:80,
+attribute:1201,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[395] = {
+id:395,
+quality:2,
+level:90,
+attribute:1201,
+minValue:9,
+maxValue:37
+};
+WashAttributeConfig[396] = {
+id:396,
+quality:2,
+level:100,
+attribute:1201,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[397] = {
+id:397,
+quality:2,
+level:1,
+attribute:1202,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[398] = {
+id:398,
+quality:2,
+level:10,
+attribute:1202,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[399] = {
+id:399,
+quality:2,
+level:20,
+attribute:1202,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[400] = {
+id:400,
+quality:2,
+level:30,
+attribute:1202,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[401] = {
+id:401,
+quality:2,
+level:40,
+attribute:1202,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[402] = {
+id:402,
+quality:2,
+level:50,
+attribute:1202,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[403] = {
+id:403,
+quality:2,
+level:60,
+attribute:1202,
+minValue:6,
+maxValue:26
+};
+WashAttributeConfig[404] = {
+id:404,
+quality:2,
+level:70,
+attribute:1202,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[405] = {
+id:405,
+quality:2,
+level:80,
+attribute:1202,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[406] = {
+id:406,
+quality:2,
+level:90,
+attribute:1202,
+minValue:9,
+maxValue:37
+};
+WashAttributeConfig[407] = {
+id:407,
+quality:2,
+level:100,
+attribute:1202,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[408] = {
+id:408,
+quality:2,
+level:1,
+attribute:1203,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[409] = {
+id:409,
+quality:2,
+level:10,
+attribute:1203,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[410] = {
+id:410,
+quality:2,
+level:20,
+attribute:1203,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[411] = {
+id:411,
+quality:2,
+level:30,
+attribute:1203,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[412] = {
+id:412,
+quality:2,
+level:40,
+attribute:1203,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[413] = {
+id:413,
+quality:2,
+level:50,
+attribute:1203,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[414] = {
+id:414,
+quality:2,
+level:60,
+attribute:1203,
+minValue:6,
+maxValue:26
+};
+WashAttributeConfig[415] = {
+id:415,
+quality:2,
+level:70,
+attribute:1203,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[416] = {
+id:416,
+quality:2,
+level:80,
+attribute:1203,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[417] = {
+id:417,
+quality:2,
+level:90,
+attribute:1203,
+minValue:9,
+maxValue:37
+};
+WashAttributeConfig[418] = {
+id:418,
+quality:2,
+level:100,
+attribute:1203,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[419] = {
+id:419,
+quality:3,
+level:1,
+attribute:1000,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[420] = {
+id:420,
+quality:3,
+level:10,
+attribute:1000,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[421] = {
+id:421,
+quality:3,
+level:20,
+attribute:1000,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[422] = {
+id:422,
+quality:3,
+level:30,
+attribute:1000,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[423] = {
+id:423,
+quality:3,
+level:40,
+attribute:1000,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[424] = {
+id:424,
+quality:3,
+level:50,
+attribute:1000,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[425] = {
+id:425,
+quality:3,
+level:60,
+attribute:1000,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[426] = {
+id:426,
+quality:3,
+level:70,
+attribute:1000,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[427] = {
+id:427,
+quality:3,
+level:80,
+attribute:1000,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[428] = {
+id:428,
+quality:3,
+level:90,
+attribute:1000,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[429] = {
+id:429,
+quality:3,
+level:100,
+attribute:1000,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[430] = {
+id:430,
+quality:3,
+level:1,
+attribute:1001,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[431] = {
+id:431,
+quality:3,
+level:10,
+attribute:1001,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[432] = {
+id:432,
+quality:3,
+level:20,
+attribute:1001,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[433] = {
+id:433,
+quality:3,
+level:30,
+attribute:1001,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[434] = {
+id:434,
+quality:3,
+level:40,
+attribute:1001,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[435] = {
+id:435,
+quality:3,
+level:50,
+attribute:1001,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[436] = {
+id:436,
+quality:3,
+level:60,
+attribute:1001,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[437] = {
+id:437,
+quality:3,
+level:70,
+attribute:1001,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[438] = {
+id:438,
+quality:3,
+level:80,
+attribute:1001,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[439] = {
+id:439,
+quality:3,
+level:90,
+attribute:1001,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[440] = {
+id:440,
+quality:3,
+level:100,
+attribute:1001,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[441] = {
+id:441,
+quality:3,
+level:1,
+attribute:1002,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[442] = {
+id:442,
+quality:3,
+level:10,
+attribute:1002,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[443] = {
+id:443,
+quality:3,
+level:20,
+attribute:1002,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[444] = {
+id:444,
+quality:3,
+level:30,
+attribute:1002,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[445] = {
+id:445,
+quality:3,
+level:40,
+attribute:1002,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[446] = {
+id:446,
+quality:3,
+level:50,
+attribute:1002,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[447] = {
+id:447,
+quality:3,
+level:60,
+attribute:1002,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[448] = {
+id:448,
+quality:3,
+level:70,
+attribute:1002,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[449] = {
+id:449,
+quality:3,
+level:80,
+attribute:1002,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[450] = {
+id:450,
+quality:3,
+level:90,
+attribute:1002,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[451] = {
+id:451,
+quality:3,
+level:100,
+attribute:1002,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[452] = {
+id:452,
+quality:3,
+level:1,
+attribute:1003,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[453] = {
+id:453,
+quality:3,
+level:10,
+attribute:1003,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[454] = {
+id:454,
+quality:3,
+level:20,
+attribute:1003,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[455] = {
+id:455,
+quality:3,
+level:30,
+attribute:1003,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[456] = {
+id:456,
+quality:3,
+level:40,
+attribute:1003,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[457] = {
+id:457,
+quality:3,
+level:50,
+attribute:1003,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[458] = {
+id:458,
+quality:3,
+level:60,
+attribute:1003,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[459] = {
+id:459,
+quality:3,
+level:70,
+attribute:1003,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[460] = {
+id:460,
+quality:3,
+level:80,
+attribute:1003,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[461] = {
+id:461,
+quality:3,
+level:90,
+attribute:1003,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[462] = {
+id:462,
+quality:3,
+level:100,
+attribute:1003,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[463] = {
+id:463,
+quality:3,
+level:1,
+attribute:1004,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[464] = {
+id:464,
+quality:3,
+level:10,
+attribute:1004,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[465] = {
+id:465,
+quality:3,
+level:20,
+attribute:1004,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[466] = {
+id:466,
+quality:3,
+level:30,
+attribute:1004,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[467] = {
+id:467,
+quality:3,
+level:40,
+attribute:1004,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[468] = {
+id:468,
+quality:3,
+level:50,
+attribute:1004,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[469] = {
+id:469,
+quality:3,
+level:60,
+attribute:1004,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[470] = {
+id:470,
+quality:3,
+level:70,
+attribute:1004,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[471] = {
+id:471,
+quality:3,
+level:80,
+attribute:1004,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[472] = {
+id:472,
+quality:3,
+level:90,
+attribute:1004,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[473] = {
+id:473,
+quality:3,
+level:100,
+attribute:1004,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[474] = {
+id:474,
+quality:3,
+level:1,
+attribute:1303,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[475] = {
+id:475,
+quality:3,
+level:10,
+attribute:1303,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[476] = {
+id:476,
+quality:3,
+level:20,
+attribute:1303,
+minValue:22,
+maxValue:88
+};
+WashAttributeConfig[477] = {
+id:477,
+quality:3,
+level:30,
+attribute:1303,
+minValue:33,
+maxValue:131
+};
+WashAttributeConfig[478] = {
+id:478,
+quality:3,
+level:40,
+attribute:1303,
+minValue:44,
+maxValue:176
+};
+WashAttributeConfig[479] = {
+id:479,
+quality:3,
+level:50,
+attribute:1303,
+minValue:55,
+maxValue:219
+};
+WashAttributeConfig[480] = {
+id:480,
+quality:3,
+level:60,
+attribute:1303,
+minValue:66,
+maxValue:262
+};
+WashAttributeConfig[481] = {
+id:481,
+quality:3,
+level:70,
+attribute:1303,
+minValue:76,
+maxValue:306
+};
+WashAttributeConfig[482] = {
+id:482,
+quality:3,
+level:80,
+attribute:1303,
+minValue:88,
+maxValue:350
+};
+WashAttributeConfig[483] = {
+id:483,
+quality:3,
+level:90,
+attribute:1303,
+minValue:98,
+maxValue:394
+};
+WashAttributeConfig[484] = {
+id:484,
+quality:3,
+level:100,
+attribute:1303,
+minValue:109,
+maxValue:437
+};
+WashAttributeConfig[485] = {
+id:485,
+quality:3,
+level:1,
+attribute:1304,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[486] = {
+id:486,
+quality:3,
+level:10,
+attribute:1304,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[487] = {
+id:487,
+quality:3,
+level:20,
+attribute:1304,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[488] = {
+id:488,
+quality:3,
+level:30,
+attribute:1304,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[489] = {
+id:489,
+quality:3,
+level:40,
+attribute:1304,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[490] = {
+id:490,
+quality:3,
+level:50,
+attribute:1304,
+minValue:15,
+maxValue:59
+};
+WashAttributeConfig[491] = {
+id:491,
+quality:3,
+level:60,
+attribute:1304,
+minValue:17,
+maxValue:69
+};
+WashAttributeConfig[492] = {
+id:492,
+quality:3,
+level:70,
+attribute:1304,
+minValue:20,
+maxValue:80
+};
+WashAttributeConfig[493] = {
+id:493,
+quality:3,
+level:80,
+attribute:1304,
+minValue:22,
+maxValue:90
+};
+WashAttributeConfig[494] = {
+id:494,
+quality:3,
+level:90,
+attribute:1304,
+minValue:25,
+maxValue:99
+};
+WashAttributeConfig[495] = {
+id:495,
+quality:3,
+level:100,
+attribute:1304,
+minValue:28,
+maxValue:110
+};
+WashAttributeConfig[496] = {
+id:496,
+quality:3,
+level:1,
+attribute:1106,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[497] = {
+id:497,
+quality:3,
+level:10,
+attribute:1106,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[498] = {
+id:498,
+quality:3,
+level:20,
+attribute:1106,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[499] = {
+id:499,
+quality:3,
+level:30,
+attribute:1106,
+minValue:7,
+maxValue:27
+};
+WashAttributeConfig[500] = {
+id:500,
+quality:3,
+level:40,
+attribute:1106,
+minValue:9,
+maxValue:35
+};
+WashAttributeConfig[501] = {
+id:501,
+quality:3,
+level:50,
+attribute:1106,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[502] = {
+id:502,
+quality:3,
+level:60,
+attribute:1106,
+minValue:13,
+maxValue:53
+};
+WashAttributeConfig[503] = {
+id:503,
+quality:3,
+level:70,
+attribute:1106,
+minValue:16,
+maxValue:62
+};
+WashAttributeConfig[504] = {
+id:504,
+quality:3,
+level:80,
+attribute:1106,
+minValue:18,
+maxValue:70
+};
+WashAttributeConfig[505] = {
+id:505,
+quality:3,
+level:90,
+attribute:1106,
+minValue:20,
+maxValue:80
+};
+WashAttributeConfig[506] = {
+id:506,
+quality:3,
+level:100,
+attribute:1106,
+minValue:22,
+maxValue:88
+};
+WashAttributeConfig[507] = {
+id:507,
+quality:3,
+level:1,
+attribute:1107,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[508] = {
+id:508,
+quality:3,
+level:10,
+attribute:1107,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[509] = {
+id:509,
+quality:3,
+level:20,
+attribute:1107,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[510] = {
+id:510,
+quality:3,
+level:30,
+attribute:1107,
+minValue:7,
+maxValue:27
+};
+WashAttributeConfig[511] = {
+id:511,
+quality:3,
+level:40,
+attribute:1107,
+minValue:9,
+maxValue:35
+};
+WashAttributeConfig[512] = {
+id:512,
+quality:3,
+level:50,
+attribute:1107,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[513] = {
+id:513,
+quality:3,
+level:60,
+attribute:1107,
+minValue:13,
+maxValue:53
+};
+WashAttributeConfig[514] = {
+id:514,
+quality:3,
+level:70,
+attribute:1107,
+minValue:16,
+maxValue:62
+};
+WashAttributeConfig[515] = {
+id:515,
+quality:3,
+level:80,
+attribute:1107,
+minValue:18,
+maxValue:70
+};
+WashAttributeConfig[516] = {
+id:516,
+quality:3,
+level:90,
+attribute:1107,
+minValue:20,
+maxValue:80
+};
+WashAttributeConfig[517] = {
+id:517,
+quality:3,
+level:100,
+attribute:1107,
+minValue:22,
+maxValue:88
+};
+WashAttributeConfig[518] = {
+id:518,
+quality:3,
+level:1,
+attribute:1108,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[519] = {
+id:519,
+quality:3,
+level:10,
+attribute:1108,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[520] = {
+id:520,
+quality:3,
+level:20,
+attribute:1108,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[521] = {
+id:521,
+quality:3,
+level:30,
+attribute:1108,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[522] = {
+id:522,
+quality:3,
+level:40,
+attribute:1108,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[523] = {
+id:523,
+quality:3,
+level:50,
+attribute:1108,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[524] = {
+id:524,
+quality:3,
+level:60,
+attribute:1108,
+minValue:7,
+maxValue:27
+};
+WashAttributeConfig[525] = {
+id:525,
+quality:3,
+level:70,
+attribute:1108,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[526] = {
+id:526,
+quality:3,
+level:80,
+attribute:1108,
+minValue:9,
+maxValue:35
+};
+WashAttributeConfig[527] = {
+id:527,
+quality:3,
+level:90,
+attribute:1108,
+minValue:10,
+maxValue:40
+};
+WashAttributeConfig[528] = {
+id:528,
+quality:3,
+level:100,
+attribute:1108,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[529] = {
+id:529,
+quality:3,
+level:1,
+attribute:1103,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[530] = {
+id:530,
+quality:3,
+level:10,
+attribute:1103,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[531] = {
+id:531,
+quality:3,
+level:20,
+attribute:1103,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[532] = {
+id:532,
+quality:3,
+level:30,
+attribute:1103,
+minValue:7,
+maxValue:27
+};
+WashAttributeConfig[533] = {
+id:533,
+quality:3,
+level:40,
+attribute:1103,
+minValue:9,
+maxValue:35
+};
+WashAttributeConfig[534] = {
+id:534,
+quality:3,
+level:50,
+attribute:1103,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[535] = {
+id:535,
+quality:3,
+level:60,
+attribute:1103,
+minValue:13,
+maxValue:53
+};
+WashAttributeConfig[536] = {
+id:536,
+quality:3,
+level:70,
+attribute:1103,
+minValue:16,
+maxValue:62
+};
+WashAttributeConfig[537] = {
+id:537,
+quality:3,
+level:80,
+attribute:1103,
+minValue:18,
+maxValue:70
+};
+WashAttributeConfig[538] = {
+id:538,
+quality:3,
+level:90,
+attribute:1103,
+minValue:20,
+maxValue:80
+};
+WashAttributeConfig[539] = {
+id:539,
+quality:3,
+level:100,
+attribute:1103,
+minValue:22,
+maxValue:88
+};
+WashAttributeConfig[540] = {
+id:540,
+quality:3,
+level:1,
+attribute:1104,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[541] = {
+id:541,
+quality:3,
+level:10,
+attribute:1104,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[542] = {
+id:542,
+quality:3,
+level:20,
+attribute:1104,
+minValue:13,
+maxValue:53
+};
+WashAttributeConfig[543] = {
+id:543,
+quality:3,
+level:30,
+attribute:1104,
+minValue:14,
+maxValue:58
+};
+WashAttributeConfig[544] = {
+id:544,
+quality:3,
+level:40,
+attribute:1104,
+minValue:16,
+maxValue:62
+};
+WashAttributeConfig[545] = {
+id:545,
+quality:3,
+level:50,
+attribute:1104,
+minValue:16,
+maxValue:66
+};
+WashAttributeConfig[546] = {
+id:546,
+quality:3,
+level:60,
+attribute:1104,
+minValue:18,
+maxValue:70
+};
+WashAttributeConfig[547] = {
+id:547,
+quality:3,
+level:70,
+attribute:1104,
+minValue:19,
+maxValue:75
+};
+WashAttributeConfig[548] = {
+id:548,
+quality:3,
+level:80,
+attribute:1104,
+minValue:20,
+maxValue:80
+};
+WashAttributeConfig[549] = {
+id:549,
+quality:3,
+level:90,
+attribute:1104,
+minValue:21,
+maxValue:83
+};
+WashAttributeConfig[550] = {
+id:550,
+quality:3,
+level:100,
+attribute:1104,
+minValue:22,
+maxValue:88
+};
+WashAttributeConfig[551] = {
+id:551,
+quality:3,
+level:1,
+attribute:1105,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[552] = {
+id:552,
+quality:3,
+level:10,
+attribute:1105,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[553] = {
+id:553,
+quality:3,
+level:20,
+attribute:1105,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[554] = {
+id:554,
+quality:3,
+level:30,
+attribute:1105,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[555] = {
+id:555,
+quality:3,
+level:40,
+attribute:1105,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[556] = {
+id:556,
+quality:3,
+level:50,
+attribute:1105,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[557] = {
+id:557,
+quality:3,
+level:60,
+attribute:1105,
+minValue:7,
+maxValue:27
+};
+WashAttributeConfig[558] = {
+id:558,
+quality:3,
+level:70,
+attribute:1105,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[559] = {
+id:559,
+quality:3,
+level:80,
+attribute:1105,
+minValue:9,
+maxValue:35
+};
+WashAttributeConfig[560] = {
+id:560,
+quality:3,
+level:90,
+attribute:1105,
+minValue:10,
+maxValue:40
+};
+WashAttributeConfig[561] = {
+id:561,
+quality:3,
+level:100,
+attribute:1105,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[562] = {
+id:562,
+quality:3,
+level:1,
+attribute:1100,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[563] = {
+id:563,
+quality:3,
+level:10,
+attribute:1100,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[564] = {
+id:564,
+quality:3,
+level:20,
+attribute:1100,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[565] = {
+id:565,
+quality:3,
+level:30,
+attribute:1100,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[566] = {
+id:566,
+quality:3,
+level:40,
+attribute:1100,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[567] = {
+id:567,
+quality:3,
+level:50,
+attribute:1100,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[568] = {
+id:568,
+quality:3,
+level:60,
+attribute:1100,
+minValue:7,
+maxValue:27
+};
+WashAttributeConfig[569] = {
+id:569,
+quality:3,
+level:70,
+attribute:1100,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[570] = {
+id:570,
+quality:3,
+level:80,
+attribute:1100,
+minValue:9,
+maxValue:35
+};
+WashAttributeConfig[571] = {
+id:571,
+quality:3,
+level:90,
+attribute:1100,
+minValue:10,
+maxValue:40
+};
+WashAttributeConfig[572] = {
+id:572,
+quality:3,
+level:100,
+attribute:1100,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[573] = {
+id:573,
+quality:3,
+level:1,
+attribute:1101,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[574] = {
+id:574,
+quality:3,
+level:10,
+attribute:1101,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[575] = {
+id:575,
+quality:3,
+level:20,
+attribute:1101,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[576] = {
+id:576,
+quality:3,
+level:30,
+attribute:1101,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[577] = {
+id:577,
+quality:3,
+level:40,
+attribute:1101,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[578] = {
+id:578,
+quality:3,
+level:50,
+attribute:1101,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[579] = {
+id:579,
+quality:3,
+level:60,
+attribute:1101,
+minValue:7,
+maxValue:27
+};
+WashAttributeConfig[580] = {
+id:580,
+quality:3,
+level:70,
+attribute:1101,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[581] = {
+id:581,
+quality:3,
+level:80,
+attribute:1101,
+minValue:9,
+maxValue:35
+};
+WashAttributeConfig[582] = {
+id:582,
+quality:3,
+level:90,
+attribute:1101,
+minValue:10,
+maxValue:40
+};
+WashAttributeConfig[583] = {
+id:583,
+quality:3,
+level:100,
+attribute:1101,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[584] = {
+id:584,
+quality:3,
+level:1,
+attribute:1200,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[585] = {
+id:585,
+quality:3,
+level:10,
+attribute:1200,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[586] = {
+id:586,
+quality:3,
+level:20,
+attribute:1200,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[587] = {
+id:587,
+quality:3,
+level:30,
+attribute:1200,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[588] = {
+id:588,
+quality:3,
+level:40,
+attribute:1200,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[589] = {
+id:589,
+quality:3,
+level:50,
+attribute:1200,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[590] = {
+id:590,
+quality:3,
+level:60,
+attribute:1200,
+minValue:7,
+maxValue:27
+};
+WashAttributeConfig[591] = {
+id:591,
+quality:3,
+level:70,
+attribute:1200,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[592] = {
+id:592,
+quality:3,
+level:80,
+attribute:1200,
+minValue:9,
+maxValue:35
+};
+WashAttributeConfig[593] = {
+id:593,
+quality:3,
+level:90,
+attribute:1200,
+minValue:10,
+maxValue:40
+};
+WashAttributeConfig[594] = {
+id:594,
+quality:3,
+level:100,
+attribute:1200,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[595] = {
+id:595,
+quality:3,
+level:1,
+attribute:1201,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[596] = {
+id:596,
+quality:3,
+level:10,
+attribute:1201,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[597] = {
+id:597,
+quality:3,
+level:20,
+attribute:1201,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[598] = {
+id:598,
+quality:3,
+level:30,
+attribute:1201,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[599] = {
+id:599,
+quality:3,
+level:40,
+attribute:1201,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[600] = {
+id:600,
+quality:3,
+level:50,
+attribute:1201,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[601] = {
+id:601,
+quality:3,
+level:60,
+attribute:1201,
+minValue:7,
+maxValue:27
+};
+WashAttributeConfig[602] = {
+id:602,
+quality:3,
+level:70,
+attribute:1201,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[603] = {
+id:603,
+quality:3,
+level:80,
+attribute:1201,
+minValue:9,
+maxValue:35
+};
+WashAttributeConfig[604] = {
+id:604,
+quality:3,
+level:90,
+attribute:1201,
+minValue:10,
+maxValue:40
+};
+WashAttributeConfig[605] = {
+id:605,
+quality:3,
+level:100,
+attribute:1201,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[606] = {
+id:606,
+quality:3,
+level:1,
+attribute:1202,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[607] = {
+id:607,
+quality:3,
+level:10,
+attribute:1202,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[608] = {
+id:608,
+quality:3,
+level:20,
+attribute:1202,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[609] = {
+id:609,
+quality:3,
+level:30,
+attribute:1202,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[610] = {
+id:610,
+quality:3,
+level:40,
+attribute:1202,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[611] = {
+id:611,
+quality:3,
+level:50,
+attribute:1202,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[612] = {
+id:612,
+quality:3,
+level:60,
+attribute:1202,
+minValue:7,
+maxValue:27
+};
+WashAttributeConfig[613] = {
+id:613,
+quality:3,
+level:70,
+attribute:1202,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[614] = {
+id:614,
+quality:3,
+level:80,
+attribute:1202,
+minValue:9,
+maxValue:35
+};
+WashAttributeConfig[615] = {
+id:615,
+quality:3,
+level:90,
+attribute:1202,
+minValue:10,
+maxValue:40
+};
+WashAttributeConfig[616] = {
+id:616,
+quality:3,
+level:100,
+attribute:1202,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[617] = {
+id:617,
+quality:3,
+level:1,
+attribute:1203,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[618] = {
+id:618,
+quality:3,
+level:10,
+attribute:1203,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[619] = {
+id:619,
+quality:3,
+level:20,
+attribute:1203,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[620] = {
+id:620,
+quality:3,
+level:30,
+attribute:1203,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[621] = {
+id:621,
+quality:3,
+level:40,
+attribute:1203,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[622] = {
+id:622,
+quality:3,
+level:50,
+attribute:1203,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[623] = {
+id:623,
+quality:3,
+level:60,
+attribute:1203,
+minValue:7,
+maxValue:27
+};
+WashAttributeConfig[624] = {
+id:624,
+quality:3,
+level:70,
+attribute:1203,
+minValue:8,
+maxValue:32
+};
+WashAttributeConfig[625] = {
+id:625,
+quality:3,
+level:80,
+attribute:1203,
+minValue:9,
+maxValue:35
+};
+WashAttributeConfig[626] = {
+id:626,
+quality:3,
+level:90,
+attribute:1203,
+minValue:10,
+maxValue:40
+};
+WashAttributeConfig[627] = {
+id:627,
+quality:3,
+level:100,
+attribute:1203,
+minValue:11,
+maxValue:45
+};
+WashAttributeConfig[628] = {
+id:628,
+quality:4,
+level:1,
+attribute:1000,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[629] = {
+id:629,
+quality:4,
+level:10,
+attribute:1000,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[630] = {
+id:630,
+quality:4,
+level:20,
+attribute:1000,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[631] = {
+id:631,
+quality:4,
+level:30,
+attribute:1000,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[632] = {
+id:632,
+quality:4,
+level:40,
+attribute:1000,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[633] = {
+id:633,
+quality:4,
+level:50,
+attribute:1000,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[634] = {
+id:634,
+quality:4,
+level:60,
+attribute:1000,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[635] = {
+id:635,
+quality:4,
+level:70,
+attribute:1000,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[636] = {
+id:636,
+quality:4,
+level:80,
+attribute:1000,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[637] = {
+id:637,
+quality:4,
+level:90,
+attribute:1000,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[638] = {
+id:638,
+quality:4,
+level:100,
+attribute:1000,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[639] = {
+id:639,
+quality:4,
+level:1,
+attribute:1001,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[640] = {
+id:640,
+quality:4,
+level:10,
+attribute:1001,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[641] = {
+id:641,
+quality:4,
+level:20,
+attribute:1001,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[642] = {
+id:642,
+quality:4,
+level:30,
+attribute:1001,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[643] = {
+id:643,
+quality:4,
+level:40,
+attribute:1001,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[644] = {
+id:644,
+quality:4,
+level:50,
+attribute:1001,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[645] = {
+id:645,
+quality:4,
+level:60,
+attribute:1001,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[646] = {
+id:646,
+quality:4,
+level:70,
+attribute:1001,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[647] = {
+id:647,
+quality:4,
+level:80,
+attribute:1001,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[648] = {
+id:648,
+quality:4,
+level:90,
+attribute:1001,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[649] = {
+id:649,
+quality:4,
+level:100,
+attribute:1001,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[650] = {
+id:650,
+quality:4,
+level:1,
+attribute:1002,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[651] = {
+id:651,
+quality:4,
+level:10,
+attribute:1002,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[652] = {
+id:652,
+quality:4,
+level:20,
+attribute:1002,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[653] = {
+id:653,
+quality:4,
+level:30,
+attribute:1002,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[654] = {
+id:654,
+quality:4,
+level:40,
+attribute:1002,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[655] = {
+id:655,
+quality:4,
+level:50,
+attribute:1002,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[656] = {
+id:656,
+quality:4,
+level:60,
+attribute:1002,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[657] = {
+id:657,
+quality:4,
+level:70,
+attribute:1002,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[658] = {
+id:658,
+quality:4,
+level:80,
+attribute:1002,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[659] = {
+id:659,
+quality:4,
+level:90,
+attribute:1002,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[660] = {
+id:660,
+quality:4,
+level:100,
+attribute:1002,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[661] = {
+id:661,
+quality:4,
+level:1,
+attribute:1003,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[662] = {
+id:662,
+quality:4,
+level:10,
+attribute:1003,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[663] = {
+id:663,
+quality:4,
+level:20,
+attribute:1003,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[664] = {
+id:664,
+quality:4,
+level:30,
+attribute:1003,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[665] = {
+id:665,
+quality:4,
+level:40,
+attribute:1003,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[666] = {
+id:666,
+quality:4,
+level:50,
+attribute:1003,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[667] = {
+id:667,
+quality:4,
+level:60,
+attribute:1003,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[668] = {
+id:668,
+quality:4,
+level:70,
+attribute:1003,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[669] = {
+id:669,
+quality:4,
+level:80,
+attribute:1003,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[670] = {
+id:670,
+quality:4,
+level:90,
+attribute:1003,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[671] = {
+id:671,
+quality:4,
+level:100,
+attribute:1003,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[672] = {
+id:672,
+quality:4,
+level:1,
+attribute:1004,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[673] = {
+id:673,
+quality:4,
+level:10,
+attribute:1004,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[674] = {
+id:674,
+quality:4,
+level:20,
+attribute:1004,
+minValue:3,
+maxValue:11
+};
+WashAttributeConfig[675] = {
+id:675,
+quality:4,
+level:30,
+attribute:1004,
+minValue:3,
+maxValue:13
+};
+WashAttributeConfig[676] = {
+id:676,
+quality:4,
+level:40,
+attribute:1004,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[677] = {
+id:677,
+quality:4,
+level:50,
+attribute:1004,
+minValue:4,
+maxValue:16
+};
+WashAttributeConfig[678] = {
+id:678,
+quality:4,
+level:60,
+attribute:1004,
+minValue:4,
+maxValue:18
+};
+WashAttributeConfig[679] = {
+id:679,
+quality:4,
+level:70,
+attribute:1004,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[680] = {
+id:680,
+quality:4,
+level:80,
+attribute:1004,
+minValue:5,
+maxValue:21
+};
+WashAttributeConfig[681] = {
+id:681,
+quality:4,
+level:90,
+attribute:1004,
+minValue:6,
+maxValue:22
+};
+WashAttributeConfig[682] = {
+id:682,
+quality:4,
+level:100,
+attribute:1004,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[683] = {
+id:683,
+quality:4,
+level:1,
+attribute:1303,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[684] = {
+id:684,
+quality:4,
+level:10,
+attribute:1303,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[685] = {
+id:685,
+quality:4,
+level:20,
+attribute:1303,
+minValue:24,
+maxValue:96
+};
+WashAttributeConfig[686] = {
+id:686,
+quality:4,
+level:30,
+attribute:1303,
+minValue:36,
+maxValue:144
+};
+WashAttributeConfig[687] = {
+id:687,
+quality:4,
+level:40,
+attribute:1303,
+minValue:48,
+maxValue:192
+};
+WashAttributeConfig[688] = {
+id:688,
+quality:4,
+level:50,
+attribute:1303,
+minValue:60,
+maxValue:240
+};
+WashAttributeConfig[689] = {
+id:689,
+quality:4,
+level:60,
+attribute:1303,
+minValue:72,
+maxValue:288
+};
+WashAttributeConfig[690] = {
+id:690,
+quality:4,
+level:70,
+attribute:1303,
+minValue:84,
+maxValue:336
+};
+WashAttributeConfig[691] = {
+id:691,
+quality:4,
+level:80,
+attribute:1303,
+minValue:96,
+maxValue:384
+};
+WashAttributeConfig[692] = {
+id:692,
+quality:4,
+level:90,
+attribute:1303,
+minValue:108,
+maxValue:432
+};
+WashAttributeConfig[693] = {
+id:693,
+quality:4,
+level:100,
+attribute:1303,
+minValue:120,
+maxValue:480
+};
+WashAttributeConfig[694] = {
+id:694,
+quality:4,
+level:1,
+attribute:1304,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[695] = {
+id:695,
+quality:4,
+level:10,
+attribute:1304,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[696] = {
+id:696,
+quality:4,
+level:20,
+attribute:1304,
+minValue:8,
+maxValue:30
+};
+WashAttributeConfig[697] = {
+id:697,
+quality:4,
+level:30,
+attribute:1304,
+minValue:10,
+maxValue:42
+};
+WashAttributeConfig[698] = {
+id:698,
+quality:4,
+level:40,
+attribute:1304,
+minValue:13,
+maxValue:53
+};
+WashAttributeConfig[699] = {
+id:699,
+quality:4,
+level:50,
+attribute:1304,
+minValue:16,
+maxValue:64
+};
+WashAttributeConfig[700] = {
+id:700,
+quality:4,
+level:60,
+attribute:1304,
+minValue:19,
+maxValue:75
+};
+WashAttributeConfig[701] = {
+id:701,
+quality:4,
+level:70,
+attribute:1304,
+minValue:22,
+maxValue:86
+};
+WashAttributeConfig[702] = {
+id:702,
+quality:4,
+level:80,
+attribute:1304,
+minValue:24,
+maxValue:98
+};
+WashAttributeConfig[703] = {
+id:703,
+quality:4,
+level:90,
+attribute:1304,
+minValue:27,
+maxValue:109
+};
+WashAttributeConfig[704] = {
+id:704,
+quality:4,
+level:100,
+attribute:1304,
+minValue:30,
+maxValue:120
+};
+WashAttributeConfig[705] = {
+id:705,
+quality:4,
+level:1,
+attribute:1106,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[706] = {
+id:706,
+quality:4,
+level:10,
+attribute:1106,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[707] = {
+id:707,
+quality:4,
+level:20,
+attribute:1106,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[708] = {
+id:708,
+quality:4,
+level:30,
+attribute:1106,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[709] = {
+id:709,
+quality:4,
+level:40,
+attribute:1106,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[710] = {
+id:710,
+quality:4,
+level:50,
+attribute:1106,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[711] = {
+id:711,
+quality:4,
+level:60,
+attribute:1106,
+minValue:14,
+maxValue:58
+};
+WashAttributeConfig[712] = {
+id:712,
+quality:4,
+level:70,
+attribute:1106,
+minValue:17,
+maxValue:67
+};
+WashAttributeConfig[713] = {
+id:713,
+quality:4,
+level:80,
+attribute:1106,
+minValue:19,
+maxValue:77
+};
+WashAttributeConfig[714] = {
+id:714,
+quality:4,
+level:90,
+attribute:1106,
+minValue:22,
+maxValue:86
+};
+WashAttributeConfig[715] = {
+id:715,
+quality:4,
+level:100,
+attribute:1106,
+minValue:24,
+maxValue:96
+};
+WashAttributeConfig[716] = {
+id:716,
+quality:4,
+level:1,
+attribute:1107,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[717] = {
+id:717,
+quality:4,
+level:10,
+attribute:1107,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[718] = {
+id:718,
+quality:4,
+level:20,
+attribute:1107,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[719] = {
+id:719,
+quality:4,
+level:30,
+attribute:1107,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[720] = {
+id:720,
+quality:4,
+level:40,
+attribute:1107,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[721] = {
+id:721,
+quality:4,
+level:50,
+attribute:1107,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[722] = {
+id:722,
+quality:4,
+level:60,
+attribute:1107,
+minValue:14,
+maxValue:58
+};
+WashAttributeConfig[723] = {
+id:723,
+quality:4,
+level:70,
+attribute:1107,
+minValue:17,
+maxValue:67
+};
+WashAttributeConfig[724] = {
+id:724,
+quality:4,
+level:80,
+attribute:1107,
+minValue:19,
+maxValue:77
+};
+WashAttributeConfig[725] = {
+id:725,
+quality:4,
+level:90,
+attribute:1107,
+minValue:22,
+maxValue:86
+};
+WashAttributeConfig[726] = {
+id:726,
+quality:4,
+level:100,
+attribute:1107,
+minValue:24,
+maxValue:96
+};
+WashAttributeConfig[727] = {
+id:727,
+quality:4,
+level:1,
+attribute:1108,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[728] = {
+id:728,
+quality:4,
+level:10,
+attribute:1108,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[729] = {
+id:729,
+quality:4,
+level:20,
+attribute:1108,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[730] = {
+id:730,
+quality:4,
+level:30,
+attribute:1108,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[731] = {
+id:731,
+quality:4,
+level:40,
+attribute:1108,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[732] = {
+id:732,
+quality:4,
+level:50,
+attribute:1108,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[733] = {
+id:733,
+quality:4,
+level:60,
+attribute:1108,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[734] = {
+id:734,
+quality:4,
+level:70,
+attribute:1108,
+minValue:8,
+maxValue:34
+};
+WashAttributeConfig[735] = {
+id:735,
+quality:4,
+level:80,
+attribute:1108,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[736] = {
+id:736,
+quality:4,
+level:90,
+attribute:1108,
+minValue:11,
+maxValue:43
+};
+WashAttributeConfig[737] = {
+id:737,
+quality:4,
+level:100,
+attribute:1108,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[738] = {
+id:738,
+quality:4,
+level:1,
+attribute:1103,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[739] = {
+id:739,
+quality:4,
+level:10,
+attribute:1103,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[740] = {
+id:740,
+quality:4,
+level:20,
+attribute:1103,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[741] = {
+id:741,
+quality:4,
+level:30,
+attribute:1103,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[742] = {
+id:742,
+quality:4,
+level:40,
+attribute:1103,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[743] = {
+id:743,
+quality:4,
+level:50,
+attribute:1103,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[744] = {
+id:744,
+quality:4,
+level:60,
+attribute:1103,
+minValue:14,
+maxValue:58
+};
+WashAttributeConfig[745] = {
+id:745,
+quality:4,
+level:70,
+attribute:1103,
+minValue:17,
+maxValue:67
+};
+WashAttributeConfig[746] = {
+id:746,
+quality:4,
+level:80,
+attribute:1103,
+minValue:19,
+maxValue:77
+};
+WashAttributeConfig[747] = {
+id:747,
+quality:4,
+level:90,
+attribute:1103,
+minValue:22,
+maxValue:86
+};
+WashAttributeConfig[748] = {
+id:748,
+quality:4,
+level:100,
+attribute:1103,
+minValue:24,
+maxValue:96
+};
+WashAttributeConfig[749] = {
+id:749,
+quality:4,
+level:1,
+attribute:1104,
+minValue:13,
+maxValue:53
+};
+WashAttributeConfig[750] = {
+id:750,
+quality:4,
+level:10,
+attribute:1104,
+minValue:13,
+maxValue:53
+};
+WashAttributeConfig[751] = {
+id:751,
+quality:4,
+level:20,
+attribute:1104,
+minValue:14,
+maxValue:58
+};
+WashAttributeConfig[752] = {
+id:752,
+quality:4,
+level:30,
+attribute:1104,
+minValue:16,
+maxValue:62
+};
+WashAttributeConfig[753] = {
+id:753,
+quality:4,
+level:40,
+attribute:1104,
+minValue:17,
+maxValue:67
+};
+WashAttributeConfig[754] = {
+id:754,
+quality:4,
+level:50,
+attribute:1104,
+minValue:18,
+maxValue:72
+};
+WashAttributeConfig[755] = {
+id:755,
+quality:4,
+level:60,
+attribute:1104,
+minValue:19,
+maxValue:77
+};
+WashAttributeConfig[756] = {
+id:756,
+quality:4,
+level:70,
+attribute:1104,
+minValue:20,
+maxValue:82
+};
+WashAttributeConfig[757] = {
+id:757,
+quality:4,
+level:80,
+attribute:1104,
+minValue:22,
+maxValue:86
+};
+WashAttributeConfig[758] = {
+id:758,
+quality:4,
+level:90,
+attribute:1104,
+minValue:23,
+maxValue:91
+};
+WashAttributeConfig[759] = {
+id:759,
+quality:4,
+level:100,
+attribute:1104,
+minValue:24,
+maxValue:96
+};
+WashAttributeConfig[760] = {
+id:760,
+quality:4,
+level:1,
+attribute:1105,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[761] = {
+id:761,
+quality:4,
+level:10,
+attribute:1105,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[762] = {
+id:762,
+quality:4,
+level:20,
+attribute:1105,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[763] = {
+id:763,
+quality:4,
+level:30,
+attribute:1105,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[764] = {
+id:764,
+quality:4,
+level:40,
+attribute:1105,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[765] = {
+id:765,
+quality:4,
+level:50,
+attribute:1105,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[766] = {
+id:766,
+quality:4,
+level:60,
+attribute:1105,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[767] = {
+id:767,
+quality:4,
+level:70,
+attribute:1105,
+minValue:8,
+maxValue:34
+};
+WashAttributeConfig[768] = {
+id:768,
+quality:4,
+level:80,
+attribute:1105,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[769] = {
+id:769,
+quality:4,
+level:90,
+attribute:1105,
+minValue:11,
+maxValue:43
+};
+WashAttributeConfig[770] = {
+id:770,
+quality:4,
+level:100,
+attribute:1105,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[771] = {
+id:771,
+quality:4,
+level:1,
+attribute:1100,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[772] = {
+id:772,
+quality:4,
+level:10,
+attribute:1100,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[773] = {
+id:773,
+quality:4,
+level:20,
+attribute:1100,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[774] = {
+id:774,
+quality:4,
+level:30,
+attribute:1100,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[775] = {
+id:775,
+quality:4,
+level:40,
+attribute:1100,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[776] = {
+id:776,
+quality:4,
+level:50,
+attribute:1100,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[777] = {
+id:777,
+quality:4,
+level:60,
+attribute:1100,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[778] = {
+id:778,
+quality:4,
+level:70,
+attribute:1100,
+minValue:8,
+maxValue:34
+};
+WashAttributeConfig[779] = {
+id:779,
+quality:4,
+level:80,
+attribute:1100,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[780] = {
+id:780,
+quality:4,
+level:90,
+attribute:1100,
+minValue:11,
+maxValue:43
+};
+WashAttributeConfig[781] = {
+id:781,
+quality:4,
+level:100,
+attribute:1100,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[782] = {
+id:782,
+quality:4,
+level:1,
+attribute:1101,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[783] = {
+id:783,
+quality:4,
+level:10,
+attribute:1101,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[784] = {
+id:784,
+quality:4,
+level:20,
+attribute:1101,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[785] = {
+id:785,
+quality:4,
+level:30,
+attribute:1101,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[786] = {
+id:786,
+quality:4,
+level:40,
+attribute:1101,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[787] = {
+id:787,
+quality:4,
+level:50,
+attribute:1101,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[788] = {
+id:788,
+quality:4,
+level:60,
+attribute:1101,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[789] = {
+id:789,
+quality:4,
+level:70,
+attribute:1101,
+minValue:8,
+maxValue:34
+};
+WashAttributeConfig[790] = {
+id:790,
+quality:4,
+level:80,
+attribute:1101,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[791] = {
+id:791,
+quality:4,
+level:90,
+attribute:1101,
+minValue:11,
+maxValue:43
+};
+WashAttributeConfig[792] = {
+id:792,
+quality:4,
+level:100,
+attribute:1101,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[793] = {
+id:793,
+quality:4,
+level:1,
+attribute:1200,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[794] = {
+id:794,
+quality:4,
+level:10,
+attribute:1200,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[795] = {
+id:795,
+quality:4,
+level:20,
+attribute:1200,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[796] = {
+id:796,
+quality:4,
+level:30,
+attribute:1200,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[797] = {
+id:797,
+quality:4,
+level:40,
+attribute:1200,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[798] = {
+id:798,
+quality:4,
+level:50,
+attribute:1200,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[799] = {
+id:799,
+quality:4,
+level:60,
+attribute:1200,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[800] = {
+id:800,
+quality:4,
+level:70,
+attribute:1200,
+minValue:8,
+maxValue:34
+};
+WashAttributeConfig[801] = {
+id:801,
+quality:4,
+level:80,
+attribute:1200,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[802] = {
+id:802,
+quality:4,
+level:90,
+attribute:1200,
+minValue:11,
+maxValue:43
+};
+WashAttributeConfig[803] = {
+id:803,
+quality:4,
+level:100,
+attribute:1200,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[804] = {
+id:804,
+quality:4,
+level:1,
+attribute:1201,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[805] = {
+id:805,
+quality:4,
+level:10,
+attribute:1201,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[806] = {
+id:806,
+quality:4,
+level:20,
+attribute:1201,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[807] = {
+id:807,
+quality:4,
+level:30,
+attribute:1201,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[808] = {
+id:808,
+quality:4,
+level:40,
+attribute:1201,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[809] = {
+id:809,
+quality:4,
+level:50,
+attribute:1201,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[810] = {
+id:810,
+quality:4,
+level:60,
+attribute:1201,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[811] = {
+id:811,
+quality:4,
+level:70,
+attribute:1201,
+minValue:8,
+maxValue:34
+};
+WashAttributeConfig[812] = {
+id:812,
+quality:4,
+level:80,
+attribute:1201,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[813] = {
+id:813,
+quality:4,
+level:90,
+attribute:1201,
+minValue:11,
+maxValue:43
+};
+WashAttributeConfig[814] = {
+id:814,
+quality:4,
+level:100,
+attribute:1201,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[815] = {
+id:815,
+quality:4,
+level:1,
+attribute:1202,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[816] = {
+id:816,
+quality:4,
+level:10,
+attribute:1202,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[817] = {
+id:817,
+quality:4,
+level:20,
+attribute:1202,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[818] = {
+id:818,
+quality:4,
+level:30,
+attribute:1202,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[819] = {
+id:819,
+quality:4,
+level:40,
+attribute:1202,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[820] = {
+id:820,
+quality:4,
+level:50,
+attribute:1202,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[821] = {
+id:821,
+quality:4,
+level:60,
+attribute:1202,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[822] = {
+id:822,
+quality:4,
+level:70,
+attribute:1202,
+minValue:8,
+maxValue:34
+};
+WashAttributeConfig[823] = {
+id:823,
+quality:4,
+level:80,
+attribute:1202,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[824] = {
+id:824,
+quality:4,
+level:90,
+attribute:1202,
+minValue:11,
+maxValue:43
+};
+WashAttributeConfig[825] = {
+id:825,
+quality:4,
+level:100,
+attribute:1202,
+minValue:12,
+maxValue:48
+};
+WashAttributeConfig[826] = {
+id:826,
+quality:4,
+level:1,
+attribute:1203,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[827] = {
+id:827,
+quality:4,
+level:10,
+attribute:1203,
+minValue:1,
+maxValue:5
+};
+WashAttributeConfig[828] = {
+id:828,
+quality:4,
+level:20,
+attribute:1203,
+minValue:2,
+maxValue:10
+};
+WashAttributeConfig[829] = {
+id:829,
+quality:4,
+level:30,
+attribute:1203,
+minValue:4,
+maxValue:14
+};
+WashAttributeConfig[830] = {
+id:830,
+quality:4,
+level:40,
+attribute:1203,
+minValue:5,
+maxValue:19
+};
+WashAttributeConfig[831] = {
+id:831,
+quality:4,
+level:50,
+attribute:1203,
+minValue:6,
+maxValue:24
+};
+WashAttributeConfig[832] = {
+id:832,
+quality:4,
+level:60,
+attribute:1203,
+minValue:7,
+maxValue:29
+};
+WashAttributeConfig[833] = {
+id:833,
+quality:4,
+level:70,
+attribute:1203,
+minValue:8,
+maxValue:34
+};
+WashAttributeConfig[834] = {
+id:834,
+quality:4,
+level:80,
+attribute:1203,
+minValue:10,
+maxValue:38
+};
+WashAttributeConfig[835] = {
+id:835,
+quality:4,
+level:90,
+attribute:1203,
+minValue:11,
+maxValue:43
+};
+WashAttributeConfig[836] = {
+id:836,
+quality:4,
+level:100,
+attribute:1203,
+minValue:12,
+maxValue:48
+};

@@ -1,0 +1,44 @@
+import flash.utils.Dictionary;
+var OnlineGiftConfig:Dictionary = new Dictionary();
+OnlineGiftConfig[1] = {
+id:1,
+obtainTime:1,
+giftProps:'50002_1',
+description:'领取1个1.5倍打怪经验丹'
+};
+OnlineGiftConfig[2] = {
+id:2,
+obtainTime:3,
+giftProps:'50020_1',
+description:'领取1个打坐双倍真气丹'
+};
+OnlineGiftConfig[3] = {
+id:3,
+obtainTime:5,
+giftProps:'120004_5',
+description:'领取5个神行符'
+};
+OnlineGiftConfig[4] = {
+id:4,
+obtainTime:15,
+giftProps:'120039_2',
+description:'领取2个押镖加成令'
+};
+OnlineGiftConfig[5] = {
+id:5,
+obtainTime:30,
+giftProps:'120041_2',
+description:'领取2个刷镖令'
+};
+OnlineGiftConfig[6] = {
+id:6,
+obtainTime:60,
+giftProps:'90001_2',
+description:'领取2个日环刷新书'
+};
+OnlineGiftConfig[7] = {
+id:7,
+obtainTime:120,
+giftProps:'30016_2|30020_2',
+description:'领取可获得2个洗练锁，2个紫色洗练符'
+};

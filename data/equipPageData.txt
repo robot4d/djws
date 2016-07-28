@@ -1,0 +1,17 @@
+﻿
+import flash.utils.Dictionary;
+
+// 装备辅助道具Id集合
+var equipPageData:Dictionary = new Dictionary();
+// 强化道具
+//    幸运晶   强化保护符
+equipPageData[1] = [30015,30022];
+// 洗练
+//  绿色洗练石、蓝色洗练石、紫色洗练石、橙色洗练石
+equipPageData[2] = [30012,30019,30020,30021];
+// 进阶
+//  紫色升阶符  橙色升阶符 幸运晶  升阶保护符
+equipPageData[3] = [[30014,30024],30015,30017];
+// 精炼  
+// 黄金精炼石
+equipPageData[5] = [30013];

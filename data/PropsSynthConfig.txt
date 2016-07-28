@@ -1,0 +1,2 @@
+import flash.utils.Dictionary;
+var PropsSynthConfig:Dictionary = new Dictionary();

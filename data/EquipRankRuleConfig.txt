@@ -1,0 +1,2 @@
+import flash.utils.Dictionary;
+var EquipRankRuleConfig:Dictionary = new Dictionary();

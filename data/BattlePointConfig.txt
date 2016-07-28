@@ -1,0 +1,30 @@
+import flash.utils.Dictionary;
+var BattlePointConfig:Dictionary = new Dictionary();
+BattlePointConfig[1] = {
+id:1,
+type:0,
+camp:1,
+x:66,
+y:77
+};
+BattlePointConfig[2] = {
+id:2,
+type:0,
+camp:2,
+x:190,
+y:203
+};
+BattlePointConfig[3] = {
+id:3,
+type:2,
+camp:1,
+x:66,
+y:77
+};
+BattlePointConfig[4] = {
+id:4,
+type:2,
+camp:2,
+x:190,
+y:203
+};

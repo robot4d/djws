@@ -1,0 +1,74 @@
+﻿import flash.utils.Dictionary;
+var VipConfig:Dictionary = new Dictionary();
+VipConfig[1] = {
+level:1,
+vipName:'体验VIP',
+vipOutOfDateMillis:'5400000',
+remoteStorage:1,
+remoteShop:1,
+dailyUseFlyShoes:30,
+monsterExpPercent:0,
+meditationExpPercent:0,
+dailyTaskExperience:0,
+escortTaskExperience:0,
+practiceTaskExperience:0,
+dailyVipGift:0,
+campTaskExperience:0,
+meditationGasPercent:0,
+blessExperience:0,
+dailyTaskGasPercent:0
+};
+VipConfig[2] = {
+level:2,
+vipName:'青铜VIP',
+vipOutOfDateMillis:'604800000',
+remoteStorage:1,
+remoteShop:1,
+dailyUseFlyShoes:30,
+monsterExpPercent:80,
+meditationExpPercent:80,
+dailyTaskExperience:80,
+escortTaskExperience:80,
+practiceTaskExperience:80,
+dailyVipGift:1500027,
+campTaskExperience:0,
+meditationGasPercent:0,
+blessExperience:0,
+dailyTaskGasPercent:0
+};
+VipConfig[3] = {
+level:3,
+vipName:'白银VIP',
+vipOutOfDateMillis:'2678400000',
+remoteStorage:1,
+remoteShop:1,
+dailyUseFlyShoes:90,
+monsterExpPercent:90,
+meditationExpPercent:90,
+dailyTaskExperience:90,
+escortTaskExperience:90,
+practiceTaskExperience:90,
+dailyVipGift:1500028,
+campTaskExperience:0,
+meditationGasPercent:0,
+blessExperience:0,
+dailyTaskGasPercent:0
+};
+VipConfig[4] = {
+level:4,
+vipName:'黄金VIP',
+vipOutOfDateMillis:'16070400000',
+remoteStorage:1,
+remoteShop:1,
+dailyUseFlyShoes:-1,
+monsterExpPercent:100,
+meditationExpPercent:100,
+dailyTaskExperience:100,
+escortTaskExperience:100,
+practiceTaskExperience:100,
+dailyVipGift:1500029,
+campTaskExperience:0,
+meditationGasPercent:0,
+blessExperience:0,
+dailyTaskGasPercent:0
+};

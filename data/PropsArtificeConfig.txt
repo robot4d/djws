@@ -1,0 +1,586 @@
+import flash.utils.Dictionary;
+var PropsArtificeConfig:Dictionary = new Dictionary();
+PropsArtificeConfig[30002] = {
+id:30002,
+showType:'1_0',
+silver:100,
+rate:1000,
+materials:'30001_2',
+description:'需要两张1星强化符，强化2星装备必备材料'
+};
+PropsArtificeConfig[30003] = {
+id:30003,
+showType:'1_0',
+silver:180,
+rate:1000,
+materials:'30002_2',
+description:'需要两张2星强化符，强化3星装备必备材料'
+};
+PropsArtificeConfig[30004] = {
+id:30004,
+showType:'1_0',
+silver:324,
+rate:1000,
+materials:'30003_2',
+description:'需要两张3星强化符，强化4星装备必备材料'
+};
+PropsArtificeConfig[30005] = {
+id:30005,
+showType:'1_0',
+silver:583,
+rate:1000,
+materials:'30004_2',
+description:'需要两张4星强化符，强化5星装备必备材料'
+};
+PropsArtificeConfig[30006] = {
+id:30006,
+showType:'1_0',
+silver:1049,
+rate:1000,
+materials:'30005_2',
+description:'需要两张5星强化符，强化6星装备必备材料'
+};
+PropsArtificeConfig[30007] = {
+id:30007,
+showType:'1_0',
+silver:1888,
+rate:1000,
+materials:'30006_2',
+description:'需要两张6星强化符，强化7星装备必备材料'
+};
+PropsArtificeConfig[30008] = {
+id:30008,
+showType:'1_0',
+silver:3398,
+rate:1000,
+materials:'30007_2',
+description:'需要两张7星强化符，强化8星装备必备材料'
+};
+PropsArtificeConfig[30009] = {
+id:30009,
+showType:'1_0',
+silver:6116,
+rate:1000,
+materials:'30008_2',
+description:'需要两张8星强化符，强化9星装备必备材料'
+};
+PropsArtificeConfig[30010] = {
+id:30010,
+showType:'1_0',
+silver:11008,
+rate:1000,
+materials:'30009_2',
+description:'需要两张9星强化符，强化10星装备必备材料'
+};
+PropsArtificeConfig[30011] = {
+id:30011,
+showType:'1_0',
+silver:19814,
+rate:1000,
+materials:'30010_2',
+description:'需要两张10星强化符，强化11星装备必备材料'
+};
+PropsArtificeConfig[30034] = {
+id:30034,
+showType:'1_0',
+silver:35665,
+rate:1000,
+materials:'30011_2',
+description:'需要两张11星强化符，强化12星装备必备材料'
+};
+PropsArtificeConfig[30035] = {
+id:30035,
+showType:'1_0',
+silver:64197,
+rate:1000,
+materials:'30034_2',
+description:'需要两张12星强化符，强化13星装备必备材料'
+};
+PropsArtificeConfig[30036] = {
+id:30036,
+showType:'1_0',
+silver:115554,
+rate:1000,
+materials:'30035_2',
+description:'需要两张13星强化符，强化14星装备必备材料'
+};
+PropsArtificeConfig[30037] = {
+id:30037,
+showType:'1_0',
+silver:207997,
+rate:1000,
+materials:'30036_2',
+description:'需要两张14星强化符，强化15星装备必备材料'
+};
+PropsArtificeConfig[11010] = {
+id:11010,
+showType:'3_0',
+silver:8,
+rate:1000,
+materials:'11001_2',
+description:'需要两枚(小)止血丹合成，可以回血300点'
+};
+PropsArtificeConfig[11020] = {
+id:11020,
+showType:'3_0',
+silver:16,
+rate:1000,
+materials:'11010_2',
+description:'需要两枚(中)止血丹合成，可以回血500点'
+};
+PropsArtificeConfig[11030] = {
+id:11030,
+showType:'3_0',
+silver:24,
+rate:1000,
+materials:'11020_2',
+description:'需要两枚(大)止血丹合成，可以回血700点'
+};
+PropsArtificeConfig[11040] = {
+id:11040,
+showType:'3_0',
+silver:40,
+rate:1000,
+materials:'11030_2',
+description:'需要两枚(小)金创丹合成，可以回血900点'
+};
+PropsArtificeConfig[11050] = {
+id:11050,
+showType:'3_0',
+silver:64,
+rate:1000,
+materials:'11040_2',
+description:'需要两枚(中)金创丹合成，可以回血1000点'
+};
+PropsArtificeConfig[11060] = {
+id:11060,
+showType:'3_0',
+silver:96,
+rate:1000,
+materials:'11050_2',
+description:'需要两枚(大)金创丹合成，可以回血1500点'
+};
+PropsArtificeConfig[11070] = {
+id:11070,
+showType:'3_0',
+silver:144,
+rate:1000,
+materials:'11060_2',
+description:'需要两枚(小)补血丹合成，可以回血2000点'
+};
+PropsArtificeConfig[11080] = {
+id:11080,
+showType:'3_0',
+silver:208,
+rate:1000,
+materials:'11070_2',
+description:'需要两枚(中)补血丹合成，可以回血2500点'
+};
+PropsArtificeConfig[11090] = {
+id:11090,
+showType:'3_0',
+silver:288,
+rate:1000,
+materials:'11080_2',
+description:'需要两枚(大)补血丹合成，可以回血3000点'
+};
+PropsArtificeConfig[11100] = {
+id:11100,
+showType:'3_0',
+silver:384,
+rate:1000,
+materials:'11090_2',
+description:'需要两枚(小)黑玉断续丹合成，可以回血3500点'
+};
+PropsArtificeConfig[12010] = {
+id:12010,
+showType:'3_0',
+silver:8,
+rate:1000,
+materials:'12001_2',
+description:'需要两枚小人参丸合成，可以恢复内力100点'
+};
+PropsArtificeConfig[12020] = {
+id:12020,
+showType:'3_0',
+silver:16,
+rate:1000,
+materials:'12010_2',
+description:'需要两枚百年人参丸合成，可以恢复内力200点'
+};
+PropsArtificeConfig[12030] = {
+id:12030,
+showType:'3_0',
+silver:24,
+rate:1000,
+materials:'12020_2',
+description:'需要两枚千年人参丸合成，可以恢复内力300点'
+};
+PropsArtificeConfig[12040] = {
+id:12040,
+showType:'3_0',
+silver:40,
+rate:1000,
+materials:'12030_2',
+description:'需要两枚小茯苓丸合成，可以恢复内力400点'
+};
+PropsArtificeConfig[12050] = {
+id:12050,
+showType:'3_0',
+silver:64,
+rate:1000,
+materials:'12040_2',
+description:'需要两枚百年茯苓丸合成，可以恢复内力500点'
+};
+PropsArtificeConfig[12060] = {
+id:12060,
+showType:'3_0',
+silver:96,
+rate:1000,
+materials:'12050_2',
+description:'需要两枚千年茯苓丸合成，可以恢复内力600点'
+};
+PropsArtificeConfig[12070] = {
+id:12070,
+showType:'3_0',
+silver:144,
+rate:1000,
+materials:'12060_2',
+description:'需要两枚小灵芝丸合成，可以恢复内力700点'
+};
+PropsArtificeConfig[12080] = {
+id:12080,
+showType:'3_0',
+silver:208,
+rate:1000,
+materials:'12070_2',
+description:'需要两枚百年灵芝丸合成，可以恢复内力800点'
+};
+PropsArtificeConfig[12090] = {
+id:12090,
+showType:'3_0',
+silver:288,
+rate:1000,
+materials:'12080_2',
+description:'需要两枚千年灵芝丸合成，可以恢复内力900点'
+};
+PropsArtificeConfig[12100] = {
+id:12100,
+showType:'3_0',
+silver:384,
+rate:1000,
+materials:'12090_2',
+description:'需要两枚(小)九九大补丸合成，可以恢复内力1000点'
+};
+PropsArtificeConfig[30019] = {
+id:30019,
+showType:'2_0',
+silver:1600,
+rate:1000,
+materials:'30012_2',
+description:'需要两张绿色洗炼符，才可进行合成。'
+};
+PropsArtificeConfig[30020] = {
+id:30020,
+showType:'2_0',
+silver:3200,
+rate:1000,
+materials:'30019_2',
+description:'需要两张蓝色洗炼符，才可进行合成。'
+};
+PropsArtificeConfig[30021] = {
+id:30021,
+showType:'2_0',
+silver:6400,
+rate:1000,
+materials:'30020_2',
+description:'需要两张紫色洗炼符，才可进行合成。'
+};
+PropsArtificeConfig[20102] = {
+id:20102,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'20101_3',
+description:'需要五枚1级外功宝石合成，增加物理攻击，威力比1级外功宝石更强'
+};
+PropsArtificeConfig[20103] = {
+id:20103,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'20102_3',
+description:'需要五枚2级外功宝石合成，增加物理攻击，威力比2级外功宝石更强'
+};
+PropsArtificeConfig[20104] = {
+id:20104,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'20103_3',
+description:'需要五枚3级外功宝石合成，增加物理攻击，威力比3级外功宝石更强'
+};
+PropsArtificeConfig[20105] = {
+id:20105,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'20104_3',
+description:'需要五枚4级外功宝石合成，增加物理攻击，威力比4级外功宝石更强'
+};
+PropsArtificeConfig[20202] = {
+id:20202,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'20201_3',
+description:'需要五枚1级内功宝石合成，增加法术攻击，威力比1级内功宝石更强'
+};
+PropsArtificeConfig[20203] = {
+id:20203,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'20202_3',
+description:'需要五枚2级内功宝石合成，增加法术攻击，威力比2级内功宝石更强'
+};
+PropsArtificeConfig[20204] = {
+id:20204,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'20203_3',
+description:'需要五枚3级内功宝石合成，增加法术攻击，威力比3级内功宝石更强'
+};
+PropsArtificeConfig[20205] = {
+id:20205,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'20204_3',
+description:'需要五枚4级内功宝石合成，增加法术攻击，威力比4级内功宝石更强'
+};
+PropsArtificeConfig[20302] = {
+id:20302,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'20301_3',
+description:'需要五枚1级外防宝石合成，增加物理防御，威力比1级外功防御宝石更强'
+};
+PropsArtificeConfig[20303] = {
+id:20303,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'20302_3',
+description:'需要五枚2级外防宝石合成，增加物理防御，威力比2级外功防御宝石更强'
+};
+PropsArtificeConfig[20304] = {
+id:20304,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'20303_3',
+description:'需要五枚3级外防宝石合成，增加物理防御，威力比3级外功防御宝石更强'
+};
+PropsArtificeConfig[20305] = {
+id:20305,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'20304_3',
+description:'需要五枚4级外防宝石合成，增加物理防御，威力比4级外功防御宝石更强'
+};
+PropsArtificeConfig[20402] = {
+id:20402,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'20401_3',
+description:'需要五枚1级内防宝石合成，增加法术防御，威力比1级内功防御宝石更强'
+};
+PropsArtificeConfig[20403] = {
+id:20403,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'20402_3',
+description:'需要五枚2级内防宝石合成，增加法术防御，威力比2级内功防御宝石更强'
+};
+PropsArtificeConfig[20404] = {
+id:20404,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'20403_3',
+description:'需要五枚3级内防宝石合成，增加法术防御，威力比3级内功防御宝石更强'
+};
+PropsArtificeConfig[20405] = {
+id:20405,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'20404_3',
+description:'需要五枚4级内防宝石合成，增加法术防御，威力比4级内功防御宝石更强'
+};
+PropsArtificeConfig[20502] = {
+id:20502,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'20501_3',
+description:'需要五枚1级生命宝石合成，增加血量上限，威力比1级生命宝石更强'
+};
+PropsArtificeConfig[20503] = {
+id:20503,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'20502_3',
+description:'需要五枚2级生命宝石合成，增加血量上限，威力比2级生命宝石更强'
+};
+PropsArtificeConfig[20504] = {
+id:20504,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'20503_3',
+description:'需要五枚3级生命宝石合成，增加血量上限，威力比3级生命宝石更强'
+};
+PropsArtificeConfig[20505] = {
+id:20505,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'20504_3',
+description:'需要五枚4级生命宝石合成，增加血量上限，威力比4级生命宝石更强'
+};
+PropsArtificeConfig[20702] = {
+id:20702,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'20701_3',
+description:'需要五枚1级外功暴击宝石合成，增加物理暴击，威力比1级外功暴击宝石更强'
+};
+PropsArtificeConfig[20703] = {
+id:20703,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'20702_3',
+description:'需要五枚2级外功暴击宝石合成，增加物理暴击，威力比2级外功暴击宝石更强'
+};
+PropsArtificeConfig[20704] = {
+id:20704,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'20703_3',
+description:'需要五枚3级外功暴击宝石合成，增加物理暴击，威力比3级外功暴击宝石更强'
+};
+PropsArtificeConfig[20705] = {
+id:20705,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'20704_3',
+description:'需要五枚4级外功暴击宝石合成，增加物理暴击，威力比4级外功暴击宝石更强'
+};
+PropsArtificeConfig[20802] = {
+id:20802,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'20801_3',
+description:'需要五枚1级内功暴击宝石合成，增加法术暴击，威力比1级内功暴击宝石更强'
+};
+PropsArtificeConfig[20803] = {
+id:20803,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'20802_3',
+description:'需要五枚2级内功暴击宝石合成，增加法术暴击，威力比2级内功暴击宝石更强'
+};
+PropsArtificeConfig[20804] = {
+id:20804,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'20803_3',
+description:'需要五枚3级内功暴击宝石合成，增加法术暴击，威力比3级内功暴击宝石更强'
+};
+PropsArtificeConfig[20805] = {
+id:20805,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'20804_3',
+description:'需要五枚4级内功暴击宝石合成，增加法术暴击，威力比4级内功暴击宝石更强'
+};
+PropsArtificeConfig[20902] = {
+id:20902,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'20901_3',
+description:'需要五枚1级命中宝石合成，增加攻击命中，威力比1级命中宝石更强'
+};
+PropsArtificeConfig[20903] = {
+id:20903,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'20902_3',
+description:'需要五枚2级命中宝石合成，增加攻击命中，威力比2级命中宝石更强'
+};
+PropsArtificeConfig[20904] = {
+id:20904,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'20903_3',
+description:'需要五枚3级命中宝石合成，增加攻击命中，威力比3级命中宝石更强'
+};
+PropsArtificeConfig[20905] = {
+id:20905,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'20904_3',
+description:'需要五枚4级命中宝石合成，增加攻击命中，威力比4级命中宝石更强'
+};
+PropsArtificeConfig[21002] = {
+id:21002,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'21001_3',
+description:'需要五枚1级闪避宝石合成，增加自身闪避，威力比1级闪避宝石更强'
+};
+PropsArtificeConfig[21003] = {
+id:21003,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'21002_3',
+description:'需要五枚2级闪避宝石合成，增加自身闪避，威力比2级闪避宝石更强'
+};
+PropsArtificeConfig[21004] = {
+id:21004,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'21003_3',
+description:'需要五枚3级闪避宝石合成，增加自身闪避，威力比3级闪避宝石更强'
+};
+PropsArtificeConfig[21005] = {
+id:21005,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'21004_3',
+description:'需要五枚4级闪避宝石合成，增加自身闪避，威力比4级闪避宝石更强'
+};

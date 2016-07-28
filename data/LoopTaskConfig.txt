@@ -1,0 +1,2 @@
+import flash.utils.Dictionary;
+var LoopTaskConfig:Dictionary = new Dictionary();

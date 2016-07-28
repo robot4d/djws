@@ -1,0 +1,161 @@
+import flash.utils.Dictionary;
+var DungeonStoryConfig:Dictionary = new Dictionary();
+DungeonStoryConfig[101] = {
+id:101,
+chainStore:1,
+attachMap:1,
+ mapOrder:0,
+ excondition  :0,
+x:739,
+y:317,
+iconOpen:'open_1.png',
+iconComplete:'complete_1.png',
+iconFinish:'finish_1.png',
+iconDescribe:'describe_1.png'
+};
+DungeonStoryConfig[102] = {
+id:102,
+chainStore:0,
+attachMap:1,
+ mapOrder:0,
+ excondition  :101,
+x:680,
+y:287,
+iconOpen:'zhif_1.png',
+iconComplete:'complete_1.png',
+iconFinish:'zhio_1.png',
+iconDescribe:'describe_2.png',
+limitDescribe:'黄金VIP以上可挑战该副本'
+};
+DungeonStoryConfig[103] = {
+id:103,
+chainStore:1,
+attachMap:1,
+ mapOrder:2,
+ excondition  :101,
+x:745,
+y:378,
+iconOpen:'open_2.png',
+iconComplete:'complete_1.png',
+iconFinish:'finish_2.png',
+iconDescribe:'describe_3.png'
+};
+DungeonStoryConfig[104] = {
+id:104,
+chainStore:1,
+attachMap:2,
+ mapOrder:0,
+ excondition  :103,
+x:389,
+y:762,
+iconOpen:'open_3.png',
+iconComplete:'complete_1.png',
+iconFinish:'finish_3.png',
+iconDescribe:'describe_4.png'
+};
+DungeonStoryConfig[105] = {
+id:105,
+chainStore:1,
+attachMap:2,
+ mapOrder:0,
+ excondition  :104,
+x:441,
+y:729,
+iconOpen:'open_4.png',
+iconComplete:'complete_1.png',
+iconFinish:'finish_4.png',
+iconDescribe:'describe_5.png'
+};
+DungeonStoryConfig[106] = {
+id:106,
+chainStore:0,
+attachMap:2,
+ mapOrder:0,
+ excondition  :104,
+x:394,
+y:823,
+iconOpen:'zhif_2.png',
+iconComplete:'complete_1.png',
+iconFinish:'zhio_2.png',
+iconDescribe:'describe_6.png',
+limitDescribe:'拥有名将慕容复可挑战'
+};
+DungeonStoryConfig[107] = {
+id:107,
+chainStore:1,
+attachMap:2,
+ mapOrder:0,
+ excondition  :105,
+x:499,
+y:758,
+iconOpen:'open_5.png',
+iconComplete:'complete_1.png',
+iconFinish:'finish_5.png',
+iconDescribe:'describe_7.png'
+};
+DungeonStoryConfig[108] = {
+id:108,
+chainStore:1,
+attachMap:2,
+ mapOrder:0,
+ excondition  :107,
+x:559,
+y:787,
+iconOpen:'open_6.png',
+iconComplete:'complete_1.png',
+iconFinish:'finish_6.png',
+iconDescribe:'describe_8.png'
+};
+DungeonStoryConfig[109] = {
+id:109,
+chainStore:1,
+attachMap:2,
+ mapOrder:0,
+ excondition  :108,
+x:613,
+y:755,
+iconOpen:'open_7.png',
+iconComplete:'complete_1.png',
+iconFinish:'finish_7.png',
+iconDescribe:'describe_9.png'
+};
+DungeonStoryConfig[110] = {
+id:110,
+chainStore:0,
+attachMap:2,
+ mapOrder:0,
+ excondition  :109,
+x:608,
+y:692,
+iconOpen:'zhif_3.png',
+iconComplete:'complete_1.png',
+iconFinish:'zhio_3.png',
+iconDescribe:'describe_100.png',
+limitDescribe:'坐骑达到铁甲怒虎可以挑战该副本'
+};
+DungeonStoryConfig[111] = {
+id:111,
+chainStore:1,
+attachMap:2,
+ mapOrder:0,
+ excondition  :109,
+x:672,
+y:786,
+iconOpen:'open_8.png',
+iconComplete:'complete_1.png',
+iconFinish:'finish_8.png',
+iconDescribe:'describe_100.png'
+};
+DungeonStoryConfig[112] = {
+id:112,
+chainStore:1,
+attachMap:2,
+ mapOrder:3,
+ excondition  :111,
+x:727,
+y:753,
+iconOpen:'open_9.png',
+iconComplete:'complete_1.png',
+iconFinish:'finish_9.png',
+iconDescribe:'describe_100.png'
+};

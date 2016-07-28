@@ -1,0 +1,20 @@
+import flash.utils.Dictionary;
+var TreasureConfig:Dictionary = new Dictionary();
+TreasureConfig[1] = {
+id:'1',
+rewardId:'1',
+quality:'1',
+rewardItem:'0_110001|0_120041|0_90001|0_90002|0_120005|0_80009|0_30022|0_10028'
+};
+TreasureConfig[2] = {
+id:'2',
+rewardId:'1',
+quality:'2',
+rewardItem:'0_70001|0_110001|0_120041|0_90001|0_90002|0_120005|0_80009|0_30022|0_10028'
+};
+TreasureConfig[3] = {
+id:'3',
+rewardId:'1',
+quality:'3',
+rewardItem:'0_110002|0_80019|0_70001|0_110001|0_120041|0_90001|0_90002|0_120005|0_80009|0_30022|0_10028'
+};

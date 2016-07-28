@@ -1,0 +1,162 @@
+import flash.utils.Dictionary;
+var MortalAddedConfig:Dictionary = new Dictionary();
+MortalAddedConfig[1] = {
+id:1,
+roleJob:1,
+mortalTypeCount:8,
+mortalLevel:10,
+addedAttributes:'1106|1107|1104|1303',
+addedAttrValues:'20|20|20|100'
+};
+MortalAddedConfig[2] = {
+id:2,
+roleJob:1,
+mortalTypeCount:8,
+mortalLevel:20,
+addedAttributes:'1106|1107|1104|1303',
+addedAttrValues:'50|50|50|200'
+};
+MortalAddedConfig[3] = {
+id:3,
+roleJob:1,
+mortalTypeCount:8,
+mortalLevel:30,
+addedAttributes:'1106|1107|1104|1303',
+addedAttrValues:'100|100|100|500'
+};
+MortalAddedConfig[4] = {
+id:4,
+roleJob:1,
+mortalTypeCount:8,
+mortalLevel:40,
+addedAttributes:'1106|1107|1104|1303',
+addedAttrValues:'150|150|150|1500'
+};
+MortalAddedConfig[5] = {
+id:5,
+roleJob:1,
+mortalTypeCount:8,
+mortalLevel:50,
+addedAttributes:'1106|1107|1104|1303',
+addedAttrValues:'200|200|200|2000'
+};
+MortalAddedConfig[6] = {
+id:6,
+roleJob:2,
+mortalTypeCount:8,
+mortalLevel:10,
+addedAttributes:'1106|1107|1104|1303',
+addedAttrValues:'20|20|20|100'
+};
+MortalAddedConfig[7] = {
+id:7,
+roleJob:2,
+mortalTypeCount:8,
+mortalLevel:20,
+addedAttributes:'1106|1107|1104|1303',
+addedAttrValues:'50|50|50|200'
+};
+MortalAddedConfig[8] = {
+id:8,
+roleJob:2,
+mortalTypeCount:8,
+mortalLevel:30,
+addedAttributes:'1106|1107|1104|1303',
+addedAttrValues:'100|100|100|500'
+};
+MortalAddedConfig[9] = {
+id:9,
+roleJob:2,
+mortalTypeCount:8,
+mortalLevel:40,
+addedAttributes:'1106|1107|1104|1303',
+addedAttrValues:'150|150|150|1500'
+};
+MortalAddedConfig[10] = {
+id:10,
+roleJob:2,
+mortalTypeCount:8,
+mortalLevel:50,
+addedAttributes:'1106|1107|1104|1303',
+addedAttrValues:'200|200|200|2000'
+};
+MortalAddedConfig[11] = {
+id:11,
+roleJob:3,
+mortalTypeCount:8,
+mortalLevel:10,
+addedAttributes:'1103|1107|1104|1303',
+addedAttrValues:'20|20|20|100'
+};
+MortalAddedConfig[12] = {
+id:12,
+roleJob:3,
+mortalTypeCount:8,
+mortalLevel:20,
+addedAttributes:'1103|1107|1104|1303',
+addedAttrValues:'50|50|50|200'
+};
+MortalAddedConfig[13] = {
+id:13,
+roleJob:3,
+mortalTypeCount:8,
+mortalLevel:30,
+addedAttributes:'1103|1107|1104|1303',
+addedAttrValues:'100|100|100|500'
+};
+MortalAddedConfig[14] = {
+id:14,
+roleJob:3,
+mortalTypeCount:8,
+mortalLevel:40,
+addedAttributes:'1103|1107|1104|1303',
+addedAttrValues:'150|150|150|1500'
+};
+MortalAddedConfig[15] = {
+id:15,
+roleJob:3,
+mortalTypeCount:8,
+mortalLevel:50,
+addedAttributes:'1103|1107|1104|1303',
+addedAttrValues:'200|200|200|2000'
+};
+MortalAddedConfig[16] = {
+id:16,
+roleJob:4,
+mortalTypeCount:8,
+mortalLevel:10,
+addedAttributes:'1103|1107|1104|1303',
+addedAttrValues:'20|20|20|100'
+};
+MortalAddedConfig[17] = {
+id:17,
+roleJob:4,
+mortalTypeCount:8,
+mortalLevel:20,
+addedAttributes:'1103|1107|1104|1303',
+addedAttrValues:'50|50|50|200'
+};
+MortalAddedConfig[18] = {
+id:18,
+roleJob:4,
+mortalTypeCount:8,
+mortalLevel:30,
+addedAttributes:'1103|1107|1104|1303',
+addedAttrValues:'100|100|100|500'
+};
+MortalAddedConfig[19] = {
+id:19,
+roleJob:4,
+mortalTypeCount:8,
+mortalLevel:40,
+addedAttributes:'1103|1107|1104|1303',
+addedAttrValues:'150|150|150|1500'
+};
+MortalAddedConfig[20] = {
+id:20,
+roleJob:4,
+mortalTypeCount:8,
+mortalLevel:50,
+addedAttributes:'1103|1107|1104|1303',
+addedAttrValues:'200|200|200|2000'
+};
